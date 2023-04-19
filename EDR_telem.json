@@ -211,7 +211,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"DNS Query",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -365,7 +365,7 @@
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Loaded",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
