@@ -57,7 +57,7 @@ The data below do not represent the capability of each of the EDR products to de
 | **Network Activity**           | TCP Connection              | 🟩         | 🟩              | 🟩          | 🟩              | 🟩      | 🟩               | 🟩             |
 | ****                           | UDP Connection              | 🟩         | 🟩              | 🟩          | 🟩              | 🟩      | 🟥               | 🟩             |
 | ****                           | URL                         | 🟥         | 🟩              | 🟧          | 🟧              | 🟩      | 🟩               | 🟧             |
-| ****                           | DNS Query                   | 🟩         | 🟥              | 🟩          | 🟩              | 🟩      | 🟩               | 🟩             |
+| ****                           | DNS Query                   | 🟩         | 🟩              | 🟩          | 🟩              | 🟩      | 🟩               | 🟩             |
 | ****                           | File Downloaded             | 🟥         | 🟩              | 🟥          | 🟧              | 🟩      | 🟥               | 🟩             |
 | **Hash Algorithms**            | MD5                         | 🟩         | 🟥              | 🟩          | 🟩              | 🟩      | 🟩               | 🟩             |
 | ****                           | SHA                         | 🟩         | 🟩              | 🟩          | 🟩              | 🟩      | 🟩               | 🟥             |
@@ -71,7 +71,7 @@ The data below do not represent the capability of each of the EDR products to de
 | **Service Activity**           | Service Creation            | 🟥         | 🟩              | 🟥          | 🟩              | 🟧      | 🟥               | 🟥             |
 | ****                           | Service Modification        | 🟥         | 🟩              | 🟥          | 🟩              | 🟥      | 🟥               | 🟧             |
 | ****                           | Service Deletion            | 🟥         | 🟧              | 🟥          | ❓               | 🟥      | 🟥               | 🟥             |
-| **Driver/Module Activity**     | Driver Loaded               | 🟩         | 🟥              | 🟩          | 🟥              | 🟩      | 🟩               | 🟥             |
+| **Driver/Module Activity**     | Driver Loaded               | 🟩         | 🟩              | 🟩          | 🟥              | 🟩      | 🟩               | 🟥             |
 | ****                           | Driver Modification         | 🟥         | 🟩              | 🟥          | 🟩              | 🟥      | 🟥               | 🟥             |
 | ****                           | Driver Unloaded             | 🟥         | 🟥              | 🟥          | 🟥              | 🟥      | 🟥               | 🟥             |
 | **Device Operations**          | Virtual Disk Mount          | 🟥         | 🟥              | 🟥          | 🟩              | 🟥       | 🟥               | 🟩             |
