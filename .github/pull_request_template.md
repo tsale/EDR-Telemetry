@@ -39,3 +39,6 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] I have made corresponding changes to the documentation
 - [ ] I have added tests that prove my corrections or additions are accurate
 - [ ] I have checked my code and corrected any misspellings
+
+
+*Don't stress yourself out, just answer the above to the best of your ability and we can discuss in the comments 🙂*
