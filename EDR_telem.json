@@ -25,7 +25,7 @@
     "Telemetry Feature Category":null,
     "Sub-Category":"Process Access",
     "CrowdStrike":"Yes",
-    "Elastic":"No",
+    "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Sentinel One":"Yes",
