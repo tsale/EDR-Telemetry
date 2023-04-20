@@ -58,7 +58,7 @@
     "Telemetry Feature Category":null,
     "Sub-Category":"Process Tampering Activity",
     "CrowdStrike":"Yes",
-    "Elastic":"No",
+    "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Sentinel One":"Partially",
