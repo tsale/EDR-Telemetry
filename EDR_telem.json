@@ -33,7 +33,7 @@
       "Sentinel One":"Yes",
       "Sysmon":"Yes",
       "WatchGuard":"No",
-      "Cybereason":"No"
+      "Cybereason":"Yes"
     },
     {
       "Telemetry Feature Category":null,
