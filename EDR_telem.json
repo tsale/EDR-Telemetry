@@ -115,7 +115,7 @@
     "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"No",
-    "MDE":"No",
+    "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Partially"
