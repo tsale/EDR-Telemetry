@@ -102,7 +102,7 @@ Write-Host @"
 "@
 
 # Install Invoke-Atomic
-Install-ART()
+Install-ART
 
 # Get the path of the running script
 $scriptPath = $PSScriptRoot
@@ -122,4 +122,4 @@ else {
 } 
 
 # Fuse all the CSV files into one
-CSV-Concat()
+CSV-Concat
