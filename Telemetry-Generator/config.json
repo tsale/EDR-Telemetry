@@ -1,0 +1,187 @@
+{
+    "Process Activity": {
+        "Process Creation": {
+            "Atomics": {
+                "T1204.002": "02f35d62-9fdc-4a97-b899-a5d9a876d295"
+            }
+        },
+        "Process Access": {
+            "Atomics": {
+                "T1055.001": "74496461-11a1-4982-b439-4d87a550d254"
+            },
+            "Comments": {
+                "1": "Includes tests for Image/Library Loaded and Remote Thread Creation"
+            }
+        },
+        "Process Tampering Activity": {
+            "Atomics": {
+                "T1055.012": "562427b4-39ef-4e8c-af88-463a78e70b9c"
+            }
+        }
+    },
+    "File Manipulation": {
+        "File Creation": {
+            "Atomics": {
+                "T1204.002": "3f3af983-118a-4fa1-85d3-ba4daa739d80"
+            },
+            "Comments": {
+                "1": "Includes tests for 'File Opened','File Deletion' and 'File Modification"
+            },
+            "Cleanup": "True"
+        },
+        "File Opened": {
+            "Atomics": {
+                "T1055.001": "74496461-11a1-4982-b439-4d87a550d254"
+            },
+            "Comments": {
+                "1": "Includes tests for Image/Library Loaded and Remote Thread Creation"
+            }
+        },
+        "File Renaming": {
+            "Atomics": {
+                "T1036.003": "5ba5a3d1-cf3c-4499-968a-a93155d1f717"
+            }
+        }
+    },
+    "User Account Activity": {
+        "Local Account Creation": {
+            "Atomics": {
+                "T1136.001": "fda74566-a604-4581-a4cc-fbbe21d66559"
+            }
+        },
+        "Local Account Modification": {
+            "Atomics": {
+                "T1098": "5598f7cb-cf43-455e-883a-f6008c5d46af"
+            },
+            "Comments": {
+                "1": "Includes test for 'Local Account Deletion'"
+            },
+            "Cleanup": "True"
+        }
+    },
+    "Network Activity": {
+        "TCP Connection": {
+            "Atomics": {
+                "T1071.001": "81c13829-f6c9-45b8-85a6-053366d55297"
+            }
+        },
+        "URL": {
+            "Atomics": {
+                "T1204.002": "02f35d62-9fdc-4a97-b899-a5d9a876d295"
+            }
+        },
+        "DNS Query": {
+            "Atomics": {
+                "T1071.004": "fef31710-223a-40ee-8462-a396d6b66978"
+            }
+        },
+        "File Downloaded": {
+            "Atomics": {
+                "T1105": "42dc4460-9aa6-45d3-b1a6-3955d34e1fe8"
+            }
+        }
+    },    
+    "Registry Activity": {
+        "Key/Value Creation": {
+            "Atomics": {
+                "T1547.001": "e55be3fd-3521-4610-9d1a-e210e42dcf05"
+            },
+            "Comments": {
+                "1": "Includes test for 'Key/Value Deletion'"
+            },
+            "Cleanup": "True"
+        },
+        "Key/Value Modification": {
+            "Atomics": {
+                "T1071.004": "8834b65a-f808-4ece-ad7e-2acdf647aafa"
+            }
+        }
+    },
+    "Schedule Task Activity": {
+        "Scheduled Task Creation": {
+            "Atomics": {
+                "T1053.005": "fec27f65-db86-4c2d-b66c-61945aee87c2"
+            },
+            "Comments": {
+                "1": "Includes test for 'Scheduled Task Deletion'"
+            },
+            "Cleanup": "True"
+        },
+        "Scheduled Task Modification": {
+            "Atomics": {
+                "T1053.005": "dda6fc7b-c9a6-4c18-b98d-95ec6542af6d"
+            }
+        }
+    },
+    "Service Activity": {
+        "Service Creation": {
+            "Atomics": {
+                "T1543.003": "981e2942-e433-44e9-afc1-8c957a1496b6"
+            },
+            "Comments": {
+                "1": "Includes test for 'Service Deletion'"
+            },
+            "Cleanup": "True"
+        },
+        "Service Modification": {
+            "Atomics": {
+                "T1543.003": "ed366cde-7d12-49df-a833-671904770b9f"
+            }
+        }
+    },
+    "Deriver/Module Activity": {
+        "Driver Loaded": {
+            "Atomics": {
+                "T1562.001": "24a12b91-05a7-4deb-8d7f-035fa98591bc"
+            }
+        }
+    },
+    "Device Operations": {
+        "Virtual Disk Mount": {
+            "Atomics": {
+                "T1553.005": "002cca30-4778-4891-878a-aaffcfa502fa"
+            }
+        }
+    },
+    "Other Relevant Events": {
+        "Group Policy Modification": {
+            "Atomics": {
+                "T1484.001": "9ab80952-74ee-43da-a98c-1e740a985f28"
+            }
+        }
+    },
+    "Named Pipe Activity": {
+        "Pipe Creation": {
+            "Atomics": {
+                "T1559": " bd13b9fc-b758-496a-b81a-397462f82c72"
+            },
+            "Comments": {
+                "1": "Includes test for 'Pipe Connection'"
+            }
+        }
+    },
+    "WMI Activity": {
+        "WmiEventConsumerToFilter": {
+            "Atomics": {
+                "T1546.003": "3c64f177-28e2-49eb-a799-d767b24dd1e0"
+            },
+            "Comments": {
+                "1": "Includes test for 'WmiEventConsumer' and 'WmiEventFilter'"
+            }
+        }
+    },
+    "BITS JOBS Activity": {
+        "BITS JOBS Activity": {
+            "Atomics": {
+                "T1197": "62a06ec5-5754-47d2-bcfc-123d8314c6ae"
+            }
+        }
+    },
+    "PowerShell Activity": {
+        "Script-Block Activity": {
+            "Atomics": {
+                "T1059.001": "f3132740-55bc-48c4-bcc0-758a459cd027"
+            }
+        }
+    }
+}
