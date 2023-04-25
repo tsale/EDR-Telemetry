@@ -46,23 +46,12 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Thread Creation",
-    "CrowdStrike":"Pending Response",
-    "Elastic":"Yes",
-    "LimaCharlie":"Pending Response",
-    "MDE":"Pending Response",
-    "Sentinel One":"Pending Response",
-    "Sysmon":"No",
-    "WatchGuard":"Pending Response"
-  },
-  {
-    "Telemetry Feature Category":null,
-    "Sub-Category":"Remote Thread Creation",
     "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Sentinel One":"Yes",
-    "Sysmon":"Yes",
+    "Sysmon":"Partially",
     "WatchGuard":"Yes"
   },
   {
