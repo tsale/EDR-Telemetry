@@ -45,13 +45,13 @@
   },
   {
     "Telemetry Feature Category":null,
-    "Sub-Category":"Remote Thread Creation",
+    "Sub-Category":"Thread Creation",
     "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Sentinel One":"Yes",
-    "Sysmon":"Yes",
+    "Sysmon":"Partially",
     "WatchGuard":"Yes"
   },
   {
