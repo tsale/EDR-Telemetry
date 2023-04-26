@@ -537,7 +537,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Yes"
-    "Trellix":"Pending Response"
+    "Trellix":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -549,7 +549,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"Pending Response"
+    "Trellix":"Yes"
   },
   {
     "Telemetry Feature Category":null,
