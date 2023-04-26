@@ -536,7 +536,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
     "Trellix":"Yes"
   },
   {
