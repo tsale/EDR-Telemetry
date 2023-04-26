@@ -405,7 +405,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -477,7 +477,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"No"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
