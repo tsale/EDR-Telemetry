@@ -79,7 +79,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"File Opened",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"Partially",
     "Elastic":"Yes",
     "LimaCharlie":"No",
     "MDE":"No",
