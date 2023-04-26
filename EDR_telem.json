@@ -571,7 +571,7 @@
     "LimaCharlie":"Yes",
     "MDE":"No",
     "Sentinel One":"Yes",
-    "Sysmon":null,
+    "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
   },
