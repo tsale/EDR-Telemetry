@@ -146,7 +146,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Local Account Modification",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Partially",
     "Elastic":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
@@ -254,7 +254,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"MD5",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -278,7 +278,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"IMPHASH",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"No",
     "Elastic":"Partially",
     "LimaCharlie":"No",
     "MDE":"No",
@@ -290,7 +290,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Creation",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Partially",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -302,7 +302,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Key\/Value Modification",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"Partially",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -314,7 +314,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Key\/Value Deletion",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"No",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -386,7 +386,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Service Deletion",
-    "CrowdStrike":"Partially",
+    "CrowdStrike":"No",
     "Elastic":"No",
     "LimaCharlie":"Pending Response",
     "MDE":"No",
@@ -434,7 +434,7 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"Virtual Disk Mount",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Yes",
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"No",
@@ -482,7 +482,7 @@
   {
     "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Creation",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"No",
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
@@ -494,7 +494,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Pipe Connection",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"Partially",
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
