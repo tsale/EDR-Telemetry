@@ -374,7 +374,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Service Modification",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"Partially",
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"No",
