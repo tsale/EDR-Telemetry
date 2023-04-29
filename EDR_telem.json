@@ -9,8 +9,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
-	"Carbon Black":"Yes"
+    "Trellix":"Yes",
+"Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -22,8 +22,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"No"
-	"Carbon Black":"Partially"
+    "Trellix":"No",
+"Carbon Black":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -35,8 +35,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
-	"Carbon Black":"Yes"
+    "Trellix":"Yes",
+"Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -48,7 +48,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -61,7 +61,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -74,7 +74,7 @@
     "Sentinel One":"Partially",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Partially"
   },
   {
@@ -87,7 +87,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Partially",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -100,7 +100,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Partially",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -113,7 +113,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -126,7 +126,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -139,7 +139,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Partially",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -152,7 +152,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -165,7 +165,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -178,7 +178,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -191,7 +191,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -204,7 +204,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -217,7 +217,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -230,6 +230,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
+"Trellix":"Yes",
     "Carbon Black":"Yes"
   },
   {
@@ -255,7 +256,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
 	
   },
@@ -269,7 +270,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -282,7 +283,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -295,7 +296,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -308,7 +309,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -321,7 +322,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -334,7 +335,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -347,7 +348,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   },
   {
@@ -360,7 +361,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"Partially"
   },
   {
@@ -373,7 +374,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -386,7 +387,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -399,7 +400,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -412,7 +413,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Partially",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -425,7 +426,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -438,7 +439,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -451,7 +452,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -464,7 +465,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -477,7 +478,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -490,7 +491,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -503,7 +504,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"Partially"
   },
   {
@@ -516,7 +517,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"No"
   },
   {
@@ -529,7 +530,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"No"
+    "Trellix":"No",
 	"Carbon Black":"Partially"
 	
   },
@@ -543,7 +544,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -556,7 +557,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Pending Response"
+    "Trellix":"Pending Response",
 	"Carbon Black":"No"
   },
   {
@@ -569,7 +570,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Pending Response"
+    "Trellix":"Pending Response",
 	"Carbon Black":"No"
   },
   {
@@ -582,7 +583,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -595,7 +596,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -608,7 +609,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Pending Response"
+    "Trellix":"Pending Response",
 	"Carbon Black":"No"
   },
   {
@@ -621,7 +622,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Pending Response"
+    "Trellix":"Pending Response",
 	"Carbon Black":"No"
   },
   {
@@ -634,7 +635,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "WatchGuard":"No",
-    "Trellix":"Pending Response"
+    "Trellix":"Pending Response",
 	"Carbon Black":"No"
   },
   {
@@ -647,7 +648,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -660,7 +661,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -673,7 +674,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"No"
   },
   {
@@ -699,7 +700,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
 	"Carbon Black":"Yes"
   }
 ]
