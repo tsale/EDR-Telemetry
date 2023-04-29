@@ -10,6 +10,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -22,6 +23,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -34,6 +36,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -46,6 +49,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -58,6 +62,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -70,6 +75,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Partially"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -82,6 +88,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Partially",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -94,6 +101,7 @@
     "Sysmon":"No",
     "WatchGuard":"Partially",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -106,6 +114,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -118,6 +127,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -130,6 +140,7 @@
     "Sysmon":"No",
     "WatchGuard":"Partially",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -142,6 +153,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -154,6 +166,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -166,6 +179,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -178,6 +192,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -190,6 +205,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -202,6 +218,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -213,7 +230,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
-    "Trellix":"Yes"
+    "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -226,6 +243,7 @@
     "Sysmon":"No",
     "WatchGuard":"Partially",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -238,6 +256,8 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
+	
   },
   {
     "Telemetry Feature Category":null,
@@ -250,6 +270,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -262,6 +283,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -274,6 +296,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -286,6 +309,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -298,6 +322,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -310,6 +335,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -322,6 +348,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -334,6 +361,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -346,6 +374,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -358,6 +387,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -370,6 +400,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -382,6 +413,7 @@
     "Sysmon":"No",
     "WatchGuard":"Partially",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -394,6 +426,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -406,6 +439,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -418,6 +452,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -430,6 +465,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -442,6 +478,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -454,6 +491,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -466,6 +504,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"No"
+	  "Carbon Black":"Partially"
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -478,6 +517,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -490,6 +530,8 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"No"
+	  "Carbon Black":"Partially"
+	
   },
   {
     "Telemetry Feature Category":null,
@@ -502,6 +544,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -514,6 +557,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -526,6 +570,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -538,6 +583,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -550,6 +596,7 @@
     "Sysmon":"No",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -562,6 +609,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -574,6 +622,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -586,6 +635,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"No",
     "Trellix":"Pending Response"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -598,6 +648,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -610,6 +661,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -622,6 +674,7 @@
     "Sysmon":"Yes",
     "WatchGuard":"Yes",
     "Trellix":"Yes"
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -633,7 +686,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "WatchGuard":"No",
-    "Trellix":"Yes"
+    "Trellix":"Yes",
+	  "Carbon Black":"No"
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -646,5 +700,7 @@
     "Sysmon":"No",
     "WatchGuard":"No",
     "Trellix":"Yes"
+	  "Carbon Black":"Yes"
   }
 ]
+
