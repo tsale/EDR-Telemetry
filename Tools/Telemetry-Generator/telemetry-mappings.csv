@@ -1,0 +1,55 @@
+Telemetry Feature Category,Sub-Category,Technique ID,Test Number,GUID,Comments
+Process Activity,Process Creation,T1204.002,8,02f35d62-9fdc-4a97-b899-a5d9a876d295,
+,Process Termination,T1204.002,8,02f35d62-9fdc-4a97-b899-a5d9a876d295,
+,Process Access,T1055.001,1,74496461-11a1-4982-b439-4d87a550d254,
+,Image/Library Loaded,T1055.001,1,74496461-11a1-4982-b439-4d87a550d254,
+,Remote Thread Creation,T1055.001,1,74496461-11a1-4982-b439-4d87a550d254,
+,Process Tampering Activity,T1055.012,1,562427b4-39ef-4e8c-af88-463a78e70b9c,
+File Manipulation,File Creation,T1204.002,2,3f3af983-118a-4fa1-85d3-ba4daa739d80,
+,File Opened,T1204.003,1,8bebc690-18c7-4549-bc98-210f7019efff,
+,File Deletion,T1204.004,1,8bebc690-18c7-4549-bc98-210f7019efff,Covered from the above using -CleanUp parameter to delete the file
+,File Modification,T1204.005,1,8bebc690-18c7-4549-bc98-210f7019efff,
+,File Renaming,T1036.003,1,5ba5a3d1-cf3c-4499-968a-a93155d1f717,
+User Account Activity,Local Account Creation,T1136.001,6,fda74566-a604-4581-a4cc-fbbe21d66559,
+,Local Account Modification,T1098,1,5598f7cb-cf43-455e-883a-f6008c5d46af,
+,Local Account Deletion,T1098,1,5598f7cb-cf43-455e-883a-f6008c5d46af,Covered from the above using -CleanUp parameter to delete the file
+,Account Login,-,-,-,
+,Account Logoff,-,-,-,
+Network Activity,TCP Connection,T1071.001,1,81c13829-f6c9-45b8-85a6-053366d55297,
+,UDP Connection,,,,
+,URL,,,,
+,DNS Query,T1071.004,3,fef31710-223a-40ee-8462-a396d6b66978,
+,File Downloaded,T1105,10,42dc4460-9aa6-45d3-b1a6-3955d34e1fe8,
+Hash Algorithms,MD5,-,-,-,Evaluate through Documentation
+,SHA,-,-,-,Evaluate through Documentation
+,IMPHASH,-,-,-,Evaluate through Documentation
+Registry Activity,Key/Value Creation,T1547.001,1,e55be3fd-3521-4610-9d1a-e210e42dcf05,
+,Key/Value Modification,T1547.001,11,8834b65a-f808-4ece-ad7e-2acdf647aafa,
+,Key/Value Deletion,T1547.001,1,e55be3fd-3521-4610-9d1a-e210e42dcf05,Covered from the above using -CleanUp parameter to delete the file
+Schedule Task Activity,Scheduled Task Creation,T1053.005,1,fec27f65-db86-4c2d-b66c-61945aee87c2,
+,Scheduled Task Modification,T1053.005,9,dda6fc7b-c9a6-4c18-b98d-95ec6542af6d,
+,Scheduled Task Deletion,T1053.005,1,fec27f65-db86-4c2d-b66c-61945aee87c2,Covered from the above using -CleanUp parameter to delete the file
+Service Activity,Service Creation,T1543.003,2,981e2942-e433-44e9-afc1-8c957a1496b6,
+,Service Modification,T1543.003,1,ed366cde-7d12-49df-a833-671904770b9f,
+,Service Deletion,T1543.003,2,981e2942-e433-44e9-afc1-8c957a1496b6,Covered from the above using -CleanUp parameter to delete the file
+Driver/Module Activity,Driver Loaded,T1562.001,29,24a12b91-05a7-4deb-8d7f-035fa98591bc,
+,Driver Modification,,,,
+,Driver Unloaded,T1562.001,10,811b3e76-c41b-430c-ac0d-e2380bfaa164,
+Device Operations,Virtual Disk Mount,T1553.005,1,002cca30-4778-4891-878a-aaffcfa502fa,
+,USB Device Unmount,-,-,-,Evaluate through Documentation
+,USB Device Mount,-,-,-,Evaluate through Documentation
+Other Relevant Events,Group Policy Modification,T1484.001,1,9ab80952-74ee-43da-a98c-1e740a985f28,
+Named Pipe Activity,Pipe Creation,T1559,1, bd13b9fc-b758-496a-b81a-397462f82c72,
+,Pipe Connection,T1559,1, bd13b9fc-b758-496a-b81a-397462f82c72,
+EDR SysOps,Agent Start,-,-,-,Evaluate through Documentation
+,Agent Stop,-,-,-,Evaluate through Documentation
+,Agent Install,-,-,-,Evaluate through Documentation
+,Agent Uninstall,-,-,-,Evaluate through Documentation
+,Agent Tampering,-,-,-,Evaluate through Documentation
+,Agent Keep-Alive,-,-,-,Evaluate through Documentation
+,Agent Errors,-,-,-,Evaluate through Documentation
+WMI Activity,WmiEventConsumerToFilter,T1546.003,1,3c64f177-28e2-49eb-a799-d767b24dd1e0,
+,WmiEventConsumer,T1546.004,1,3c64f177-28e2-49eb-a799-d767b24dd1e1,
+,WmiEventFilter,T1546.005,1,3c64f177-28e2-49eb-a799-d767b24dd1e2,
+BIT JOBS Activity,BIT JOBS Activity,T1197,3,62a06ec5-5754-47d2-bcfc-123d8314c6ae,
+PowerShell Activity,Script-Block Activity,T1059.001,1,f3132740-55bc-48c4-bcc0-758a459cd027,
