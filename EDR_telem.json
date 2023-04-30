@@ -244,7 +244,7 @@
     "Sub-Category":"File Downloaded",
     "CrowdStrike":"Yes",
     "Elastic":"No",
-    "ESET Inspect":"Yes",
+    "ESET Inspect":"Partially",
     "LimaCharlie":"Partially",
     "MDE":"Yes",
     "Sentinel One":"No",
