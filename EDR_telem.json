@@ -462,7 +462,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
