@@ -691,21 +691,6 @@
   },
   {
     "Telemetry Feature Category":null,
-    "Sub-Category":"Agent Tampering",
-    "Carbon Black":"No",
-    "CrowdStrike":"Yes",
-    "Cybereason":"Yes",
-    "ESET Inspect":"Yes",
-    "Elastic":"No",
-    "LimaCharlie":"No",
-    "MDE":"Yes",
-    "Sentinel One":"Yes",
-    "Sysmon":"Yes",
-    "Trellix":"Pending Response",
-    "WatchGuard":"No"
-  },
-  {
-    "Telemetry Feature Category":null,
     "Sub-Category":"Agent Keep-Alive",
     "Carbon Black":"No",
     "CrowdStrike":"Yes",
