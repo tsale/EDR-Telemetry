@@ -540,7 +540,7 @@
     "Elastic":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
-    "Sentinel One":"No",
+    "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
     "WatchGuard":"Yes"
