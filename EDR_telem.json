@@ -12,7 +12,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -27,7 +28,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -42,7 +44,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -57,7 +60,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -72,7 +76,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -87,7 +92,8 @@
     "Sentinel One":"Partially",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -102,7 +108,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -117,7 +124,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -132,7 +140,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -147,7 +156,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -162,7 +172,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -177,7 +188,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -192,7 +204,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -207,7 +220,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -222,7 +236,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -237,7 +252,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -252,7 +268,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -267,7 +284,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -282,7 +300,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -297,7 +316,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -312,7 +332,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -327,7 +348,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -342,7 +364,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -357,7 +380,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -372,7 +396,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -387,7 +412,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -402,7 +428,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -417,7 +444,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -432,7 +460,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -447,7 +476,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -462,7 +492,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -477,7 +508,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -492,7 +524,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -507,7 +540,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -522,7 +556,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -537,7 +572,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -552,7 +588,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -567,7 +604,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -582,7 +620,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -597,7 +636,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -612,7 +652,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -627,7 +668,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -642,7 +684,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -657,7 +700,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -672,7 +716,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -687,7 +732,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -702,7 +748,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Pending Response",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -717,7 +764,8 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -732,7 +780,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -747,7 +796,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -762,7 +812,8 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Trend Micro":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -777,7 +828,8 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -792,6 +844,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Trend Micro":"No"
   }
 ]
