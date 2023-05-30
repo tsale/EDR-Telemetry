@@ -19,7 +19,8 @@ def replace_to_words(file):
         "\uD83D\uDFE7" : "Partially",
         "\u2796" : "N/A",
         "\u2753" : "Pending Response",
-        "\uD83E\uDEB5" : "Via EventLogs"
+        "\uD83E\uDEB5" : "Via EventLogs",
+        "\ud83c\udf9a️" : "Via EnablingTelemetry"
         # Add more words as needed
     }
     # Read the JSON file
@@ -48,7 +49,8 @@ def replace_from_words(file):
         "Partially" : "🟧",
         "N/A" : "➖",
         "Pending Response" : "❓",
-        "Via EventLogs" : "🪵"
+        "Via EventLogs" : "🪵",
+        "Via EnablingTelemetry" : "🎚️"
          #Add more words as needed
     }
     # Read the CSV file
