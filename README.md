@@ -34,6 +34,7 @@ The data below do not represent the capability of each of the EDR products to de
 | 🟧     	| Partially	                | Partially Implemented
 | ❓     	| Pending                	| Pending Response
 | 🪵     	| Via EventLogs           	| Via Windows EventLogs
+| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
 **Last Updated:** Wed May 06 2023\
@@ -79,7 +80,7 @@ The data below do not represent the capability of each of the EDR products to de
 | ****                           | Driver Unloaded             | 🟥               | 🟥              | 🟥             | 🟥               | 🟥          | 🟥              | 🟥      | 🟥               | 🟥         | 🟥          | 🟥             |
 | **Device Operations**          | Virtual Disk Mount          | 🟥               | 🟩              | 🟥             | 🟥               | 🟥          | 🟩              | 🟥      | 🟥               | 🟥         | 🟥          | 🟩             |
 | ****                           | USB Device Unmount          | 🟥               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🟥               | 🟥         | 🟥          | 🟩             |
-| ****                           | USB Device Mount            | 🟧               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🟥               | 🟥         | 🟥          | 🟩             |
+| ****                           | USB Device Mount            | 🟧               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🎚️               | 🟥         | 🟥          | 🟩             |
 | **Other Relevant Events**      | Group Policy Modification   | 🟥               | 🟥              | 🟥             | 🟥               | 🟥          | 🟥              | 🟩      | 🟥               | 🟥         | 🟥          | 🟥             |
 | **Named Pipe Activity**        | Pipe Creation               | 🟧               | 🟥              | 🟥             | 🟩               | 🟥          | 🟩              | 🟩      | 🟩               | 🟩         | 🟥          | 🟥             |
 | ****                           | Pipe Connection             | 🟥               | 🟧              | 🟥             | 🟥               | 🟥          | 🟩              | 🟩      | 🟩               | 🟩         | 🟩          | 🟥             |
