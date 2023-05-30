@@ -579,7 +579,7 @@
     "Elastic":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
-    "Sentinel One":"Yes",
+    "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
     "Trellix":"No",
     "WatchGuard":"Yes"
