@@ -279,7 +279,7 @@
     "Elastic":"Partially",
     "LimaCharlie":"Partially",
     "MDE":"Yes",
-    "Sentinel One":"Yes",
+    "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
     "Trellix":"Yes",
     "WatchGuard":"Partially"
@@ -609,7 +609,7 @@
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
-    "Sentinel One":"Yes",
+    "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
     "Trellix":"No",
     "WatchGuard":"No"
@@ -624,7 +624,7 @@
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
-    "Sentinel One":"Yes",
+    "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "WatchGuard":"No"
