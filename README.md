@@ -37,7 +37,7 @@ The data below do not represent the capability of each of the EDR products to de
 | 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
-**Last Updated:** Wed May 30 2023\
+**Last Updated:** Sat June 10 2023\
 **Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references)
 | **Telemetry Feature Category** | **Sub-Category**            | **Carbon Black** | **CrowdStrike** | **Cybereason** | **ESET Inspect** | **Elastic** | **LimaCharlie** | **MDE** | **Sentinel One** | **Sysmon** | **Trellix** | **WatchGuard** |
@@ -60,7 +60,7 @@ The data below do not represent the capability of each of the EDR products to de
 | ****                           | Account Logoff              | 🪵               | 🟩              | 🟩             | 🟩               | 🟩          | 🟥              | 🟥      | 🟥               | 🟥         | 🟩          | 🟩             |
 | **Network Activity**           | TCP Connection              | 🟩               | 🟩              | 🟩             | 🟩               | 🟩          | 🟩              | 🟩      | 🟩               | 🟩         | 🟩          | 🟩             |
 | ****                           | UDP Connection              | 🟩               | 🟩              | 🟩             | 🟥               | 🟩          | 🟩              | 🟩      | 🟥               | 🟩         | 🟩          | 🟩             |
-| ****                           | URL                         | 🟥               | 🟩              | 🟥             | 🟩               | 🟧          | 🟧              | 🟩      | 🟩               | 🟥         | 🟩          | 🟧             |
+| ****                           | URL                         | 🟥               | 🟩              | 🟥             | 🟩               | 🟧          | 🟧              | 🟩      | 🎚️              | 🟥         | 🟩          | 🟧             |
 | ****                           | DNS Query                   | 🟩               | 🟩              | 🟩             | 🟩               | 🟩          | 🟩              | 🟩      | 🟩               | 🟩         | 🟩          | 🟩             |
 | ****                           | File Downloaded             | 🟥               | 🟩              | 🟧             | 🟧               | 🟥          | 🟧              | 🟩      | 🟥               | 🟥         | 🟥          | 🟩             |
 | **Hash Algorithms**            | MD5                         | 🟩               | 🟩              | 🟩             | 🟩               | 🟩          | 🟩              | 🟩      | 🟩               | 🟩         | 🟩          | 🟩             |
@@ -80,10 +80,10 @@ The data below do not represent the capability of each of the EDR products to de
 | ****                           | Driver Unloaded             | 🟥               | 🟥              | 🟥             | 🟥               | 🟥          | 🟥              | 🟥      | 🟥               | 🟥         | 🟥          | 🟥             |
 | **Device Operations**          | Virtual Disk Mount          | 🟥               | 🟩              | 🟥             | 🟥               | 🟥          | 🟩              | 🟥      | 🟥               | 🟥         | 🟥          | 🟩             |
 | ****                           | USB Device Unmount          | 🟥               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🟥               | 🟥         | 🟥          | 🟩             |
-| ****                           | USB Device Mount            | 🟧               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🎚️               | 🟥         | 🟥          | 🟩             |
+| ****                           | USB Device Mount            | 🟧               | 🟩              | 🟩             | 🟥               | 🟥          | 🟥              | 🟩      | 🎚️              | 🟥         | 🟥          | 🟩             |
 | **Other Relevant Events**      | Group Policy Modification   | 🟥               | 🟥              | 🟥             | 🟥               | 🟥          | 🟥              | 🟩      | 🟥               | 🟥         | 🟥          | 🟥             |
-| **Named Pipe Activity**        | Pipe Creation               | 🟧               | 🟥              | 🟥             | 🟩               | 🟥          | 🟩              | 🟩      | 🟩               | 🟩         | 🟥          | 🟥             |
-| ****                           | Pipe Connection             | 🟥               | 🟧              | 🟥             | 🟥               | 🟥          | 🟩              | 🟩      | 🟩               | 🟩         | 🟩          | 🟥             |
+| **Named Pipe Activity**        | Pipe Creation               | 🟧               | 🟥              | 🟥             | 🟩               | 🟥          | 🟩              | 🟩      | 🎚️              | 🟩         | 🟥          | 🟥             |
+| ****                           | Pipe Connection             | 🟥               | 🟧              | 🟥             | 🟥               | 🟥          | 🟩              | 🟩      | 🎚️              | 🟩         | 🟩          | 🟥             |
 | **EDR SysOps**                 | Agent Start                 | 🟥               | 🟩              | 🟩             | 🟥               | 🟥          | 🟩              | 🟥      | 🟩               | 🟩         | ❓           | 🟥             |
 | ****                           | Agent Stop                  | 🟥               | 🟩              | 🟩             | 🟥               | 🟩          | 🟩              | 🟥      | 🟩               | 🟩         | ❓           | 🟥             |
 | ****                           | Agent Install               | 🟥               | 🟥              | 🟩             | 🟩               | 🟥          | 🟩              | 🟥      | 🟩               | 🟥         | 🟩          | 🟩             |
@@ -95,6 +95,7 @@ The data below do not represent the capability of each of the EDR products to de
 | ****                           | WmiEventFilter              | 🟥               | 🟥              | 🟩             | 🟩               | 🟥          | 🟥              | 🟩      | 🟥               | 🟩         | 🟩          | 🟩             |
 | **BIT JOBS Activity**          | BIT JOBS Activity           | 🟥               | 🟩              | 🟥             | 🟥               | 🟥          | 🟥              | 🟥      | 🟥               | 🟥         | 🟩          | 🟥             |
 | **PowerShell Activity**        | Script-Block Activity       | 🟩               | 🟩              | 🟥             | 🟩               | 🟥          | 🟥              | 🟩      | 🟩               | 🟥         | 🟩          | 🟥             |
+
 
 
 
