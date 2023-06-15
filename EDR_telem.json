@@ -12,6 +12,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -27,6 +28,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
@@ -42,6 +44,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -57,6 +60,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -72,6 +76,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -87,6 +92,7 @@
     "Sentinel One":"Partially",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -102,6 +108,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Partially"
   },
   {
@@ -117,6 +124,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Partially"
   },
   {
@@ -132,6 +140,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -147,6 +156,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -162,6 +172,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Partially"
   },
   {
@@ -177,6 +188,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -192,6 +204,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -207,6 +220,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -222,6 +236,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -237,6 +252,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -252,6 +268,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -267,6 +284,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -282,6 +300,7 @@
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Partially"
   },
   {
@@ -297,6 +316,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -312,6 +332,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -327,6 +348,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -342,6 +364,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -357,6 +380,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -372,6 +396,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -387,6 +412,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -402,6 +428,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -417,6 +444,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -432,6 +460,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -447,6 +476,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -462,6 +492,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"Partially"
   },
   {
@@ -477,6 +508,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Partially"
   },
   {
@@ -492,6 +524,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -507,6 +540,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -522,6 +556,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -537,6 +572,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -552,6 +588,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -567,6 +604,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -582,6 +620,7 @@
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -597,6 +636,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -612,6 +652,7 @@
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
     "Trellix":"No",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -627,6 +668,7 @@
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -642,6 +684,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -657,6 +700,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -672,6 +716,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -687,6 +732,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"Yes"
   },
   {
@@ -702,6 +748,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Pending Response",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -717,6 +764,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -732,6 +780,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
   },
   {
@@ -747,6 +796,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
   },
   {
@@ -762,6 +812,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
   },
   {
@@ -777,6 +828,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   },
   {
@@ -792,6 +844,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
+    "Trend Micro":"No",
     "WatchGuard":"No"
   }
 ]
