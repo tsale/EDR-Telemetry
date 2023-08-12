@@ -11,6 +11,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -27,6 +28,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"No"
@@ -43,6 +45,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No"
@@ -59,6 +62,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -75,6 +79,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -91,6 +96,7 @@
     "MDE":"Yes",
     "Sentinel One":"Partially",
     "Sysmon":"Yes",
+    "Tanium":"Partially",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No"
@@ -107,6 +113,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Partially"
@@ -123,6 +130,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially"
@@ -139,6 +147,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -155,6 +164,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No"
@@ -171,6 +181,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially"
@@ -187,6 +198,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -203,6 +215,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -219,6 +232,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -235,6 +249,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -251,6 +266,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -267,6 +283,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -283,6 +300,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -299,6 +317,7 @@
     "MDE":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
+    "Tanium":"Partially",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially"
@@ -315,6 +334,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -331,6 +351,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -347,6 +368,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -363,6 +385,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No"
@@ -379,6 +402,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -395,6 +419,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -411,6 +436,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -427,6 +453,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes"
@@ -443,6 +470,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -459,6 +487,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -475,6 +504,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -491,6 +521,7 @@
     "MDE":"Via EventLogs",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"Via EventLogs",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"Partially"
@@ -507,6 +538,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially"
@@ -523,6 +555,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -539,6 +572,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -555,6 +589,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -571,6 +606,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -587,6 +623,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -603,6 +640,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -619,6 +657,7 @@
     "MDE":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -635,6 +674,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -651,6 +691,7 @@
     "MDE":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -667,6 +708,7 @@
     "MDE":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -683,6 +725,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -699,6 +742,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -715,6 +759,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -731,6 +776,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes"
@@ -747,6 +793,7 @@
     "MDE":"No",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -763,6 +810,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -779,6 +827,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
@@ -795,6 +844,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
@@ -811,6 +861,7 @@
     "MDE":"Yes",
     "Sentinel One":"No",
     "Sysmon":"Yes",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes"
@@ -827,6 +878,7 @@
     "MDE":"No",
     "Sentinel One":"No",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
@@ -843,6 +895,7 @@
     "MDE":"Yes",
     "Sentinel One":"Yes",
     "Sysmon":"No",
+    "Tanium":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No"
