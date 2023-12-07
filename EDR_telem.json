@@ -28,7 +28,7 @@
     "Sentinel One":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "Trend Micro":"Via EventLogs",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
@@ -124,7 +124,7 @@
     "Sentinel One":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Partially",
     "WatchGuard":"Partially"
   },
   {
@@ -444,7 +444,7 @@
     "Sentinel One":"Yes",
     "Sysmon":"No",
     "Trellix":"No",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
