@@ -149,7 +149,7 @@
     "Carbon Black":"Yes",
     "CrowdStrike":"Yes",
     "Cybereason":"No",
-    "ESET Inspect":"No",
+    "ESET Inspect":"Yes",
     "Elastic":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
