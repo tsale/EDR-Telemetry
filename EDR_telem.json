@@ -485,7 +485,7 @@
     "Carbon Black":"Partially",
     "CrowdStrike":"Yes",
     "Cybereason":"Yes",
-    "ESET Inspect":"Partially",
+    "ESET Inspect":"No",
     "Elastic":"No",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
