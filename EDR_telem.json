@@ -14,7 +14,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -31,7 +32,8 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -48,7 +50,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -65,7 +68,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -82,7 +86,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "No" 
   },
   {
     "Telemetry Feature Category":null,
@@ -99,7 +104,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -116,7 +122,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -133,7 +140,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Partially",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -150,7 +158,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -167,7 +176,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -184,7 +194,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -201,7 +212,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No" 
   },
   {
     "Telemetry Feature Category":null,
@@ -218,7 +230,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No" 
   },
   {
     "Telemetry Feature Category":null,
@@ -235,7 +248,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No" 
   },
   {
     "Telemetry Feature Category":null,
@@ -252,7 +266,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -269,7 +284,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -286,7 +302,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -303,7 +320,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes" 
   },
   {
     "Telemetry Feature Category":null,
@@ -320,7 +338,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "Partially" 
   },
   {
     "Telemetry Feature Category":null,
@@ -337,7 +356,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Partially" 
   },
   {
     "Telemetry Feature Category":null,
@@ -354,7 +374,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Partially"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -371,7 +392,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -388,7 +410,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -405,7 +428,8 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -422,7 +446,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -439,7 +464,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -456,7 +482,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -473,7 +500,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -490,7 +518,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -507,7 +536,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -524,7 +554,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -541,7 +572,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -558,7 +590,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -575,7 +608,8 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -592,7 +626,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -609,7 +644,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -626,7 +662,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -643,7 +680,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -660,7 +698,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -677,7 +716,8 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -694,7 +734,8 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":null,
@@ -711,7 +752,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -728,7 +770,8 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -745,7 +788,8 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -762,7 +806,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -779,7 +824,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -796,7 +842,8 @@
     "Sysmon":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":null,
@@ -813,7 +860,8 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "via SEPM"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -830,7 +878,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -847,7 +896,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -864,7 +914,8 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "Symantec SES Complete": "Partially"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -881,7 +932,8 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "No"
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -898,6 +950,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "Symantec SES Complete": "Yes"
   }
 ]
