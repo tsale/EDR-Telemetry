@@ -51,7 +51,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -69,7 +69,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -87,7 +87,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -105,7 +105,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -123,7 +123,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -141,7 +141,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Partially",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -177,7 +177,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -195,7 +195,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -213,7 +213,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -231,7 +231,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
 
   },
   {
@@ -250,7 +250,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -268,7 +268,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes",
-    "Harfanglab":"Via EventLogs"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -286,7 +286,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -304,7 +304,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"Via EventLogs"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -340,7 +340,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -358,7 +358,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"Via EventLogs"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -448,7 +448,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -466,7 +466,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -484,7 +484,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -502,7 +502,7 @@
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -520,7 +520,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -538,7 +538,7 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -556,7 +556,7 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -574,7 +574,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Partially",
-    "Harfanglab":"No"
+    "Harfanglab":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -610,7 +610,7 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -736,7 +736,7 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -754,7 +754,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -772,7 +772,7 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -790,7 +790,7 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -808,7 +808,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -826,7 +826,7 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"Yes",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -844,7 +844,7 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -862,7 +862,7 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"Pending Response"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -880,7 +880,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -898,7 +898,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -916,7 +916,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -952,6 +952,6 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "WatchGuard":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"Yes"
   }
 ]
