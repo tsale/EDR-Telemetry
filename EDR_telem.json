@@ -478,7 +478,7 @@
     "Telemetry Feature Category":null,
     "Sub-Category":"Key\/Value Modification",
     "Carbon Black":"Yes",
-    "Cortex XDR":"Partially",
+    "Cortex XDR":"Yes",
     "CrowdStrike":"Partially",
     "Cybereason":"Partially",
     "ESET Inspect":"Yes",
