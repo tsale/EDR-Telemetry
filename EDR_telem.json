@@ -7,6 +7,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -14,8 +15,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -25,6 +25,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -32,8 +33,7 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -43,6 +43,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Partially",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -50,8 +51,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -61,6 +61,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -68,8 +69,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -79,6 +79,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -86,8 +87,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -97,6 +97,7 @@
     "Cybereason":"Pending Response",
     "ESET Inspect":"No",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -104,8 +105,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -115,6 +115,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Partially",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -122,8 +123,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -133,6 +133,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -140,8 +141,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Partially",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -151,6 +151,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"No",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -158,8 +159,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -169,6 +169,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -176,8 +177,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -187,6 +187,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -194,8 +195,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -205,6 +205,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -212,8 +213,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -223,6 +223,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -230,9 +231,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
-
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -242,6 +241,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -249,8 +249,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -260,6 +259,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Partially",
     "MDE":"Yes",
     "Qualys":"No",
@@ -267,8 +267,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -278,6 +277,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -285,8 +285,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -296,6 +295,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -303,8 +303,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -314,6 +313,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"Yes",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -321,8 +321,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -332,6 +331,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"Partially",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Partially",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -339,8 +339,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -350,6 +349,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -357,8 +357,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -368,6 +367,7 @@
     "Cybereason":"Partially",
     "ESET Inspect":"Partially",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"Partially",
     "MDE":"Yes",
     "Qualys":"No",
@@ -375,8 +375,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -386,6 +385,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -393,8 +393,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -404,6 +403,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -411,8 +411,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -422,6 +421,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"Partially",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -429,8 +429,7 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -440,6 +439,7 @@
     "Cybereason":"Partially",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -447,8 +447,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -458,6 +457,7 @@
     "Cybereason":"Partially",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -465,8 +465,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -476,6 +475,7 @@
     "Cybereason":"Partially",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -483,8 +483,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -494,6 +493,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -501,8 +501,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -512,6 +511,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -519,8 +519,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -530,6 +529,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -537,8 +537,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -548,6 +547,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
     "Qualys":"No",
@@ -555,8 +555,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -566,6 +565,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Via EventLogs",
     "LimaCharlie":"Yes",
     "MDE":"No",
     "Qualys":"No",
@@ -573,8 +573,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Partially",
-    "Harfanglab":"Via EventLogs"
+    "WatchGuard":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -584,6 +583,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"Pending Response",
     "MDE":"No",
     "Qualys":"No",
@@ -591,8 +591,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -602,6 +601,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -609,8 +609,7 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -620,6 +619,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"Yes",
     "MDE":"No",
     "Qualys":"No",
@@ -627,8 +627,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -638,6 +637,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -645,8 +645,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -656,6 +655,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"Yes",
     "MDE":"No",
     "Qualys":"No",
@@ -663,8 +663,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -674,6 +673,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -681,8 +681,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -692,6 +691,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -699,8 +699,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -710,6 +709,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -717,8 +717,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -728,6 +727,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -735,8 +735,7 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -746,6 +745,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"No",
@@ -753,8 +753,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -764,6 +763,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
     "Qualys":"Yes",
@@ -771,8 +771,7 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -782,6 +781,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"No",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
     "Qualys":"Yes",
@@ -789,8 +789,7 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -800,6 +799,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
     "Qualys":"Yes",
@@ -807,8 +807,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -818,6 +817,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -825,8 +825,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"Yes",
-    "Harfanglab":"No"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -836,6 +835,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Via EventLogs",
     "Qualys":"Yes",
@@ -843,8 +843,7 @@
     "Sysmon":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -854,6 +853,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"Yes",
+    "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"Yes",
     "Qualys":"Yes",
@@ -861,8 +861,7 @@
     "Sysmon":"Yes",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -872,6 +871,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -879,8 +879,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -890,6 +889,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -897,8 +897,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -908,6 +907,7 @@
     "Cybereason":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -915,8 +915,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "WatchGuard":"Yes",
-    "Harfanglab":"Yes"
+    "WatchGuard":"Yes"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -926,6 +925,7 @@
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
+    "Harfanglab":"No",
     "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
@@ -933,8 +933,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"No"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -944,6 +943,7 @@
     "Cybereason":"No",
     "ESET Inspect":"Yes",
     "Elastic":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"No",
@@ -951,7 +951,6 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "WatchGuard":"No",
-    "Harfanglab":"Yes"
+    "WatchGuard":"No"
   }
 ]
