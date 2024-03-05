@@ -100,7 +100,6 @@ The data below do not represent the capability of each of the EDR products to de
 
 
 
-
 ## Current Primary Maintainers
 Kostas - [@kostastsale](https://twitter.com/Kostastsale)\
 Alex - [@ateixei](https://twitter.com/ateixei)
