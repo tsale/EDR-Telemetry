@@ -615,7 +615,7 @@
     "CrowdStrike":"No",
     "Cybereason":"No",
     "ESET Inspect":"No",
-    "Elastic":"Yes",
+    "Elastic":"Via EventLogs",
     "Harfanglab":"No",
     "LimaCharlie":"Pending Response",
     "MDE":"No",
