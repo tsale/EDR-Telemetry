@@ -14,12 +14,12 @@ input_file = args.input_file
 def replace_to_words(file):
     # Replace the target words with the replacement words
     words_to_replace = {
-    "\u2705": "Implemented",        # ✅ Implemented
-    "\u274C": "Not Implemented",    # ❌ Not Implemented
-    "\u26A0\uFE0F": "Partially Implemented", # ⚠️ Partially Implemented
+    "\u2705": "Yes",        # ✅ Implemented
+    "\u274C": "No",    # ❌ Not Implemented
+    "\u26A0\uFE0F": "Partially", # ⚠️ Partially Implemented
     "\u2753": "Pending Response",   # ❓ Pending Response
-    "\U0001F9ED": "Via EventLogs",  # 🪵 Via EventLogs
-    "\U0001F509": "Via EnablingTelemetry"   # 🎚️ Via EnablingTelemetry
+    "\uD83E\uDEB5" : "Via EventLogs", # 🪵 Via EventLogs
+    "\ud83c\udf9a️" : "Via EnablingTelemetry"  # 🎚️ Via EnablingTelemetry
 }
     # Read the JSON file
     with open(file, "rb") as f:
