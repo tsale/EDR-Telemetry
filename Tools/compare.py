@@ -1,5 +1,7 @@
 import json
 import os
+from prettytable import PrettyTable
+
 
 EDRS_INFO_FILE = "EDR_telem.json"
 FEATURES_DICT_VALUED = {"Yes" : 1, "No" : 0, "Via EnablingTelemetry" : 1, "Partially" : 0.5, "Via EventLogs" : 0.75, "Pending Response" : 0}
@@ -81,7 +83,17 @@ def main():
     
     # Round the values to two decimal places
     rounded_dict = {k: round(v, 2) for k, v in sorted_dict.items()}
-    print(json.dumps(rounded_dict, indent=2))
+    #print(json.dumps(rounded_dict, indent=2))
+
+    # Create a table
+    table = PrettyTable()
+
+    # Add columns
+    table.field_names = ["No.", "EDRS", "Score"]
+    for i, (k, v) in enumerate(rounded_dict.items(), start=1):
+        table.add_row([i, k, v])
+
+    print(table)
 
 
 if __name__ == '__main__':
