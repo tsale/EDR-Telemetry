@@ -1,0 +1,2 @@
+prettytable==3.10.0
+wcwidth==0.2.13

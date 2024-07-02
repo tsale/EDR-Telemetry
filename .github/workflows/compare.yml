@@ -1,0 +1,27 @@
+name: Run compare.py on each commit
+
+on:
+  push:
+    branches:
+      - '**' # This will trigger the workflow on any branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository content
+      uses: actions/checkout@v2 # This action checks-out your repository under $GITHUB_WORKSPACE
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # This will retrieve the latest Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r Tools/compare-requirements.txt # If you have any dependencies
+        
+    - name: Run Python script
+      run: python Tools/compare.py # Replace with your script's path
