@@ -626,7 +626,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "Uptycs":"Yes",
+    "Uptycs":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
@@ -731,7 +731,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "Uptycs":"No",
+    "Uptycs":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -836,7 +836,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"No",
-    "Uptycs":"Partially",
+    "Uptycs":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
@@ -1109,7 +1109,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "Uptycs":"Via EventLogs",
+    "Uptycs":"Yes",
     "WatchGuard":"No"
   }
 ]
