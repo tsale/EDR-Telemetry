@@ -41,13 +41,13 @@ This scoring algorithm allows us to quantitatively compare different EDRs based 
 
 For more details, you can refer to the [Pull Request #61](https://github.com/tsale/EDR-Telemetry/pull/61).
 
-*Below is the score assigned to each value currently:*
+**Below is the score assigned to each value currently:**
 
 - No: 0,
-- Partially: 0.5,
-- Pending Response: 0,
-- Via EnablingTelemetry: 1,
-- Via EventLogs: 0.75,
+- Partially: 0.5
+- Pending Response: 0
+- Via EnablingTelemetry: 1
+- Via EventLogs: 0.75
 - Yes: 1
 
 ### EDR Scores
