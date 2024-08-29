@@ -38,7 +38,7 @@
     "Sysmon":"Yes",
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
-    "Uptycs":"Yes",
+    "Uptycs":"No",
     "WatchGuard":"No"
   },
   {
