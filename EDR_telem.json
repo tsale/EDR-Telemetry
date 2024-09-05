@@ -312,7 +312,7 @@
     "LimaCharlie":"Via EventLogs",
     "MDE":"No",
     "Qualys":"Via EventLogs",
-    "Sentinel One":"Via EventLogs",
+    "Sentinel One":"Yes",
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
