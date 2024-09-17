@@ -216,7 +216,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"Partially"
   },
   {
