@@ -156,7 +156,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"Partially",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"Partially"
   },
   {
@@ -176,7 +176,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
@@ -216,7 +216,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"Partially"
   },
   {
@@ -236,7 +236,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
@@ -256,7 +256,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
@@ -276,7 +276,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
@@ -296,7 +296,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"Via EventLogs",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -316,7 +316,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"Via EventLogs",
+    "Trend Micro":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -376,7 +376,7 @@
     "Symantec SES Complete":"Partially",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Partially",
     "WatchGuard":"Partially"
   },
   {
@@ -576,7 +576,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
@@ -596,7 +596,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
@@ -616,7 +616,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"No",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"Partially"
   },
   {
@@ -636,7 +636,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via EventLogs",
     "WatchGuard":"Partially"
   },
   {
@@ -676,7 +676,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -816,7 +816,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"Yes",
     "Trellix":"No",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -836,7 +836,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"Yes",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   },
   {
@@ -1036,7 +1036,7 @@
     "Symantec SES Complete":"No",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Via Event Logs",
     "WatchGuard":"No"
   },
   {
@@ -1056,7 +1056,7 @@
     "Symantec SES Complete":"Yes",
     "Sysmon":"No",
     "Trellix":"Yes",
-    "Trend Micro":"No",
+    "Trend Micro":"Yes",
     "WatchGuard":"No"
   }
 ]
