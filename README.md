@@ -56,7 +56,7 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 |:-------:|:---------------------:|:---------:|
 | **1**   | CrowdStrike           | 37.45     |
 | **2**   | MDE                   | 34.8      |
-| **3**   | Sentinel One          | 34.52     |
+| **3**   | Sentinel One          | 34.77     |
 | **4**   | Harfanglab            | 32.22     |
 | **5**   | Cortex XDR            | 31.42     |
 | **6**   | LimaCharlie           | 31.2      |
@@ -86,7 +86,7 @@ Below is information about the EDR table, including all values for each EDR and 
 | 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
-**Last Updated:** Aug 24, 2024\
+**Last Updated:** Sep 20, 2024\
 **Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references)
 | **Telemetry Feature Category** | **Sub-Category**            | **Carbon Black** | **Cortex XDR** | **CrowdStrike** | **Cybereason** | **ESET Inspect** | **Elastic** | **Harfanglab** | **LimaCharlie** | **MDE** | **Qualys** | **Sentinel One** | **Symantec SES Complete** | **Sysmon** | **Trellix** | **Trend Micro** | **WatchGuard** |
@@ -106,7 +106,7 @@ Below is information about the EDR table, including all values for each EDR and 
 | ****                           | Local Account Modification  | ❌                | 🪵             | ⚠️              | ❌              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | 🪵               | ❌                         | ❌          | ✅           | ❌               | ❌              |
 | ****                           | Local Account Deletion      | ❌                | 🪵             | ✅               | ❌              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | 🪵               | ❌                         | ❌          | ✅           | ❌               | ❌              |
 | ****                           | Account Login               | 🪵               | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ⚠️              | ✅       | 🪵         | ✅                | ✅                         | ❌          | ✅           | 🪵              | ✅              |
-| ****                           | Account Logoff              | 🪵               | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | 🪵              | ❌       | 🪵         | 🪵               | ✅                         | ❌          | ✅           | 🪵              | ✅              |
+| ****                           | Account Logoff              | 🪵               | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | 🪵              | ❌       | 🪵         | ✅                | ✅                         | ❌          | ✅           | 🪵              | ✅              |
 | **Network Activity**           | TCP Connection              | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | 🎚️                       | ✅          | ✅           | ✅               | ✅              |
 | ****                           | UDP Connection              | ✅                | ✅              | ✅               | ✅              | ❌                | ✅           | 🪵             | ✅               | ✅       | ✅          | ❌                | 🎚️                       | ✅          | ✅           | ✅               | ✅              |
 | ****                           | URL                         | ❌                | ❌              | ✅               | ❌              | ✅                | ⚠️          | ✅              | ⚠️              | ✅       | ✅          | 🎚️              | ⚠️                        | ❌          | ✅           | ❌               | ⚠️             |
@@ -144,7 +144,6 @@ Below is information about the EDR table, including all values for each EDR and 
 | ****                           | WmiEventFilter              | ❌                | 🎚️            | ✅               | ✅              | ✅                | ❌           | ✅              | ❌               | ✅       | 🪵         | ✅                | ⚠️                        | ✅          | ✅           | 🪵              | ✅              |
 | **BIT JOBS Activity**          | BIT JOBS Activity           | ❌                | 🎚️            | ✅               | ❌              | ❌                | ❌           | ❌              | ❌               | ❌       | ✅          | ❌                | ❌                         | ❌          | ✅           | ❌               | ❌              |
 | **PowerShell Activity**        | Script-Block Activity       | ✅                | 🪵             | ✅               | ❌              | ✅                | ❌           | ✅              | 🪵              | ✅       | ✅          | ✅                | ✅                         | ❌          | ✅           | ❌               | ❌              |
-
 
 
 ## Current Primary Maintainers
