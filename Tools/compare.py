@@ -53,9 +53,7 @@ CATEGORIES_VALUED = {"Process Creation":1,
 "Agent Uninstall":1,
 "Agent Keep-Alive":0.2,
 "Agent Errors":0.2,
-"WmiEventConsumerToFilter":1,
-"WmiEventConsumer":1,
-"WmiEventFilter":1,
+"WMI Activity":1,
 "BIT JOBS Activity":1,
 "Script-Block Activity":1 }
 EDRS_LIST = {}
