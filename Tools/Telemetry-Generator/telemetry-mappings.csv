@@ -48,8 +48,6 @@ EDR SysOps,Agent Start,-,-,-,Evaluate through Documentation
 ,Agent Tampering,-,-,-,Evaluate through Documentation
 ,Agent Keep-Alive,-,-,-,Evaluate through Documentation
 ,Agent Errors,-,-,-,Evaluate through Documentation
-WMI Activity,WmiEventConsumerToFilter,T1546.003,1,3c64f177-28e2-49eb-a799-d767b24dd1e0,
-,WmiEventConsumer,T1546.004,1,3c64f177-28e2-49eb-a799-d767b24dd1e1,
-,WmiEventFilter,T1546.005,1,3c64f177-28e2-49eb-a799-d767b24dd1e2,
+WMI Activity,WMI Activity,T1047,1,c107778c-dcf5-47c5-af2e-1d058a3df3ea,
 BIT JOBS Activity,BIT JOBS Activity,T1197,3,62a06ec5-5754-47d2-bcfc-123d8314c6ae,
 PowerShell Activity,Script-Block Activity,T1059.001,1,f3132740-55bc-48c4-bcc0-758a459cd027,
