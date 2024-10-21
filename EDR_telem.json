@@ -120,6 +120,26 @@
     "WatchGuard":"No"
   },
   {
+    "Telemetry Feature Category":null,
+    "Sub-Category":"Process Call Stacks",
+    "Carbon Black":"No",
+    "Cortex XDR":"No",
+    "CrowdStrike":"No",
+    "Cybereason":"No",
+    "ESET Inspect":"No",
+    "Elastic":"Yes",
+    "Harfanglab":"No",
+    "LimaCharlie":"No",
+    "MDE":"No",
+    "Qualys":"No",
+    "Sentinel One":"No",
+    "Symantec SES Complete":"No",
+    "Sysmon":"Partially",
+    "Trellix":"No",
+    "Trend Micro":"No",
+    "WatchGuard":"No"
+  },
+  {
     "Telemetry Feature Category":"File Manipulation",
     "Sub-Category":"File Creation",
     "Carbon Black":"Yes",
