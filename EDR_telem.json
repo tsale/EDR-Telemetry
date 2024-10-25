@@ -124,7 +124,7 @@
     "Sub-Category":"Process Call Stacks",
     "Carbon Black":"No",
     "Cortex XDR":"No",
-    "CrowdStrike":"No",
+    "CrowdStrike":"Partially",
     "Cybereason":"No",
     "ESET Inspect":"No",
     "Elastic":"Yes",
