@@ -59,7 +59,7 @@
     "Sysmon":"Yes",
     "Trellix":"Yes",
     "Trend Micro":"Yes",
-    "Uptycs":"Yes",
+    "Uptycs":"No",
     "WatchGuard":"No"
   },
   {
