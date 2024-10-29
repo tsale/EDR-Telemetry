@@ -14,9 +14,6 @@ import subprocess
 from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
-import pwd
-import spwd
-import crypt
 
 
 scheduler = sched.scheduler(time.time, time.sleep)
