@@ -1,5 +1,6 @@
 import dbus
 import os
+import libuser
 import random
 import sched
 import sys
@@ -13,6 +14,9 @@ import subprocess
 from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
+import pwd
+import spwd
+import crypt
 
 
 scheduler = sched.scheduler(time.time, time.sleep)
@@ -105,6 +109,100 @@ class RemoteLibraryInjector:
             self.detach_from_process()
 
         print(f"Injected into process with PID: {self.pid}")
+
+class UserAccountManager:
+    """
+    UserAccountManager is a class responsible for managing user accounts on a Linux system.
+    It provides methods to create, modify, and delete user accounts using the libuser library.
+    Additionally, it sets up the necessary libuser configuration and installs the required packages.
+    """
+    def __init__(self):
+        self.username = "testuser"
+        self.password = "password123"
+        self.new_password = "newpassword123"
+        self.setup_libuser()
+
+    def setup_libuser(self):
+        try:
+            # Install libuser development package
+            subprocess.run(["sudo", "apt-get", "install", "-y", "python3-libuser"], check=True)
+
+            # Create the libuser configuration file
+            libuser_conf = "/etc/libuser.conf"
+            if not os.path.exists(libuser_conf):
+                with open(libuser_conf, "w") as f:
+                    f.write("[defaults]\n")
+                    f.write("LU_DEFAULT_USERGROUPS = true\n")
+                    f.write("LU_DEFAULT_HOME = /home\n")
+                    f.write("LU_DEFAULT_SHELL = /bin/bash\n")
+            print("libuser setup completed successfully.")
+        except Exception as e:
+            print(f"Failed to set up libuser: {e}")
+
+    def create_user(self):
+        try:
+            # Initialize the libuser context
+            ctx = libuser.admin()
+
+            # Create a new user
+            user = ctx.initUser(self.username)
+            user.set("password", self.password)
+            user.set("home", f"/home/{self.username}")
+            user.set("shell", "/bin/bash")
+
+            # Add the user to the system
+            if not ctx.addUser(user):
+                raise Exception("Failed to create user")
+
+            print(f"User '{self.username}' created successfully.")
+        except Exception as e:
+            print(f"Failed to create user '{self.username}': {e}")
+
+    def modify_user(self):
+        try:
+            # Initialize the libuser context
+            ctx = libuser.admin()
+
+            # Get the existing user
+            user = ctx.lookupUserByName(self.username)
+            if not user:
+                raise Exception(f"User '{self.username}' does not exist")
+
+            # Modify the user's password
+            user.set("password", self.new_password)
+
+            # Update the user in the system
+            if not ctx.modifyUser(user):
+                raise Exception("Failed to modify user")
+
+            print(f"User '{self.username}' modified successfully.")
+        except Exception as e:
+            print(f"Failed to modify user '{self.username}': {e}")
+
+    def delete_user(self):
+        try:
+            # Initialize the libuser context
+            ctx = libuser.admin()
+
+            # Get the existing user
+            user = ctx.lookupUserByName(self.username)
+            if not user:
+                raise Exception(f"User '{self.username}' does not exist")
+
+            # Delete the user from the system
+            if not ctx.deleteUser(user):
+                raise Exception("Failed to delete user")
+
+            print(f"User '{self.username}' deleted successfully.")
+        except Exception as e:
+            print(f"Failed to delete user '{self.username}': {e}")
+
+    def run(self):
+        self.create_user()
+        time.sleep(2)
+        self.modify_user()
+        time.sleep(2)
+        self.delete_user()
 
 # Function to start and stop the service (cron) using system calls (DBus API)
 def start_and_stop_service():
@@ -256,7 +354,8 @@ event_functions = {
     'CreateRemoteThread': RemoteLibraryInjector().inject_shared_library,
     'LoadDriver': loadit,
     'TamperProcess': begin_tamper,
-    'ScheduledTask': run_task
+    'ScheduledTask': run_task,
+    'UserAccountEvents': UserAccountManager().run
 }
 
 def main():
