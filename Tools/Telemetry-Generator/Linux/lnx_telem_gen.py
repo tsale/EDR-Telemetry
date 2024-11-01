@@ -80,19 +80,6 @@ class NetworkSocketManager:
         except socket.error as e:
             print(f"Network connection failed: {e}")
 
-# def main():
-#     # Create an instance of NetworkSocketManager
-#     manager = NetworkSocketManager()
-
-#     # Call the NetworkListen method
-#     manager.network_listen()
-
-#     # Call the NetworkRawSocket method
-#     manager.network_raw_socket()
-
-# if __name__ == '__main__':
-#     main()
-
 ## To be removed ##
 # class RemoteLibraryInjector:
 #     def __init__(self, pid=None):
