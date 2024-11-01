@@ -90,7 +90,7 @@ def pick_user_process():
 
     return random.choice(processes)
 
-def process_acces():
+def process_access():
     # Pick a random user process PID, excluding SSH processes
     pid = pick_user_process()
     print(f"Selected PID: {pid}")

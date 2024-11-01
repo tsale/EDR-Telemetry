@@ -1,7 +1,6 @@
 import dbus
 import os
 import libuser
-import random
 import sched
 import sys
 import time
@@ -9,103 +8,164 @@ import socket
 from ctypes import CDLL
 import psutil
 import signal
-import ctypes
 import subprocess
+import socket
 from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
+from complex.process_hijack_demo import process_access
 
 
 scheduler = sched.scheduler(time.time, time.sleep)
 
-class RemoteLibraryInjector:
-    def __init__(self, pid=None):
-        self.libc = ctypes.CDLL("libc.so.6")
-        self.pid = pid if pid else self.get_random_pid()
+class NetworkSocketManager:
+    """
+    The `network_listen` method is intended to create a standard listening socket for handling incoming TCP 
+    connections, while the `network_raw_socket` method creates a raw socket bound to a network interface.
+    """
 
-    def get_random_pid(self):
-        # Get a list of all PIDs from /proc
-        pids = [pid for pid in os.listdir('/proc') if pid.isdigit()]
-
-        if not pids:
-            raise Exception("No running processes found.")
-
-        # Select a random PID
-        return int(random.choice(pids))
-
-    def create_shared_library(self):
-        # C code for the shared library
-        c_code = """
-        #include <stdio.h>
-
-        __attribute__((constructor))
-        void init() {
-            printf("Hello from injected library!\\n");
-        }
+    @staticmethod
+    def network_listen():
         """
-
-        # Write the C code to a file
-        with open("inject.c", "w") as f:
-            f.write(c_code)
-
-        # Compile the C code into a shared library
-        subprocess.run(["gcc", "-shared", "-fPIC", "-o", "inject.so", "inject.c"], check=True)
-
-        print("Shared library 'inject.so' created successfully.")
-
-    def attach_to_process(self):
-        PTRACE_ATTACH = 16
-        if self.libc.ptrace(PTRACE_ATTACH, self.pid, None, None) == -1:
-            raise Exception(f"Failed to attach to process {self.pid}")
-        # Wait for the process to stop
-        os.waitpid(self.pid, 0)
-
-    def detach_from_process(self):
-        PTRACE_DETACH = 17
+        Creates a listening socket that binds to a specified IP and port.
+        """
         try:
-            if self.libc.ptrace(PTRACE_DETACH, self.pid, None, None) == -1:
-                # Silently fail if detach fails
-                pass
-        except Exception:
-            pass
-
-    def inject_library(self, lib_path):
-        RTLD_NOW = 2
-        # Load the shared library into the target process using dlopen
-        dlopen = self.libc.dlopen
-        dlopen.argtypes = [ctypes.c_char_p, ctypes.c_int]
-        dlopen.restype = ctypes.c_void_p
-
-        # We are assuming the library path is valid
-        lib_path_bytes = lib_path.encode('utf-8')
-
-        # Call dlopen in the target process to load the shared library
-        handle = dlopen(lib_path_bytes, RTLD_NOW)
-        if handle is None:
-            raise Exception(f"Failed to inject library {lib_path}")
-
-        print(f"Library {lib_path} injected successfully with handle {handle}")
-
-    def inject_shared_library(self):
-        PTRACE_CONT = 7
-        try:
-            # Step 1: Create and compile the shared library
-            self.create_shared_library()
-
-            # Step 2: Attach to the process
-            self.attach_to_process()
-
-            # Step 3: Inject the shared library into the target process
-            self.inject_library("./inject.so")
-
-            # Step 4: Continue the process after injection
-            self.libc.ptrace(PTRACE_CONT, self.pid, None, None)
-
+            listen_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            listen_socket.bind(('0.0.0.0', 12345))  # Bind to all interfaces on port 12345
+            listen_socket.listen(5)
+            print("Listening on 0.0.0.0:12345...")
+        except socket.error as e:
+            print(f"Error in NetworkListen: {e}")
         finally:
-            # Step 5: Detach from the process
-            self.detach_from_process()
+            listen_socket.close()
 
-        print(f"Injected into process with PID: {self.pid}")
+    @staticmethod
+    def network_raw_socket():
+        """
+        Creates a raw socket that binds to an existing network interface.
+        """
+        try:
+            # Automatically find an available network interface
+            def get_interface():
+                interfaces = os.listdir('/sys/class/net/')
+                for interface in interfaces:
+                    if interface != 'lo':  # Skip the loopback interface
+                        return interface
+                raise Exception("No valid network interfaces found.")
+
+            interface = get_interface()
+            raw_socket = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(0x0003))
+            raw_socket.bind((interface, 0))  # Bind to the automatically found network interface
+            print(f"Raw socket bound to {interface}...")
+        except socket.error as e:
+            print(f"Error in NetworkRawSocket: {e}")
+        except Exception as e:
+            print(f"Error finding network interface: {e}")
+        finally:
+            raw_socket.close()
+
+# def main():
+#     # Create an instance of NetworkSocketManager
+#     manager = NetworkSocketManager()
+
+#     # Call the NetworkListen method
+#     manager.network_listen()
+
+#     # Call the NetworkRawSocket method
+#     manager.network_raw_socket()
+
+# if __name__ == '__main__':
+#     main()
+
+## To be removed ##
+# class RemoteLibraryInjector:
+#     def __init__(self, pid=None):
+#         self.libc = ctypes.CDLL("libc.so.6")
+#         self.pid = pid if pid else self.get_random_pid()
+
+#     def get_random_pid(self):
+#         # Get a list of all PIDs from /proc
+#         pids = [pid for pid in os.listdir('/proc') if pid.isdigit()]
+
+#         if not pids:
+#             raise Exception("No running processes found.")
+
+#         # Select a random PID
+#         return int(random.choice(pids))
+
+#     def create_shared_library(self):
+#         # C code for the shared library
+#         c_code = """
+#         #include <stdio.h>
+
+#         __attribute__((constructor))
+#         void init() {
+#             printf("Hello from injected library!\\n");
+#         }
+#         """
+
+#         # Write the C code to a file
+#         with open("inject.c", "w") as f:
+#             f.write(c_code)
+
+#         # Compile the C code into a shared library
+#         subprocess.run(["gcc", "-shared", "-fPIC", "-o", "inject.so", "inject.c"], check=True)
+
+#         print("Shared library 'inject.so' created successfully.")
+
+#     def attach_to_process(self):
+#         PTRACE_ATTACH = 16
+#         if self.libc.ptrace(PTRACE_ATTACH, self.pid, None, None) == -1:
+#             raise Exception(f"Failed to attach to process {self.pid}")
+#         # Wait for the process to stop
+#         os.waitpid(self.pid, 0)
+
+#     def detach_from_process(self):
+#         PTRACE_DETACH = 17
+#         try:
+#             if self.libc.ptrace(PTRACE_DETACH, self.pid, None, None) == -1:
+#                 # Silently fail if detach fails
+#                 pass
+#         except Exception:
+#             pass
+
+#     def inject_library(self, lib_path):
+#         RTLD_NOW = 2
+#         # Load the shared library into the target process using dlopen
+#         dlopen = self.libc.dlopen
+#         dlopen.argtypes = [ctypes.c_char_p, ctypes.c_int]
+#         dlopen.restype = ctypes.c_void_p
+
+#         # We are assuming the library path is valid
+#         lib_path_bytes = lib_path.encode('utf-8')
+
+#         # Call dlopen in the target process to load the shared library
+#         handle = dlopen(lib_path_bytes, RTLD_NOW)
+#         if handle is None:
+#             raise Exception(f"Failed to inject library {lib_path}")
+
+#         print(f"Library {lib_path} injected successfully with handle {handle}")
+
+#     def inject_shared_library(self):
+#         PTRACE_CONT = 7
+#         try:
+#             # Step 1: Create and compile the shared library
+#             self.create_shared_library()
+
+#             # Step 2: Attach to the process
+#             self.attach_to_process()
+
+#             # Step 3: Inject the shared library into the target process
+#             self.inject_library("./inject.so")
+
+#             # Step 4: Continue the process after injection
+#             self.libc.ptrace(PTRACE_CONT, self.pid, None, None)
+
+#         finally:
+#             # Step 5: Detach from the process
+#             self.detach_from_process()
+
+#         print(f"Injected into process with PID: {self.pid}")
 
 class UserAccountManager:
     """
@@ -291,14 +351,6 @@ def image_load():
     libc = CDLL('libc.so.6')
     print("Loaded shared library 'libc.so.6' into process.")
 
-# Function to access another process's information
-def process_access():
-    current_pid = os.getpid()
-    for proc in psutil.process_iter(['pid', 'name']):
-        if proc.info['pid'] != current_pid:
-            print(f"Accessed process info: PID {proc.info['pid']}, Name {proc.info['name']}")
-            break
-
 # Function to trigger a network connection
 def network_connect():
     try:
@@ -344,11 +396,12 @@ event_functions = {
     'NetworkConnect': network_connect,
     'ServiceStartStop': start_and_stop_service,
     'RawAccessRead': raw_access_read,
-    'CreateRemoteThread': RemoteLibraryInjector().inject_shared_library,
     'LoadDriver': loadit,
     'TamperProcess': begin_tamper,
     'ScheduledTask': run_task,
-    'UserAccountEvents': UserAccountManager().run
+    'UserAccountEvents': UserAccountManager().run,
+    'NetworkListen': NetworkSocketManager.network_listen,
+    'NetworkRawSocket': NetworkSocketManager.network_raw_socket
 }
 
 def main():
