@@ -317,24 +317,20 @@ def network_connect():
 # Function to perform raw access read
 def raw_access_read():
     # Replace with a safer device for testing
-    device = '/dev/zero'  # Using '/dev/zero' as a safe test device
+    device = '/dev/sda'  # Using '/dev/sda' as the main hard drive device
     num_bytes = 512       # Number of bytes to read
     offset = 0            # Offset from the beginning of the device
 
     try:
-        # Open the device for reading as a raw device
-        with open(device, 'rb') as f:
-            # Seek to the desired offset
-            f.seek(offset)
-            # Read the specified number of bytes
-            data = f.read(num_bytes)
-            # Print the raw data in hexadecimal format
-            print('Raw data read from device:')
-            print(' '.join(f'{byte:02x}' for byte in data))
+        with open(device, 'rb') as f:  # Open the device in read-only mode
+            data = f.read(1024)  # Read the first 1024 bytes for demonstration
+            print(data)
     except PermissionError:
-        print(f"Permission denied: Unable to read from {device}. Try running with elevated privileges.")
+        print("Permission denied: You need to run this script with elevated privileges.")
+    except FileNotFoundError:
+        print(f"Device {device} not found.")
     except Exception as e:
-        print(f"An error occurred while reading from {device}: {e}")
+        print(f"An error occurred: {e}")
 
 # Dictionary mapping event names to functions
 event_functions = {
