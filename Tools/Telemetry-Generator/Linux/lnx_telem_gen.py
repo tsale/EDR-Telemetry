@@ -13,7 +13,7 @@ import socket
 from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
-from complex.process_hijack_demo import process_access
+from complex.process_hijack_demo import start_hijacking
 
 
 scheduler = sched.scheduler(time.time, time.sleep)
@@ -63,6 +63,22 @@ class NetworkSocketManager:
             print(f"Error finding network interface: {e}")
         finally:
             raw_socket.close()
+    
+    @staticmethod
+    def network_connect():
+        # Function to trigger a network connection
+        try:
+            # Create a TCP/IP socket
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            # Google's IP address and port 80 (HTTP)
+            server_address = ('google.com', 80)
+            print(f"Attempting to connect to {server_address[0]} on port {server_address[1]}...")
+            sock.connect(server_address)
+            print("Network connection established.")
+            # Close the socket
+            sock.close()
+        except socket.error as e:
+            print(f"Network connection failed: {e}")
 
 # def main():
 #     # Create an instance of NetworkSocketManager
@@ -392,7 +408,7 @@ event_functions = {
     'DnsQuery': dns_query,
     'ProcessTerminate': process_terminate,
     'ImageLoad': image_load,
-    'ProcessAccess': process_access,
+    'ProcessAccess': start_hijacking,
     'NetworkConnect': network_connect,
     'ServiceStartStop': start_and_stop_service,
     'RawAccessRead': raw_access_read,
@@ -401,7 +417,8 @@ event_functions = {
     'ScheduledTask': run_task,
     'UserAccountEvents': UserAccountManager().run,
     'NetworkListen': NetworkSocketManager.network_listen,
-    'NetworkRawSocket': NetworkSocketManager.network_raw_socket
+    'NetworkRawSocket': NetworkSocketManager.network_raw_socket,
+    'NetworkConnect': NetworkSocketManager.network_connect
 }
 
 def main():
