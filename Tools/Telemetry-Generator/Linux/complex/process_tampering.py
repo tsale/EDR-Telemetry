@@ -30,18 +30,22 @@ def compile_and_run_test_program():
     c_file = "test_program.c"
     executable = "./test_program"
     
-    # Write the C code to a file
-    with open(c_file, "w") as f:
-        f.write(C_CODE)
-    
-    # Compile the C program
-    compile_cmd = ["gcc", "-o", executable, c_file]
-    subprocess.run(compile_cmd, check=True)
-    print("C test program compiled successfully.")
-    
-    # Run the compiled test program asynchronously
-    process = subprocess.Popen([executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-    
+    try:
+        # Write the C code to a file
+        with open(c_file, "w") as f:
+            f.write(C_CODE)
+        
+        # Compile the C program
+        compile_cmd = ["gcc", "-o", executable, c_file]
+        subprocess.run(compile_cmd, check=True)
+        print("C test program compiled successfully.")
+        
+        # Run the compiled test program asynchronously
+        process = subprocess.Popen([executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Compilation failed: {e}")
+        raise Exception("Failed to compile the test program")  # Raise an exception instead
+
     # Capture the PID from the test program's output
     pid = None
     while True:
@@ -138,13 +142,20 @@ def cleanup(process):
     print("Test process terminated.")
 
 def begin_tamper():
-    # Step 1: Compile and run the C test program asynchronously
-    pid, process = compile_and_run_test_program()
-    print(f"Test program running with PID: {pid}")
-    
-    # Step 2: Tamper with the process's memory
-    target_value = 0x12345678  # The known value we want to tamper with
-    tamper_process(pid, target_value)
-    
-    # Step 3: Clean up and terminate the test program
-    cleanup(process)
+    """Main function to demonstrate process tampering."""
+    try:
+        # Step 1: Compile and run the C test program asynchronously
+        pid, process = compile_and_run_test_program()
+        print(f"Test program running with PID: {pid}")
+        
+        # Step 2: Tamper with the process's memory
+        target_value = 0x12345678  # The known value we want to tamper with
+        tamper_process(pid, target_value)
+        
+        # Step 3: Clean up and terminate the test program
+        cleanup(process)
+        
+        return "Process tampering completed successfully."
+    except Exception as e:
+        print(f"Error during process tampering: {e}")
+        raise

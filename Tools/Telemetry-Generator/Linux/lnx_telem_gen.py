@@ -5,11 +5,12 @@ import sched
 import sys
 import time
 import socket
-from ctypes import CDLL
-import psutil
 import signal
 import subprocess
 import socket
+import csv
+import traceback
+from ctypes import CDLL
 from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
@@ -79,96 +80,6 @@ class NetworkSocketManager:
             sock.close()
         except socket.error as e:
             print(f"Network connection failed: {e}")
-
-## To be removed ##
-# class RemoteLibraryInjector:
-#     def __init__(self, pid=None):
-#         self.libc = ctypes.CDLL("libc.so.6")
-#         self.pid = pid if pid else self.get_random_pid()
-
-#     def get_random_pid(self):
-#         # Get a list of all PIDs from /proc
-#         pids = [pid for pid in os.listdir('/proc') if pid.isdigit()]
-
-#         if not pids:
-#             raise Exception("No running processes found.")
-
-#         # Select a random PID
-#         return int(random.choice(pids))
-
-#     def create_shared_library(self):
-#         # C code for the shared library
-#         c_code = """
-#         #include <stdio.h>
-
-#         __attribute__((constructor))
-#         void init() {
-#             printf("Hello from injected library!\\n");
-#         }
-#         """
-
-#         # Write the C code to a file
-#         with open("inject.c", "w") as f:
-#             f.write(c_code)
-
-#         # Compile the C code into a shared library
-#         subprocess.run(["gcc", "-shared", "-fPIC", "-o", "inject.so", "inject.c"], check=True)
-
-#         print("Shared library 'inject.so' created successfully.")
-
-#     def attach_to_process(self):
-#         PTRACE_ATTACH = 16
-#         if self.libc.ptrace(PTRACE_ATTACH, self.pid, None, None) == -1:
-#             raise Exception(f"Failed to attach to process {self.pid}")
-#         # Wait for the process to stop
-#         os.waitpid(self.pid, 0)
-
-#     def detach_from_process(self):
-#         PTRACE_DETACH = 17
-#         try:
-#             if self.libc.ptrace(PTRACE_DETACH, self.pid, None, None) == -1:
-#                 # Silently fail if detach fails
-#                 pass
-#         except Exception:
-#             pass
-
-#     def inject_library(self, lib_path):
-#         RTLD_NOW = 2
-#         # Load the shared library into the target process using dlopen
-#         dlopen = self.libc.dlopen
-#         dlopen.argtypes = [ctypes.c_char_p, ctypes.c_int]
-#         dlopen.restype = ctypes.c_void_p
-
-#         # We are assuming the library path is valid
-#         lib_path_bytes = lib_path.encode('utf-8')
-
-#         # Call dlopen in the target process to load the shared library
-#         handle = dlopen(lib_path_bytes, RTLD_NOW)
-#         if handle is None:
-#             raise Exception(f"Failed to inject library {lib_path}")
-
-#         print(f"Library {lib_path} injected successfully with handle {handle}")
-
-#     def inject_shared_library(self):
-#         PTRACE_CONT = 7
-#         try:
-#             # Step 1: Create and compile the shared library
-#             self.create_shared_library()
-
-#             # Step 2: Attach to the process
-#             self.attach_to_process()
-
-#             # Step 3: Inject the shared library into the target process
-#             self.inject_library("./inject.so")
-
-#             # Step 4: Continue the process after injection
-#             self.libc.ptrace(PTRACE_CONT, self.pid, None, None)
-
-#         finally:
-#             # Step 5: Detach from the process
-#             self.detach_from_process()
-
-#         print(f"Injected into process with PID: {self.pid}")
 
 class UserAccountManager:
     """
@@ -408,6 +319,11 @@ event_functions = {
     'NetworkConnect': NetworkSocketManager.network_connect
 }
 
+def log_to_csv(function_name, output, error=None):
+    with open('function_output_log.csv', mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([function_name, output, error])
+
 def main():
     # Check for command-line arguments
     if len(sys.argv) > 1:
@@ -427,8 +343,19 @@ def main():
 
     for event in selected_events:
         print(f"\n--- Running {event} ---")
-        event_functions[event]()
+        try:
+            output = event_functions[event]()
+            log_to_csv(event, "Success")
+        except Exception as e:
+            error_message = traceback.format_exc()
+            log_to_csv(event, "", error_message)
+            print(f"Error running {event}: {e}")
+            continue  # Continue to the next function even if there is an error
 
 if __name__ == "__main__":
+    # Initialize CSV file with headers
+    with open('function_output_log.csv', mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Function", "Output", "Error"])
     main()
 

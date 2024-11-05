@@ -78,7 +78,7 @@ def compile_driver():
         print("Kernel module compiled successfully.")
     except subprocess.CalledProcessError:
         print("Failed to compile the kernel module.")
-        exit(1)
+        raise Exception("Kernel module compilation failed")  # Raise an exception instead
 
 def load_kernel_module(module_path, params=""):
     """Load the kernel module using the finit_module system call."""
@@ -112,3 +112,5 @@ def loadit():
     # Load the kernel module using finit_module system call
     module_path = "./test_driver.ko"  # The compiled kernel module
     load_kernel_module(module_path)
+    
+    return "Driver loaded successfully."

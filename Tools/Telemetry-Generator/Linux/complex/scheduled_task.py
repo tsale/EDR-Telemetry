@@ -36,6 +36,7 @@ def create_cron_job(command, schedule="* * * * *"):
     
     except Exception as e:
         print(f"Error creating cron job: {e}")
+        raise Exception("Failed to create cron job")  # Raise an exception
 
 def remove_cron_job(command):
     """Remove the specified cron job for the current user."""
@@ -64,6 +65,7 @@ def remove_cron_job(command):
     
     except Exception as e:
         print(f"Error removing cron job: {e}")
+        raise Exception("Failed to remove cron job")  # Raise an exception
 
 def run_task():
     """Main function to create a scheduled task using cron, and then clean it up."""
@@ -76,7 +78,9 @@ def run_task():
     
     # Step 2: Wait for a short while (e.g., 1 minute) to allow the job to run once
     print("Waiting for the cron job to run once...")
-    time.sleep(65)  # Sleep for a bit longer than 1 minute to ensure it runs
+    time.sleep(10)  # Sleep for 10 seconds to allow the cron job to run
     
     # Step 3: Remove the cron job
     remove_cron_job(command)
+    
+    return "Scheduled task created and removed successfully."
