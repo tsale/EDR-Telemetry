@@ -58,6 +58,7 @@ This command will run the `FileCreated`, `DnsQuery`, and `NetworkConnect` events
 - `UserAccountEvents`
 - `NetworkListen`
 - `NetworkRawSocket`
+- `eBPFProgram`
 
 ## Disclaimers
 
