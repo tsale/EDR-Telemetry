@@ -21,6 +21,7 @@ The script includes the following functionalities:
 11. **Scheduled Task**: Create and remove scheduled tasks using cron.
 12. **User Account Events**: Create, modify, and delete user accounts.
 13. **Network Listening**: Create a listening socket for incoming TCP connections.
+14. **eBPF Events**: Ultilizing pamspy, a credential dumper, that is using eBPF thus generating the needed eBPF related events.
 
 ## Usage
 

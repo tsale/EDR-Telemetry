@@ -15,6 +15,7 @@ from complex.driver_load import loadit
 from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
 from complex.process_hijack_demo import start_hijacking
+from complex.eBPF_exec import run_pamspy
 
 
 scheduler = sched.scheduler(time.time, time.sleep)
@@ -316,7 +317,8 @@ event_functions = {
     'UserAccountEvents': UserAccountManager().run,
     'NetworkListen': NetworkSocketManager.network_listen,
     'NetworkRawSocket': NetworkSocketManager.network_raw_socket,
-    'NetworkConnect': NetworkSocketManager.network_connect
+    'NetworkConnect': NetworkSocketManager.network_connect,
+    'eBPFProgram': run_pamspy
 }
 
 def log_to_csv(function_name, output, error=None):
