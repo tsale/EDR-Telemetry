@@ -387,7 +387,7 @@
     "ESET Inspect":"Yes",
     "Elastic":"Partially",
     "Harfanglab":"Yes",
-    "LimaCharlie":"Partially",
+    "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
