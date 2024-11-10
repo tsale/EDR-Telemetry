@@ -21,7 +21,7 @@ The script includes the following functionalities:
 11. **Scheduled Task**: Create and remove scheduled tasks using cron.
 12. **User Account Events**: Create, modify, and delete user accounts.
 13. **Network Listening**: Create a listening socket for incoming TCP connections.
-14. **eBPF Events**: Ultilizing pamspy, a credential dumper, that is using eBPF thus generating the needed eBPF related events.
+14. **eBPF Events**: Utilizing pamspy, a credential dumper, that is using eBPF thus generating the needed eBPF related events.
 
 ## Usage
 
@@ -34,7 +34,7 @@ If no events are specified, the script will run all available events. You can sp
 
 **Example**
 
-```python
+```bash
 python3 lnx_telem_gen.py FileCreated DnsQuery NetworkConnect
 ```
 
@@ -66,17 +66,17 @@ This command will run the `FileCreated`, `DnsQuery`, and `NetworkConnect` events
 - **System Calls**: These tests are designed to avoid reliance on system binaries, which could allow the EDR to infer activity based on command line arguments or binaries executed on the host. Instead, this script uses system calls to perform the actions.
 
 ## Logging
-The script logs the output of each function to a CSV file named function_output_log.csv. This file includes the function name, output, and any errors encountered during execution.
+The script logs the output of each function to a CSV file named `function_output_log.csv`. This file includes the function name, output, and any errors encountered during execution.
 
 ## Requirements
 - Python 3.x
 - Required Python packages: `dbus-python`, `libuser`, `ctypes`
 
 ## Installation
-To install the required packages, run:
+To install the required packages on a Debian host, run:
 
 ```bash
-sudo apt-get install python3-dbus python3-libuser
+sudo apt-get install -y python3-dbus python3-libuser git linux-headers-$(uname -r)
 ```
 
 ## License

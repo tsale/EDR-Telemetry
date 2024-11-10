@@ -1,2 +1,0 @@
-dbus-python
-psutil
