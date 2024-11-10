@@ -6,7 +6,6 @@ import sys
 import time
 import socket
 import signal
-import subprocess
 import socket
 import csv
 import traceback
@@ -16,7 +15,7 @@ from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
 from complex.process_hijack_demo import start_hijacking
 from complex.eBPF_exec import run_pamspy
-
+from prettytable import PrettyTable
 
 scheduler = sched.scheduler(time.time, time.sleep)
 
@@ -96,9 +95,6 @@ class UserAccountManager:
 
     def setup_libuser(self):
         try:
-            # Install libuser development package
-            subprocess.run(["sudo", "apt-get", "install", "-y", "python3-libuser"], check=True)
-
             # Create the libuser configuration file
             libuser_conf = "/etc/libuser.conf"
             if not os.path.exists(libuser_conf):
@@ -327,6 +323,18 @@ def log_to_csv(function_name, output, error=None):
         writer.writerow([function_name, output, error])
 
 def main():
+    # Initialize CSV file with headers
+    with open('function_output_log.csv', mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Function", "Output", "Error"])
+
+    # Initialize script counters
+    total_scripts = len(event_functions)
+    current_script = 0
+    successful_scripts = 0
+    failed_scripts = 0
+    failed_script_names = []
+
     # Check for command-line arguments
     if len(sys.argv) > 1:
         # User has specified which events to run
@@ -344,20 +352,39 @@ def main():
         sys.exit(1)
 
     for event in selected_events:
-        print(f"\n--- Running {event} ---")
+        current_script += 1
+        print(f"\n\n--- Running {event} ({current_script}/{total_scripts}) ---")
         try:
-            output = event_functions[event]()
-            log_to_csv(event, "Success")
+            event_functions[event]()
+            log_to_csv("[+] ", event, "Success")
+            successful_scripts += 1
+            time.sleep(2)  # Add a delay between events
         except Exception as e:
             error_message = traceback.format_exc()
             log_to_csv(event, "", error_message)
-            print(f"Error running {event}: {e}")
+            print(f"[-] Error running {event}: {e}")
+            failed_scripts += 1
+            failed_script_names.append(event)
             continue  # Continue to the next function even if there is an error
 
+    # Print summary table
+    table = PrettyTable()
+    table.field_names = ["Total Scripts", "Successful Scripts", "Failed Scripts"]
+    table.add_row([total_scripts, successful_scripts, failed_scripts])
+    print("\n\n--- Summary ---")
+    print(table, "\n")
+
+    if failed_script_names:
+        print("\nFailed Scripts:")
+        for script in failed_script_names:
+            print(f"- {script}")
+
 if __name__ == "__main__":
-    # Initialize CSV file with headers
-    with open('function_output_log.csv', mode='w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["Function", "Output", "Error"])
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        traceback.print_exc()
+    finally:
+        print("Script execution completed.")
 

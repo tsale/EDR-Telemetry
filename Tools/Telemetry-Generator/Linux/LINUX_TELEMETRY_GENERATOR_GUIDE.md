@@ -77,6 +77,7 @@ To install the required packages on a Debian host, run:
 
 ```bash
 sudo apt-get install -y python3-dbus python3-libuser git linux-headers-$(uname -r)
+pip install prettytable
 ```
 
 ## License

