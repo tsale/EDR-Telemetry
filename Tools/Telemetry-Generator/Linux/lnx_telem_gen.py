@@ -303,7 +303,6 @@ event_functions = {
     'DnsQuery': dns_query,
     'ProcessTerminate': process_terminate,
     'ImageLoad': image_load,
-    'ProcessAccess': start_hijacking,
     'NetworkConnect': network_connect,
     'ServiceStartStop': start_and_stop_service,
     'RawAccessRead': raw_access_read,
@@ -314,7 +313,8 @@ event_functions = {
     'NetworkListen': NetworkSocketManager.network_listen,
     'NetworkRawSocket': NetworkSocketManager.network_raw_socket,
     'NetworkConnect': NetworkSocketManager.network_connect,
-    'eBPFProgram': run_pamspy
+    'eBPFProgram': run_pamspy,
+    'ProcessAccess': start_hijacking
 }
 
 def log_to_csv(function_name, output, error=None):
@@ -358,7 +358,7 @@ def main():
             event_functions[event]()
             log_to_csv("[+] ", event, "Success")
             successful_scripts += 1
-            time.sleep(2)  # Add a delay between events
+            time.sleep(1)  # Add a delay between events
         except Exception as e:
             error_message = traceback.format_exc()
             log_to_csv(event, "", error_message)
