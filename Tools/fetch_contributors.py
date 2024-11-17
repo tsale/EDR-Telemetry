@@ -24,18 +24,20 @@ def fetch_contributors():
         raise Exception(f"Failed to fetch contributors: {response.status_code}")
     
     contributors = response.json()
-    contributors_html = ""
+    contributors_html = '<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">\n'
     
     for contributor in contributors:
         username = contributor["login"]
         avatar_url = contributor["avatar_url"]
         profile_url = contributor["html_url"]
         contributors_html += f"""
-  <a href="{profile_url}" target="_blank" style="display: inline-block; margin: 5px;">
-    <img src="{avatar_url}" alt="{username}" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  <a href="{profile_url}" target="_blank" style="text-decoration: none;">
+    <img src="{avatar_url}" alt="{username}" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
   </a>"""
     
+    contributors_html += "\n</div>"
     return contributors_html
+
 
 # Generate the new content for the Contributors Wall section
 def generate_new_content(contributors_html):
