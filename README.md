@@ -98,12 +98,79 @@ Below is information about the EDR table, including all values for each EDR and 
 ![Alt text](./images/edr-telemetry_website_screenshot.png)
 
 
+
 # ✨ Contributors Wall
 
 Thanks to these amazing contributors:
 
 <p align="center">
-<a href="https://github.com/tsale" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/25332397?v=4" alt="tsale" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/jdu2600" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/53329154?v=4" alt="jdu2600" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/j91321" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/10012872?v=4" alt="j91321" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/mthcht" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/75267080?v=4" alt="mthcht" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/thiboog" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/63599089?v=4" alt="thiboog" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/thomaspatzke" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/1845601?v=4" alt="thomaspatzke" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/xC0uNt3r7hr34t" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/61033168?v=4" alt="xC0uNt3r7hr34t" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/inodee" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/14159692?v=4" alt="inodee" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/alwashali" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/22593441?v=4" alt="alwashali" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/Guzzy711" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/27682662?v=4" alt="Guzzy711" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/joshlemon-uptycs" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/116134008?v=4" alt="joshlemon-uptycs" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/LuKePicci" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/8722358?v=4" alt="LuKePicci" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/maximelb" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/15742543?v=4" alt="maximelb" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/nasbench" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/8741929?v=4" alt="nasbench" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/NicolasSchn" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/33519397?v=4" alt="NicolasSchn" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/QueenSquishy" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/113638057?v=4" alt="QueenSquishy" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/Robert-HarfangLab" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/alextrender" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/idev" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/76164?v=4" alt="idev" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/johnk3r" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/6247648?v=4" alt="johnk3r" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/pep-un" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/8629097?v=4" alt="pep-un" width="50" height="50" style="border-radius: 50%;" /></a><a href="https://github.com/zbeastofburden" target="_blank" style="display: inline-block; margin: 5px;"><img src="https://avatars.githubusercontent.com/u/106751557?v=4" alt="zbeastofburden" width="50" height="50" style="border-radius: 50%;" /></a>
+
+  <a href="https://github.com/tsale" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/25332397?v=4" alt="tsale" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/jdu2600" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/53329154?v=4" alt="jdu2600" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/j91321" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/10012872?v=4" alt="j91321" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/mthcht" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/75267080?v=4" alt="mthcht" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/thiboog" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/63599089?v=4" alt="thiboog" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/thomaspatzke" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/1845601?v=4" alt="thomaspatzke" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/xC0uNt3r7hr34t" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/61033168?v=4" alt="xC0uNt3r7hr34t" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/inodee" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/14159692?v=4" alt="inodee" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/alwashali" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/22593441?v=4" alt="alwashali" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/Guzzy711" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/27682662?v=4" alt="Guzzy711" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/joshlemon-uptycs" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/116134008?v=4" alt="joshlemon-uptycs" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/LuKePicci" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/8722358?v=4" alt="LuKePicci" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/maximelb" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/15742543?v=4" alt="maximelb" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/nasbench" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/8741929?v=4" alt="nasbench" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/NicolasSchn" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/33519397?v=4" alt="NicolasSchn" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/QueenSquishy" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/113638057?v=4" alt="QueenSquishy" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/Robert-HarfangLab" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/alextrender" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/idev" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/76164?v=4" alt="idev" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/johnk3r" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/6247648?v=4" alt="johnk3r" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/pep-un" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/8629097?v=4" alt="pep-un" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
+  <a href="https://github.com/zbeastofburden" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="https://avatars.githubusercontent.com/u/106751557?v=4" alt="zbeastofburden" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>
 </p>
 
 ## Current Primary Maintainers

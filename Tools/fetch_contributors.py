@@ -14,6 +14,9 @@ end_marker = "## Current Primary Maintainers"
 
 # Fetch contributors using GitHub API
 def fetch_contributors():
+    """
+    Fetch contributors from GitHub and generate HTML for their icons.
+    """
     url = f"https://api.github.com/repos/{OWNER}/{REPOSITORY}/contributors"
     response = requests.get(url)
     
@@ -27,8 +30,10 @@ def fetch_contributors():
         username = contributor["login"]
         avatar_url = contributor["avatar_url"]
         profile_url = contributor["html_url"]
-        # Write the <a> tag on the same line
-        contributors_html += f'<a href="{profile_url}" target="_blank" style="display: inline-block; margin: 5px;"><img src="{avatar_url}" alt="{username}" width="50" height="50" style="border-radius: 50%;" /></a>'
+        contributors_html += f"""
+  <a href="{profile_url}" target="_blank" style="display: inline-block; margin: 5px;">
+    <img src="{avatar_url}" alt="{username}" width="50" height="50" style="border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.1);" />
+  </a>"""
     
     return contributors_html
 
