@@ -92,13 +92,21 @@ Below is information about the EDR table, including all values for each EDR and 
 | 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
-**Last Updated:** Oct 26, 2024\
-**Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
 **Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
 
 
 ![Alt text](./images/edr-telemetry_website_screenshot.png)
+
+# ✨ Contributors Wall
+
+Thanks to these amazing contributors:
+
+<p align="center">
+  <a href="https://github.com/tsale/EDR-Telemetry/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=tsale/EDR-Telemetry" alt="Contributors" />
+  </a>
+</p>
 
 ## Current Primary Maintainers
 Kostas - [@kostastsale](https://twitter.com/Kostastsale)
