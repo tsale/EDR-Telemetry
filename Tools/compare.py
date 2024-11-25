@@ -20,6 +20,7 @@ CATEGORIES_VALUED = {
     "Image/Library Loaded": 1,
     "Remote Thread Creation": 1,
     "Process Tampering Activity": 1,
+    "Process Call Stacks":1,
     "File Creation": 1,
     "File Opened": 1,
     "File Deletion": 1,
