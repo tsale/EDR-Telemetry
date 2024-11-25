@@ -407,7 +407,7 @@
     "ESET Inspect":"Yes",
     "Elastic":"Partially",
     "Harfanglab":"Yes",
-    "LimaCharlie":"Partially",
+    "LimaCharlie":"No",
     "MDE":"Yes",
     "Qualys":"Yes",
     "Sentinel One":"Via EnablingTelemetry",
@@ -668,7 +668,7 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"No"
   },
   {
     "Telemetry Feature Category":null,

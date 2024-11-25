@@ -58,24 +58,23 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 
 | **No.** | **EDRs**              | **Score** |
 |---------|-----------------------|-----------|
-| 1       | CrowdStrike           | 37.45     |
-| 2       | Uptycs                | 35.52     |
-| 3       | MDE                   | 34.8      |
-| 4       | Sentinel One          | 34.62     |
-| 5       | Harfanglab            | 32.22     |
-| 6       | Cortex XDR            | 31.42     |
-| 7       | LimaCharlie           | 31.2      |
-| 8       | Trellix               | 30.6      |
-| 9       | Qualys                | 29.57     |
-| 10      | ESET Inspect          | 28.1      |
-| 11      | Elastic               | 28.02     |
-| 12      | Cybereason            | 25.65     |
-| 13      | Symantec SES Complete | 24.3      |
-| 14      | Sysmon                | 23.2      |
-| 15      | WatchGuard            | 20.9      |
-| 16      | Carbon Black          | 20.37     |
-| 17      | Trend Micro           | 20.3      |
-
+| 1       | CrowdStrike                 | 37.45       |
+| 2       | Uptycs                 | 35.52       |
+| 3       | MDE                 | 34.8       |
+| 4       | Sentinel One                 | 34.62       |
+| 5       | Harfanglab                 | 32.22       |
+| 6       | Cortex XDR                 | 31.42       |
+| 7       | LimaCharlie                 | 30.7       |
+| 8       | Trellix                 | 30.6       |
+| 9       | Qualys                 | 29.57       |
+| 10       | ESET Inspect                 | 28.1       |
+| 11       | Elastic                 | 28.02       |
+| 12       | Cybereason                 | 25.65       |
+| 13       | Symantec SES Complete                 | 24.3       |
+| 14       | Sysmon                 | 23.2       |
+| 15       | WatchGuard                 | 20.4       |
+| 16       | Carbon Black                 | 20.37       |
+| 17       | Trend Micro                 | 20.3       |
 
 
 ## EDR Telemetry Table
@@ -92,13 +91,90 @@ Below is information about the EDR table, including all values for each EDR and 
 | 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
-**Last Updated:** Oct 26, 2024\
-**Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
 **Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
 
 
 ![Alt text](./images/edr-telemetry_website_screenshot.png)
+
+
+
+
+# ✨ Contributors Wall
+
+Thanks to these amazing contributors:
+
+<p align="center">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+
+  <a href="https://github.com/tsale" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/25332397?v=4" alt="tsale" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/jdu2600" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/53329154?v=4" alt="jdu2600" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/j91321" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/10012872?v=4" alt="j91321" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/mthcht" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/75267080?v=4" alt="mthcht" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/thiboog" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/63599089?v=4" alt="thiboog" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/thomaspatzke" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/1845601?v=4" alt="thomaspatzke" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/xC0uNt3r7hr34t" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/61033168?v=4" alt="xC0uNt3r7hr34t" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/inodee" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/14159692?v=4" alt="inodee" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/alwashali" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/22593441?v=4" alt="alwashali" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/Guzzy711" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/27682662?v=4" alt="Guzzy711" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/joshlemon-uptycs" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/116134008?v=4" alt="joshlemon-uptycs" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/LuKePicci" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8722358?v=4" alt="LuKePicci" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/maximelb" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/15742543?v=4" alt="maximelb" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/nasbench" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8741929?v=4" alt="nasbench" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/NicolasSchn" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/33519397?v=4" alt="NicolasSchn" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/QueenSquishy" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/113638057?v=4" alt="QueenSquishy" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/Robert-HarfangLab" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/alextrender" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/idev" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/76164?v=4" alt="idev" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/johnk3r" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/6247648?v=4" alt="johnk3r" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/pep-un" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8629097?v=4" alt="pep-un" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/zbeastofburden" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/106751557?v=4" alt="zbeastofburden" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+</div>
+</p>
 
 ## Current Primary Maintainers
 Kostas - [@kostastsale](https://twitter.com/Kostastsale)
