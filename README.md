@@ -56,24 +56,26 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 
 ### EDR Scores
 
-| **No.** | **EDRS**              | **Score** |
-|:-------:|:---------------------:|:---------:|
-| **1**   | CrowdStrike           | 37.45     |
-| **2**   | MDE                   | 34.8      |
-| **3**   | Sentinel One          | 34.77     |
-| **4**   | Harfanglab            | 32.22     |
-| **5**   | Cortex XDR            | 31.42     |
-| **6**   | LimaCharlie           | 31.2      |
-| **7**   | Trellix               | 30.6      |
-| **8**   | Qualys                | 29.57     |
-| **9**   | ESET Inspect          | 28.1      |
-| **10**  | Elastic               | 28.02     |
-| **11**  | Cybereason            | 25.65     |
-| **12**  | Symantec SES Complete | 24.3      |
-| **13**  | Sysmon                | 23.2      |
-| **14**  | WatchGuard            | 20.9      |
-| **15**  | Carbon Black          | 20.37     |
-| **16**  | Trend Micro           | 20.3      |
+| **No.** | **EDRs**              | **Score** |
+|---------|-----------------------|-----------|
+| 1       | CrowdStrike           | 37.45     |
+| 2       | Uptycs                | 35.52     |
+| 3       | MDE                   | 34.8      |
+| 4       | Sentinel One          | 34.62     |
+| 5       | Harfanglab            | 32.22     |
+| 6       | Cortex XDR            | 31.42     |
+| 7       | LimaCharlie           | 31.2      |
+| 8       | Trellix               | 30.6      |
+| 9       | Qualys                | 29.57     |
+| 10      | ESET Inspect          | 28.1      |
+| 11      | Elastic               | 28.02     |
+| 12      | Cybereason            | 25.65     |
+| 13      | Symantec SES Complete | 24.3      |
+| 14      | Sysmon                | 23.2      |
+| 15      | WatchGuard            | 20.9      |
+| 16      | Carbon Black          | 20.37     |
+| 17      | Trend Micro           | 20.3      |
+
 
 
 ## EDR Telemetry Table
@@ -90,7 +92,7 @@ Below is information about the EDR table, including all values for each EDR and 
 | 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
 <br>
 
-**Last Updated:** Sep 20, 2024\
+**Last Updated:** Oct 26, 2024\
 **Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
 **Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
