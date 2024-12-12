@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 
 
 EDRS_INFO_FILE = "EDR_telem.json"
-FEATURES_DICT_VALUED = {"Yes" : 1, "No" : 0, "Via EnablingTelemetry" : 1, "Partially" : 0.5, "Via EventLogs" : 0.75, "Pending Response" : 0}
+FEATURES_DICT_VALUED = {"Yes" : 1, "No" : 0, "Via EnablingTelemetry" : 1, "Partially" : 0.5, "Via EventLogs" : 0.5, "Pending Response" : 0}
 CATEGORIES_VALUED = {"Process Creation":1,
 "Process Termination":0.5,
 "Process Access":1,

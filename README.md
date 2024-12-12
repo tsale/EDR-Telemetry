@@ -88,12 +88,10 @@ Below is information about the EDR table, including all values for each EDR and 
 | ❌     	| No       	                | Not Implemented
 | ⚠️     	| Partially	                | Partially Implemented
 | ❓     	| Pending                	| Pending Response
-| 🪵     	| Via EventLogs           	| Via Windows EventLogs
-| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
+| 🪵     	| Via EventLogs           	| Collected from Windows Event Logs if enabled at the system level; not independently collected by the EDR via ETW.
+| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry collection capability that can be enabled as part of the EDR product but is not ON by default.
 <br>
 
-**Last Updated:** Oct 26, 2024\
-**Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
 **Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
 
