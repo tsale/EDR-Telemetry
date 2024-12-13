@@ -27,7 +27,7 @@ jobs:
       # Run the script to fetch contributors and update README
       - name: Fetch contributors and update README
         run: |
-          python Tools/update_readme_contributors.py
+          python Tools/fetch_contributors.py
 
       # Commit and push changes
       - name: Commit and push changes
