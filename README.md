@@ -101,6 +101,7 @@ Below is information about the EDR table, including all values for each EDR and 
 
 
 
+
 # ✨ Contributors Wall
 
 Thanks to these amazing contributors:
@@ -146,6 +147,9 @@ Thanks to these amazing contributors:
   </a>
   <a href="https://github.com/maximelb" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/15742543?v=4" alt="maximelb" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/MyPeaches" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/31301492?v=4" alt="MyPeaches" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
   </a>
   <a href="https://github.com/nasbench" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/8741929?v=4" alt="nasbench" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
