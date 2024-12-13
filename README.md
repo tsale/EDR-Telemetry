@@ -51,7 +51,7 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 - Partially: 0.5
 - Pending Response: 0
 - Via EnablingTelemetry: 1
-- Via EventLogs: 0.75
+- Via EventLogs: 0.5
 - Yes: 1
 
 ### EDR Scores
@@ -59,22 +59,23 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 | **No.** | **EDRs**              | **Score** |
 |---------|-----------------------|-----------|
 | 1       | CrowdStrike                 | 37.45       |
-| 2       | Uptycs                 | 35.52       |
-| 3       | MDE                 | 34.8       |
-| 4       | Sentinel One                 | 34.62       |
-| 5       | Harfanglab                 | 32.22       |
-| 6       | Cortex XDR                 | 31.42       |
-| 7       | LimaCharlie                 | 30.7       |
-| 8       | Trellix                 | 30.6       |
-| 9       | Qualys                 | 29.57       |
+| 2       | SentinelOne                 | 34.25       |
+| 3       | MDE                 | 34.2       |
+| 4       | Uptycs                 | 33.85       |
+| 5       | Trellix                 | 30.6       |
+| 6       | Harfanglab                 | 30.45       |
+| 7       | Cortex XDR                 | 29.65       |
+| 8       | LimaCharlie                 | 29.25       |
+| 9       | Trend Micro                 | 28.85       |
 | 10       | ESET Inspect                 | 28.1       |
-| 11       | Elastic                 | 28.02       |
-| 12       | Cybereason                 | 25.65       |
-| 13       | Symantec SES Complete                 | 24.3       |
-| 14       | Sysmon                 | 23.2       |
-| 15       | WatchGuard                 | 20.4       |
-| 16       | Carbon Black                 | 20.37       |
-| 17       | Trend Micro                 | 20.3       |
+| 11       | Qualys                 | 27.45       |
+| 12       | Elastic                 | 26.35       |
+| 13       | Cybereason                 | 25.65       |
+| 14       | Symantec SES Complete                 | 24.3       |
+| 15       | FortiEDR                 | 23.9       |
+| 16       | Sysmon                 | 23.2       |
+| 17       | WatchGuard                 | 20.9       |
+| 18       | Carbon Black                 | 20.1       |
 
 
 ## EDR Telemetry Table
@@ -87,8 +88,8 @@ Below is information about the EDR table, including all values for each EDR and 
 | ❌     	| No       	                | Not Implemented
 | ⚠️     	| Partially	                | Partially Implemented
 | ❓     	| Pending                	| Pending Response
-| 🪵     	| Via EventLogs           	| Via Windows EventLogs
-| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
+| 🪵     	| Via EventLogs           	| Collected from Windows Event Logs if enabled at the system level; not independently collected by the EDR via ETW.
+| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry collection capability that can be enabled as part of the EDR product but is not ON by default.
 <br>
 
 **References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
@@ -157,6 +158,9 @@ Thanks to these amazing contributors:
   </a>
   <a href="https://github.com/Robert-HarfangLab" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/SecurityAura" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/20073832?v=4" alt="SecurityAura" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
   </a>
   <a href="https://github.com/alextrender" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
