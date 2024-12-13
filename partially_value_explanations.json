@@ -163,7 +163,7 @@
     "Symantec SES Complete":"",
     "Sysmon":"",
     "Trellix":"",
-    "Trend Micro":{"Partially":"Only certain files are recorded (+ You need the Hypersensitive mode)"},
+    "Trend Micro":"",
     "Uptycs":"",
     "WatchGuard":{"Partially":"Only tracks via dedicated event the opening of compressed files."}
   },

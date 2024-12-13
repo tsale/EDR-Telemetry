@@ -100,6 +100,7 @@ Below is information about the EDR table, including all values for each EDR and 
 
 
 
+
 # ✨ Contributors Wall
 
 Thanks to these amazing contributors:
@@ -157,6 +158,9 @@ Thanks to these amazing contributors:
   </a>
   <a href="https://github.com/Robert-HarfangLab" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/SecurityAura" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/20073832?v=4" alt="SecurityAura" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
   </a>
   <a href="https://github.com/alextrender" target="_blank" style="text-decoration: none;">
     <img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
