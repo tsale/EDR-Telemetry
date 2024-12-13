@@ -59,22 +59,23 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 | **No.** | **EDRs**              | **Score** |
 |---------|-----------------------|-----------|
 | 1       | CrowdStrike                 | 37.45       |
-| 2       | Sentinel One                 | 34.25       |
+| 2       | SentinelOne                 | 34.25       |
 | 3       | MDE                 | 34.2       |
 | 4       | Uptycs                 | 33.85       |
 | 5       | Trellix                 | 30.6       |
 | 6       | Harfanglab                 | 30.45       |
 | 7       | Cortex XDR                 | 29.65       |
 | 8       | LimaCharlie                 | 29.25       |
-| 9       | ESET Inspect                 | 28.1       |
-| 10       | Qualys                 | 27.45       |
-| 11       | Elastic                 | 26.35       |
-| 12       | Cybereason                 | 25.65       |
-| 13       | Symantec SES Complete                 | 24.3       |
-| 14       | Sysmon                 | 23.2       |
-| 15       | WatchGuard                 | 20.4       |
-| 16       | Carbon Black                 | 20.1       |
-| 17       | Trend Micro                 | 19.1       |
+| 9       | Trend Micro                 | 28.85       |
+| 10       | ESET Inspect                 | 28.1       |
+| 11       | Qualys                 | 27.45       |
+| 12       | Elastic                 | 26.35       |
+| 13       | Cybereason                 | 25.65       |
+| 14       | Symantec SES Complete                 | 24.3       |
+| 15       | FortiEDR                 | 23.9       |
+| 16       | Sysmon                 | 23.2       |
+| 17       | WatchGuard                 | 20.9       |
+| 18       | Carbon Black                 | 20.1       |
 
 
 ## EDR Telemetry Table
