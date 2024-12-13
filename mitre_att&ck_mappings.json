@@ -1,0 +1,320 @@
+[
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Process Creation - DS0009",
+      "Sub-Category" : "Process Creation",
+      "Telemetry Feature Category" : "Process Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Process Termination - DS0009",
+      "Sub-Category" : "Process Termination",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Process Access - DS0009",
+      "Sub-Category" : "Process Access",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Module Load - DS0011",
+      "Sub-Category" : "Image\/Library Loaded",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "Process Access (Partial) - DS0009",
+      "MITRE ATT&CK Mappings" : "OS API Execution (Partial) - DS0009, Process Access (Partial) - DS0009",
+      "Sub-Category" : "Remote Thread Creation",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Process Modification - DS0009",
+      "Sub-Category" : "Process Tampering Activity",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Creation - DS0022",
+      "Sub-Category" : "File Creation",
+      "Telemetry Feature Category" : "File Manipulation"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Opened - DS0022",
+      "Sub-Category" : "File Opened",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Deletion - DS0022",
+      "Sub-Category" : "File Deletion",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Modification - DS0022",
+      "Sub-Category" : "File Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Renaming - DS0022",
+      "Sub-Category" : "File Renaming",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Local Account Creation - DS0002",
+      "Sub-Category" : "Local Account Creation",
+      "Telemetry Feature Category" : "User Account Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Local Account Modification - DS0002",
+      "Sub-Category" : "Local Account Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Local Account Deletion - DS0002",
+      "Sub-Category" : "Local Account Deletion",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Account Login (User Account Authentication) - DS0002, Account Login (Logon Session Creation) - DS0028",
+      "Sub-Category" : "Account Login",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "-",
+      "Sub-Category" : "Account Logoff",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "TCP Connection - DS0029",
+      "Sub-Category" : "TCP Connection",
+      "Telemetry Feature Category" : "Network Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "UDP Connection - DS0029",
+      "Sub-Category" : "UDP Connection",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "URL - DS0029",
+      "Sub-Category" : "URL",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "DNS Query - DS0029",
+      "Sub-Category" : "DNS Query",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "File Downloaded (Network Traffic Content) - DS0029,File Downloaded (File Creation) - DS0022",
+      "Sub-Category" : "File Downloaded",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "MD5 - DS0022",
+      "Sub-Category" : "MD5",
+      "Telemetry Feature Category" : "Hash Algorithms"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "SHA - DS0022",
+      "Sub-Category" : "SHA",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "IMPHASH - DS0022",
+      "Sub-Category" : "IMPHASH",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Key\/Value Creation - DS0024",
+      "Sub-Category" : "Key\/Value Creation",
+      "Telemetry Feature Category" : "Registry Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Key\/Value Modification - DS0024",
+      "Sub-Category" : "Key\/Value Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Key\/Value Deletion - DS0024",
+      "Sub-Category" : "Key\/Value Deletion",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Scheduled Task Creation - DS0003",
+      "Sub-Category" : "Scheduled Task Creation",
+      "Telemetry Feature Category" : "Schedule Task Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Scheduled Task Modification - DS0003",
+      "Sub-Category" : "Scheduled Task Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Scheduled Task Deletion - DS0003",
+      "Sub-Category" : "Scheduled Task Deletion",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Service Creation - DS0019",
+      "Sub-Category" : "Service Creation",
+      "Telemetry Feature Category" : "Service Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Service Modification - DS0019",
+      "Sub-Category" : "Service Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Service Deletion - DS0019",
+      "Sub-Category" : "Service Deletion",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Driver Loaded - DS0027",
+      "Sub-Category" : "Driver Loaded",
+      "Telemetry Feature Category" : "Driver\/Module Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Driver Modification - DS0022",
+      "Sub-Category" : "Driver Modification",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "-",
+      "Sub-Category" : "Driver Unloaded",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Virtual Disk Mount - DS0016",
+      "Sub-Category" : "Virtual Disk Mount",
+      "Telemetry Feature Category" : "Device Operations"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "USB Device Unmount - DS0016",
+      "Sub-Category" : "USB Device Unmount",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "USB Device Mount - DS0016",
+      "Sub-Category" : "USB Device Mount",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Group Policy Modification - DS0026",
+      "Sub-Category" : "Group Policy Modification",
+      "Telemetry Feature Category" : "Other Relevant Events"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Pipe Creation - DS0023",
+      "Sub-Category" : "Pipe Creation",
+      "Telemetry Feature Category" : "Named Pipe Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Pipe Connection - DS0023",
+      "Sub-Category" : "Pipe Connection",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Start - DS0013",
+      "Sub-Category" : "Agent Start",
+      "Telemetry Feature Category" : "EDR SysOps"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Stop - DS0013",
+      "Sub-Category" : "Agent Stop",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Install - DS0013",
+      "Sub-Category" : "Agent Install",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Uninstall - DS0013",
+      "Sub-Category" : "Agent Uninstall",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Keep-Alive - DS0013",
+      "Sub-Category" : "Agent Keep-Alive",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Agent Errors - DS0013",
+      "Sub-Category" : "Agent Errors",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "WmiEventConsumerToFilter - DS0005",
+      "Sub-Category" : "WmiEventConsumerToFilter",
+      "Telemetry Feature Category" : "WMI Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "WmiEventConsumer - DS0005",
+      "Sub-Category" : "WmiEventConsumer",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "WmiEventFilter - DS0005",
+      "Sub-Category" : "WmiEventFilter",
+      "Telemetry Feature Category" : ""
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "PowerShell Activity - DS0012,PowerShell Activity - DS0017",
+      "Sub-Category" : "BIT JOBS Activity",
+      "Telemetry Feature Category" : "BIT JOBS Activity"
+    },
+    {
+      "" : "",
+      "MITRE ATT&CK Mappings" : "Script-Block Activity - DS0012",
+      "Sub-Category" : "Script-Block Activity",
+      "Telemetry Feature Category" : "PowerShell Activity"
+    }
+  ]

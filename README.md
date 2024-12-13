@@ -6,6 +6,10 @@ Besides compliance, investigations and forensics benefits, rich log telemetry em
 
 Read details about this project in the initial release blog post [here](https://detect.fyi/edr-telemetry-project-a-comprehensive-comparison-d5ed1745384b?sk=b5aade1de1afbabf687620a12aa7a581)). 
 
+<br>
+
+# New Project Website: [**EDR-Telemetry.com**](https://www.edr-telemetry.com)
+<br>
 ## Telemetry Definition
 There are many types of *telemetry* when it comes to Security Instrumentation. Here we focus on agents or sensors generating telemetry in the form of *log data*, regardless of the format (json, key-value, csv), as long as the data is automatically generated and transmitted or streamed in near real-time.
 
@@ -47,29 +51,30 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 - Partially: 0.5
 - Pending Response: 0
 - Via EnablingTelemetry: 1
-- Via EventLogs: 0.75
+- Via EventLogs: 0.5
 - Yes: 1
 
 ### EDR Scores
 
-| **No.** | **EDRS**              | **Score** |
-|:-------:|:---------------------:|:---------:|
-| **1**   | CrowdStrike           | 37.45     |
-| **2**   | MDE                   | 34.8      |
-| **3**   | Sentinel One          | 34.52     |
-| **4**   | Harfanglab            | 32.22     |
-| **5**   | Cortex XDR            | 31.42     |
-| **6**   | LimaCharlie           | 31.2      |
-| **7**   | Trellix               | 30.6      |
-| **8**   | Qualys                | 29.57     |
-| **9**   | ESET Inspect          | 28.1      |
-| **10**  | Elastic               | 28.02     |
-| **11**  | Cybereason            | 25.65     |
-| **12**  | Symantec SES Complete | 24.3      |
-| **13**  | Sysmon                | 23.2      |
-| **14**  | WatchGuard            | 20.9      |
-| **15**  | Carbon Black          | 20.37     |
-| **16**  | Trend Micro           | 20.3      |
+| **No.** | **EDRs**              | **Score** |
+|---------|-----------------------|-----------|
+| 1       | CrowdStrike                 | 37.45       |
+| 2       | Sentinel One                 | 34.25       |
+| 3       | MDE                 | 34.2       |
+| 4       | Uptycs                 | 33.85       |
+| 5       | Trellix                 | 30.6       |
+| 6       | Harfanglab                 | 30.45       |
+| 7       | Cortex XDR                 | 29.65       |
+| 8       | LimaCharlie                 | 29.25       |
+| 9       | ESET Inspect                 | 28.1       |
+| 10       | Qualys                 | 27.45       |
+| 11       | Elastic                 | 26.35       |
+| 12       | Cybereason                 | 25.65       |
+| 13       | Symantec SES Complete                 | 24.3       |
+| 14       | Sysmon                 | 23.2       |
+| 15       | WatchGuard                 | 20.4       |
+| 16       | Carbon Black                 | 20.1       |
+| 17       | Trend Micro                 | 19.1       |
 
 
 ## EDR Telemetry Table
@@ -82,70 +87,93 @@ Below is information about the EDR table, including all values for each EDR and 
 | ❌     	| No       	                | Not Implemented
 | ⚠️     	| Partially	                | Partially Implemented
 | ❓     	| Pending                	| Pending Response
-| 🪵     	| Via EventLogs           	| Via Windows EventLogs
-| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry that can be enabled easily as part of the EDR product but is not on by default.
+| 🪵     	| Via EventLogs           	| Collected from Windows Event Logs if enabled at the system level; not independently collected by the EDR via ETW.
+| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry collection capability that can be enabled as part of the EDR product but is not ON by default.
 <br>
 
-**Last Updated:** Aug 24, 2024\
-**Google SpreadSheet Table:** [Link](https://docs.google.com/spreadsheets/d/1ZMFrD6F6tvPtf_8McC-kWrNBBec_6Si3NW6AoWf3Kbg/edit?usp=sharing) \
-**References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references)
-| **Telemetry Feature Category** | **Sub-Category**            | **Carbon Black** | **Cortex XDR** | **CrowdStrike** | **Cybereason** | **ESET Inspect** | **Elastic** | **Harfanglab** | **LimaCharlie** | **MDE** | **Qualys** | **Sentinel One** | **Symantec SES Complete** | **Sysmon** | **Trellix** | **Trend Micro** | **WatchGuard** |
-|:------------------------------:|:---------------------------:|:----------------:|:--------------:|:---------------:|:--------------:|:----------------:|:-----------:|:--------------:|:---------------:|:-------:|:----------:|:----------------:|:-------------------------:|:----------:|:-----------:|:---------------:|:--------------:|
-| **Process Activity**           | Process Creation            | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | Process Termination         | ⚠️               | ✅              | ✅               | ✅              | ✅                | ✅           | ❌              | ✅               | ✅       | ✅          | ❌                | ✅                         | ✅          | ❌           | 🎚️             | ❌              |
-| ****                           | Process Access              | ✅                | ✅              | ✅               | ✅              | ⚠️               | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ❌              |
-| ****                           | Image/Library Loaded        | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | Remote Thread Creation      | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ❌                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | Process Tampering Activity  | ⚠️               | ⚠️             | ✅               | ❓              | ❌                | ✅           | ✅              | ✅               | ✅       | ❌          | ⚠️               | ✅                         | ✅          | ✅           | ✅               | ❌              |
-| **File Manipulation**          | File Creation               | ✅                | ✅              | ✅               | ✅              | ⚠️               | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ⚠️             |
-| ****                           | File Opened                 | ✅                | ❌              | ⚠️              | ❌              | ❌                | ✅           | ✅              | ⚠️              | ❌       | ✅          | ❌                | ✅                         | ❌          | ✅           | ⚠️              | ⚠️             |
-| ****                           | File Deletion               | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ❌              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ❌               | ❌              |
-| ****                           | File Modification           | ✅                | ✅              | ✅               | ❌              | ✅                | ✅           | ✅              | ✅               | ✅       | ❌          | ✅                | ✅                         | ❌          | ✅           | ✅               | ❌              |
-| ****                           | File Renaming               | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ⚠️              | ✅       | ✅          | ✅                | ✅                         | ❌          | ✅           | ❌               | ⚠️             |
-| **User Account Activity**      | Local Account Creation      | ❌                | 🪵             | ✅               | ❌              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | ✅                | ❌                         | ❌          | ✅           | ❌               | ❌              |
-| ****                           | Local Account Modification  | ❌                | 🪵             | ⚠️              | ❌              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | 🪵               | ❌                         | ❌          | ✅           | ❌               | ❌              |
-| ****                           | Local Account Deletion      | ❌                | 🪵             | ✅               | ❌              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | 🪵               | ❌                         | ❌          | ✅           | ❌               | ❌              |
-| ****                           | Account Login               | 🪵               | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ⚠️              | ✅       | 🪵         | ✅                | ✅                         | ❌          | ✅           | 🪵              | ✅              |
-| ****                           | Account Logoff              | 🪵               | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | 🪵              | ❌       | 🪵         | 🪵               | ✅                         | ❌          | ✅           | 🪵              | ✅              |
-| **Network Activity**           | TCP Connection              | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | 🎚️                       | ✅          | ✅           | ✅               | ✅              |
-| ****                           | UDP Connection              | ✅                | ✅              | ✅               | ✅              | ❌                | ✅           | 🪵             | ✅               | ✅       | ✅          | ❌                | 🎚️                       | ✅          | ✅           | ✅               | ✅              |
-| ****                           | URL                         | ❌                | ❌              | ✅               | ❌              | ✅                | ⚠️          | ✅              | ⚠️              | ✅       | ✅          | 🎚️              | ⚠️                        | ❌          | ✅           | ❌               | ⚠️             |
-| ****                           | DNS Query                   | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ❌                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | File Downloaded             | ❌                | ❌              | ✅               | ⚠️             | ⚠️               | ❌           | ❌              | ⚠️              | ✅       | ❌          | ❌                | ❌                         | ❌          | ❌           | ✅               | ✅              |
-| **Hash Algorithms**            | MD5                         | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | SHA                         | ✅                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ❌              |
-| ****                           | IMPHASH                     | ❌                | ❌              | ❌               | ❌              | ❌                | ⚠️          | ✅              | ❌               | ❌       | ❌          | ❌                | ❌                         | ✅          | ❌           | ❌               | ❌              |
-| **Registry Activity**          | Key/Value Creation          | ✅                | ✅              | ⚠️              | ⚠️             | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | Key/Value Modification      | ✅                | ✅              | ⚠️              | ⚠️             | ✅                | ✅           | ✅              | ✅               | ✅       | ❌          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| ****                           | Key/Value Deletion          | ✅                | ✅              | ❌               | ⚠️             | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ✅                         | ✅          | ✅           | ✅               | ✅              |
-| **Schedule Task Activity**     | Scheduled Task Creation     | ❌                | 🪵             | ✅               | ✅              | ✅                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | ✅                | ❌                         | ❌          | ❌           | 🪵              | ❌              |
-| ****                           | Scheduled Task Modification | ❌                | 🪵             | ✅               | ✅              | ❌                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | ✅                | ❌                         | ❌          | ✅           | ❌               | ❌              |
-| ****                           | Scheduled Task Deletion     | ❌                | 🪵             | ✅               | ❌              | ❌                | 🪵          | 🪵             | 🪵              | ✅       | 🪵         | ✅                | ❌                         | ❌          | ❌           | ❌               | ❌              |
-| **Service Activity**           | Service Creation            | ⚠️               | 🪵             | ✅               | ✅              | ✅                | 🪵          | 🪵             | ✅               | 🪵      | ✅          | ✅                | ❌                         | ❌          | ❌           | ❌               | ⚠️             |
-| ****                           | Service Modification        | ❌                | 🪵             | ⚠️              | ❌              | ❌                | 🪵          | 🪵             | ✅               | ❌       | ✅          | 🎚️              | ❌                         | ❌          | ✅           | ❌               | ⚠️             |
-| ****                           | Service Deletion            | ❌                | ❌              | ❌               | ❌              | ❌                | 🪵          | ❌              | ❓               | ❌       | ❌          | ❌                | ❌                         | ❌          | ❌           | ❌               | ❌              |
-| **Driver/Module Activity**     | Driver Loaded               | ❌                | ✅              | ✅               | ✅              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | ❌                         | ✅          | ❌           | ❌               | ❌              |
-| ****                           | Driver Modification         | ❌                | ❌              | ✅               | ❌              | ❌                | ❌           | ❌              | ✅               | ❌       | ✅          | ❌                | ❌                         | ❌          | ❌           | ❌               | ❌              |
-| ****                           | Driver Unloaded             | ❌                | ❌              | ❌               | ❌              | ❌                | ❌           | ❌              | ❌               | ❌       | ❌          | ⚠️               | ❌                         | ❌          | ❌           | ❌               | ❌              |
-| **Device Operations**          | Virtual Disk Mount          | ❌                | ⚠️             | ✅               | ❌              | ❌                | ❌           | ❌              | ✅               | ❌       | ❌          | ❌                | ❌                         | ❌          | ❌           | ❌               | ✅              |
-| ****                           | USB Device Unmount          | ❌                | ⚠️             | ✅               | ✅              | ❌                | ❌           | ❌              | ⚠️              | ✅       | ❌          | 🎚️              | 🎚️                       | ❌          | ❌           | ❌               | ✅              |
-| ****                           | USB Device Mount            | ⚠️               | ⚠️             | ✅               | ✅              | ❌                | ❌           | ❌              | ⚠️              | ✅       | ❌          | 🎚️              | 🎚️                       | ❌          | ❌           | ❌               | ✅              |
-| **Other Relevant Events**      | Group Policy Modification   | ❌                | ❌              | ❌               | ❌              | ❌                | ❌           | ❌              | ❌               | ✅       | ❌          | ✅                | ❌                         | ❌          | ❌           | ❌               | ❌              |
-| **Named Pipe Activity**        | Pipe Creation               | ⚠️               | ❌              | ✅               | ❌              | ✅                | ❌           | ✅              | ✅               | ✅       | ❌          | 🎚️              | ❌                         | ✅          | ❌           | ❌               | ❌              |
-| ****                           | Pipe Connection             | ❌                | ❌              | ✅               | ❌              | ❌                | ❌           | ✅              | ✅               | ✅       | ❌          | 🎚️              | ❌                         | ✅          | ✅           | ❌               | ❌              |
-| **EDR SysOps**                 | Agent Start                 | ❌                | ⚠️             | ✅               | ✅              | ❌                | ❌           | ✅              | ✅               | 🪵      | ✅          | ✅                | 🎚️                       | ✅          | ❓           | ❌               | ❌              |
-| ****                           | Agent Stop                  | ❌                | ✅              | ✅               | ✅              | ❌                | ✅           | ✅              | ✅               | 🪵      | ✅          | ✅                | 🎚️                       | ✅          | ❓           | ❌               | ❌              |
-| ****                           | Agent Install               | ❌                | ✅              | ❌               | ✅              | ✅                | ❌           | ✅              | ✅               | 🪵      | ✅          | ✅                | 🎚️                       | ❌          | ✅           | ❌               | ✅              |
-| ****                           | Agent Uninstall             | ❌                | ✅              | ✅               | ✅              | ✅                | ✅           | ❌              | ❌               | ❌       | ❌          | ✅                | 🎚️                       | ❌          | ✅           | ❌               | ✅              |
-| ****                           | Agent Keep-Alive            | ❌                | ✅              | ✅               | ✅              | ✅                | ❌           | ✅              | ✅               | 🪵      | ✅          | ✅                | 🎚️                       | ❌          | ❓           | ❌               | ❌              |
-| ****                           | Agent Errors                | ❌                | ✅              | ✅               | ❌              | ✅                | ✅           | ✅              | ✅               | ✅       | ✅          | ✅                | 🎚️                       | ✅          | ❓           | ❌               | ❌              |
-| **WMI Activity**               | WmiEventConsumerToFilter    | ❌                | 🎚️            | ✅               | ✅              | ✅                | ❌           | ✅              | ❌               | ✅       | 🪵         | ✅                | ⚠️                        | ✅          | ✅           | 🪵              | ✅              |
-| ****                           | WmiEventConsumer            | ❌                | 🎚️            | ✅               | ✅              | ✅                | ❌           | ✅              | ❌               | ✅       | 🪵         | ✅                | ⚠️                        | ✅          | ✅           | 🪵              | ✅              |
-| ****                           | WmiEventFilter              | ❌                | 🎚️            | ✅               | ✅              | ✅                | ❌           | ✅              | ❌               | ✅       | 🪵         | ✅                | ⚠️                        | ✅          | ✅           | 🪵              | ✅              |
-| **BIT JOBS Activity**          | BIT JOBS Activity           | ❌                | 🎚️            | ✅               | ❌              | ❌                | ❌           | ❌              | ❌               | ❌       | ✅          | ❌                | ❌                         | ❌          | ✅           | ❌               | ❌              |
-| **PowerShell Activity**        | Script-Block Activity       | ✅                | 🪵             | ✅               | ❌              | ✅                | ❌           | ✅              | 🪵              | ✅       | ✅          | ✅                | ✅                         | ❌          | ✅           | ❌               | ❌              |
+**References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
+**Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
 
 
+![Alt text](./images/edr-telemetry_website_screenshot.png)
+
+
+
+# ✨ Contributors Wall
+
+Thanks to these amazing contributors:
+
+<p align="center">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+
+  <a href="https://github.com/tsale" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/25332397?v=4" alt="tsale" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/jdu2600" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/53329154?v=4" alt="jdu2600" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/j91321" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/10012872?v=4" alt="j91321" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/mthcht" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/75267080?v=4" alt="mthcht" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/thiboog" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/63599089?v=4" alt="thiboog" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/thomaspatzke" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/1845601?v=4" alt="thomaspatzke" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/xC0uNt3r7hr34t" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/61033168?v=4" alt="xC0uNt3r7hr34t" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/inodee" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/14159692?v=4" alt="inodee" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/alwashali" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/22593441?v=4" alt="alwashali" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/Guzzy711" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/27682662?v=4" alt="Guzzy711" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/joshlemon-uptycs" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/116134008?v=4" alt="joshlemon-uptycs" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/LuKePicci" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8722358?v=4" alt="LuKePicci" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/maximelb" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/15742543?v=4" alt="maximelb" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/nasbench" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8741929?v=4" alt="nasbench" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/NicolasSchn" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/33519397?v=4" alt="NicolasSchn" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/QueenSquishy" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/113638057?v=4" alt="QueenSquishy" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/Robert-HarfangLab" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/157394511?v=4" alt="Robert-HarfangLab" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/alextrender" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/60626919?v=4" alt="alextrender" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/idev" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/76164?v=4" alt="idev" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/johnk3r" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/6247648?v=4" alt="johnk3r" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/pep-un" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/8629097?v=4" alt="pep-un" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+  <a href="https://github.com/zbeastofburden" target="_blank" style="text-decoration: none;">
+    <img src="https://avatars.githubusercontent.com/u/106751557?v=4" alt="zbeastofburden" width="50" height="50" style="border-radius: 50%; display: block; margin: 0;" />
+  </a>
+</div>
+</p>
 
 ## Current Primary Maintainers
 Kostas - [@kostastsale](https://twitter.com/Kostastsale)

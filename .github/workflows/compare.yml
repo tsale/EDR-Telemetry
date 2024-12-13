@@ -1,4 +1,4 @@
-name: Run compare.py on each commit
+name: Run compare.py and update README
 
 on:
   push:
@@ -11,17 +11,27 @@ jobs:
 
     steps:
     - name: Checkout repository content
-      uses: actions/checkout@v2 # This action checks-out your repository under $GITHUB_WORKSPACE
+      uses: actions/checkout@v2
 
     - name: Set up Python environment
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x' # This will retrieve the latest Python version
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r Tools/compare-requirements.txt # If you have any dependencies
-        
-    - name: Run Python script
-      run: python Tools/compare.py # Replace with your script's path
+        pip install -r Tools/compare-requirements.txt # If you have dependencies
+
+    - name: Run Python script to update README
+      run: python Tools/compare.py # Update the script to edit README.md directly
+
+    - name: Commit and push changes
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update EDR scores table in README"
+        git push
