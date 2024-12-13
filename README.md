@@ -51,7 +51,7 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 - Partially: 0.5
 - Pending Response: 0
 - Via EnablingTelemetry: 1
-- Via EventLogs: 0.75
+- Via EventLogs: 0.5
 - Yes: 1
 
 ### EDR Scores
