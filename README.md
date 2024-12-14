@@ -65,17 +65,17 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 | 5       | Trellix                 | 30.6       |
 | 6       | Harfanglab                 | 30.45       |
 | 7       | Cortex XDR                 | 29.65       |
-| 8       | LimaCharlie                 | 29.25       |
-| 9       | Trend Micro                 | 28.85       |
-| 10       | ESET Inspect                 | 28.1       |
-| 11       | Qualys                 | 27.45       |
-| 12       | Elastic                 | 26.35       |
+| 8       | Elastic                 | 29.35       |
+| 9       | LimaCharlie                 | 29.25       |
+| 10       | Trend Micro                 | 28.85       |
+| 11       | ESET Inspect                 | 28.1       |
+| 12       | Qualys                 | 27.45       |
 | 13       | Cybereason                 | 25.65       |
 | 14       | Symantec SES Complete                 | 24.3       |
 | 15       | FortiEDR                 | 23.9       |
 | 16       | Sysmon                 | 23.2       |
-| 17       | WatchGuard                 | 20.9       |
-| 18       | Carbon Black                 | 20.1       |
+| 17       | Carbon Black                 | 22.7       |
+| 18       | WatchGuard                 | 20.9       |
 
 
 ## EDR Telemetry Table

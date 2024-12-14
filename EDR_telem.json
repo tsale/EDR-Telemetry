@@ -926,7 +926,7 @@
   {
     "Telemetry Feature Category":"EDR SysOps",
     "Sub-Category":"Agent Start",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Partially",
     "CrowdStrike":"Yes",
     "Cybereason":"Yes",
@@ -948,7 +948,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Stop",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Yes",
     "CrowdStrike":"Yes",
     "Cybereason":"Yes",
@@ -970,7 +970,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Install",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Yes",
     "CrowdStrike":"No",
     "Cybereason":"Yes",
@@ -992,7 +992,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Uninstall",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Yes",
     "CrowdStrike":"Yes",
     "Cybereason":"Yes",
@@ -1014,7 +1014,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Keep-Alive",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Yes",
     "CrowdStrike":"Yes",
     "Cybereason":"Yes",
@@ -1036,7 +1036,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Errors",
-    "Carbon Black":"No",
+    "Carbon Black":"Yes",
     "Cortex XDR":"Yes",
     "CrowdStrike":"Yes",
     "Cybereason":"No",
