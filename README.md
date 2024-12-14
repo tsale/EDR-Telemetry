@@ -74,8 +74,8 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 | 14       | Symantec SES Complete                 | 24.3       |
 | 15       | FortiEDR                 | 23.9       |
 | 16       | Sysmon                 | 23.2       |
-| 17       | WatchGuard                 | 20.9       |
-| 18       | Carbon Black                 | 20.1       |
+| 17       | Carbon Black                 | 22.7       |
+| 18       | WatchGuard                 | 20.9       |
 
 
 ## EDR Telemetry Table
