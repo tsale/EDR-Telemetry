@@ -2,7 +2,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Creation",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -16,7 +16,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Process Termination",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -30,7 +30,7 @@
   {
     "Telemetry Feature Category":"File Manipulation",
     "Sub-Category":"File Creation",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -44,7 +44,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"File Modification",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -58,7 +58,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"File Deletion",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"No",
@@ -72,7 +72,7 @@
   {
     "Telemetry Feature Category":"User Activity",
     "Sub-Category":"User Logon",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"Yes",
     "CrowdStrike":"No",
@@ -86,7 +86,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"User Logoff",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"Yes",
     "CrowdStrike":"No",
@@ -100,7 +100,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Logon Failed",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"Yes",
     "CrowdStrike":"No",
@@ -114,7 +114,7 @@
   {
     "Telemetry Feature Category":"Script Activity",
     "Sub-Category":"Script Content",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"Yes",
@@ -128,7 +128,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"Network Connection",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -142,7 +142,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Network Socket Listen",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"Partially",
     "Uptycs":"No",
     "CrowdStrike":"Yes",
@@ -156,7 +156,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"DNS Query",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Via EnablingTelemetry",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -170,7 +170,7 @@
   {
     "Telemetry Feature Category":"Scheduled Task Activity",
     "Sub-Category":"Scheduled Task",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -184,7 +184,7 @@
   {
     "Telemetry Feature Category":"User Account Activity",
     "Sub-Category":"User Account Created",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -198,7 +198,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"User Account Modified",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -212,7 +212,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"User Account Deleted",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -226,7 +226,7 @@
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Load",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -240,7 +240,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Image Load",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -254,9 +254,9 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"eBPF Event",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
-    "Uptycs":"No",
+    "Uptycs":"Via EnablingTelemetry",
     "CrowdStrike":"Yes",
     "Sysmon":"No",
     "LimaCharlie":"No",
@@ -268,9 +268,9 @@
   {
     "Telemetry Feature Category":"Access Activity",
     "Sub-Category":"Raw Access Read",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
-    "Uptycs":"No",
+    "Uptycs":"Via EnablingTelemetry",
     "CrowdStrike":"No",
     "Sysmon":"Yes",
     "LimaCharlie":"No",
@@ -282,9 +282,9 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Process Access",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
-    "Uptycs":"No",
+    "Uptycs":"Via EnablingTelemetry",
     "CrowdStrike":"No",
     "Sysmon":"No",
     "LimaCharlie":"No",
@@ -296,9 +296,9 @@
   {
     "Telemetry Feature Category":"Process Tampering Activity",
     "Sub-Category":"Process Tampering",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
-    "Uptycs":"No",
+    "Uptycs":"Via EnablingTelemetry",
     "CrowdStrike":"No",
     "Sysmon":"No",
     "LimaCharlie":"No",
@@ -310,7 +310,7 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Creation",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -324,7 +324,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Service Modification",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -338,7 +338,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Service Deletion",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
@@ -352,7 +352,7 @@
   {
     "Telemetry Feature Category":"EDR SysOps",
     "Sub-Category":"Agent Start",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -366,7 +366,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"Agent Stop",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -380,7 +380,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"MD5",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -394,7 +394,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"SHA",
-    "SentinelOne (Complete)":"Yes",
+    "SentinelOne":"Yes",
     "Qualys":"Yes",
     "Uptycs":"Yes",
     "CrowdStrike":"Yes",
@@ -408,7 +408,7 @@
   {
     "Telemetry Feature Category":null,
     "Sub-Category":"IMPHASH",
-    "SentinelOne (Complete)":"No",
+    "SentinelOne":"No",
     "Qualys":"No",
     "Uptycs":"No",
     "CrowdStrike":"No",
