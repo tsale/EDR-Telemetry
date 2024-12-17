@@ -56,27 +56,7 @@ For more details, you can refer to the [Pull Request #61](https://github.com/tsa
 
 ### EDR Scores
 
-| **No.** | **EDRs**              | **Score** |
-|---------|-----------------------|-----------|
-| 1       | CrowdStrike                 | 37.45       |
-| 2       | SentinelOne                 | 34.25       |
-| 3       | MDE                 | 34.2       |
-| 4       | Uptycs                 | 33.85       |
-| 5       | Trellix                 | 30.6       |
-| 6       | Harfanglab                 | 30.45       |
-| 7       | Cortex XDR                 | 29.65       |
-| 8       | Elastic                 | 29.35       |
-| 9       | LimaCharlie                 | 29.25       |
-| 10       | Trend Micro                 | 28.85       |
-| 11       | ESET Inspect                 | 28.1       |
-| 12       | Qualys                 | 27.45       |
-| 13       | Cybereason                 | 25.65       |
-| 14       | Symantec SES Complete                 | 24.3       |
-| 15       | FortiEDR                 | 23.9       |
-| 16       | Sysmon                 | 23.2       |
-| 17       | Carbon Black                 | 22.7       |
-| 18       | WatchGuard                 | 20.9       |
-
+You can find the telemetry scores by visiting [the scores](https://www.edr-telemetry.com/scores.html) on the official website.
 
 ## EDR Telemetry Table
 Below is information about the EDR table, including all values for each EDR and a description for each attribute.
