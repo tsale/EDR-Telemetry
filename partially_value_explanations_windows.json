@@ -151,7 +151,7 @@
     "Sub-Category":"File Opened",
     "Carbon Black":"",
     "Cortex XDR":"",
-    "CrowdStrike":{"Partially":"Only contains modification from a user added to a group."},
+    "CrowdStrike":{"Partially":"Only file related events that is deems suspicious based on some proprietary criterias."},
     "Cybereason":"",
     "ESET Inspect":"",
     "Elastic":"",
