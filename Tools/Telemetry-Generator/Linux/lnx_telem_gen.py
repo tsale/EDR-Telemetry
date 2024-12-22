@@ -172,67 +172,60 @@ class UserAccountManager:
         time.sleep(2)
         self.delete_user()
 
-# Function to start and stop the service (cron) using system calls (DBus API)
-def start_and_stop_service():
-    service_name = "cron"
-    start_delay = 0  # Start immediately
-    stop_delay = 10  # Stop after 10 seconds
-
-    def start_service():
+def manage_test_service():
+    """
+    Creates, modifies, and deletes a systemd service using D-Bus system calls.
+    """
+    service_name = "test_service"
+    unit_name = f"{service_name}.service"
+    
+    try:
+        # Connect to system bus
         bus = dbus.SystemBus()
         systemd = bus.get_object('org.freedesktop.systemd1', '/org/freedesktop/systemd1')
         manager = dbus.Interface(systemd, 'org.freedesktop.systemd1.Manager')
-        try:
-            manager.StartUnit(f"{service_name}.service", 'replace')
-            print(f"{service_name} service started successfully (system API call).")
-        except dbus.DBusException as e:
-            print(f"Failed to start {service_name}: {e}")
-
-    def stop_service():
-        bus = dbus.SystemBus()
-        systemd = bus.get_object('org.freedesktop.systemd1', '/org/freedesktop/systemd1')
-        manager = dbus.Interface(systemd, 'org.freedesktop.systemd1.Manager')
-        try:
-            manager.StopUnit(f"{service_name}.service", 'replace')
-            print(f"{service_name} service stopped successfully (system API call).")
-        except dbus.DBusException as e:
-            print(f"Failed to stop {service_name}: {e}")
-
-    # Schedule service start and stop
-    scheduler.enter(start_delay, 1, start_service)
-    scheduler.enter(stop_delay, 1, stop_service)
-    scheduler.run()
-
-# Function for file creation, modification, and deletion
-def test_file_operations():
-    file_name = "test_file.txt"
-
-    def create_file():
-        with open(file_name, "w") as f:
-            f.write("This is a test file.")
-        print(f"File '{file_name}' created.")
-
-    def modify_file():
-        if os.path.exists(file_name):
-            with open(file_name, "a") as f:
-                f.write("\nFile has been modified.")
-            print(f"File '{file_name}' modified.")
-        else:
-            print(f"File '{file_name}' not found for modification.")
-
-    def delete_file():
-        if os.path.exists(file_name):
-            os.remove(file_name)
-            print(f"File '{file_name}' deleted.")
-        else:
-            print(f"File '{file_name}' not found for deletion.")
-
-    # Perform file operations sequentially
-    create_file()
-    time.sleep(2)
-    modify_file()
-    time.sleep(2)
-    delete_file()
+        
+        # Create service unit file
+        unit_content = {
+            "Unit": {
+                "Description": "Test Service for Telemetry"
+            },
+            "Service": {
+                "Type": "simple",
+                "ExecStart": "/bin/sleep 3600"
+            },
+            "Install": {
+                "WantedBy": "multi-user.target"
+            }
+        }
+        
+        # Create the service using systemd manager
+        manager.CreateTransientUnit(
+            unit_name,
+            unit_content
+        )
+        print(f"Service '{service_name}' created successfully")
+        
+        time.sleep(2)
+        
+        # Modify service by reloading its configuration
+        manager.ReloadUnit(
+            unit_name,
+            'replace'
+        )
+        print(f"Service '{service_name}' modified successfully")
+        
+        time.sleep(2)
+        
+        # Stop and remove the service
+        manager.StopUnit(unit_name, 'replace')
+        manager.DisableUnitFiles([unit_name], False)
+        print(f"Service '{service_name}' deleted successfully")
+        
+    except dbus.exceptions.DBusException as e:
+        print(f"D-Bus error: {e}")
+    except Exception as e:
+        print(f"Error managing service: {e}")
 
 # Function to perform a DNS query
 def dns_query():
@@ -297,14 +290,11 @@ def raw_access_read():
 
 # Dictionary mapping event names to functions
 event_functions = {
-    'FileCreated': test_file_operations,
-    'FileModified': test_file_operations,
-    'FileDelete': test_file_operations,
+    'ServiceManagement': manage_test_service,
     'DnsQuery': dns_query,
     'ProcessTerminate': process_terminate,
     'ImageLoad': image_load,
     'NetworkConnect': network_connect,
-    'ServiceStartStop': start_and_stop_service,
     'RawAccessRead': raw_access_read,
     'LoadDriver': loadit,
     'TamperProcess': begin_tamper,
@@ -312,7 +302,6 @@ event_functions = {
     'UserAccountEvents': UserAccountManager().run,
     'NetworkListen': NetworkSocketManager.network_listen,
     'NetworkRawSocket': NetworkSocketManager.network_raw_socket,
-    'NetworkConnect': NetworkSocketManager.network_connect,
     'eBPFProgram': run_pamspy,
     'ProcessAccess': start_hijacking
 }
