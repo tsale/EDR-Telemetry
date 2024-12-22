@@ -442,7 +442,7 @@
     "CrowdStrike":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
-    "LimaCharlie":"Yes",
+    "LimaCharlie":"No",
     "MDE":"No",
     "Qualys":"No",
     "SentinelOne":"No",
