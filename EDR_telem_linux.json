@@ -436,9 +436,9 @@
   },
   {
     "Telemetry Feature Category":null,
-    "Sub-Category":"IMPHASH",
+    "Sub-Category":"Fuzzy Hash",
     "Auditd":"No",
-    "Carbon Black Cloud":"Yes",
+    "Carbon Black Cloud":"No",
     "CrowdStrike":"No",
     "ESET Inspect":"No",
     "Elastic":"No",
