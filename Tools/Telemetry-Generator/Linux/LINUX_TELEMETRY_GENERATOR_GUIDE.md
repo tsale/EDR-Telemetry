@@ -8,20 +8,23 @@ This script, `lnx_telem_gen.py`, is designed to generate various telemetry event
 
 The script includes the following functionalities:
 
-1. **File Operations**: Create, modify, and delete files.
-2. **DNS Query**: Perform a DNS query.
-3. **Process Termination**: Create and terminate a process.
-4. **Image Load**: Load a shared library.
-5. **Process Access**: Hijack a process and manipulate its memory and registers.
-6. **Network Connections**: Establish TCP connections and create raw sockets.
-7. **Service Start/Stop**: Start and stop a service using system calls.
-8. **Raw Access Read**: Perform raw read access on a device.
-9. **Driver Load**: Write, compile, and load a Linux kernel module.
-10. **Process Tampering**: Tamper with the memory of a running process.
-11. **Scheduled Task**: Create and remove scheduled tasks using cron.
-12. **User Account Events**: Create, modify, and delete user accounts.
-13. **Network Listening**: Create a listening socket for incoming TCP connections.
-14. **eBPF Events**: Utilizing pamspy, a credential dumper, that is using eBPF thus generating the needed eBPF related events.
+1. **Service Management**: Create, modify, and delete systemd services using D-Bus system calls
+2. **DNS Query**: Perform a DNS query
+3. **Process Termination**: Create and terminate a process
+4. **Image Load**: Load a shared library
+5. **Process Access**: Hijack a process and manipulate its memory and registers
+6. **Network Operations**: 
+   - Establish TCP connections
+   - Create raw sockets
+   - Create listening sockets for incoming connections
+7. **Raw Access Read**: Perform raw read access on a device
+8. **Driver Load**: Write, compile, and load a Linux kernel module
+9. **Process Tampering**: Tamper with the memory of a running process
+10. **Scheduled Task**: Create and remove scheduled tasks using cron
+11. **User Account Events**: Create, modify, and delete user accounts using libuser
+12. **eBPF Events**: Utilize pamspy for credential dumping using eBPF
+13. **File Operations**: Create, modify, and delete files.
+
 
 ## Usage
 

@@ -97,7 +97,7 @@ LINUX_CATEGORIES_VALUED = {
     "Agent Stop": 0.8,
     "MD5": 1,
     "SHA": 1,
-    "IMPHASH": 1
+    "Fuzzy Hash": 1
 }
 
 def determine_categories(filename):
