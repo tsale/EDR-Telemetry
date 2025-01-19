@@ -158,7 +158,7 @@
     "ESET Inspect":"No",
     "Elastic":"Yes",
     "LimaCharlie":"Partially",
-    "MDE":"Via EnablingTelemetry",
+    "MDE":"No",
     "Qualys":"Partially",
     "SentinelOne":"No",
     "Sysmon":"No",
