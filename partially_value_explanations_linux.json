@@ -316,7 +316,7 @@
       "CrowdStrike":"",
       "Sysmon":"",
       "LimaCharlie":"",
-      "MDE":"",
+      "MDE":{"Partially":"Only available through the timeline. Not searchable in a query."},
       "Elastic":"",
       "Auditd":"",
       "Carbon Black Cloud":""
