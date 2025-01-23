@@ -338,7 +338,7 @@
     "ESET Inspect":"No",
     "Elastic":"No",
     "LimaCharlie":"Yes",
-    "MDE":"No",
+    "MDE":"Yes",
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
