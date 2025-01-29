@@ -50,7 +50,7 @@
       "CrowdStrike":"",
       "Sysmon":"",
       "LimaCharlie":"",
-      "MDE":"",
+      "MDE":{"Partially":"Although the file is modified, the event is recorded as FileCreated instead of FileModified, misrepresenting the actual action and preventing analysts from distinguishing between file creation and modification."},
       "Elastic":"",
       "Auditd":"",
       "Carbon Black Cloud":""
