@@ -418,7 +418,7 @@
     "Sub-Category":"URL",
     "Carbon Black":"No",
     "Cortex XDR":"No",
-    "CrowdStrike":"Yes",
+    "CrowdStrike":"No",
     "Cybereason":"No",
     "Cylance":"Yes",
     "ESET Inspect":"Yes",
