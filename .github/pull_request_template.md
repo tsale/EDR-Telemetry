@@ -1,44 +1,47 @@
-# Pull Request Template
+# EDR Telemetry Pull Request
 
-## Description
+<!-- 
+INSTRUCTIONS FOR CONTRIBUTORS (this comment won't appear in the final PR):
+1. This template helps you provide all necessary information for your contribution
+2. Fill in all relevant sections below
+3. Delete any options or sections that don't apply to your contribution
+4. For more details, see: https://www.edr-telemetry.com/contribute.html
+-->
 
-Please provide the below information so we can validate before merging:
+## Contribution Details
 
-1. Does the proposed EDR feature align with our definition of telemetry?([definition here](https://github.com/tsale/EDR-Telemetry/wiki/FAQ#5-how-is-telemetry-defined-in-this-context))
-2. Could you please provide documentation to support the telemetry you are proposing?*(If it is held privately, please reach out to me or @inodee)*
-3. If no documentation is available for all the categories you are proposing, could you provide screenshots or sanitized logs?
+<!-- Provide a brief summary of what you're contributing (adding new telemetry, updating existing info, etc.) -->
 
-1: (response)\
-2: (response)\
-3: (response)
+### Telemetry Validation
+<!-- Explain how your contribution meets the EDR Telemetry definition -->
 
-## Type of change
+<!-- Check all that apply by replacing [ ] with [x] -->
+Documentation or Evidence:
+- [ ] Official documentation (link: <!-- add link here -->)
+- [ ] Screenshots attached
+- [ ] Sanitized logs provided
+- [ ] Private documentation (will share confidentially)
 
-Please delete options that are not relevant.
+## Type of Contribution
+<!-- Keep only the options that apply to your PR -->
 
-- [ ] Feature Improvement (non-breaking change which fixes an issue)
-- [ ] New feature (adding additional EDR product or proposing new event categories/sub-categories)
-- [ ] This change requires a documentation update
-- [ ] New tool (suggesting additional tools for improving collection and analysis)
+- [ ] Adding telemetry information for an existing EDR product
+- [ ] Adding a new EDR product that meets eligibility criteria
+- [ ] Proposing new event categories/sub-categories
+- [ ] Documentation improvement
+- [ ] Tool enhancement
 
-## How Has This Been Tested?
+## Validation Details
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
+### EDR Product Information
+- EDR Product Name: 
+- EDR Version: 
+- Operating System(s) Tested: 
 
-- [ ] Test A
-- [ ] Test B
+### Testing Methodology
+<!-- Briefly describe how you verified this telemetry capability e.g. running the telemetry collection tools -->
 
-**Test Configuration**:
-* EDR version: 
-* Operating System version: 
+## Additional Notes
+<!-- Any other information that would help reviewers understand your contribution or N/A-->
 
-## Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have made corresponding changes to the documentation
-- [ ] I have added tests that prove my corrections or additions are accurate
-- [ ] I have checked my code and corrected any misspellings
-
-
-*Don't stress yourself out, just answer the above to the best of your ability and we can discuss in the comments 🙂*
+<!-- Don't worry if you can't provide all information - answer to the best of your ability and we can discuss in the comments. Thank you for contributing to the EDR Telemetry Project! -->
