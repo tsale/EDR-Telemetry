@@ -1,88 +1,82 @@
 # EDR Telemetry
 
-This repo provides a list of _**telemetry features**_ from EDR products and other endpoint agents such as [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) broken down by category. The main motivation behind this project is to enable security practitioners to compare and evaluate the telemetry potential from those tools while encouraging EDR vendors to be more transparent about the telemetry features they do provide to their users and customers.
+<p align="center">
+  <img src="./images/logo_new.png" width="200" alt="EDR Telemetry Logo">
+</p>
 
-Besides compliance, investigations and forensics benefits, rich log telemetry empowers cyber defense teams to develop custom hunting, detection and analytics capabilities tailored to their needs.
+<p align="center">
+  <a href="https://www.edr-telemetry.com">
+    <img src="https://img.shields.io/badge/Website-EDR--Telemetry.com-blue" alt="Website">
+  </a>
+  <a href="https://www.edr-telemetry.com/faq">
+    <img src="https://img.shields.io/badge/Wiki-FAQ-green" alt="FAQ">
+  </a>
+  <a href="http://creativecommons.org/licenses/by-nc/4.0/">
+    <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0">
+  </a>
+  <a href="https://github.com/tsale/EDR-Telemetry/stargazers">
+    <img src="https://img.shields.io/github/stars/tsale/EDR-Telemetry" alt="Stars">
+  </a>
+</p>
 
-Read details about this project in the initial release blog post [here](https://detect.fyi/edr-telemetry-project-a-comprehensive-comparison-d5ed1745384b?sk=b5aade1de1afbabf687620a12aa7a581)). 
+## 📖 About
 
-<br>
+A comprehensive comparison of telemetry features from EDR products and endpoint agents like [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon). This project enables security practitioners to evaluate telemetry capabilities while promoting vendor transparency.
 
-# New Project Website: [**EDR-Telemetry.com**](https://www.edr-telemetry.com)
-<br>
-## Telemetry Definition
-There are many types of *telemetry* when it comes to Security Instrumentation. Here we focus on agents or sensors generating telemetry in the form of *log data*, regardless of the format (json, key-value, csv), as long as the data is automatically generated and transmitted or streamed in near real-time.
+🌐 **[Visit our Website](https://www.edr-telemetry.com)** for the complete comparison and analysis.
 
-## FAQ & Contributions
+📝 Read more about this project in our [initial release blog post](https://detect.fyi/edr-telemetry-project-a-comprehensive-comparison-d5ed1745384b?sk=b5aade1de1afbabf687620a12aa7a581).
 
-Please check our [FAQ](https://github.com/tsale/EDR-Telemetry/wiki/FAQ) page to know more and feel free to get in contact in case you cannot find an answer there.
+## 🎯 Key Features
 
-In case you ware willing to contribute, please check the [Contributions](https://github.com/tsale/EDR-Telemetry/wiki#contribution-guidelines) page.
+- Comprehensive telemetry comparison across multiple EDR solutions
+- Detailed scoring system for feature evaluation
+- Regular updates to reflect the latest capabilities
+- Community-driven contributions and verification
 
->**Disclaimer**\
-The telemetry of the EDR products below could improve with time. The `last_updated` field is the last time the data sources have been updated. This might NOT always be up to date with the current telemetry capabilities of each product.
->
+## 📊 Telemetry Comparison
 
-Telemetry Comparison Table
------------------------------------
+Visit our [EDR Telemetry Comparison Table](https://www.edr-telemetry.com) to see:
+- Feature-by-feature comparison
+- Detailed scoring metrics
+- Implementation status
+- Latest updates
 
->**Disclaimer**\
-The data below do not represent the capability of each of the EDR products to detect or prevent a threat. This is ONLY a comparison regarding the available telemetry for each product. Some products, such as Elastic EDR, make additional telemetry available in free or paid modules. Add-on modules, as well as signals, will not be taken into consideration for this project. Please read more about this on our FAQ page [here](https://github.com/tsale/EDR-Telemetry/wiki/FAQ#7-what-is-the-scope-of-the-telemetry-comparison-table-for-edr-products).
+## 🤝 Contributing
 
-<be>
+We welcome contributions! Please check our [Contribution Guidelines](https://github.com/tsale/EDR-Telemetry/wiki#contribution-guidelines) for details on how to get involved.
 
-## EDR Evaluation and Scoring Script
+## ⚖️ Scoring System
 
-This script evaluates and scores Endpoint Detection and Response (EDR) Solutions based on their capabilities. It reads data from the main JSON file (`EDR_telem.json`), which contains information about various EDRs and their features. The script then calculates a score for each EDR based on the presence and absence of certain features, as well as the category of the feature.
+Our evaluation script assigns scores based on feature implementation:
+- ✅ Yes: 1.0
+- ⚠️ Partially: 0.5
+- 🎚️ Via EnablingTelemetry: 1.0
+- 🪵 Via EventLogs: 0.5
+- ❌ No: 0.0
+- ❓ Pending Response: 0.0
 
-### Scoring Logic
-- Each feature and category is assigned a weight.
-- The weights represent the importance of the feature or category. For example, a feature with a weight of 1 is considered more important than a feature with a weight of 0.5.
-- The compare.py script multiplies the weight of each feature by the weight of its category, adding this product to the EDR's total score.
-- If a feature is absent, its weight is considered 0.
+View the complete [scoring breakdown](https://www.edr-telemetry.com/scores.html) on our website.
 
-This scoring algorithm allows us to quantitatively compare different EDRs based on their capabilities. The higher the score, the more capable the EDR is. The weights can be adjusted as needed to reflect changes in the importance of different features or categories.
+## ⚠️ Disclaimer
 
-For more details, you can refer to the [Pull Request #61](https://github.com/tsale/EDR-Telemetry/pull/61).
+The data presented reflects only the telemetry capabilities of each product, not their detection or prevention capabilities. For more details, please visit our [FAQ page](https://github.com/tsale/EDR-Telemetry/wiki/FAQ#7-what-is-the-scope-of-the-telemetry-comparison-table-for-edr-products).
 
-**Below is the score assigned to each value currently:**
+## 📜 License
 
-- No: 0,
-- Partially: 0.5
-- Pending Response: 0
-- Via EnablingTelemetry: 1
-- Via EventLogs: 0.5
-- Yes: 1
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-### EDR Scores
+This means you are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
 
-You can find the telemetry scores by visiting [the scores](https://www.edr-telemetry.com/scores.html) on the official website.
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes without explicit permission from the author.
 
-## EDR Telemetry Table
-Below is information about the EDR table, including all values for each EDR and a description for each attribute.
-<br>
+For commercial use, please [contact us](https://www.edr-telemetry.com/contact).
 
-| CSV Values 	| JSON Values               	| Description
-|-------	|-----------------------	|-----------------------
-| ✅     	| Yes           	        | Implemented
-| ❌     	| No       	                | Not Implemented
-| ⚠️     	| Partially	                | Partially Implemented
-| ❓     	| Pending                	| Pending Response
-| 🪵     	| Via EventLogs           	| Collected from Windows Event Logs if enabled at the system level; not independently collected by the EDR via ETW.
-| 🎚️     	| Via EnablingTelemetry         	| Additional telemetry collection capability that can be enabled as part of the EDR product but is not ON by default.
-<br>
-
-**References to Documentation for each EDR product:** [Link](https://github.com/tsale/EDR-Telemetry/wiki#product-documentation-references) \
-**Website:**[https://edr-telemetry.com](https://www.edr-telemetry.com)
-
-
-![Alt text](./images/edr-telemetry_website_screenshot.png)
-
-
-
-
-
-# ✨ Contributors Wall
+## ✨ Contributors Wall
 
 Thanks to these amazing contributors:
 
