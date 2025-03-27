@@ -4,20 +4,14 @@
   <img src="./images/logo_new.png" width="200" alt="EDR Telemetry Logo">
 </p>
 
-<p align="center">
-  <a href="https://www.edr-telemetry.com">
-    <img src="https://img.shields.io/badge/Website-EDR--Telemetry.com-blue" alt="Website">
-  </a>
-  <a href="https://www.edr-telemetry.com/faq">
-    <img src="https://img.shields.io/badge/Wiki-FAQ-green" alt="FAQ">
-  </a>
-  <a href="http://creativecommons.org/licenses/by-nc/4.0/">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0">
-  </a>
-  <a href="https://github.com/tsale/EDR-Telemetry/stargazers">
-    <img src="https://img.shields.io/github/stars/tsale/EDR-Telemetry" alt="Stars">
-  </a>
-</p>
+<div align="center">
+  
+[![Website](https://img.shields.io/badge/Website-EDR--Telemetry.com-blue)](https://www.edr-telemetry.com)
+[![FAQ](https://img.shields.io/badge/Wiki-FAQ-green)](https://github.com/tsale/EDR-Telemetry/wiki/FAQ)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
+[![Stars](https://img.shields.io/github/stars/tsale/EDR-Telemetry)](https://github.com/tsale/EDR-Telemetry/stargazers)
+
+</div>
 
 ## 📖 About
 
