@@ -12,7 +12,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -27,7 +28,8 @@
     "Qualys":"Yes",
     "SentinelOne":"No",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -42,7 +44,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -57,7 +60,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -72,7 +76,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"User Activity",
@@ -87,7 +92,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -102,7 +108,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -117,7 +124,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"Script Activity",
@@ -132,7 +140,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -147,7 +156,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -162,7 +172,8 @@
     "Qualys":"Partially",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -177,7 +188,8 @@
     "Qualys":"Via EnablingTelemetry",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":"Scheduled Task Activity",
@@ -192,7 +204,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -207,7 +220,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -222,7 +236,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -237,7 +252,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -252,7 +268,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -267,7 +284,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -282,7 +300,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":"Via EnablingTelemetry",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Access Activity",
@@ -297,7 +316,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"Yes",
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":"Via EnablingTelemetry",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -312,7 +332,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":"Via EnablingTelemetry",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Process Tampering Activity",
@@ -327,7 +348,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":"Via EnablingTelemetry",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -342,7 +364,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -357,7 +380,8 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -372,7 +396,8 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -387,7 +412,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -402,7 +428,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"No"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -417,7 +444,8 @@
     "Qualys":"Yes",
     "SentinelOne":"No",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -432,7 +460,8 @@
     "Qualys":"Yes",
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
-    "Uptycs":"Yes"
+    "Uptycs":"Yes",
+    "Harfanglab":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -447,6 +476,7 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"Yes",
-    "Uptycs":"No"
+    "Uptycs":"No",
+    "Harfanglab":"No"
   }
 ]
