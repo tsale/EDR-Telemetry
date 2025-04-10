@@ -50,7 +50,7 @@ Our evaluation script assigns scores based on feature implementation:
 - ❌ No: 0.0
 - ❓ Pending Response: 0.0
 
-View the complete [scoring breakdown](https://www.edr-telemetry.com/scores.html) on our website.
+View the complete [scoring breakdown](https://www.edr-telemetry.com/scores) on our website.
 
 ## ⚠️ Disclaimer
 
