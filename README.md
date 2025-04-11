@@ -38,7 +38,7 @@ Visit our [EDR Telemetry Comparison Table](https://www.edr-telemetry.com) to see
 
 ## 🤝 Contributing
 
-We welcome contributions! Please check our [Contribution Guidelines](https://github.com/tsale/EDR-Telemetry/wiki#contribution-guidelines) for details on how to get involved.
+We welcome contributions! Please check our [Contribution Guidelines](https://www.edr-telemetry.com/contribute) for details on how to get involved.
 
 ## ⚖️ Scoring System
 
@@ -54,7 +54,7 @@ View the complete [scoring breakdown](https://www.edr-telemetry.com/scores) on o
 
 ## ⚠️ Disclaimer
 
-The data presented reflects only the telemetry capabilities of each product, not their detection or prevention capabilities. For more details, please visit our [FAQ page](https://github.com/tsale/EDR-Telemetry/wiki/FAQ#7-what-is-the-scope-of-the-telemetry-comparison-table-for-edr-products).
+The data presented reflects only the telemetry capabilities of each product, not their detection or prevention capabilities. For more details, please visit our [FAQ page](https://www.edr-telemetry.com/faq).
 
 ## 📜 License
 
