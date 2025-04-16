@@ -1260,7 +1260,7 @@
     "FortiEDR":"Via EventLogs",
     "Harfanglab":"No",
     "LimaCharlie":"No",
-    "MDE":"No",
+    "MDE":"Yes",
     "OpenEDR":"No",
     "Qualys":"Yes",
     "SentinelOne":"Via EventLogs",
