@@ -100,7 +100,7 @@
     "Schedule Task Activity": {
         "Scheduled Task Creation": {
             "Atomics": {
-                "T1053.005": "fec27f65-db86-4c2d-b66c-61945aee87c2"
+                "T1053.005": "cd925593-fbb4-486d-8def-16cbdf944bf4"
             },
             "Comments": {
                 "1": "Includes test for 'Scheduled Task Deletion'"
