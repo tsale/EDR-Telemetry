@@ -1294,5 +1294,29 @@
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
     "WatchGuard":"No"
+  },
+  {
+    "Telemetry Feature Category":"Volume Shadow Copy Activity",
+    "Sub-Category":"Volume Shadow Copy Deletion",
+    "Carbon Black":"Pending Response",
+    "Cortex XDR":"Pending Response",
+    "CrowdStrike":"Pending Response",
+    "Cybereason":"Pending Response",
+    "Cylance":"Pending Response",
+    "ESET Inspect":"Yes",
+    "Elastic":"Pending Response",
+    "FortiEDR":"Pending Response",
+    "Harfanglab":"Pending Response",
+    "LimaCharlie":"Pending Response",
+    "MDE":"Pending Response",
+    "OpenEDR":"No",
+    "Qualys":"Pending Response",
+    "SentinelOne":"Pending Response",
+    "Symantec SES Complete":"Pending Response",
+    "Sysmon":"No",
+    "Trellix":"Pending Response",
+    "Trend Micro":"Pending Response",
+    "Uptycs":"Pending Response",
+    "WatchGuard":"Pending Response"
   }
 ]

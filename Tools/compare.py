@@ -63,7 +63,8 @@ WINDOWS_CATEGORIES_VALUED = {
     "WmiEventConsumer": 1,
     "WmiEventFilter": 1,
     "BIT JOBS Activity": 1,
-    "Script-Block Activity": 1
+    "Script-Block Activity": 1,
+    "Volume Shadow Copy Deletion": 1
 }
 
 # Linux-specific categories
