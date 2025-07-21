@@ -21,7 +21,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -45,7 +46,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category":null,
@@ -69,7 +71,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -93,7 +96,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -117,7 +121,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -141,7 +146,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -165,7 +171,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -189,7 +196,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -213,7 +221,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -237,7 +246,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -261,7 +271,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -285,7 +296,9 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Yes"
+
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -309,7 +322,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -333,7 +347,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -357,7 +372,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -381,7 +397,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -405,7 +422,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -429,7 +447,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -453,7 +472,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -477,7 +497,8 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Partially"
   },
   {
     "Telemetry Feature Category":null,
@@ -501,7 +522,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -525,7 +547,8 @@
     "Trellix":"No",
     "Trend Micro":"Yes",
     "Uptycs":"Partially",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Partially"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -549,7 +572,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -573,7 +597,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -597,7 +622,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -621,7 +647,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -645,7 +672,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -669,7 +697,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -693,7 +722,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -717,7 +747,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":null,
@@ -741,7 +772,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -756,7 +788,7 @@
     "FortiEDR":"Via EventLogs",
     "Harfanglab":"Via EventLogs",
     "LimaCharlie":"Yes",
-    "MDE":"Yes",
+    "MDE":"Via EventLogs",
     "OpenEDR":"No",
     "Qualys":"Yes",
     "SentinelOne":"Yes",
@@ -765,7 +797,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -789,7 +822,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Partially"
+    "WatchGuard":"Partially",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -813,7 +847,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -837,7 +872,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -861,7 +897,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -885,7 +922,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Partially"
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -900,7 +938,7 @@
     "FortiEDR":"No",
     "Harfanglab":"No",
     "LimaCharlie":"Yes",
-    "MDE":"Yes",
+    "MDE":"No",
     "OpenEDR":"No",
     "Qualys":"No",
     "SentinelOne":"No",
@@ -909,7 +947,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -933,7 +972,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -957,7 +997,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -981,7 +1022,8 @@
     "Trellix":"No",
     "Trend Micro":"No",
     "Uptycs":"Via EventLogs",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -995,7 +1037,7 @@
     "Elastic":"No",
     "FortiEDR":"No",
     "Harfanglab":"Yes",
-    "LimaCharlie":"Yes",
+    "LimaCharlie":"No",
     "MDE":"Yes",
     "OpenEDR":"No",
     "Qualys":"No",
@@ -1005,7 +1047,8 @@
     "Trellix":"No",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1019,7 +1062,7 @@
     "Elastic":"No",
     "FortiEDR":"No",
     "Harfanglab":"Yes",
-    "LimaCharlie":"Yes",
+    "LimaCharlie":"No",
     "MDE":"Yes",
     "OpenEDR":"No",
     "Qualys":"No",
@@ -1029,7 +1072,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EnablingTelemetry",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -1053,7 +1097,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1077,7 +1122,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1101,7 +1147,8 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "Uptycs":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1125,7 +1172,8 @@
     "Trellix":"Yes",
     "Trend Micro":"No",
     "Uptycs":"No",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1149,7 +1197,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1173,7 +1222,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"No",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -1197,7 +1247,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -1221,7 +1272,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category":null,
@@ -1245,7 +1297,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"Yes",
-    "WatchGuard":"Yes"
+    "WatchGuard":"Yes",
+    "BI.ZONE":"Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -1269,7 +1322,8 @@
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
     "Uptycs":"No",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -1293,6 +1347,7 @@
     "Trellix":"Yes",
     "Trend Micro":"Yes",
     "Uptycs":"Yes",
-    "WatchGuard":"No"
+    "WatchGuard":"No",
+    "BI.ZONE":"Via EventLogs"
   }
 ]

@@ -18,7 +18,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -39,7 +40,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -60,7 +62,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -81,7 +84,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -102,7 +106,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -123,7 +128,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -144,7 +150,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":{"Partially":"Only tracks via dedicated event the renaming of Portable Executables (PE) and compressed files."}
+    "WatchGuard":{"Partially":"Only tracks via dedicated event the renaming of Portable Executables (PE) and compressed files."},
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -165,7 +172,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":{"Partially":"Only tracks via dedicated event the opening of compressed files."}
+    "WatchGuard":{"Partially":"Only tracks via dedicated event the opening of compressed files."},
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -186,7 +194,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -207,7 +216,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -228,7 +238,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":{"Partially":"Only tracks via dedicated event the renaming of Portable Executables (PE) and compressed files."}
+    "WatchGuard":{"Partially":"Only tracks via dedicated event the renaming of Portable Executables (PE) and compressed files."},
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -249,7 +260,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -270,7 +282,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -291,7 +304,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -312,7 +326,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -333,7 +348,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -354,7 +370,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -375,7 +392,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -396,7 +414,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":{"Partially":"Mainly when the URL is fetched via HTTP/S GET and not from a modern browser."}
+    "WatchGuard":{"Partially":"Mainly when the URL is fetched via HTTP/S GET and not from a modern browser."},
+    "BI.ZONE":{"Partially":"This event is based on browser history inventory."}
   },
   {
     "Telemetry Feature Category":null,
@@ -417,7 +436,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -438,7 +458,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":{"Partially":"Limited to certain processes."},
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":{"Partially":"There are two events that allows to determine if file was downloaded: 1) Event is FileRenameWin with rule name 'File - File Downloading by Browser Process'. This is telemetry rule, that enriches events with contextual information. In this case contextual information is the fact, that browser has performed file renaming (which is always happening when browser downloads files); 2) Event is DownloadedFileInfoWin, and it is based on information from browser, which sais that such file was downloaded from the specific URL."}
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -459,7 +480,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -480,7 +502,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -501,7 +524,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Registry Activity",
@@ -522,7 +546,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -543,7 +568,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -564,7 +590,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Schedule Task Activity",
@@ -585,7 +612,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -606,7 +634,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -627,7 +656,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -648,7 +678,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -669,7 +700,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":{"Partially":"The dedicated event tracking service activity only tracks parent/child processes related to a service change, no further details."}
+    "WatchGuard":{"Partially":"The dedicated event tracking service activity only tracks parent/child processes related to a service change, no further details."},
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -690,7 +722,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -711,7 +744,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -732,7 +766,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -753,7 +788,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Device Operations",
@@ -774,7 +810,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -795,7 +832,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -816,7 +854,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Other Relevant Events",
@@ -837,7 +876,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"Named Pipe Activity",
@@ -858,7 +898,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -879,7 +920,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -900,7 +942,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -921,7 +964,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -942,7 +986,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -963,7 +1008,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -984,7 +1030,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -1005,7 +1052,8 @@
     "Trellix":"Pending Response",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"WMI Activity",
@@ -1026,7 +1074,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -1047,7 +1096,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":null,
@@ -1068,7 +1118,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
@@ -1089,7 +1140,8 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   },
   {
     "Telemetry Feature Category":"PowerShell Activity",
@@ -1110,6 +1162,7 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":"",
+    "BI.ZONE":""
   }
 ]

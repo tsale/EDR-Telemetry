@@ -13,7 +13,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -29,7 +30,8 @@
     "SentinelOne":"No",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Via EnablingTelemetry"    
   },
   {
     "Telemetry Feature Category":"File Manipulation",
@@ -45,7 +47,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -61,7 +64,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -77,7 +81,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"User Activity",
@@ -93,7 +98,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -109,7 +115,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -125,7 +132,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Script Activity",
@@ -141,7 +149,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Network Activity",
@@ -157,7 +166,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -173,7 +183,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -189,7 +200,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Scheduled Task Activity",
@@ -205,7 +217,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
@@ -221,7 +234,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -237,7 +251,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -253,7 +268,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
@@ -269,7 +285,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -285,7 +302,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"No"
   },
   {
     "Telemetry Feature Category":null,
@@ -301,7 +319,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"Via EnablingTelemetry",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Access Activity",
@@ -317,7 +336,8 @@
     "SentinelOne":"No",
     "Sysmon":"Yes",
     "Uptycs":"Via EnablingTelemetry",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -333,7 +353,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"Via EnablingTelemetry",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Process Tampering Activity",
@@ -349,7 +370,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Via EnablingTelemetry",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Service Activity",
@@ -365,7 +387,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -381,7 +404,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -397,7 +421,8 @@
     "SentinelOne":"No",
     "Sysmon":"No",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"EDR SysOps",
@@ -413,7 +438,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -429,7 +455,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"No",
     "Uptycs":"Yes",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":"Hash Algorithms",
@@ -445,7 +472,8 @@
     "SentinelOne":"No",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -461,7 +489,8 @@
     "SentinelOne":"Yes",
     "Sysmon":"Yes",
     "Uptycs":"Yes",
-    "Harfanglab":"Yes"
+    "Harfanglab":"Yes",
+    "BI.ZONE":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -477,6 +506,7 @@
     "SentinelOne":"No",
     "Sysmon":"Yes",
     "Uptycs":"No",
-    "Harfanglab":"No"
+    "Harfanglab":"No",
+    "BI.ZONE":"No"
   }
 ]
