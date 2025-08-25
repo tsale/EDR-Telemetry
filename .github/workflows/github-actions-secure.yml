@@ -1,0 +1,153 @@
+# Secure GitHub Actions Workflow with Webhook Secret
+# Place this file in your EDR-Telemetry repository at:
+# .github/workflows/update-database.yml
+
+name: Update EDR Telemetry Database (Secure)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'EDR_telem_windows.json'
+      - 'EDR_telem_linux.json' 
+      - 'partially_value_explanations_windows.json'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to update (windows, linux, both)'
+        required: false
+        default: 'both'
+        type: choice
+        options:
+        - both
+        - windows
+        - linux
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    name: Update Database via Cloud Function
+    
+    steps:
+    - name: Generate Webhook Signature
+      id: signature
+      run: |
+        echo "🔐 Generating webhook signature for secure authentication"
+        
+        # Prepare the payload
+        PAYLOAD=$(cat <<EOF
+        {
+          "source": "github_actions",
+          "repository": "${{ github.repository }}",
+          "ref": "${{ github.ref }}",
+          "sha": "${{ github.sha }}",
+          "actor": "${{ github.actor }}",
+          "workflow": "${{ github.workflow }}",
+          "run_id": "${{ github.run_id }}",
+          "triggered_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+        }
+        EOF
+        )
+        
+        # Generate HMAC-SHA256 signature
+        SIGNATURE=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "${{ secrets.WEBHOOK_SECRET }}" | sed 's/^.* //')
+        
+        # Set outputs for next step
+        echo "payload<<EOF" >> $GITHUB_OUTPUT
+        echo "$PAYLOAD" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+        echo "signature=sha256=$SIGNATURE" >> $GITHUB_OUTPUT
+      env:
+        # This secret must be set in GitHub repository settings
+        WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+    
+    - name: Trigger Database Update
+      run: |
+        echo "🚀 Triggering secure database update for platform: ${{ github.event.inputs.platform || 'both' }}"
+        
+        # Make the authenticated request
+        RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
+          "${{ secrets.CLOUD_FUNCTION_URL }}?platform=${{ github.event.inputs.platform || 'both' }}" \
+          -H "Content-Type: application/json" \
+          -H "X-GitHub-Event: ${{ github.event_name }}" \
+          -H "X-Hub-Signature-256: ${{ steps.signature.outputs.signature }}" \
+          -d '${{ steps.signature.outputs.payload }}')
+        
+        # Extract HTTP status code and response body
+        HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+        RESPONSE_BODY=$(echo "$RESPONSE" | sed '$d')
+        
+        echo "📊 Response Status: $HTTP_CODE"
+        echo "📄 Response Body:"
+        echo "$RESPONSE_BODY" | jq '.' 2>/dev/null || echo "$RESPONSE_BODY"
+        
+        # Check if request was successful
+        if [ "$HTTP_CODE" -eq 200 ]; then
+          echo "✅ Database update completed successfully"
+          
+          # Parse and display statistics if available
+          WINDOWS_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.windows_stats.scores_updated // 0' 2>/dev/null || echo "0")
+          LINUX_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.linux_stats.scores_updated // 0' 2>/dev/null || echo "0")
+          DURATION=$(echo "$RESPONSE_BODY" | jq -r '.duration_seconds // 0' 2>/dev/null || echo "0")
+          
+          echo "📈 Update Statistics:"
+          echo "   Windows scores updated: $WINDOWS_UPDATED"
+          echo "   Linux scores updated: $LINUX_UPDATED"
+          echo "   Duration: ${DURATION}s"
+          
+        elif [ "$HTTP_CODE" -eq 401 ]; then
+          echo "❌ Authentication failed - check WEBHOOK_SECRET"
+          echo "💡 Make sure the WEBHOOK_SECRET in GitHub matches your Cloud Function"
+          exit 1
+        else
+          echo "❌ Database update failed with status code: $HTTP_CODE"
+          exit 1
+        fi
+      env:
+        # These secrets must be set in GitHub repository settings:
+        # Settings → Secrets and variables → Actions → New repository secret
+        CLOUD_FUNCTION_URL: ${{ secrets.CLOUD_FUNCTION_URL }}
+    
+    - name: Notify on Success
+      if: success()
+      run: |
+        echo "🎉 Database update completed successfully!"
+        echo "📋 Summary:"
+        echo "   Repository: ${{ github.repository }}"
+        echo "   Branch: ${{ github.ref_name }}"
+        echo "   Commit: ${{ github.sha }}"
+        echo "   Actor: ${{ github.actor }}"
+        echo "   Platform: ${{ github.event.inputs.platform || 'both' }}"
+    
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        echo "💥 Database update failed!"
+        echo "🔍 Troubleshooting steps:"
+        echo "   1. Verify CLOUD_FUNCTION_URL is correct in repository secrets"
+        echo "   2. Check WEBHOOK_SECRET matches between GitHub and Cloud Function"
+        echo "   3. Ensure Cloud Function is deployed and accessible"
+        echo "   4. Verify Supabase database is operational"
+        echo "   5. Review Cloud Function logs in GCP Console:"
+        echo "      gcloud functions logs read edr-telemetry-updater --region=us-central1"
+
+# Optional: Add Slack notification job
+# uncomment and configure if you want Slack notifications
+#  notify-slack:
+#    needs: update-database
+#    runs-on: ubuntu-latest
+#    if: always()
+#    steps:
+#    - name: Notify Slack
+#      uses: 8398a7/action-slack@v3
+#      with:
+#        status: ${{ needs.update-database.result }}
+#        text: |
+#          EDR Telemetry Database Update: ${{ needs.update-database.result }}
+#          Repository: ${{ github.repository }}
+#          Commit: ${{ github.sha }}
+#          Actor: ${{ github.actor }}
+#      env:
+#        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
