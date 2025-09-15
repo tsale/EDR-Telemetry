@@ -24,7 +24,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Termination",
     "Carbon Black": {"Partially":"Only observed as file operations."},
     "Cortex XDR":"",
@@ -48,7 +48,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Access",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -72,7 +72,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Image\/Library Loaded",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -96,7 +96,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Remote Thread Creation",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -120,7 +120,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Win32 API Telemetry",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -144,7 +144,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Tampering Activity",
     "Carbon Black":{"Partially":"Only via cross-process."},
     "Cortex XDR":{"Partially":"Needs the tamper protection enabled."},
@@ -168,7 +168,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Call Stacks",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -217,7 +217,7 @@
     "WatchGuard":{"Partially":"Only tracks via dedicated event the renaming of Portable Executables (PE) and compressed files."}
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Opened",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -241,7 +241,7 @@
     "WatchGuard":{"Partially":"Only tracks via dedicated event the opening of compressed files."}
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Deletion",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -265,7 +265,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -289,7 +289,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Renaming",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -337,7 +337,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -361,7 +361,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Deletion",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -385,7 +385,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Login",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -409,7 +409,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Logoff",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -457,7 +457,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"UDP Connection",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -481,7 +481,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"URL",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -505,7 +505,7 @@
     "WatchGuard":{"Partially":"Mainly when the URL is fetched via HTTP/S GET and not from a modern browser."}
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"DNS Query",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -529,7 +529,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"File Manipulation",
     "Sub-Category":"File Downloaded",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -577,7 +577,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"SHA",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -601,7 +601,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"IMPHASH",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -625,7 +625,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"JA3/JA3s",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -673,7 +673,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -697,7 +697,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Deletion",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -745,7 +745,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -769,7 +769,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Deletion",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -817,7 +817,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -841,7 +841,7 @@
     "WatchGuard":{"Partially":"The dedicated event tracking service activity only tracks parent/child processes related to a service change, no further details."}
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Deletion",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -889,7 +889,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Modification",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -913,7 +913,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "Driver\/Module Activity",
     "Sub-Category":"Driver Unloaded",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -960,7 +960,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Unmount",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
@@ -984,7 +984,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Mount",
     "Carbon Black":{"Partially":"Mounted USBs are recorded in a separate table within the platform for  administrative approval."},
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
@@ -1056,7 +1056,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Connection",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1104,7 +1104,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Stop",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1128,7 +1128,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Install",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1152,7 +1152,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Uninstall",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1176,7 +1176,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Keep-Alive",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1200,7 +1200,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Errors",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1248,7 +1248,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventConsumer",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1271,7 +1271,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":null,
+    "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventFilter",
     "Carbon Black":"",
     "Cortex XDR":"",
