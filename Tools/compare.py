@@ -17,6 +17,7 @@ WINDOWS_CATEGORIES_VALUED = {
     "Remote Thread Creation": 1,
     "Process Tampering Activity": 1,
     "Process Call Stacks":1,
+    "Win32 API Telemetry": 1,
     "File Creation": 1,
     "File Opened": 1,
     "File Deletion": 1,
