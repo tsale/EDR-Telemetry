@@ -529,7 +529,7 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":"File Manipulation",
+    "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"File Downloaded",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -814,7 +814,7 @@
     "Trellix":"",
     "Trend Micro":"",
     "Uptycs":"",
-    "WatchGuard":""
+    "WatchGuard":{"Partially":"The dedicated event tracking service activity only tracks parent/child processes related to a service change, no further details."}
   },
   {
     "Telemetry Feature Category":"Service Activity",
