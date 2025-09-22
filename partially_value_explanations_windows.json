@@ -2,6 +2,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -26,6 +27,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Termination",
+    "BitDefender":"",
     "Carbon Black": {"Partially":"Only observed as file operations."},
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -50,6 +52,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Access",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -74,6 +77,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Image\/Library Loaded",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -98,6 +102,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Remote Thread Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -122,6 +127,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Win32 API Telemetry",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -146,6 +152,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Tampering Activity",
+    "BitDefender":"",
     "Carbon Black":{"Partially":"Only via cross-process."},
     "Cortex XDR":{"Partially":"Needs the tamper protection enabled."},
     "CrowdStrike":"",
@@ -170,6 +177,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Call Stacks",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike": "",
@@ -195,6 +203,7 @@
   {
     "Telemetry Feature Category":"File Manipulation",
     "Sub-Category":"File Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -219,6 +228,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Opened",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":{"Partially":"Only file related events that is deems suspicious based on some proprietary criterias."},
@@ -243,6 +253,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -267,6 +278,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -291,6 +303,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Renaming",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -315,6 +328,7 @@
   {
     "Telemetry Feature Category":"User Account Activity",
     "Sub-Category":"Local Account Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -339,6 +353,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":{"Partially":"Only contains modification from a user added to a group."},
@@ -363,6 +378,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -387,6 +403,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Login",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -411,6 +428,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Logoff",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -435,6 +453,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"TCP Connection",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -459,6 +478,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"UDP Connection",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -483,6 +503,7 @@
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"URL",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -507,6 +528,7 @@
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"DNS Query",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -531,6 +553,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"File Downloaded",
+    "BitDefender":{"Partially":"Only tracks downloads of executables."},
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -555,6 +578,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"MD5",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -579,6 +603,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"SHA",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -603,6 +628,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"IMPHASH",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -627,6 +653,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"JA3/JA3s",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -651,6 +678,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":{"Partially":"Tracks only only specific keys (ASEP = 'AutoStarting Entry Point')."},
@@ -675,6 +703,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":{"Partially":"Tracks only only specific keys (ASEP = 'AutoStarting Entry Point')."},
@@ -699,6 +728,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -723,6 +753,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Creation",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -747,6 +778,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -771,6 +803,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -795,6 +828,7 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Creation",
+    "BitDefender":{"Partially":"This is because I have already updated a couple. Please update the rest."},
     "Carbon Black":{"Partially":"Via monitoring the registry changes."},
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -819,6 +853,7 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":{"Partially":"Tracks only modification of service binaries."},
@@ -843,6 +878,7 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -865,8 +901,9 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":"Driver\/Module Activity",
+    "Telemetry Featurere Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Loaded",    
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -891,6 +928,7 @@
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -915,6 +953,7 @@
   {
     "Telemetry Feature Category": "Driver\/Module Activity",
     "Sub-Category":"Driver Unloaded",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -938,6 +977,7 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"Virtual Disk Mount",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
     "CrowdStrike":"",
@@ -962,6 +1002,7 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Unmount",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
     "CrowdStrike":"",
@@ -986,6 +1027,7 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Mount",
+    "BitDefender":"",
     "Carbon Black":{"Partially":"Mounted USBs are recorded in a separate table within the platform for  administrative approval."},
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
     "CrowdStrike":"",
@@ -1010,6 +1052,7 @@
   {
     "Telemetry Feature Category":"Other Relevant Events",
     "Sub-Category":"Group Policy Modification",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1034,6 +1077,7 @@
   {
     "Telemetry Feature Category":"Other Relevant Events",
     "Sub-Category":"Volume Shadow Copy Deletion",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1058,6 +1102,7 @@
   {
     "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Creation",
+    "BitDefender":"",
     "Carbon Black":{"Partially":"Reports only named pipes for file creation events."},
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1082,6 +1127,7 @@
   {
     "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Connection",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1106,6 +1152,7 @@
   {
     "Telemetry Feature Category":"EDR SysOps",
     "Sub-Category":"Agent Start",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Only if the start action fails"},
     "CrowdStrike":"",
@@ -1130,6 +1177,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Stop",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1154,6 +1202,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Install",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1178,6 +1227,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Uninstall",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1202,6 +1252,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Keep-Alive",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1226,6 +1277,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Errors",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1250,6 +1302,7 @@
   {
     "Telemetry Feature Category":"WMI Activity",
     "Sub-Category":"WmiEventConsumerToFilter",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1274,6 +1327,7 @@
   {
     "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventConsumer",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1297,6 +1351,7 @@
   {
     "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventFilter",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1321,6 +1376,7 @@
   {
     "Telemetry Feature Category":"BIT JOBS Activity",
     "Sub-Category":"BIT JOBS Activity",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
@@ -1345,6 +1401,7 @@
   {
     "Telemetry Feature Category":"PowerShell Activity",
     "Sub-Category":"Script-Block Activity",
+    "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
     "CrowdStrike":"",
