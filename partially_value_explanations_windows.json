@@ -828,7 +828,7 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Creation",
-    "BitDefender":{"Partially":"This is because I have already updated a couple. Please update the rest."},
+    "BitDefender": {"Partially": "Service creation telemetry was not consistent across different types of testing, with some methods being captured where others were not."},
     "Carbon Black":{"Partially":"Via monitoring the registry changes."},
     "Cortex XDR":"",
     "CrowdStrike":"",
