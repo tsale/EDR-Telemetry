@@ -314,7 +314,7 @@
     "CrowdStrike":"Yes",
     "ESET Inspect":"No",
     "Elastic":"No",
-    "Harfanglab":"No",
+    "Harfanglab":"Yes",
     "LimaCharlie":"No",
     "MDE":"Via EnablingTelemetry",
     "Qualys":"No",
