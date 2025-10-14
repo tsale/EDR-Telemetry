@@ -17,6 +17,7 @@ WINDOWS_CATEGORIES_VALUED = {
     "Remote Thread Creation": 1,
     "Process Tampering Activity": 1,
     "Process Call Stacks":1,
+    "Win32 API Telemetry": 1,
     "File Creation": 1,
     "File Opened": 1,
     "File Deletion": 1,
@@ -34,6 +35,7 @@ WINDOWS_CATEGORIES_VALUED = {
     "File Downloaded": 1,
     "MD5": 1,
     "SHA": 1,
+    "JA3/JA3s": 1,
     "IMPHASH": 1,
     "Key/Value Creation": 1,
     "Key/Value Modification": 1,
@@ -63,7 +65,8 @@ WINDOWS_CATEGORIES_VALUED = {
     "WmiEventConsumer": 1,
     "WmiEventFilter": 1,
     "BIT JOBS Activity": 1,
-    "Script-Block Activity": 1
+    "Script-Block Activity": 1,
+    "Volume Shadow Copy Deletion": 0.5
 }
 
 # Linux-specific categories
