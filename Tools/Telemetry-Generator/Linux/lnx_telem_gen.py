@@ -176,56 +176,104 @@ def manage_test_service():
     """
     Creates, modifies, and deletes a systemd service using D-Bus system calls.
     """
-    service_name = "test_service"
+    service_name = "test_telemetry_service"
     unit_name = f"{service_name}.service"
+    service_file_path = f"/etc/systemd/system/{unit_name}"
     
     try:
+        # Create service unit file on disk
+        service_content = """[Unit]
+Description=Test Telemetry Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sleep 5
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+"""
+        
+        # Write the service file
+        with open(service_file_path, 'w') as f:
+            f.write(service_content)
+        print(f"Service file created at {service_file_path}")
+        
         # Connect to system bus
         bus = dbus.SystemBus()
         systemd = bus.get_object('org.freedesktop.systemd1', '/org/freedesktop/systemd1')
         manager = dbus.Interface(systemd, 'org.freedesktop.systemd1.Manager')
         
-        # Create service unit file
-        unit_content = {
-            "Unit": {
-                "Description": "Test Service for Telemetry"
-            },
-            "Service": {
-                "Type": "simple",
-                "ExecStart": "/bin/sleep 3600"
-            },
-            "Install": {
-                "WantedBy": "multi-user.target"
-            }
-        }
+        # Reload systemd to recognize the new service
+        manager.Reload()
+        print(f"Systemd daemon reloaded")
         
-        # Create the service using systemd manager
-        manager.CreateTransientUnit(
-            unit_name,
-            unit_content
-        )
-        print(f"Service '{service_name}' created successfully")
+        time.sleep(1)
+        
+        # Enable the service
+        manager.EnableUnitFiles([unit_name], False, True)
+        print(f"Service '{service_name}' enabled successfully")
+        
+        time.sleep(1)
+        
+        # Start the service
+        manager.StartUnit(unit_name, 'replace')
+        print(f"Service '{service_name}' started successfully")
         
         time.sleep(2)
         
-        # Modify service by reloading its configuration
-        manager.ReloadUnit(
-            unit_name,
-            'replace'
-        )
+        # Modify the service by updating the file
+        modified_content = """[Unit]
+Description=Modified Test Telemetry Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sleep 3
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+"""
+        with open(service_file_path, 'w') as f:
+            f.write(modified_content)
+        
+        # Reload systemd to apply changes
+        manager.Reload()
         print(f"Service '{service_name}' modified successfully")
         
-        time.sleep(2)
+        time.sleep(1)
         
-        # Stop and remove the service
+        # Stop the service
         manager.StopUnit(unit_name, 'replace')
+        print(f"Service '{service_name}' stopped successfully")
+        
+        time.sleep(1)
+        
+        # Disable and remove the service
         manager.DisableUnitFiles([unit_name], False)
+        print(f"Service '{service_name}' disabled successfully")
+        
+        # Remove the service file
+        if os.path.exists(service_file_path):
+            os.remove(service_file_path)
+            print(f"Service file removed from {service_file_path}")
+        
+        # Final reload to clean up
+        manager.Reload()
         print(f"Service '{service_name}' deleted successfully")
         
     except dbus.exceptions.DBusException as e:
         print(f"D-Bus error: {e}")
+        # Cleanup on error
+        if os.path.exists(service_file_path):
+            os.remove(service_file_path)
     except Exception as e:
         print(f"Error managing service: {e}")
+        # Cleanup on error
+        if os.path.exists(service_file_path):
+            os.remove(service_file_path)
 
 # Function to perform a DNS query
 def dns_query():

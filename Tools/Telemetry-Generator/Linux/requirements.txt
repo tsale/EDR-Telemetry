@@ -1,0 +1,35 @@
+# EDR-Telemetry Project Requirements
+# This file lists all Python dependencies needed for the EDR-Telemetry project
+
+# Core table formatting library used across multiple scripts
+prettytable>=3.0.0
+
+# Data manipulation and analysis (used in convert.py)
+pandas>=1.5.0
+
+# HTTP requests library (used in fetch_contributors.py)
+requests>=2.28.0
+
+# Linux-specific dependencies for telemetry generation
+# D-Bus Python bindings for system service management (Linux telemetry generator)
+dbus-python>=1.2.18
+
+# User account management library for Linux (Linux telemetry generator)
+# NOTE: libuser is NOT available via pip and must be installed as a system package:
+# On Ubuntu/Debian: sudo apt-get install python3-libuser libuser
+# On RHEL/CentOS/Fedora: sudo yum install python3-libuser libuser
+# The Python bindings (python3-libuser) are installed system-wide and will be
+# available to your virtual environment after system installation.
+
+# Additional system dependencies notes:
+# The Linux telemetry generator also requires:
+# - gcc compiler for kernel module compilation
+# - kernel headers for driver loading functionality
+# - sudo privileges for certain system-level operations
+# - systemd for service management operations
+
+# Development dependencies (optional)
+# Add these if you need development/testing tools:
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
