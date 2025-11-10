@@ -1209,7 +1209,7 @@
     "FortiEDR":"Yes",
     "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
-    "MDE":"Via EventLogs",
+    "MDE":"Yes",
     "OpenEDR":"Yes",
     "PadvishXDR":"Yes",
     "Qualys":"Yes",

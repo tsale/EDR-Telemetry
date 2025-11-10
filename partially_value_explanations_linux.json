@@ -330,7 +330,7 @@
       "CrowdStrike":{"Partially":"Service-related events generated via D-Bus calls (as implemented in the test script for creating, modifying, and deleting services) are not visible in the console. This suggests CrowdStrike may not be fully monitoring systemd operations through D-Bus interfaces."},
       "Sysmon":"",
       "LimaCharlie":"",
-      "MDE":"",
+      "MDE":{"Partially":"Only available through the timeline. Not searchable in a query."},
       "Elastic":"",
       "Auditd":"",
       "Carbon Black Cloud":""
