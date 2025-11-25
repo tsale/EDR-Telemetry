@@ -23,7 +23,7 @@
 //      https://aka.ms/vs/17/release/vc_redist.x64.exe
 //
 // 2. Publish a self-contained executable (64-bit):
-//      dotnet publish -c Release -r win-x64 --self-contained true
+//      dotnet publish -c Release -r win-x64 --self-contained false
 //
 // 3. Run the generated .exe from the publish folder (Administrator privileges required).
 
