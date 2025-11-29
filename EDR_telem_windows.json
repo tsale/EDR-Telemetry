@@ -659,7 +659,7 @@
     "Cybereason":"No",
     "Cylance":"No",
     "ESET Inspect":"No",
-    "Elastic":"Partially",
+    "Elastic":"Yes",
     "FortiEDR":"No",
     "Harfanglab":"Yes",
     "LimaCharlie":"No",
