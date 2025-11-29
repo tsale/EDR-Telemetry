@@ -218,7 +218,7 @@
     "Qualys":"No",
     "SentinelOne":"Yes",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"Yes"
   },
   {
     "Telemetry Feature Category":"User Account Activity",
