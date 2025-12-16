@@ -62,7 +62,7 @@
     "Elastic":null,
     "Harfanglab":null,
     "LimaCharlie":null,
-    "MDE":"Partially",
+    "MDE":null,
     "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
@@ -268,9 +268,9 @@
     "ESET Inspect":null,
     "Elastic":null,
     "Harfanglab":null,
-    "LimaCharlie":"Partially",
+    "LimaCharlie":null,
     "MDE":null,
-    "Qualys":"Partially",
+    "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
     "Uptycs":null
@@ -287,7 +287,7 @@
     "Harfanglab":null,
     "LimaCharlie":null,
     "MDE":null,
-    "Qualys":"Via EnablingTelemetry",
+    "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
     "Uptycs":null
@@ -789,7 +789,7 @@
     "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":null
   },
   {
     "Telemetry Feature Category":"Access Activity",
@@ -806,7 +806,7 @@
     "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":null
   },
 
   {
@@ -824,7 +824,7 @@
     "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
-    "Uptycs":"Via EnablingTelemetry"
+    "Uptycs":null
   },
 
   {
@@ -972,12 +972,12 @@
     "Auditd":null,
     "BitDefender":null,
     "Carbon Black Cloud":null,
-    "CrowdStrike":"Partially",
+    "CrowdStrike":null,
     "ESET Inspect":null,
     "Elastic":null,
     "Harfanglab":null,
     "LimaCharlie":null,
-    "MDE":"Partially",
+    "MDE":null,
     "Qualys":null,
     "SentinelOne":null,
     "Sysmon":null,
@@ -989,7 +989,7 @@
     "Auditd":null,
     "BitDefender":null,
     "Carbon Black Cloud":null,
-    "CrowdStrike":"Partially",
+    "CrowdStrike":null,
     "ESET Inspect":null,
     "Elastic":null,
     "Harfanglab":null,
