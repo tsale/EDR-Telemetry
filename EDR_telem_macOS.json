@@ -233,6 +233,11 @@
     "Sub-Category":"TCC Policy Change",
     "EDR-placeholder":null
   },
+  {
+    "Telemetry Feature Category":"Privacy & TCC Activity",
+    "Sub-Category":"TCC Access Check",
+    "EDR-placeholder":null
+  },
 
   {
     "Telemetry Feature Category":"Access Activity",
