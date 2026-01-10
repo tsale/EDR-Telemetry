@@ -30,6 +30,11 @@
     "Sub-Category":"File Attribute Change",
     "EDR-placeholder":null
   },
+  {
+    "Telemetry Feature Category":"File Activity",
+    "Sub-Category":"File Open/Access",
+    "EDR-placeholder":null
+  },
 
   {
     "Telemetry Feature Category":"User & Session Activity",
@@ -314,5 +319,5 @@
     "Sub-Category":"Service Deleted",
     "EDR-placeholder":null
   }
-] 
+]
 
