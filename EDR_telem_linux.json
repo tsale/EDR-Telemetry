@@ -537,6 +537,6 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"Yes",
-    "Uptycs":"No"
+    "Uptycs":"Yes"
   }
 ]
