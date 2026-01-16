@@ -152,7 +152,7 @@
     "Sysmon":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"Pending Response",
-    "Uptycs":"Pending Response",
+    "Uptycs":"Via EnablingTelemetry",
     "WatchGuard":"No"
   },
   {
