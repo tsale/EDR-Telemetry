@@ -293,7 +293,7 @@
     "Auditd":"Yes",
     "BitDefender":"No",
     "Carbon Black Cloud":"No",
-    "C-Prot":"Pending Response",
+    "C-Prot":"Yes",
     "CrowdStrike":"Yes",
     "ESET Inspect":"Yes",
     "Elastic":"No",
