@@ -11,6 +11,8 @@ on:
       - 'EDR_telem_windows.json'
       - 'EDR_telem_linux.json' 
       - 'partially_value_explanations_windows.json'
+      - 'partially_value_explanations_linux.json'
+      - 'mitre_att&ck_mappings.json'
   
   # Allow manual triggering
   workflow_dispatch:
@@ -31,6 +33,50 @@ jobs:
     name: Update Database via Cloud Function
     
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Detect Platform
+      id: detect
+      shell: bash
+      run: |
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.platform }}" ]; then
+          echo "platform=${{ github.event.inputs.platform }}" >> "$GITHUB_OUTPUT"
+          exit 0
+        fi
+
+        BEFORE_SHA="${{ github.event.before }}"
+        AFTER_SHA="${{ github.sha }}"
+
+        if [ -n "$BEFORE_SHA" ] && [ "$BEFORE_SHA" != "0000000000000000000000000000000000000000" ]; then
+          CHANGED_FILES=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA")
+        else
+          CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r "$AFTER_SHA")
+        fi
+        echo "Changed files:"
+        echo "$CHANGED_FILES"
+
+        HAS_LINUX=0
+        HAS_WINDOWS=0
+
+        if echo "$CHANGED_FILES" | grep -qE '^(EDR_telem_linux\.json|partially_value_explanations_linux\.json)$'; then
+          HAS_LINUX=1
+        fi
+
+        if echo "$CHANGED_FILES" | grep -qE '^(EDR_telem_windows\.json|partially_value_explanations_windows\.json)$'; then
+          HAS_WINDOWS=1
+        fi
+
+        if [ "$HAS_LINUX" -eq 1 ] && [ "$HAS_WINDOWS" -eq 0 ]; then
+          echo "platform=linux" >> "$GITHUB_OUTPUT"
+        elif [ "$HAS_WINDOWS" -eq 1 ] && [ "$HAS_LINUX" -eq 0 ]; then
+          echo "platform=windows" >> "$GITHUB_OUTPUT"
+        else
+          echo "platform=both" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Generate Webhook Signature
       id: signature
       run: |
@@ -65,45 +111,46 @@ jobs:
     
     - name: Trigger Database Update
       run: |
-        echo "🚀 Triggering secure database update for platform: ${{ github.event.inputs.platform || 'both' }}"
-        
-        # Make the authenticated request
-        RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
-          "${{ secrets.CLOUD_FUNCTION_URL }}?platform=${{ github.event.inputs.platform || 'both' }}" \
-          -H "Content-Type: application/json" \
-          -H "X-GitHub-Event: ${{ github.event_name }}" \
-          -H "X-Hub-Signature-256: ${{ steps.signature.outputs.signature }}" \
-          -d '${{ steps.signature.outputs.payload }}')
-        
-        # Extract HTTP status code and response body
-        HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
-        RESPONSE_BODY=$(echo "$RESPONSE" | sed '$d')
-        
-        echo "📊 Response Status: $HTTP_CODE"
-        echo "📄 Response Body:"
-        echo "$RESPONSE_BODY" | jq '.' 2>/dev/null || echo "$RESPONSE_BODY"
-        
-        # Check if request was successful
-        if [ "$HTTP_CODE" -eq 200 ]; then
-          echo "✅ Database update completed successfully"
-          
-          # Parse and display statistics if available
-          WINDOWS_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.windows_stats.scores_updated // 0' 2>/dev/null || echo "0")
-          LINUX_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.linux_stats.scores_updated // 0' 2>/dev/null || echo "0")
-          DURATION=$(echo "$RESPONSE_BODY" | jq -r '.duration_seconds // 0' 2>/dev/null || echo "0")
-          
-          echo "📈 Update Statistics:"
-          echo "   Windows scores updated: $WINDOWS_UPDATED"
-          echo "   Linux scores updated: $LINUX_UPDATED"
-          echo "   Duration: ${DURATION}s"
-          
-        elif [ "$HTTP_CODE" -eq 401 ]; then
-          echo "❌ Authentication failed - check WEBHOOK_SECRET"
-          echo "💡 Make sure the WEBHOOK_SECRET in GitHub matches your Cloud Function"
-          exit 1
+        echo "🚀 Triggering secure database update for platform: ${{ steps.detect.outputs.platform }}"
+
+        PLATFORM="${{ steps.detect.outputs.platform }}"
+
+        call_update() {
+          local p="$1"
+
+          RESPONSE=$(curl -sS -w "\n%{http_code}" -X POST \
+            "${{ secrets.CLOUD_FUNCTION_URL }}?platform=${p}" \
+            -H "Content-Type: application/json" \
+            -H "X-GitHub-Event: ${{ github.event_name }}" \
+            -H "X-Hub-Signature-256: ${{ steps.signature.outputs.signature }}" \
+            -d '${{ steps.signature.outputs.payload }}')
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          RESPONSE_BODY=$(echo "$RESPONSE" | sed '$d')
+
+          echo "📊 Response Status (${p}): $HTTP_CODE"
+          echo "📄 Response Body (${p}):"
+          echo "$RESPONSE_BODY" | jq '.' 2>/dev/null || echo "$RESPONSE_BODY"
+
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            return 0
+          elif [ "$HTTP_CODE" -eq 401 ]; then
+            echo "❌ Authentication failed - check WEBHOOK_SECRET"
+            echo "Make sure the WEBHOOK_SECRET in GitHub matches your Cloud Function"
+            return 1
+          else
+            echo "❌ Database update failed with status code: $HTTP_CODE"
+            return 1
+          fi
+        }
+
+        if [ "$PLATFORM" = "both" ]; then
+          call_update "windows" || exit 1
+          call_update "linux" || exit 1
+          echo "✅ Database updates completed successfully"
         else
-          echo "❌ Database update failed with status code: $HTTP_CODE"
-          exit 1
+          call_update "$PLATFORM" || exit 1
+          echo "✅ Database update completed successfully"
         fi
       env:
         # These secrets must be set in GitHub repository settings:
@@ -119,7 +166,7 @@ jobs:
         echo "   Branch: ${{ github.ref_name }}"
         echo "   Commit: ${{ github.sha }}"
         echo "   Actor: ${{ github.actor }}"
-        echo "   Platform: ${{ github.event.inputs.platform || 'both' }}"
+        echo "   Platform: ${{ steps.detect.outputs.platform }}"
     
     - name: Notify on Failure
       if: failure()
