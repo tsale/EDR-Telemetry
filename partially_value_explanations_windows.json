@@ -1196,7 +1196,7 @@
     "Sub-Category":"Agent Start",
     "BitDefender":"",
     "Carbon Black":"",
-    "Cortex XDR":{"Partially":"Only if the start action fails"},
+    "Cortex XDR":"",
     "CrowdStrike":"",
     "Cybereason":"",
     "Cylance":" ",
