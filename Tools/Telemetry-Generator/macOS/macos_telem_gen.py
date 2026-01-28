@@ -31,6 +31,8 @@ import struct
 import tempfile
 import plistlib
 import time
+import re
+import subprocess
 from pathlib import Path
 from datetime import datetime
 
@@ -777,25 +779,126 @@ class DeviceActivityManager:
     @staticmethod
     def external_media_detection():
         """
-        Lists mounted volumes to demonstrate external media detection.
-        Note: Actual mount/unmount requires physical devices or disk images.
+        Creates, mounts, and unmounts a small disk image to generate mount/unmount telemetry.
         """
-        print("[*] Checking for External Media (mounted volumes)...")
+        print("[*] Triggering External Media mount/unmount (disk image)...")
         try:
-            # List volumes in /Volumes
-            volumes_path = "/Volumes"
-            if os.path.exists(volumes_path):
-                volumes = os.listdir(volumes_path)
-                print(f"    [+] Found {len(volumes)} mounted volume(s):")
-                for vol in volumes:
-                    vol_path = os.path.join(volumes_path, vol)
-                    print(f"        - {vol}")
-            
-            # Mount/unmount telemetry requires DiskArbitration / mounting APIs.
-            # We intentionally avoid `hdiutil` and other external binaries.
-            print("    [!] Disk image mount/unmount not performed in syscall-only mode")
-            
-            return True
+            hdiutil_path = "/usr/bin/hdiutil"
+            if not os.path.exists(hdiutil_path):
+                print(f"[-] hdiutil not found at {hdiutil_path}")
+                return False
+
+            temp_dir = tempfile.mkdtemp(prefix="edr_telem_dmg_", dir="/tmp")
+            dmg_path = os.path.join(temp_dir, "test.dmg")
+            volname = "EDR_Telemetry_Dummy_image"
+
+            dev_entry = None
+            whole_dev_entry = None
+            mount_point = None
+
+            try:
+                print("    [*] Creating DMG...")
+                create_cmd = [
+                    hdiutil_path,
+                    "create",
+                    "-size",
+                    "10m",
+                    "-fs",
+                    "HFS+",
+                    "-volname",
+                    volname,
+                    dmg_path,
+                ]
+                create_res = subprocess.run(create_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                if create_res.returncode != 0:
+                    err = create_res.stderr.decode("utf-8", errors="replace")
+                    print(f"[-] hdiutil create failed: {err.strip()}")
+                    return False
+
+                print("    [*] Attaching (mounting) DMG...")
+                attach_cmd = [hdiutil_path, "attach", "-nobrowse", "-plist", dmg_path]
+                attach_res = subprocess.run(attach_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                if attach_res.returncode != 0:
+                    err = attach_res.stderr.decode("utf-8", errors="replace")
+                    print(f"[-] hdiutil attach failed: {err.strip()}")
+                    return False
+
+                try:
+                    attach_plist = plistlib.loads(attach_res.stdout)
+                except Exception as e:
+                    print(f"[-] Failed to parse hdiutil attach plist output: {e}")
+                    return False
+
+                entities = attach_plist.get("system-entities", []) or []
+                for ent in entities:
+                    if isinstance(ent, dict) and "mount-point" in ent:
+                        mount_point = ent.get("mount-point")
+                        dev_entry = ent.get("dev-entry") or dev_entry
+                        break
+
+                for ent in entities:
+                    if isinstance(ent, dict) and ent.get("whole-disk") is True and "dev-entry" in ent:
+                        whole_dev_entry = ent.get("dev-entry")
+                        break
+
+                if whole_dev_entry is None and isinstance(dev_entry, str):
+                    m = re.match(r"^(/dev/disk\d+)s\d+$", dev_entry)
+                    if m:
+                        whole_dev_entry = m.group(1)
+
+                if dev_entry is None:
+                    for ent in entities:
+                        if isinstance(ent, dict) and "dev-entry" in ent:
+                            dev_entry = ent.get("dev-entry")
+                            break
+
+                if mount_point:
+                    print(f"    [+] Mounted at: {mount_point}")
+                else:
+                    print("    [!] Mounted volume path not found in attach output")
+
+                if dev_entry:
+                    print(f"    [+] Device: {dev_entry}")
+                else:
+                    print("    [!] Device entry not found in attach output")
+
+                if whole_dev_entry and whole_dev_entry != dev_entry:
+                    print(f"    [+] Whole device: {whole_dev_entry}")
+
+                time.sleep(2)
+
+                detach_target = whole_dev_entry or dev_entry or mount_point
+                if detach_target:
+                    print("    [*] Detaching (unmounting) DMG...")
+                    detach_cmd = [hdiutil_path, "detach", detach_target]
+                    detach_res = subprocess.run(detach_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                    if detach_res.returncode != 0:
+                        err = detach_res.stderr.decode("utf-8", errors="replace")
+                        print(f"    [!] hdiutil detach failed: {err.strip()}")
+                        detach_force_cmd = [hdiutil_path, "detach", "-force", detach_target]
+                        detach_force_res = subprocess.run(
+                            detach_force_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+                        )
+                        if detach_force_res.returncode != 0:
+                            ferr = detach_force_res.stderr.decode("utf-8", errors="replace")
+                            print(f"[-] hdiutil detach -force failed: {ferr.strip()}")
+                            return False
+                else:
+                    print("    [!] No detach target found (device/mount point missing)")
+
+                time.sleep(1)
+                return True
+            finally:
+                try:
+                    if os.path.exists(dmg_path):
+                        os.unlink(dmg_path)
+                except Exception:
+                    pass
+                try:
+                    if os.path.isdir(temp_dir):
+                        os.rmdir(temp_dir)
+                except Exception:
+                    pass
         except Exception as e:
             print(f"[-] External media detection failed: {e}")
             return False
