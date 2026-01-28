@@ -104,14 +104,81 @@ LINUX_CATEGORIES_VALUED = {
     "Fuzzy Hash": 1
 }
 
+# macOS-specific categories
+MACOS_CATEGORIES_VALUED = {
+    "Process Creation": 0,
+    "Process Termination": 0,
+    "File Creation": 0,
+    "File Modification": 0,
+    "File Deletion": 0,
+    "File Attribute Change": 0,
+    "File Open/Access": 0,
+    "User Logon": 0,
+    "User Logoff": 0,
+    "Logon Failed": 0,
+    "Screen Lock": 0,
+    "Screen Unlock": 0,
+    "Privilege Escalation (sudo etc.)": 0,
+    "Script Execution": 0,
+    "Script Content": 0,
+    "Network Connection": 0,
+    "Network Socket Listen": 0,
+    "DNS Query": 0,
+    "Scheduled Task Change (cron/at)": 0,
+    "Launchd Item Created": 0,
+    "Launchd Item Modified": 0,
+    "Launchd Item Deleted": 0,
+    "LoginItem Created": 0,
+    "LoginItem Deleted": 0,
+    "Background Task Registration Change": 0,
+    "User Account Created": 0,
+    "User Account Modified": 0,
+    "User Account Deleted": 0,
+    "Group Membership Modified": 0,
+    "System Extension Installed": 0,
+    "System Extension Loaded": 0,
+    "System Extension Uninstalled": 0,
+    "DriverKit Extension Loaded": 0,
+    "Kernel Extension Loaded (legacy)": 0,
+    "Binary Signature Info Recorded": 0,
+    "Unsigned Or Ad Hoc Binary Executed": 0,
+    "Notarization Status Recorded": 0,
+    "Quarantine Flag Set": 0,
+    "Quarantine Flag Cleared": 0,
+    "Gatekeeper Decision Logged": 0,
+    "XProtect Detection Logged": 0,
+    "XProtect Remediation Logged": 0,
+    "TCC Prompt Shown": 0,
+    "TCC Decision (Allow)": 0,
+    "TCC Decision (Deny)": 0,
+    "TCC Policy Change": 0,
+    "TCC Access Check": 0,
+    "Raw Device Access": 0,
+    "Process Access": 0,
+    "Process Injection Or Tampering": 0,
+    "External Media Mounted": 0,
+    "External Media Unmounted": 0,
+    "Agent Start": 0,
+    "Agent Stop": 0,
+    "Agent Protection Disabled Or Tamper Event": 0,
+    "MD5 Available": 0,
+    "SHA-256 Available": 0,
+    "Fuzzy Hash Available": 0,
+    "Service Created": 0,
+    "Service Modified": 0,
+    "Service Deleted": 0
+}
+
 def determine_categories(filename):
     """
     Determine which categories to use based on the filename.
     """
-    if "linux" in filename.lower():
+    filename_lower = filename.lower()
+    if "macos" in filename_lower:
+        return MACOS_CATEGORIES_VALUED
+    if "linux" in filename_lower:
         return LINUX_CATEGORIES_VALUED
     return WINDOWS_CATEGORIES_VALUED
-
 
 def parse_arguments():
     """
@@ -127,7 +194,13 @@ def display_results(scores_dict, input_file):
     """
     Display the results in the terminal using PrettyTable
     """
-    os_type = "Linux" if "linux" in input_file.lower() else "Windows"
+    input_file_lower = input_file.lower()
+    if "macos" in input_file_lower:
+        os_type = "macOS"
+    elif "linux" in input_file_lower:
+        os_type = "Linux"
+    else:
+        os_type = "Windows"
     table = PrettyTable()
     table.field_names = ["Rank", "EDR", "Score"]
     
@@ -167,12 +240,9 @@ def generate_scores(input_file):
         sliced_items = list(category.items())[2:]
         subcategory = list(category.items())[1][1]
         for key, value in sliced_items:
-            try:
-                category_value = categories.get(subcategory, 0)
-                edrs_list[key] = edrs_list.get(key, 0) + FEATURES_DICT_VALUED[value] * category_value
-            except KeyError:
-                category_value = categories.get(subcategory, 0)
-                edrs_list[key] = FEATURES_DICT_VALUED[value] * category_value
+            category_value = categories.get(subcategory, 0)
+            feature_value = FEATURES_DICT_VALUED.get(value, 0)
+            edrs_list[key] = edrs_list.get(key, 0) + feature_value * category_value
 
     # Sort and round the scores
     return dict(sorted(
