@@ -1452,7 +1452,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"Via EventLogs",
-    "Uptycs":"No",
+    "Uptycs":"Via EventLogs",
     "WatchGuard":"No"
   },
   {
