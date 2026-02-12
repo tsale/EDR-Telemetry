@@ -2,8 +2,9 @@
 """macOS Code Signing & Trust Activity (syscall-only).
 
 This module avoids external binaries (`codesign`, `spctl`, `stapler`, `cc`,
-`launchctl`). It uses Security.framework APIs where practical and generates
-filesystem telemetry via quarantine xattrs and XProtect metadata reads.
+`launchctl`). It uses Security.framework APIs and focuses on generating process
+and file activity with distinct trust states, so EDR signing enrichment can be
+validated on common events (especially process exec + file operations).
 """
 
 from __future__ import annotations
@@ -303,7 +304,7 @@ def check_xprotect() -> bool:
 def _create_test_executable() -> str:
     """Create a test Mach-O by copying a system binary and corrupting it."""
 
-    fd, path = tempfile.mkstemp(prefix="edr_macho_", suffix="")
+    fd, path = tempfile.mkstemp(prefix="edr_macho_", suffix="", dir="/tmp")
     os.close(fd)
 
     src = "/bin/ls" if os.path.exists("/bin/ls") else "/usr/bin/true"
@@ -386,34 +387,53 @@ def _create_test_executable() -> str:
     return path
 
 
-def codesign_trust_events() -> bool:
-    print("[*] Running Code Signing & Trust demonstrations (syscall-only)...")
+def execute_sample(path: str) -> bool:
+    """Execute a binary to generate process telemetry for trust enrichment checks."""
 
-    ok = True
-    ok &= verify_code_signature("/bin/ls")
+    print(f"\n    === Execute Sample: {path} ===")
 
-    test_exec = _create_test_executable()
+    if not os.path.exists(path):
+        print("    [!] Path not found")
+        return False
+
     try:
-        ok &= verify_code_signature(test_exec)
-        ok &= set_quarantine(test_exec)
-        ok &= read_quarantine(test_exec)
-        # SecAssessment can terminate the process with SIGTRAP on some systems.
-        # Run it in a child so the parent continues even if that happens.
         pid = os.fork()
         if pid == 0:
             try:
-                res = gatekeeper_assessment(test_exec)
-                os._exit(0 if res else 1)
+                os.execve(path, [path], os.environ.copy())
             except Exception:
-                os._exit(1)
+                os._exit(127)
+
         _, status = os.waitpid(pid, 0)
-        if os.WIFSIGNALED(status):
-            sig = os.WTERMSIG(status)
-            print(f"    [!] Gatekeeper assessment terminated by signal: {sig}")
-            ok &= True
+
+        if os.WIFEXITED(status):
+            print(f"    [+] Process exited with code: {os.WEXITSTATUS(status)}")
+        elif os.WIFSIGNALED(status):
+            print(f"    [!] Process terminated by signal: {os.WTERMSIG(status)}")
         else:
-            ok &= os.WEXITSTATUS(status) == 0
-        ok &= remove_quarantine(test_exec)
+            print("    [*] Process finished with non-standard status")
+
+        return True
+    except Exception as e:
+        print(f"    [!] Execution failed: {e}")
+        return False
+
+
+def codesign_trust_events() -> bool:
+    print("[*] Running Code Signing & Trust demonstrations (syscall-only)...")
+    print("    [*] Focus: validate signing/trust enrichment on process and file telemetry")
+
+    ok = True
+
+    trusted_exec = "/usr/bin/true" if os.path.exists("/usr/bin/true") else "/bin/ls"
+    ok &= verify_code_signature(trusted_exec)
+    ok &= execute_sample(trusted_exec)
+
+    test_exec = _create_test_executable()
+    try:
+        print("\n    [*] Created tampered sample from trusted system binary")
+        ok &= verify_code_signature(test_exec)
+        ok &= execute_sample(test_exec)
     finally:
         try:
             os.unlink(test_exec)
@@ -421,6 +441,8 @@ def codesign_trust_events() -> bool:
             pass
 
     ok &= check_xprotect()
+    print("\n    [*] Review your EDR output for signing/trust fields on the generated")
+    print("        process/file events for both trusted and tampered samples.")
     return bool(ok)
 
 

@@ -126,8 +126,10 @@ def list_loaded_kexts() -> bool:
 def simulate_kext_load_attempt() -> bool:
     """Attempt to load an (invalid) kext via KextManagerLoadKextWithURL.
 
-    This is the API-level equivalent of `kextload` and should generate relevant
-    telemetry even when it fails (expected on modern macOS).
+    This is the API-level equivalent of `kextload`.
+
+    On modern macOS this is commonly blocked/hardened, and some systems may not
+    emit KEXTLOAD/KEXTUNLOAD notifications despite a direct API attempt.
     """
 
     print("\n    === Kext Load Attempt (KextManagerLoadKextWithURL) ===")
@@ -198,8 +200,53 @@ def simulate_kext_load_attempt() -> bool:
             pass
 
 
+def simulate_kext_unload_attempt() -> bool:
+    """Attempt kext unload via KextManagerUnloadKextWithIdentifier.
+
+    This is a best-effort API call for telemetry generation. It is expected to
+    fail on most modern systems due to hardening/policy.
+    """
+
+    print("\n    === Kext Unload Attempt (KextManagerUnloadKextWithIdentifier) ===")
+
+    iokit = ctypes.CDLL("/System/Library/Frameworks/IOKit.framework/IOKit")
+    cf = ctypes.CDLL(
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+    )
+
+    try:
+        iokit.KextManagerUnloadKextWithIdentifier.argtypes = [ctypes.c_void_p]
+        iokit.KextManagerUnloadKextWithIdentifier.restype = ctypes.c_int
+
+        cf.CFStringCreateWithCString.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.c_uint32]
+        cf.CFStringCreateWithCString.restype = ctypes.c_void_p
+        cf.CFRelease.argtypes = [ctypes.c_void_p]
+        cf.CFRelease.restype = None
+
+        # Use an Apple bundle ID likely present on most systems; unload should fail.
+        target_id = "com.apple.driver.AppleMobileFileIntegrity"
+        cf_id = int(cf.CFStringCreateWithCString(None, target_id.encode("utf-8"), 0x08000100))
+        if not cf_id:
+            print("    [!] Failed to create CFString for unload target")
+            return True
+
+        try:
+            rc = int(iokit.KextManagerUnloadKextWithIdentifier(ctypes.c_void_p(cf_id)))
+            print(f"    [*] KextManagerUnloadKextWithIdentifier({target_id}) return={rc} (0 indicates success)")
+            if rc != 0:
+                print("    [*] Non-zero return is expected on hardened systems")
+        finally:
+            cf.CFRelease(ctypes.c_void_p(cf_id))
+
+        return True
+    except Exception as e:
+        print(f"    [!] Kext unload attempt failed: {e}")
+        return True
+
+
 def kext_operations() -> bool:
     print("[*] Running Kernel/System Extension demonstrations (syscall-only)...")
+    print("    [*] Note: modern macOS hardening may prevent real load/unload notifications")
 
     print("\n    === Extension Directories ===")
     _print_dir_summary("/Library/Extensions", suffix=".kext", label="/Library/Extensions")
@@ -211,8 +258,9 @@ def kext_operations() -> bool:
 
     ok1 = list_loaded_kexts()
     ok2 = simulate_kext_load_attempt()
-    ok3 = check_kext_consent_database()
-    return ok1 and ok2 and ok3
+    ok3 = simulate_kext_unload_attempt()
+    ok4 = check_kext_consent_database()
+    return ok1 and ok2 and ok3 and ok4
 
 
 if __name__ == "__main__":

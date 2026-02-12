@@ -36,12 +36,12 @@ This document describes what each telemetry event does and how it triggers the a
 
 ## User Account Activity
 
-- UserAccountEvents: creates, modifies, and deletes a local dslocal user record by writing/removing the backing plist record and associated home directory artifacts (requires root for full effect).
+- UserAccountEvents: creates, modifies, and deletes a local user via OpenDirectory.framework APIs (system API path used by directory services). Home directory artifacts are created under `/tmp/edr_telem_userhomes` to avoid touching `/Users`.
 
 ## Access Activity
 
 - RawDeviceAccess: attempts to open and read a raw disk device node to generate direct device access telemetry (typically requires root).
-- ProcessAccess: attempts to attach to a target process using ptrace semantics to generate process access telemetry (often restricted).
+- ProcessAccess: attempts `task_for_pid` first (primary get-task telemetry surface), then performs a best-effort ptrace attach/detach attempt for additional process access coverage.
 
 ## Process Tampering Activity
 
@@ -49,11 +49,11 @@ This document describes what each telemetry event does and how it triggers the a
 
 ## System Extension & Driver Activity
 
-- KextOperations: enumerates loaded kernel extensions via IOKit KextManager APIs and performs an API-level kext load attempt (expected to fail on modern systems) to generate extension telemetry.
+- KextOperations: enumerates loaded kernel extensions via IOKit KextManager APIs and performs API-level kext load/unload attempts. On modern hardened macOS builds, load/unload usually fails and notify events may be limited.
 
 ## Code Signing & Trust Activity
 
-- CodeSignTrust: validates code signatures via Security.framework, performs a Gatekeeper-style assessment via SecAssessment APIs (in a child process to tolerate SIGTRAP on some OS builds), manipulates quarantine attributes, and reads XProtect metadata from system plists.
+- CodeSignTrust: validates signature state via Security.framework for a trusted system binary and a tampered copy, executes both samples to generate process telemetry with different trust outcomes, and reads XProtect metadata. Primary goal is validating signing/trust enrichment on common events.
 
 ## Privacy & TCC Activity
 
@@ -70,3 +70,7 @@ This document describes what each telemetry event does and how it triggers the a
 ## Service Activity
 
 - ServiceActivity: creates/modifies/deletes a LaunchDaemon by submitting/removing jobs via ServiceManagement (modify implemented as remove then re-submit); best-effort start uses launchd XPC.
+
+## Not Yet Implemented
+
+- Profile Added/Removed telemetry (`ES_EVENT_TYPE_NOTIFY_PROFILE_ADD` / `..._PROFILE_REMOVE`) is a recommended next addition. Installing/removing configuration profiles via system APIs is handled through private framework surfaces and is not yet part of this generator.

@@ -30,11 +30,14 @@ import ctypes.util
 import struct
 import tempfile
 import plistlib
-import time
 import re
 import subprocess
 from pathlib import Path
 from datetime import datetime
+
+# Avoid leaving behind root-owned __pycache__ directories when running under sudo.
+if os.geteuid() == 0:
+    sys.dont_write_bytecode = True
 
 from native import find_processes_by_name, xattr_get, xattr_remove, xattr_set
 
@@ -54,6 +57,7 @@ try:
     HAS_PRETTYTABLE = True
 except ImportError:
     HAS_PRETTYTABLE = False
+    PrettyTable = None
     print("Note: prettytable not installed. Install with: pip3 install prettytable so you can see a nice table of what your EDR missed")
 
 # Load libc for syscalls (capture errno reliably)
@@ -689,42 +693,82 @@ class AccessActivityManager:
     @staticmethod
     def process_access():
         """
-        Demonstrates process access using task_for_pid or ptrace.
-        Note: ptrace is limited on macOS and task_for_pid requires entitlements.
+        Demonstrates process access using task_for_pid (primary) and ptrace (secondary).
+
+        EndpointSecurity's get-task telemetry is typically tied to task_for_pid
+        activity (ES_GET_TASK_TYPE_TASK_FOR_PID). We attempt task_for_pid first,
+        then do a best-effort ptrace attach.
         """
         print("[*] Triggering Process Access detection...")
         try:
-            # On macOS, ptrace is very limited
-            # We'll demonstrate by attempting to trace our own process
-            
-            # PT_DENY_ATTACH = 31 (prevents debugging)
-            # PT_TRACE_ME = 0
-            PT_TRACE_ME = 0
-            
-            # Fork a child and attempt to trace it
+            has_task_for_pid = hasattr(libc, "mach_task_self") and hasattr(libc, "task_for_pid")
+            if has_task_for_pid:
+                libc.mach_task_self.restype = ctypes.c_uint32
+                libc.task_for_pid.argtypes = [ctypes.c_uint32, ctypes.c_int, ctypes.POINTER(ctypes.c_uint32)]
+                libc.task_for_pid.restype = ctypes.c_int
+            else:
+                print("    [!] task_for_pid symbols unavailable in libc; skipping get-task attempt")
+
+            # kern_return_t mach_port_deallocate(ipc_space_t task, mach_port_name_t name)
+            if hasattr(libc, "mach_port_deallocate"):
+                libc.mach_port_deallocate.argtypes = [ctypes.c_uint32, ctypes.c_uint32]
+                libc.mach_port_deallocate.restype = ctypes.c_int
+
+            libc.ptrace.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.c_void_p, ctypes.c_int]
+            libc.ptrace.restype = ctypes.c_int
+
+            PT_ATTACH = 10
+            PT_DETACH = 11
+
             pid = os.fork()
             if pid == 0:
-                # Child: allow tracing
-                time.sleep(5)
+                time.sleep(8)
                 os._exit(0)
             else:
-                # Parent: attempt to trace child
-                print(f"    [*] Attempting to trace process {pid}...")
-                
-                # ptrace on macOS has limited functionality
-                # Most operations require special entitlements
+                time.sleep(1)
+
+                # Primary: task_for_pid attempt (the main signal we want).
+                if has_task_for_pid:
+                    self_task = libc.mach_task_self()
+                    target_task = ctypes.c_uint32(0)
+
+                    targets = [
+                        (pid, "child"),
+                        (os.getpid(), "self"),
+                        (1, "launchd"),
+                    ]
+
+                    for tpid, label in targets:
+                        target_task.value = 0
+                        print(f"    [*] Attempting task_for_pid on {label} pid={tpid}...")
+                        kr = libc.task_for_pid(self_task, int(tpid), ctypes.byref(target_task))
+                        if kr == 0 and target_task.value != 0:
+                            print(f"    [+] task_for_pid({label}) succeeded, task port: {target_task.value}")
+                            if hasattr(libc, "mach_port_deallocate"):
+                                libc.mach_port_deallocate(self_task, target_task.value)
+                                print("    [+] Deallocated acquired task port")
+                        else:
+                            print(f"    [!] task_for_pid({label}) failed (kern_return={kr})")
+
+                # Secondary: ptrace attach attempt for additional coverage.
+                print(f"    [*] Attempting ptrace attach on process {pid}...")
                 try:
-                    result = libc.ptrace(26, pid, 0, 0)  # PT_ATTACH = 26 on macOS
+                    ctypes.set_errno(0)
+                    result = libc.ptrace(PT_ATTACH, pid, None, 0)
                     if result == 0:
-                        print(f"    [+] Successfully attached to process {pid}")
-                        libc.ptrace(27, pid, 0, 0)  # PT_DETACH = 27
-                        print(f"    [+] Detached from process {pid}")
+                        print(f"    [+] ptrace attach succeeded on process {pid}")
+                        libc.ptrace(PT_DETACH, pid, None, 0)
+                        print(f"    [+] ptrace detach sent to process {pid}")
                     else:
-                        print(f"    [!] ptrace attach failed (expected on macOS)")
+                        err = ctypes.get_errno()
+                        print(f"    [!] ptrace attach failed (errno={err}: {os.strerror(err) if err else 'unknown'})")
                 except Exception as e:
                     print(f"    [!] ptrace operation failed: {e}")
-                
-                os.kill(pid, signal.SIGTERM)
+
+                try:
+                    os.kill(pid, signal.SIGTERM)
+                except ProcessLookupError:
+                    pass
                 os.waitpid(pid, 0)
             
             return True
@@ -1081,6 +1125,7 @@ def main():
     print("-" * 50)
     
     if HAS_PRETTYTABLE:
+        assert PrettyTable is not None
         table = PrettyTable()
         table.field_names = ["Total Events", "Successful", "Failed"]
         table.add_row([total_events, successful_events, failed_events])
