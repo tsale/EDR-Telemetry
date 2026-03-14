@@ -2,428 +2,428 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category": "Process Creation",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Termination",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "File Activity",
     "Sub-Category": "File Creation",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Modification",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Deletion",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Attribute Change",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Open/Access",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Partially",
-    "Elastic": "Partially"
+    "EDR-placeholder": "",
+    "LimaCharlie": {"Partially": "File read monitoring is available via the FILE_TYPE_ACCESSED event, but coverage is limited to specific file extensions rather than generic open/read operations on arbitrary paths."},
+    "Elastic": {"Partially": "File read access monitoring is supported via the mac.advanced.events.event_on_access.file_paths advanced setting (added 8.15), but it requires explicit path configuration and is disabled by default. No generic file open/read telemetry out of the box."}
   },
   {
     "Telemetry Feature Category": "User & Session Activity",
     "Sub-Category": "User Logon",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Logoff",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Logon Failed",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Screen Lock",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Screen Unlock",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Privilege Escalation (sudo etc.)",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Script Activity",
     "Sub-Category": "Script Execution",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Script Content",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "Partially"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": {"Partially": "Script content capture is available via mac.advanced.events.script_capture (added in 9.3), but it is disabled by default and limited to a maximum of 1024 bytes per script (configurable via mac.advanced.events.script_max_size)."}
   },
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category": "Network Connection",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Network Socket Listen",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "DNS Query",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
     "Sub-Category": "Scheduled Task Change (cron/at)",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Created",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Modified",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Deleted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "LoginItem Created",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "LoginItem Deleted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Background Task Registration Change",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category": "User Account Created",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Account Modified",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Account Deleted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Group Membership Modified",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "System Extension & Driver Activity",
     "Sub-Category": "System Extension Installed",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "System Extension Loaded",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "System Extension Uninstalled",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "DriverKit Extension Loaded",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Kernel Extension Loaded (legacy)",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Code Signing & Trust Activity",
     "Sub-Category": "Binary Signature Info Recorded",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Unsigned Or Ad Hoc Binary Executed",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Partially",
-    "Elastic": "Partially"
+    "EDR-placeholder": "",
+    "LimaCharlie": {"Partially": "Code signing metadata is included in CODE_IDENTITY events, allowing inference of unsigned or ad hoc signed binaries, but there is no dedicated event specifically for unsigned binary execution."},
+    "Elastic": {"Partially": "Code signing information is included in process events, allowing inference of unsigned or ad hoc signed binaries. However, there is no dedicated event or alert specifically triggered by unsigned binary execution on macOS."}
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Notarization Status Recorded",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Quarantine Flag Set",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Quarantine Flag Cleared",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Gatekeeper Decision Logged",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "XProtect Detection Logged",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "XProtect Remediation Logged",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Privacy & TCC Activity",
     "Sub-Category": "TCC Prompt Shown",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Decision (Allow)",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Decision (Deny)",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Policy Change",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Access Check",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Access Activity",
     "Sub-Category": "Raw Device Access",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Access",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Process Tampering Activity",
     "Sub-Category": "Process Injection Or Tampering",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Device Activity",
     "Sub-Category": "External Media Mounted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "External Media Unmounted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category": "Agent Start",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Stop",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Protection Disabled Or Tamper Event",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "File Metadata",
     "Sub-Category": "MD5 Available",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "Partially"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": {"Partially": "MD5 hashes can be included in events via the mac.advanced.events.hash.md5 advanced setting, but this is disabled by default since Elastic Defend 8.18. Enabling it increases CPU and storage overhead."}
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "SHA-256 Available",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "Yes"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Fuzzy Hash Available",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": "Service Activity",
     "Sub-Category": "Service Created",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Modified",
-    "EDR-placeholder": null,
-    "LimaCharlie": "Yes",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Deleted",
-    "EDR-placeholder": null,
-    "LimaCharlie": "No",
-    "Elastic": "No"
+    "EDR-placeholder": "",
+    "LimaCharlie": "",
+    "Elastic": ""
   }
 ]
