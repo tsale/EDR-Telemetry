@@ -182,9 +182,6 @@ MACOS_CATEGORIES_VALUED = {
     "Service Created": 0.8,
     "Service Modified": 0.6,
     "Service Deleted": 0.5,
-    # Profile Activity
-    "Profile Added": 0.8,           # MDM profile injection is a real enterprise attack vector (ES profile_add)
-    "Profile Removed": 0.8,
 }
 
 def determine_categories(filename):
