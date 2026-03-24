@@ -1430,8 +1430,8 @@
     "WatchGuard":"Yes"
   },
   {
-    "Telemetry Feature Category":"BIT JOBS Activity",
-    "Sub-Category":"BIT JOBS Activity",
+    "Telemetry Feature Category":"BITS Jobs Activity",
+    "Sub-Category":"BITS Jobs Activity",
     "BitDefender":"Yes",
     "Carbon Black":"No",
     "Cortex XDR":"Via EnablingTelemetry",
