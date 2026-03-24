@@ -1270,7 +1270,7 @@
     "Sysmon":"No",
     "Trellix":"Yes",
     "Trend Micro":"No",
-    "Uptycs":"No",
+    "Uptycs":"Yes",
     "WatchGuard":"Yes"
   },
   {
@@ -1322,7 +1322,7 @@
     "Sysmon":"No",
     "Trellix":"Pending Response",
     "Trend Micro":"No",
-    "Uptycs":"No",
+    "Uptycs":"Yes",
     "WatchGuard":"No"
   },
   {
