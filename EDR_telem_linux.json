@@ -321,7 +321,7 @@
     "Qualys":"No",
     "SentinelOne":"No",
     "Sysmon":"No",
-    "Uptycs":"No"
+    "Uptycs":"Yes"
   },
   {
     "Telemetry Feature Category":null,
