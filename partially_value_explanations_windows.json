@@ -242,7 +242,7 @@
     "CrowdStrike":{"Partially":"Only file related events that is deems suspicious based on some proprietary criterias."},
     "Cybereason":"",
     "Cylance":" ",
-    "ESET Inspect":"",
+    "ESET Inspect":{"Partially":"Generated only on specific files that may contain sensitive information such as browser related databases, credential storages etc."},
     "Elastic":"",
     "FortiEDR":"",
     "Harfanglab":"",
