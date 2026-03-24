@@ -802,7 +802,7 @@
     "Sysmon":"No",
     "Trellix":"No",
     "Trend Micro":"Via EventLogs",
-    "Uptycs":"Via EventLogs",
+    "Uptycs":"Yes",
     "WatchGuard":"No"
   },
   {
