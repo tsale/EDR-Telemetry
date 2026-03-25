@@ -1,6 +1,11 @@
 # Secure GitHub Actions Workflow with Webhook Secret
 # Place this file in your EDR-Telemetry repository at:
 # .github/workflows/update-database.yml
+#
+# Supabase tables:
+#   Windows: windows_table_results, windows_telemetry
+#   Linux:   linux_table_results, linux_telemetry
+#   macOS:   macos_table_results, macos_telemetry
 
 name: Update EDR Telemetry Database (Secure)
 
@@ -9,21 +14,24 @@ on:
     branches: [ main ]
     paths:
       - 'EDR_telem_windows.json'
-      - 'EDR_telem_linux.json' 
+      - 'EDR_telem_linux.json'
+      - 'EDR_telem_macOS.json'
       - 'partially_value_explanations_windows.json'
+      - 'partially_value_explanations_macOS.json'
   
   # Allow manual triggering
   workflow_dispatch:
     inputs:
       platform:
-        description: 'Platform to update (windows, linux, both)'
+        description: 'Platform to update (windows, linux, macos, all)'
         required: false
-        default: 'both'
+        default: 'all'
         type: choice
         options:
-        - both
+        - all
         - windows
         - linux
+        - macos
 
 jobs:
   update-database:
@@ -65,11 +73,11 @@ jobs:
     
     - name: Trigger Database Update
       run: |
-        echo "🚀 Triggering secure database update for platform: ${{ github.event.inputs.platform || 'both' }}"
+        echo "🚀 Triggering secure database update for platform: ${{ github.event.inputs.platform || 'all' }}"
         
         # Make the authenticated request
         RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
-          "${{ secrets.CLOUD_FUNCTION_URL }}?platform=${{ github.event.inputs.platform || 'both' }}" \
+          "${{ secrets.CLOUD_FUNCTION_URL }}?platform=${{ github.event.inputs.platform || 'all' }}" \
           -H "Content-Type: application/json" \
           -H "X-GitHub-Event: ${{ github.event_name }}" \
           -H "X-Hub-Signature-256: ${{ steps.signature.outputs.signature }}" \
@@ -90,11 +98,13 @@ jobs:
           # Parse and display statistics if available
           WINDOWS_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.windows_stats.scores_updated // 0' 2>/dev/null || echo "0")
           LINUX_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.linux_stats.scores_updated // 0' 2>/dev/null || echo "0")
+          MACOS_UPDATED=$(echo "$RESPONSE_BODY" | jq -r '.macos_stats.scores_updated // 0' 2>/dev/null || echo "0")
           DURATION=$(echo "$RESPONSE_BODY" | jq -r '.duration_seconds // 0' 2>/dev/null || echo "0")
           
           echo "📈 Update Statistics:"
           echo "   Windows scores updated: $WINDOWS_UPDATED"
           echo "   Linux scores updated: $LINUX_UPDATED"
+          echo "   macOS scores updated: $MACOS_UPDATED"
           echo "   Duration: ${DURATION}s"
           
         elif [ "$HTTP_CODE" -eq 401 ]; then
@@ -119,7 +129,7 @@ jobs:
         echo "   Branch: ${{ github.ref_name }}"
         echo "   Commit: ${{ github.sha }}"
         echo "   Actor: ${{ github.actor }}"
-        echo "   Platform: ${{ github.event.inputs.platform || 'both' }}"
+        echo "   Platform: ${{ github.event.inputs.platform || 'all' }}"
     
     - name: Notify on Failure
       if: failure()

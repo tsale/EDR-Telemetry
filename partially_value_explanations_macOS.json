@@ -2,428 +2,640 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category": "Process Creation",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Termination",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "File Activity",
     "Sub-Category": "File Creation",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "ESET Inspect": "ESET Inspect documents file creation only for executable files saved to disk. Non-executable file creation (scripts, configs, documents) is not collected.",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Modification",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Deletion",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Attribute Change",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": {
+      "Partially": "MDE's kauth framework hooks (vnode) capture file attribute operations (read_attr, write_attr, read_ex_attr, write_ex_attr, read_sec, write_sec) at the sensor level, but no dedicated FileAttributeChanged ActionType is surfaced in the DeviceFileEvents Advanced Hunting table."
+    }
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Open/Access",
-    "EDR-placeholder": "",
-    "LimaCharlie": {"Partially": "File read monitoring is available via the FILE_TYPE_ACCESSED event, but coverage is limited to specific file extensions rather than generic open/read operations on arbitrary paths."},
-    "Elastic": {"Partially": "File read access monitoring is supported via the mac.advanced.events.event_on_access.file_paths advanced setting (added 8.15), but it requires explicit path configuration and is disabled by default. No generic file open/read telemetry out of the box."}
+    "LimaCharlie": {
+      "Partially": "File read monitoring is available via the FILE_TYPE_ACCESSED event, but coverage is limited to specific file extensions rather than generic open/read operations on arbitrary paths."
+    },
+    "Elastic": {
+      "Partially": "File read access monitoring is supported via the mac.advanced.events.event_on_access.file_paths advanced setting (added 8.15), but it requires explicit path configuration and is disabled by default. No generic file open/read telemetry out of the box."
+    },
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": {
+      "Partially": "File open/read events are documented in the Falcon for macOS datasheet but no distinct queryable event_simpleName is publicly confirmed for file read. Metadata about file access is captured in context of process events."
+    },
+    "MDE": {
+      "Partially": "MDE's kauth framework hooks capture file open and read operations at the sensor level for behavioral analysis, but no dedicated file access/open ActionType exists in the standard DeviceFileEvents Advanced Hunting table. Custom Data Collection (preview) can provide file access events via DeviceCustomFileEvents but requires a Microsoft Sentinel workspace."
+    }
   },
   {
     "Telemetry Feature Category": "User & Session Activity",
     "Sub-Category": "User Logon",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Logoff",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Logon Failed",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Screen Lock",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Screen Unlock",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Privilege Escalation (sudo etc.)",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Script Activity",
     "Sub-Category": "Script Execution",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Script Content",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": {"Partially": "Script content capture is available via mac.advanced.events.script_capture (added in 9.3), but it is disabled by default and limited to a maximum of 1024 bytes per script (configurable via mac.advanced.events.script_max_size)."}
+    "Elastic": {
+      "Partially": "Script content capture is available via mac.advanced.events.script_capture (added in 9.3), but it is disabled by default and limited to a maximum of 1024 bytes per script (configurable via mac.advanced.events.script_max_size)."
+    },
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category": "Network Connection",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Network Socket Listen",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "DNS Query",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": {
+      "Partially": "Domain information is captured in DeviceNetworkEvents connection events via Network Protection's TLS ClientHello inspection and HTTP Host header parsing, but there is no dedicated DNS query event type. Standalone DNS queries not associated with HTTP/HTTPS connections are not captured."
+    }
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
     "Sub-Category": "Scheduled Task Change (cron/at)",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "ESET Inspect": "ESET Inspect documents \"scheduled task creation\" which maps to cron on macOS. Modification and deletion of scheduled tasks is not documented.",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Created",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": {
+      "Partially": "CrowdStrike monitors LaunchAgent/LaunchDaemon plist creation as part of persistence monitoring per the macOS datasheet, but no dedicated event_simpleName is publicly documented. Observed via file write events to persistence paths."
+    },
+    "ESET Inspect": "ESET Inspect documents \"service creation\" which may map to LaunchAgent/LaunchDaemon plist creation on macOS, but this is not explicitly confirmed for macOS in the official documentation.",
+    "MDE": {
+      "Partially": "Detectable via DeviceFileEvents FileCreated events for plist files written to LaunchAgent/LaunchDaemon directories, but no dedicated persistence monitoring event type exists in MDE's macOS telemetry."
+    }
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Modified",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": {
+      "Partially": "Same as Launchd Item Created \u2014 observed via file write events to LaunchAgents/LaunchDaemons paths, not a dedicated persistence event type."
+    },
+    "MDE": {
+      "Partially": "Detectable via DeviceFileEvents FileModified events for plist files in LaunchAgent/LaunchDaemon directories, but no dedicated persistence monitoring event type."
+    }
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Launchd Item Deleted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": {
+      "Partially": "Detectable via DeviceFileEvents FileDeleted events for plist files in LaunchAgent/LaunchDaemon directories, but no dedicated persistence monitoring event type."
+    }
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "LoginItem Created",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": {
+      "Partially": "Login Items changes are documented as monitored in the Falcon macOS datasheet, but no specific event_simpleName is publicly confirmed. Observed via process launch from Login Item paths."
+    },
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "LoginItem Deleted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Background Task Registration Change",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category": "User Account Created",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Account Modified",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "User Account Deleted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Group Membership Modified",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "System Extension & Driver Activity",
     "Sub-Category": "System Extension Installed",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "System Extension Loaded",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "System Extension Uninstalled",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "DriverKit Extension Loaded",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Kernel Extension Loaded (legacy)",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Code Signing & Trust Activity",
     "Sub-Category": "Binary Signature Info Recorded",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
-  },
-  {
-    "Telemetry Feature Category": null,
-    "Sub-Category": "Unsigned Or Ad Hoc Binary Executed",
-    "EDR-placeholder": "",
-    "LimaCharlie": {"Partially": "Code signing metadata is included in CODE_IDENTITY events, allowing inference of unsigned or ad hoc signed binaries, but there is no dedicated event specifically for unsigned binary execution."},
-    "Elastic": {"Partially": "Code signing information is included in process events, allowing inference of unsigned or ad hoc signed binaries. However, there is no dedicated event or alert specifically triggered by unsigned binary execution on macOS."}
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "ESET Inspect": "On macOS, ESET Inspect Endpoint does not verify signatures \u2014 the only states are Present or None (per process_details.html). No full certificate chain validation.",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Notarization Status Recorded",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Quarantine Flag Set",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Quarantine Flag Cleared",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Gatekeeper Decision Logged",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "XProtect Detection Logged",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "XProtect Remediation Logged",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Privacy & TCC Activity",
     "Sub-Category": "TCC Prompt Shown",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Decision (Allow)",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Decision (Deny)",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Policy Change",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "TCC Access Check",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Access Activity",
     "Sub-Category": "Raw Device Access",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Access",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Process Tampering Activity",
     "Sub-Category": "Process Injection Or Tampering",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Device Activity",
     "Sub-Category": "External Media Mounted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": {
+      "Partially": "MDE's kauth hooks capture file_op.mount at the sensor level and Device Control supports removable media policies with audit events, but the UsbDriveMounted ActionType in DeviceEvents is not confirmed for macOS (it originates from the Windows PnP subsystem)."
+    }
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "External Media Unmounted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": {
+      "Partially": "MDE's kauth hooks capture file_op.unmount at the sensor level, but the UsbDriveUnmounted ActionType in DeviceEvents is not confirmed for macOS (it originates from the Windows PnP subsystem)."
+    }
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category": "Agent Start",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Stop",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Protection Disabled Or Tamper Event",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "File Metadata",
     "Sub-Category": "MD5 Available",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": {"Partially": "MD5 hashes can be included in events via the mac.advanced.events.hash.md5 advanced setting, but this is disabled by default since Elastic Defend 8.18. Enabling it increases CPU and storage overhead."}
+    "Elastic": {
+      "Partially": "MD5 hashes can be included in events via the mac.advanced.events.hash.md5 advanced setting, but this is disabled by default since Elastic Defend 8.18. Enabling it increases CPU and storage overhead."
+    },
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "SHA-256 Available",
-    "EDR-placeholder": "",
-    "LimaCharlie": "",
-    "Elastic": ""
+    "LimaCharlie": {
+      "Partially": "Collects SHA-256 & SHA-1 for process exec and fork events (excluding common binaries)"
+    },
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Fuzzy Hash Available",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": "Service Activity",
     "Sub-Category": "Service Created",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "ESET Inspect": "ESET documents \"service creation\" which may map to launchd service creation on macOS, but this is not explicitly confirmed for macOS in the official documentation.",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Modified",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   },
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Deleted",
-    "EDR-placeholder": "",
     "LimaCharlie": "",
-    "Elastic": ""
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
   }
 ]

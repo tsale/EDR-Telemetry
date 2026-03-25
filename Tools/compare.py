@@ -123,7 +123,6 @@ MACOS_CATEGORIES_VALUED = {
     "Screen Unlock": 0.2,
     "Privilege Escalation (sudo etc.)": 1.0,
     # Script Activity
-    "Script Execution": 1.0,        # AppleScript/osascript is the #1 delivery mechanism for macOS infostealers
     "Script Content": 1.0,
     # Network Activity
     "Network Connection": 1.0,
@@ -136,7 +135,6 @@ MACOS_CATEGORIES_VALUED = {
     "Launchd Item Deleted": 0.5,
     "LoginItem Created": 1.0,       # Second major persistence vector
     "LoginItem Deleted": 0.5,
-    "Background Task Registration Change": 1.0,  # BTM (macOS 13+) — growing exploitation
     # User Account Activity
     "User Account Created": 1.0,
     "User Account Modified": 0.8,
@@ -150,7 +148,6 @@ MACOS_CATEGORIES_VALUED = {
     "Kernel Extension Loaded (legacy)": 0.5,
     # Code Signing & Trust Activity
     "Binary Signature Info Recorded": 0.5,
-    "Unsigned Or Ad Hoc Binary Executed": 1.0,
     "Notarization Status Recorded": 0.3,
     "Quarantine Flag Set": 0.5,
     "Quarantine Flag Cleared": 1.0,  # Classic Gatekeeper bypass step
