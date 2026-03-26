@@ -1,5 +1,6 @@
 import pandas as pd
 import argparse
+import json
 
 parser = argparse.ArgumentParser(
   description='Convert from JSON to CSV and the other way around')
@@ -22,22 +23,24 @@ def replace_to_words(file):
     "\ud83c\udf9a️" : "Via EnablingTelemetry"  # 🎚️ Via EnablingTelemetry
 }
     # Read the JSON file
-    with open(file, "rb") as f:
-      data = f.read()
-      data = data.decode("unicode_escape")
-      for key,value in words_to_replace.items():
-        if key in data:
-          data = data.replace(key,value)
-          try:
-            with open(file, 'w+',errors="ignore") as f:
-                # Writing the replaced data in our
-                # text file
-                f.write(data)
-          except PermissionError:
-            print(PermissionError)
-            pass
-        else:
-          pass
+    with open(file, "r", encoding='utf-8') as f:
+      data = json.load(f)
+    
+    # Replace values but skip "Sub-Category" and "Telemetry Feature Category" keys
+    for item in data:
+      for key, value in item.items():
+        if key not in ["Sub-Category", "Telemetry Feature Category"]:
+          if isinstance(value, str):
+            for emoji, word in words_to_replace.items():
+              value = value.replace(emoji, word)
+            item[key] = value
+    
+    try:
+      with open(file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    except PermissionError:
+      print(PermissionError)
+      pass
 
 def replace_from_words(file):
     # Replace the target words with the replacement words
@@ -53,20 +56,25 @@ def replace_from_words(file):
     }
     # Read the CSV file
     with open(file, "r") as f:
-      data = f.read()
-      for key,value in words_to_replace.items():
-        if key in data:
-          data = data.replace(key,value)
-          try:
-            with open(file, 'w',encoding='utf-8') as f:
-                # Writing the replaced data in our
-                # text file
-                f.write(data)
-          except PermissionError:
-            print(PermissionError)
-            pass
-        else:
-          pass
+      lines = f.readlines()
+    
+    # Skip replacement in the header (first line) and first two columns
+    for i in range(1, len(lines)):
+      # Split the line by comma
+      parts = lines[i].split(',')
+      # Replace only in columns after the first two
+      for j in range(2, len(parts)):
+        for key, value in words_to_replace.items():
+          parts[j] = parts[j].replace(key, value)
+      # Join back together
+      lines[i] = ','.join(parts)
+    
+    try:
+      with open(file, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    except PermissionError:
+      print(PermissionError)
+      pass
 
 def to_json(input_file):
   df = pd.read_csv(input_file)

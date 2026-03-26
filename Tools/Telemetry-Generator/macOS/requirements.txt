@@ -1,0 +1,8 @@
+# macOS Telemetry Generator Requirements
+# Install with: pip3 install -r requirements.txt
+
+# Optional: Pretty table formatting for output
+prettytable>=3.0.0
+
+# Optional: Extended attribute support (usually built-in on macOS)
+# xattr>=0.10.0
