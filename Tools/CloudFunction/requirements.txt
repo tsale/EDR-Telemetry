@@ -1,0 +1,17 @@
+# Google Cloud Functions requirements
+functions-framework==3.*
+
+# Supabase Python client
+supabase==2.*
+
+# HTTP requests
+requests==2.*
+
+# Environment variables and utilities
+python-dotenv==1.*
+
+# Additional dependencies for Supabase client
+postgrest==0.*
+gotrue==2.*
+realtime==1.*
+storage3==0.*
