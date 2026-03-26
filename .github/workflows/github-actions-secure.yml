@@ -17,6 +17,7 @@ on:
       - 'EDR_telem_linux.json'
       - 'EDR_telem_macOS.json'
       - 'partially_value_explanations_windows.json'
+      - 'partially_value_explanations_linux.json'
       - 'partially_value_explanations_macOS.json'
   
   # Allow manual triggering
