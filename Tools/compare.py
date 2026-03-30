@@ -109,6 +109,7 @@ MACOS_CATEGORIES_VALUED = {
     # Process Activity
     "Process Creation": 1.0,
     "Process Termination": 0.5,
+    "Library/Module Loaded": 1.0,
     # File Activity
     "File Creation": 1.0,
     "File Modification": 1.0,

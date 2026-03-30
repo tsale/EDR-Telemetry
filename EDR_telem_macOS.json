@@ -26,6 +26,19 @@
     "Unnamed: 10": null
   },
   {
+    "Telemetry Feature Category": null,
+    "Sub-Category": "Library/Module Loaded",
+    "Phorion": "No",
+    "BitDefender": "No",
+    "CrowdStrike": "No",
+    "ESET Inspect": "No",
+    "Elastic": "Yes",
+    "LimaCharlie": "No",
+    "MDE": "No",
+    "Qualys": "No",
+    "Unnamed: 10": null
+  },
+  {
     "Telemetry Feature Category": "File Activity",
     "Sub-Category": "File Creation",
     "Phorion": "Yes",
