@@ -69,7 +69,7 @@
       "Partially": "File read monitoring is available via the FILE_TYPE_ACCESSED event, but coverage is limited to specific file extensions rather than generic open/read operations on arbitrary paths."
     },
     "Elastic": {
-      "Partially": "File read access monitoring is supported via the mac.advanced.events.event_on_access.file_paths advanced setting (added 8.15), but it requires explicit path configuration and is disabled by default. No generic file open/read telemetry out of the box."
+      "Via EnablingTelemetry": "File read access monitoring is available via the mac.advanced.events.event_on_access.file_paths advanced setting (added in 8.15.0). Disabled by default for performance reasons; requires explicit path configuration in the Elastic Defend integration policy."
     },
     "BitDefender": "",
     "Qualys": "",
@@ -155,7 +155,7 @@
     "Sub-Category": "Script Content",
     "LimaCharlie": "",
     "Elastic": {
-      "Partially": "Script content capture is available via mac.advanced.events.script_capture (added in 9.3), but it is disabled by default and limited to a maximum of 1024 bytes per script (configurable via mac.advanced.events.script_max_size)."
+      "Via EnablingTelemetry": "Script content capture is available via the mac.advanced.events.script_capture setting (added in 9.3.0, default false). Captures bash, python, and osascript content up to 1024 bytes per script (configurable via mac.advanced.events.script_max_size). Must be enabled in the Elastic Defend integration policy."
     },
     "BitDefender": "",
     "Qualys": "",
@@ -578,7 +578,7 @@
     "Sub-Category": "MD5 Available",
     "LimaCharlie": "",
     "Elastic": {
-      "Partially": "MD5 hashes can be included in events via the mac.advanced.events.hash.md5 advanced setting, but this is disabled by default since Elastic Defend 8.18. Enabling it increases CPU and storage overhead."
+      "Via EnablingTelemetry": "MD5 hashing is available via the mac.advanced.events.hash.md5 setting (added in 8.16.0). Default changed from true to false in 8.18 because SHA-256 is already collected by default and MD5 is cryptographically broken. Can be re-enabled in the Elastic Defend integration policy."
     },
     "BitDefender": "",
     "Qualys": "",
