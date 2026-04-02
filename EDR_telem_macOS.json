@@ -192,6 +192,7 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Qualys": "Yes",
+    "Uptycs":"Yes",
     "Unnamed: 10": null
   },
   {
@@ -205,6 +206,7 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Qualys": "No",
+    "Uptycs":"Via EnablingTelemetry",
     "Unnamed: 10": null
   },
   {
@@ -218,6 +220,7 @@
     "LimaCharlie": "Yes",
     "MDE": "Partially",
     "Qualys": "No",
+    "Uptycs":"Yes",
     "Unnamed: 10": null
   },
   {
