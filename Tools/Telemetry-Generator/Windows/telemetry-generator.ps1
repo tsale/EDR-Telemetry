@@ -4,7 +4,10 @@
 [CmdletBinding()]
 Param(
     [Parameter(Mandatory = $False, Position = 0)]
-    [string]$Name = "All"
+    [string]$Name = "All",
+
+    [Parameter(Mandatory = $False)]
+    [string]$AtomicsPath
     )
 
 
@@ -17,7 +20,96 @@ function Install-ART(){
         Install-AtomicRedTeam -getAtomics -ErrorAction Stop
     }
     catch{
-        Write-Host "There was an error during the installation please check your AV or internet connection"
+        throw "There was an error installing Invoke-AtomicRedTeam. Check internet access, AV exclusions, and whether Atomic Red Team is already partially installed."
+    }
+}
+
+function Import-ARTModule() {
+    if (Get-Command Invoke-AtomicTest -ErrorAction SilentlyContinue) {
+        return
+    }
+
+    try {
+        Import-Module Invoke-AtomicRedTeam -Force -ErrorAction Stop
+        return
+    }
+    catch {
+    }
+
+    $candidateModulePaths = @(
+        'C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1',
+        (Join-Path $HOME 'AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1')
+    )
+
+    foreach ($candidateModulePath in $candidateModulePaths) {
+        if (Test-Path $candidateModulePath) {
+            Import-Module $candidateModulePath -Force -ErrorAction Stop
+            return
+        }
+    }
+
+    throw "Invoke-AtomicRedTeam is not available in this PowerShell session."
+}
+
+function Resolve-ARTAtomicsPath([string]$RequestedPath) {
+    $candidatePaths = @()
+
+    if ($RequestedPath) {
+        $candidatePaths += $RequestedPath
+    }
+
+    if ($PSDefaultParameterValues -and $PSDefaultParameterValues.ContainsKey('Invoke-AtomicTest:PathToAtomicsFolder')) {
+        $candidatePaths += $PSDefaultParameterValues['Invoke-AtomicTest:PathToAtomicsFolder']
+    }
+
+    $candidatePaths += @(
+        'C:\AtomicRedTeam\atomics',
+        (Join-Path $HOME 'AtomicRedTeam\atomics')
+    )
+
+    foreach ($candidatePath in ($candidatePaths | Where-Object { $_ } | Select-Object -Unique)) {
+        if (Test-Path $candidatePath) {
+            return (Resolve-Path $candidatePath).ProviderPath
+        }
+    }
+
+    return $null
+}
+
+function Ensure-ART([string]$RequestedPath) {
+    $moduleAvailable = [bool](Get-Command Invoke-AtomicTest -ErrorAction SilentlyContinue)
+    $resolvedAtomicsPath = Resolve-ARTAtomicsPath -RequestedPath $RequestedPath
+
+    if (-not $moduleAvailable -and -not $resolvedAtomicsPath) {
+        Install-ART
+    }
+
+    Import-ARTModule
+
+    $resolvedAtomicsPath = Resolve-ARTAtomicsPath -RequestedPath $RequestedPath
+    if (-not $resolvedAtomicsPath) {
+        throw "Could not locate the Atomic Red Team atomics folder. Install it to C:\AtomicRedTeam\atomics or pass -AtomicsPath with the correct folder."
+    }
+
+    return $resolvedAtomicsPath
+}
+
+function Write-AtomicFailure([string]$Phase, [string]$AtomicTechnique, [System.Management.Automation.ErrorRecord]$ErrorRecord) {
+    Write-Host "There was an error while $Phase for atomic $AtomicTechnique" -ForegroundColor Red
+
+    $details = @()
+    if ($ErrorRecord.Exception.Message) {
+        $details += $ErrorRecord.Exception.Message
+    }
+    if ($ErrorRecord.ErrorDetails -and $ErrorRecord.ErrorDetails.Message) {
+        $details += $ErrorRecord.ErrorDetails.Message
+    }
+    if ($ErrorRecord.InvocationInfo -and $ErrorRecord.InvocationInfo.PositionMessage) {
+        $details += $ErrorRecord.InvocationInfo.PositionMessage.Trim()
+    }
+
+    foreach ($detail in ($details | Where-Object { $_ } | Select-Object -Unique)) {
+        Write-Host "    $detail" -ForegroundColor DarkRed
     }
 }
 
@@ -55,6 +147,7 @@ function Executor($Name) {
       $errorExecution = $false
       $atomic = $json.$Name.$key1.Atomics.PSobject.Properties.Name
       $GUID = $json.$Name.$key1.Atomics.PSobject.Properties.Value
+      $executionLogPath = Join-Path $scriptPath "$key1.csv"
       Write-Host ""
       Write-Host "====================================" -ForegroundColor Yellow
       Write-Host "[*] Executing tests for $key1" -ForegroundColor Magenta
@@ -62,17 +155,17 @@ function Executor($Name) {
       Write-Host ""
       # TODO: Add more error handling for edge cases
       try {
-        Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -GetPrereqs -ErrorAction SilentlyContinue
+        Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -PathToAtomicsFolder $ResolvedAtomicsPath -GetPrereqs -Confirm:$false -ErrorAction Stop
       }
       Catch {
-        Write-Host "There was an error while checking the prerequisites for atomic $atomic" -ForegroundColor Red
+        Write-AtomicFailure -Phase "checking the prerequisites" -AtomicTechnique $atomic -ErrorRecord $_
         $errorCheckPrereqs = $true
       }
       try {
-        Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -ExecutionLogPath "$key1.csv" -ErrorAction SilentlyContinue
+        Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -PathToAtomicsFolder $ResolvedAtomicsPath -ExecutionLogPath $executionLogPath -Confirm:$false -ErrorAction Stop
       }
       Catch {
-        Write-Host "There was an error while running the test for atomic $atomic" -ForegroundColor Red
+        Write-AtomicFailure -Phase "running the test" -AtomicTechnique $atomic -ErrorRecord $_
         $errorExecution = $true
       }
 
@@ -82,7 +175,7 @@ function Executor($Name) {
             Write-Host "==> Cleaning up and then sleeping for 7 seconds " -ForegroundColor Green -BackgroundColor DarkGray
             Write-Host ""
             Start-Sleep -Seconds 3
-            Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -Cleanup
+            Invoke-AtomicTest -AtomicTechnique $atomic -TestGuids $GUID -PathToAtomicsFolder $ResolvedAtomicsPath -Cleanup -Confirm:$false
         }
         Start-Sleep -Seconds 7
       }
@@ -102,7 +195,14 @@ Write-Host @"
 "@
 
 # Install Invoke-Atomic
-Install-ART
+try {
+    $ResolvedAtomicsPath = Ensure-ART -RequestedPath $AtomicsPath
+    Write-Host "[*] Using atomics folder: $ResolvedAtomicsPath" -ForegroundColor Cyan
+}
+catch {
+    Write-Host $_.Exception.Message -ForegroundColor Red
+    exit 1
+}
 
 # Get the path of the running script
 $scriptPath = $PSScriptRoot

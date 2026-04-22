@@ -31,10 +31,10 @@
         },
         "File Opened": {
             "Atomics": {
-                "T1055.001": "74496461-11a1-4982-b439-4d87a550d254"
+                "T1204.002": "8bebc690-18c7-4549-bc98-210f7019efff"
             },
             "Comments": {
-                "1": "Includes tests for Image/Library Loaded and Remote Thread Creation"
+                "1": "Uses the OSTap-style macro execution atomic to generate file-open activity"
             }
         },
         "File Renaming": {
