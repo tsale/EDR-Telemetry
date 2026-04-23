@@ -101,6 +101,7 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Qualys": "No",
+    "Uptycs": "Yes",
     "Unnamed: 10": null
   },
   {
@@ -114,6 +115,7 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Qualys": "No",
+    "Uptycs": "Yes",
     "Unnamed: 10": null
   },
   {
@@ -127,6 +129,7 @@
     "LimaCharlie": "No",
     "MDE": "Yes",
     "Qualys": "No",
+    "Uptycs": "Yes",
     "Unnamed: 10": null
   },
   {
@@ -140,6 +143,7 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Qualys": "No",
+    "Uptycs": "No",
     "Unnamed: 10": null
   },
   {
@@ -153,6 +157,7 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Qualys": "No",
+    "Uptycs": "No",
     "Unnamed: 10": null
   },
   {
@@ -166,6 +171,7 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Qualys": "No",
+    "Uptycs": "Yes",
     "Unnamed: 10": null
   },
   {
