@@ -14,6 +14,7 @@ import hashlib
 import hmac
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
+from urllib.parse import quote
 
 import requests
 from supabase import create_client, Client
@@ -24,12 +25,14 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Constants
-WINDOWS_JSON_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/EDR_telem_windows.json"
-LINUX_JSON_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/EDR_telem_linux.json"
-MACOS_JSON_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/EDR_telem_macOS.json"
-MACOS_EXPLANATIONS_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/partially_value_explanations_macOS.json"
-LINUX_EXPLANATIONS_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/partially_value_explanations_linux.json"
-WINDOWS_EXPLANATIONS_URL = "https://raw.githubusercontent.com/tsale/EDR-Telemetry/main/partially_value_explanations_windows.json"
+DEFAULT_GITHUB_REPOSITORY = "tsale/EDR-Telemetry"
+DEFAULT_GITHUB_REF = "main"
+WINDOWS_JSON_FILE = "EDR_telem_windows.json"
+LINUX_JSON_FILE = "EDR_telem_linux.json"
+MACOS_JSON_FILE = "EDR_telem_macOS.json"
+MACOS_EXPLANATIONS_FILE = "partially_value_explanations_macOS.json"
+LINUX_EXPLANATIONS_FILE = "partially_value_explanations_linux.json"
+WINDOWS_EXPLANATIONS_FILE = "partially_value_explanations_windows.json"
 
 
 def get_supabase_client() -> Client:
@@ -67,6 +70,22 @@ def verify_webhook_signature(request: Request) -> bool:
     ).hexdigest()
 
     return hmac.compare_digest(signature, expected_signature)
+
+
+def get_github_source(request: Request) -> Tuple[str, str]:
+    """Return the repository and immutable ref to fetch telemetry data from."""
+    payload = request.get_json(silent=True) or {}
+    repository = payload.get('repository') or os.environ.get('GITHUB_REPOSITORY') or DEFAULT_GITHUB_REPOSITORY
+    ref = payload.get('sha') or os.environ.get('GITHUB_REF') or DEFAULT_GITHUB_REF
+    return repository, ref
+
+
+def raw_github_url(repository: str, ref: str, path: str) -> str:
+    """Build a GitHub raw content URL for the requested repository/ref/path."""
+    safe_repository = "/".join(quote(part, safe='') for part in repository.split("/"))
+    safe_ref = quote(ref, safe='')
+    safe_path = "/".join(quote(part, safe='') for part in path.split("/"))
+    return f"https://raw.githubusercontent.com/{safe_repository}/{safe_ref}/{safe_path}"
 
 
 def fetch_json_data(url: str) -> List[Dict]:
@@ -190,33 +209,33 @@ def _update_platform_data(
     return stats
 
 
-def update_windows_data(supabase: Client) -> Dict[str, int]:
+def update_windows_data(supabase: Client, repository: str, ref: str) -> Dict[str, int]:
     return _update_platform_data(
         supabase,
-        telemetry_url=WINDOWS_JSON_URL,
-        explanations_url=WINDOWS_EXPLANATIONS_URL,
+        telemetry_url=raw_github_url(repository, ref, WINDOWS_JSON_FILE),
+        explanations_url=raw_github_url(repository, ref, WINDOWS_EXPLANATIONS_FILE),
         telemetry_table='windows_telemetry',
         results_table='windows_table_results',
         platform_label='Windows',
     )
 
 
-def update_linux_data(supabase: Client) -> Dict[str, int]:
+def update_linux_data(supabase: Client, repository: str, ref: str) -> Dict[str, int]:
     return _update_platform_data(
         supabase,
-        telemetry_url=LINUX_JSON_URL,
-        explanations_url=LINUX_EXPLANATIONS_URL,
+        telemetry_url=raw_github_url(repository, ref, LINUX_JSON_FILE),
+        explanations_url=raw_github_url(repository, ref, LINUX_EXPLANATIONS_FILE),
         telemetry_table='linux_telemetry',
         results_table='linux_table_results',
         platform_label='Linux',
     )
 
 
-def update_macos_data(supabase: Client) -> Dict[str, int]:
+def update_macos_data(supabase: Client, repository: str, ref: str) -> Dict[str, int]:
     return _update_platform_data(
         supabase,
-        telemetry_url=MACOS_JSON_URL,
-        explanations_url=MACOS_EXPLANATIONS_URL,
+        telemetry_url=raw_github_url(repository, ref, MACOS_JSON_FILE),
+        explanations_url=raw_github_url(repository, ref, MACOS_EXPLANATIONS_FILE),
         telemetry_table='macos_telemetry',
         results_table='macos_table_results',
         platform_label='macOS',
@@ -242,11 +261,16 @@ def update_telemetry_data(request: Request) -> Tuple[Dict, int]:
         platform = request.args.get('platform', 'all')
         logger.info(f"Processing update request for platform: {platform}")
 
+        repository, ref = get_github_source(request)
+        logger.info(f"Fetching telemetry data from {repository}@{ref}")
+
         supabase = get_supabase_client()
 
         results = {
             'timestamp': start_time.isoformat(),
             'platform': platform,
+            'source_repository': repository,
+            'source_ref': ref,
             'status': 'success',
             'windows_stats': None,
             'linux_stats': None,
@@ -269,7 +293,7 @@ def update_telemetry_data(request: Request) -> Tuple[Dict, int]:
                 continue
             fn, key = platform_jobs[target]
             try:
-                results[key] = fn(supabase)
+                results[key] = fn(supabase, repository, ref)
             except Exception as e:
                 error_msg = f"{target.capitalize()} update failed: {str(e)}"
                 logger.error(error_msg)
@@ -280,9 +304,17 @@ def update_telemetry_data(request: Request) -> Tuple[Dict, int]:
         results['duration_seconds'] = (end_time - start_time).total_seconds()
 
         any_succeeded = any(results[k] is not None for k in ('windows_stats', 'linux_stats', 'macos_stats'))
+        platform_error_count = sum(
+            stats.get('errors', 0)
+            for stats in (results['windows_stats'], results['linux_stats'], results['macos_stats'])
+            if stats
+        )
+        if platform_error_count:
+            results['errors'].append(f"Platform update errors encountered: {platform_error_count}")
+
         if results['errors']:
             results['status'] = 'partial_success' if any_succeeded else 'failure'
-            status_code = 200 if any_succeeded else 500
+            status_code = 500
         else:
             results['status'] = 'success'
             status_code = 200
