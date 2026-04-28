@@ -669,7 +669,7 @@
     "BitDefender": "No",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
-    "Elastic": "Yes",
+    "Elastic": "No",
     "LimaCharlie": "No",
     "MDE": "Yes",
     "Qualys": "No",
