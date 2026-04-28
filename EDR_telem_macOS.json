@@ -666,7 +666,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Protection Disabled Or Tamper Event",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
     "Elastic": "No",
