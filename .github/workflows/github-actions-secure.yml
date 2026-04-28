@@ -19,6 +19,8 @@ on:
       - 'partially_value_explanations_windows.json'
       - 'partially_value_explanations_linux.json'
       - 'partially_value_explanations_macOS.json'
+      - '.github/workflows/github-actions-secure.yml'
+      - 'Tools/CloudFunction/**'
   
   # Allow manual triggering
   workflow_dispatch:
