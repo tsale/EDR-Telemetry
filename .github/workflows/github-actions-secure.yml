@@ -22,7 +22,7 @@ on:
       - '.github/workflows/github-actions-secure.yml'
       - 'Tools/CloudFunction/**'
   
-  # Allow manual triggering
+  # Allow manual triggering for explicit database refreshes
   workflow_dispatch:
     inputs:
       platform:
