@@ -92,8 +92,14 @@ jobs:
         echo "📄 Response Body:"
         echo "$RESPONSE_BODY" | jq '.' 2>/dev/null || echo "$RESPONSE_BODY"
         
-        # Check if request was successful
-        if [ "$HTTP_CODE" -eq 200 ]; then
+        RESPONSE_STATUS=$(echo "$RESPONSE_BODY" | jq -r '.status // "unknown"' 2>/dev/null || echo "unknown")
+        RESPONSE_ERRORS=$(echo "$RESPONSE_BODY" | jq -r '
+          (([.errors[]?] | length) +
+          ([.windows_stats?.errors, .linux_stats?.errors, .macos_stats?.errors] | map(. // 0) | add))
+        ' 2>/dev/null || echo "1")
+        
+        # Check if every requested platform update was successful.
+        if [ "$HTTP_CODE" -eq 200 ] && [ "$RESPONSE_STATUS" = "success" ] && [ "$RESPONSE_ERRORS" -eq 0 ]; then
           echo "✅ Database update completed successfully"
           
           # Parse and display statistics if available
@@ -113,7 +119,10 @@ jobs:
           echo "💡 Make sure the WEBHOOK_SECRET in GitHub matches your Cloud Function"
           exit 1
         else
-          echo "❌ Database update failed with status code: $HTTP_CODE"
+          echo "❌ Database update failed"
+          echo "   HTTP status: $HTTP_CODE"
+          echo "   Response status: $RESPONSE_STATUS"
+          echo "   Error count: $RESPONSE_ERRORS"
           exit 1
         fi
       env:
