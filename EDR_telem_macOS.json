@@ -120,7 +120,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "Logon Failed",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "Yes",
     "ESET Inspect": "No",
     "Elastic": "Yes",
