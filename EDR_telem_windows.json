@@ -1137,7 +1137,7 @@
     "Telemetry Feature Category": "Other Relevant Events",
     "Sub-Category": "Group Policy Modification",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "Carbon Black": "No",
     "Cortex XDR": "Via EventLogs",
     "CrowdStrike": "No",
