@@ -133,7 +133,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "Screen Lock",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
     "Elastic": "No",
