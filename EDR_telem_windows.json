@@ -1110,7 +1110,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "USB Device Mount",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "Carbon Black": "Partially",
     "Cortex XDR": "Partially",
     "CrowdStrike": "Yes",
