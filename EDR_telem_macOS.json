@@ -601,7 +601,7 @@
     "Telemetry Feature Category": "Process Tampering Activity",
     "Sub-Category": "Process Injection Or Tampering",
     "BitDefender": "Yes",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
     "Elastic": "Yes",
