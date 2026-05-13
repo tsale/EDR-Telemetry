@@ -640,7 +640,7 @@
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category": "Agent Start",
     "BitDefender": "Yes",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "Yes",
     "ESET Inspect": "Yes",
     "Elastic": "Yes",
