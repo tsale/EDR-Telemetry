@@ -10,7 +10,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -23,7 +24,8 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": "File Activity",
@@ -36,7 +38,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -49,7 +52,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -62,7 +66,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -75,7 +80,8 @@
     "LimaCharlie": "No",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -88,7 +94,8 @@
     "LimaCharlie": "Partially",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": "User & Session Activity",
@@ -101,7 +108,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -114,7 +122,8 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -127,7 +136,8 @@
     "LimaCharlie": "No",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -140,7 +150,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -153,7 +164,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -166,7 +178,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -179,7 +192,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "Network Activity",
@@ -192,7 +206,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -205,7 +220,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": null,
@@ -218,7 +234,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
@@ -231,7 +248,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -244,7 +262,8 @@
     "LimaCharlie": "No",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -257,7 +276,8 @@
     "LimaCharlie": "No",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -270,7 +290,8 @@
     "LimaCharlie": "No",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -283,7 +304,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -296,7 +318,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "User Account Activity",
@@ -309,7 +332,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -322,7 +346,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -335,7 +360,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -348,7 +374,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "System Extension & Driver Activity",
@@ -361,7 +388,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -374,7 +402,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -387,7 +416,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -400,7 +430,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -413,7 +444,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": "Code Signing & Trust Activity",
@@ -426,7 +458,8 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -439,7 +472,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -452,7 +486,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -465,7 +500,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -478,7 +514,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -491,7 +528,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -504,7 +542,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": "Privacy & TCC Activity",
@@ -517,7 +556,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -530,7 +570,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -543,7 +584,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -556,7 +598,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -569,7 +612,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "Access Activity",
@@ -582,7 +626,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "No",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -595,7 +640,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "Process Tampering Activity",
@@ -608,7 +654,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "Device Activity",
@@ -621,7 +668,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -634,7 +682,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Partially",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
@@ -647,7 +696,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "No",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -660,7 +710,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "No",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -673,7 +724,8 @@
     "LimaCharlie": "No",
     "MDE": "Yes",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "File Metadata",
@@ -686,7 +738,8 @@
     "LimaCharlie": "No",
     "MDE": "Yes",
     "Phorion": "No",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -699,7 +752,8 @@
     "LimaCharlie": "Yes",
     "MDE": "Yes",
     "Phorion": "Partially",
-    "Qualys": "Yes"
+    "Qualys": "Yes",
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -712,7 +766,8 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": "Service Activity",
@@ -725,7 +780,8 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -738,7 +794,8 @@
     "LimaCharlie": "Yes",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -751,6 +808,7 @@
     "LimaCharlie": "No",
     "MDE": "No",
     "Phorion": "Yes",
-    "Qualys": "No"
+    "Qualys": "No",
+    "Uptycs": "No"
   }
 ]
