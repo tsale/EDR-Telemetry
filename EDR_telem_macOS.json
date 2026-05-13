@@ -575,7 +575,7 @@
     "Telemetry Feature Category": "Access Activity",
     "Sub-Category": "Raw Device Access",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
     "Elastic": "No",
