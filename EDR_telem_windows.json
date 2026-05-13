@@ -1083,7 +1083,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "USB Device Unmount",
     "BitDefender": "No",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "Carbon Black": "No",
     "Cortex XDR": "Partially",
     "CrowdStrike": "Yes",
