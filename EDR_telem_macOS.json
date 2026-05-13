@@ -653,7 +653,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Stop",
     "BitDefender": "Yes",
-    "C-Prot": "No",
+    "C-Prot": "Yes",
     "CrowdStrike": "Yes",
     "ESET Inspect": "Yes",
     "Elastic": "Yes",
