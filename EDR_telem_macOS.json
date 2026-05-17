@@ -179,7 +179,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -389,7 +389,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": null,
@@ -529,7 +529,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -543,7 +543,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Pending Response"
   },
   {
     "Telemetry Feature Category": "Privacy & TCC Activity",
