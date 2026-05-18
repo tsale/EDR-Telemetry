@@ -94,6 +94,7 @@ LINUX_CATEGORIES_VALUED = {
     "Raw Access Read": 1,
     "Process Access": 1,
     "Process Tampering": 1,
+    "Memory-Backed File Creation": 1,
     "Service Creation": 1,
     "Service Modification": 0.7,
     "Service Deletion": 0.6,
@@ -101,7 +102,10 @@ LINUX_CATEGORIES_VALUED = {
     "Agent Stop": 0.8,
     "MD5": 1,
     "SHA": 1,
-    "Fuzzy Hash": 1
+    "Fuzzy Hash": 1,
+    "File Entropy": 0.5,
+    "File Header Bytes": 0.5,
+    "File Size": 0.2
 }
 
 # macOS-specific categories
