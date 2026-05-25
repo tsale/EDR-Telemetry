@@ -22,7 +22,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -49,7 +49,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "No",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Via EnablingTelemetry",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -76,7 +76,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -103,7 +103,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -130,7 +130,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -157,7 +157,7 @@
     "Symantec SES Complete": "Pending Response",
     "Sysmon": "No",
     "Trellix": "Pending Response",
-    "Trend Micro": "Pending Response",
+    "TrendAI": "Yes",
     "Uptycs": "Via EnablingTelemetry",
     "WatchGuard": "No"
   },
@@ -184,7 +184,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -211,7 +211,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -238,7 +238,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -265,7 +265,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -292,7 +292,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -319,7 +319,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -346,7 +346,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -373,7 +373,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Yes",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -400,7 +400,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -427,7 +427,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Yes",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -454,7 +454,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -481,7 +481,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -508,7 +508,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -535,7 +535,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -562,7 +562,7 @@
     "Symantec SES Complete": "Partially",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "No",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -589,7 +589,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -616,7 +616,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Partially",
     "WatchGuard": "Yes"
   },
@@ -643,7 +643,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -670,7 +670,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -697,7 +697,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -724,7 +724,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -751,7 +751,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -778,7 +778,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -805,7 +805,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -832,7 +832,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -859,7 +859,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -886,7 +886,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -913,7 +913,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -940,7 +940,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Partially"
   },
@@ -967,7 +967,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -994,7 +994,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "No",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Via EnablingTelemetry",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -1021,7 +1021,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1048,7 +1048,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -1075,7 +1075,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1102,7 +1102,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1129,7 +1129,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1156,7 +1156,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "No",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -1183,7 +1183,7 @@
     "Symantec SES Complete": "Pending Response",
     "Sysmon": "No",
     "Trellix": "Pending Response",
-    "Trend Micro": "Pending Response",
+    "TrendAI": "Pending Response",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -1210,7 +1210,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "No",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1237,7 +1237,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Via EnablingTelemetry",
+    "TrendAI": "Yes",
     "Uptycs": "No",
     "WatchGuard": "No"
   },
@@ -1264,7 +1264,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "Yes",
     "Trellix": "Pending Response",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1291,7 +1291,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "Yes",
     "Trellix": "Pending Response",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1318,7 +1318,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1345,7 +1345,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "No",
     "WatchGuard": "Yes"
   },
@@ -1372,7 +1372,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "No",
     "Trellix": "Pending Response",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1399,7 +1399,7 @@
     "Symantec SES Complete": "Via EnablingTelemetry",
     "Sysmon": "Yes",
     "Trellix": "Pending Response",
-    "Trend Micro": "No",
+    "TrendAI": "No",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   },
@@ -1426,7 +1426,7 @@
     "Symantec SES Complete": "Partially",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1453,7 +1453,7 @@
     "Symantec SES Complete": "Partially",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1480,7 +1480,7 @@
     "Symantec SES Complete": "Partially",
     "Sysmon": "Yes",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Yes",
     "WatchGuard": "Yes"
   },
@@ -1507,7 +1507,7 @@
     "Symantec SES Complete": "No",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Via EventLogs",
+    "TrendAI": "Via EventLogs",
     "Uptycs": "Via EventLogs",
     "WatchGuard": "No"
   },
@@ -1534,7 +1534,7 @@
     "Symantec SES Complete": "Yes",
     "Sysmon": "No",
     "Trellix": "Yes",
-    "Trend Micro": "Yes",
+    "TrendAI": "Yes",
     "Uptycs": "Yes",
     "WatchGuard": "No"
   }
