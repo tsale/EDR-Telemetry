@@ -218,7 +218,7 @@
     "C-Prot":"Yes",
     "CrowdStrike":"Yes",
     "ESET Inspect":"No",
-    "Elastic":"Via EnablingTelemetry",
+    "Elastic":"Yes",
     "Harfanglab":"Yes",
     "LimaCharlie":"Yes",
     "MDE":"No",
