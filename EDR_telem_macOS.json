@@ -669,7 +669,7 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -683,7 +683,7 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "Yes"
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
