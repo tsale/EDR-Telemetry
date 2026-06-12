@@ -698,7 +698,7 @@
     "Sysmon": "Yes",
     "Trellix": "No",
     "Trend Micro": "No",
-    "Uptycs": "No",
+    "Uptycs": "Yes",
     "WatchGuard": "No"
   },
   {
@@ -1184,7 +1184,7 @@
     "Sysmon": "No",
     "Trellix": "Pending Response",
     "Trend Micro": "Pending Response",
-    "Uptycs": "No",
+    "Uptycs": "Yes",
     "WatchGuard": "No"
   },
   {
@@ -1508,7 +1508,7 @@
     "Sysmon": "No",
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
-    "Uptycs": "Via EventLogs",
+    "Uptycs": "Yes",
     "WatchGuard": "No"
   },
   {
