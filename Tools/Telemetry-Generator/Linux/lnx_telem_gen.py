@@ -15,6 +15,8 @@ from complex.process_tampering import begin_tamper
 from complex.scheduled_task import run_task
 from complex.process_hijack_demo import start_hijacking
 from complex.eBPF_exec import run_pamspy
+from complex.memfd_create_exec import run_memfd_create
+from complex.file_metadata import run_file_metadata
 from prettytable import PrettyTable
 
 scheduler = sched.scheduler(time.time, time.sleep)
@@ -351,7 +353,9 @@ event_functions = {
     'NetworkListen': NetworkSocketManager.network_listen,
     'NetworkRawSocket': NetworkSocketManager.network_raw_socket,
     'eBPFProgram': run_pamspy,
-    'ProcessAccess': start_hijacking
+    'ProcessAccess': start_hijacking,
+    'MemfdCreate': run_memfd_create,
+    'FileMetadata': run_file_metadata
 }
 
 def log_to_csv(function_name, output, error=None):

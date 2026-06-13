@@ -24,6 +24,8 @@ The script includes the following functionalities:
 11. **User Account Events**: Create, modify, and delete user accounts using libuser
 12. **eBPF Events**: Utilize pamspy for credential dumping using eBPF
 13. **File Operations**: Create, modify, and delete files.
+14. **Memory-Backed File Creation**: Exercise `memfd_create()` with a representative set of flag combinations and stage an in-memory ELF for execution from `/proc/self/fd/<fd>`.
+15. **File Metadata**: Drop a small set of files with known magic-byte headers and varying entropy (random, repeating ASCII, ELF/ZIP/XZ/GZIP/PDF stubs) and then modify/rename them, so EDRs that collect `file.Ext.entropy` and `file.Ext.header_bytes` have deterministic input.
 
 
 ## Usage
@@ -62,6 +64,8 @@ This command will run the `FileCreated`, `DnsQuery`, and `NetworkConnect` events
 - `NetworkListen`
 - `NetworkRawSocket`
 - `eBPFProgram`
+- `MemfdCreate`
+- `FileMetadata`
 
 ## Disclaimers
 
