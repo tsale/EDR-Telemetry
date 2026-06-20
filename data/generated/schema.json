@@ -1,0 +1,18 @@
+{
+  "files": {
+    "category_change_summary.json": "Category/sub-category improvement counts and affected vendors/platforms.",
+    "contributor_summary.json": "Contributor-class activity and score delta summary.",
+    "current_vendor_scores.json": "Current weighted score per vendor and platform using Tools/compare.py.",
+    "data/raw/github/pr_commits.jsonl": "Raw PR commit metadata cache used for commit-to-PR association when GitHub API enrichment is available.",
+    "direct_commit_summary.json": "Direct commit summary for commits not associated with a PR.",
+    "manual_review_items.json": "Warnings and ambiguous changes requiring human review.",
+    "open_pr_proposed_changes.json": "Open pull request proposed cell changes, excluded from accepted statistics.",
+    "pr_summary.json": "Pull-request-level accepted telemetry change summary.",
+    "run_metadata.json": "Generation run metadata, counts, versioning, and warnings.",
+    "telemetry_change_events.csv": "CSV projection of the event ledger when --format includes csv.",
+    "telemetry_change_events.jsonl": "One changed telemetry cell per line with score delta, quality delta, provenance, and classification.",
+    "vendor_change_summary.json": "Vendor-level counts and score deltas.",
+    "vendor_score_timeseries.json": "Cumulative score points by vendor/platform over accepted history."
+  },
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "changed_telemetry_cells": 70,
+    "contributor_class": "external_contributor",
+    "contributor_login": "Aegrah",
+    "direct_commits": 2,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 6.3,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "auditd",
+      "bitdefender",
+      "c_prot",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "qualys",
+      "sentinelone",
+      "sysmon",
+      "uptycs"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 1,
+    "contributor_class": "external_contributor",
+    "contributor_login": "CriimBow",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.8,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "cortex_xdr"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 5,
+    "contributor_class": "external_contributor",
+    "contributor_login": "DefSecSentinel",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 3.25,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 16,
+    "contributor_class": "external_contributor",
+    "contributor_login": "MyPeaches",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 1,
+    "contributor_class": "external_contributor",
+    "contributor_login": "NicolasSchn",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": -0.5,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 54,
+    "contributor_class": "external_contributor",
+    "contributor_login": "QueenSquishy",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "carbon_black"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 81,
+    "contributor_class": "external_contributor",
+    "contributor_login": "Robert-HarfangLab",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": -0.5,
+    "positive_score_delta": 32.0,
+    "prs_opened": 4,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 107,
+    "contributor_class": "external_contributor",
+    "contributor_login": "SecurityAura",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "fortiedr",
+      "sentinelone",
+      "watchguard"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 1,
+    "contributor_class": "external_contributor",
+    "contributor_login": "YousefNein",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.5,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 3,
+    "contributor_class": "external_contributor",
+    "contributor_login": "alextrender",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 1.1,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 62,
+    "contributor_class": "external_contributor",
+    "contributor_login": "j91321",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 4.7,
+    "prs_opened": 5,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 34,
+    "contributor_class": "external_contributor",
+    "contributor_login": "jdu2600",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 5.35,
+    "prs_opened": 5,
+    "vendors_affected": [
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 43,
+    "contributor_class": "external_contributor",
+    "contributor_login": "joshlemon",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 14.75,
+    "prs_opened": 15,
+    "vendors_affected": [
+      "bitdefender",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "padvish_xdr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 53,
+    "contributor_class": "external_contributor",
+    "contributor_login": "joshlemon-uptycs",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 19,
+    "contributor_class": "external_contributor",
+    "contributor_login": "thiboog",
+    "direct_commits": 1,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 3.0,
+    "prs_opened": 4,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 3313,
+    "contributor_class": "unknown",
+    "contributor_login": "unknown",
+    "direct_commits": 14,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": -9.85,
+    "positive_score_delta": 55.75,
+    "prs_opened": 50,
+    "vendors_affected": [
+      "auditd",
+      "bitdefender",
+      "c_prot",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "padvish_xdr",
+      "padvishxdr",
+      "phorion",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "unnamed_10",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 4,
+    "contributor_class": "external_contributor",
+    "contributor_login": "xC0uNt3r7hr34t",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 1.0,
+    "prs_opened": 2,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "changed_telemetry_cells": 53,
+    "contributor_class": "external_contributor",
+    "contributor_login": "zbeastofburden",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "unknown"
+    ],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  }
+]

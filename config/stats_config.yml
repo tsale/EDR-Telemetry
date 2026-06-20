@@ -1,0 +1,83 @@
+maintainers:
+  - tsale
+
+vendor_aliases:
+  microsoft_defender:
+    display_name: "Microsoft Defender for Endpoint"
+    aliases:
+      - "MDE"
+      - "Microsoft Defender for Endpoint"
+  carbon_black:
+    display_name: "Carbon Black"
+    aliases:
+      - "Carbon Black"
+      - "Carbon Black Cloud"
+  trend_micro_trendai:
+    display_name: "Trend Micro / TrendAI"
+    aliases:
+      - "Trend Micro"
+      - "TrendAI"
+  bitdefender:
+    display_name: "BitDefender"
+    aliases:
+      - "BitDefender"
+  c_prot:
+    display_name: "C-Prot"
+    aliases:
+      - "C-Prot"
+  cortex_xdr:
+    display_name: "Cortex XDR"
+    aliases:
+      - "Cortex XDR"
+  crowdstrike:
+    display_name: "CrowdStrike"
+    aliases:
+      - "CrowdStrike"
+  eset_inspect:
+    display_name: "ESET Inspect"
+    aliases:
+      - "ESET Inspect"
+  elastic:
+    display_name: "Elastic"
+    aliases:
+      - "Elastic"
+  fortiedr:
+    display_name: "FortiEDR"
+    aliases:
+      - "FortiEDR"
+  harfanglab:
+    display_name: "Harfanglab"
+    aliases:
+      - "Harfanglab"
+  limacharlie:
+    display_name: "LimaCharlie"
+    aliases:
+      - "LimaCharlie"
+  qualys:
+    display_name: "Qualys"
+    aliases:
+      - "Qualys"
+  sentinelone:
+    display_name: "SentinelOne"
+    aliases:
+      - "SentinelOne"
+      - "Sentinel One"
+  sysmon:
+    display_name: "Sysmon"
+    aliases:
+      - "Sysmon"
+  uptycs:
+    display_name: "Uptycs"
+    aliases:
+      - "Uptycs"
+
+vendor_affiliations: {}
+
+contributor_classes:
+  maintainers:
+    - tsale
+  bots:
+    - dependabot
+    - dependabot[bot]
+    - github-actions
+    - github-actions[bot]

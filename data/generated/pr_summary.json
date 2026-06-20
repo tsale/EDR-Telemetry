@@ -1,0 +1,2963 @@
+[
+  {
+    "author": null,
+    "categories_affected": [
+      "Driver/Module Activity",
+      "Network Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 2,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/2",
+    "score_delta": 2.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 55,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 5,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/5",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sysmon",
+      "trellix"
+    ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 9,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/9",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 11,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/11",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Device Operations",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Registry Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 11,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 14,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/14",
+    "score_delta": -1.65,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 54,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 15,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/15",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cybereason"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "File Manipulation"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 17,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/17",
+    "score_delta": 0.7,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": "j91321",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 54,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 18,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/18",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "author": "NicolasSchn",
+    "categories_affected": [
+      "File Manipulation"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 20,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/20",
+    "score_delta": -0.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": "QueenSquishy",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 54,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 24,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/24",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 29,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/29",
+    "score_delta": 0.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "watchguard"
+    ]
+  },
+  {
+    "author": "xC0uNt3r7hr34t",
+    "categories_affected": [
+      "Device Operations"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 31,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/31",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "zbeastofburden",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 32,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/32",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  },
+  {
+    "author": "xC0uNt3r7hr34t",
+    "categories_affected": [
+      "Named Pipe Activity",
+      "Network Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 33,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/33",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Named Pipe Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 36,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/36",
+    "score_delta": 1.3,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": "alextrender",
+    "categories_affected": [
+      "File Manipulation",
+      "Process Activity",
+      "Schedule Task Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 37,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/37",
+    "score_delta": 1.1,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  },
+  {
+    "author": "j91321",
+    "categories_affected": [
+      "File Manipulation"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 40,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/40",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 41,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/41",
+    "score_delta": 2.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 42,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/42",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "symantec_ses_complete"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 43,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/43",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "EDR SysOps"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 4,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 46,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/46",
+    "score_delta": 0.7,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 47,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/47",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cortex_xdr"
+    ]
+  },
+  {
+    "author": "Robert-HarfangLab",
+    "categories_affected": [
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Named Pipe Activity",
+      "Network Activity",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 37,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 48,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/48",
+    "score_delta": 24.6,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 9,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 54,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/54",
+    "score_delta": 3.35,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Device Operations",
+      "Driver/Module Activity",
+      "File Manipulation",
+      "PowerShell Activity",
+      "Schedule Task Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 13,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 62,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/62",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "limacharlie"
+    ]
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [
+      "Device Operations",
+      "Driver/Module Activity",
+      "Other Relevant Events",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 12,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 65,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/65",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "joshlemon-uptycs",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 66,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/66",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "j91321",
+    "categories_affected": [
+      "Schedule Task Activity",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 68,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/68",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Driver/Module Activity",
+      "File Manipulation",
+      "Network Activity",
+      "PowerShell Activity",
+      "Process Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 21,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 71,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/71",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "qualys"
+    ]
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 72,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/72",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "MyPeaches",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Driver/Module Activity",
+      "File Manipulation",
+      "Named Pipe Activity",
+      "PowerShell Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 16,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 73,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/73",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "trend_micro_trendai"
+    ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 20,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 80,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/80",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Network Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 82,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/82",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "limacharlie"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 83,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/83",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "watchguard"
+    ]
+  },
+  {
+    "author": "SecurityAura",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 107,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 84,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/84",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "fortiedr",
+      "sentinelone",
+      "watchguard"
+    ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 87,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/87",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "EDR SysOps"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 6,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 97,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/97",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Scheduled Task Activity",
+      "Script Activity",
+      "Service Activity",
+      "User Account Activity",
+      "User Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json",
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1254,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 99,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/99",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "auditd",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 100,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/100",
+    "score_delta": 2.1,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "File Manipulation",
+      "Hash Algorithms",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 7,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 103,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/103",
+    "score_delta": 6.3,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "limacharlie"
+    ]
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 105,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/105",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Script Activity",
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 107,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/107",
+    "score_delta": 2.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "EDR SysOps",
+      "PowerShell Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 108,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/108",
+    "score_delta": 0.9,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "File Manipulation"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 110,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/110",
+    "score_delta": 0.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Driver/Module Activity",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 111,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/111",
+    "score_delta": 2.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": "Robert-HarfangLab",
+    "categories_affected": [
+      "Device Operations",
+      "Network Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 5,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 112,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/112",
+    "score_delta": 3.25,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 113,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/113",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cylance"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 53,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 114,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/114",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "openedr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Network Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 115,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/115",
+    "score_delta": -1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": "j91321",
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 117,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/117",
+    "score_delta": 1.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Named Pipe Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 118,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/118",
+    "score_delta": 1.8,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "limacharlie"
+    ]
+  },
+  {
+    "author": "Robert-HarfangLab",
+    "categories_affected": [
+      "Access Activity",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Network Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Scheduled Task Activity",
+      "Script Activity",
+      "Service Activity",
+      "User Account Activity",
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 30,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 119,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/119",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Device Operations",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 121,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/121",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Other Relevant Events"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 20,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 123,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/123",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 57,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 126,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/126",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "padvishxdr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Network Activity",
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 127,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/127",
+    "score_delta": -1.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Hash Algorithms"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 20,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 129,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/129",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 20,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 130,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/130",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Scheduled Task Activity",
+      "Script Activity",
+      "Service Activity",
+      "User Account Activity",
+      "User Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json",
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 87,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 131,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/131",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "bitdefender"
+    ]
+  },
+  {
+    "author": "Robert-HarfangLab",
+    "categories_affected": [
+      "Device Operations",
+      "Driver/Module Activity",
+      "File Manipulation",
+      "Schedule Task Activity",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json",
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 9,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 132,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/132",
+    "score_delta": 3.65,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "harfanglab"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Network Activity",
+      "Other Relevant Events",
+      "Process Activity",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 5,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 135,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/135",
+    "score_delta": 3.2,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "padvishxdr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 137,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/137",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Driver/Module Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 5,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 138,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/138",
+    "score_delta": 3.35,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "crowdstrike"
+    ]
+  },
+  {
+    "author": "CriimBow",
+    "categories_affected": [
+      "Named Pipe Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 139,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/139",
+    "score_delta": 0.8,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cortex_xdr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "EDR SysOps"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 140,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/140",
+    "score_delta": 0.1,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "microsoft_defender"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "BIT JOBS Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 57,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 141,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/141",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "padvish_xdr"
+    ]
+  },
+  {
+    "author": "YousefNein",
+    "categories_affected": [
+      "Hash Algorithms"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 142,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/142",
+    "score_delta": 0.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Network Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 143,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/143",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Scheduled Task Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 144,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/144",
+    "score_delta": 0.7,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Driver/Module Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 145,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/145",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Schedule Task Activity",
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 17,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 146,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/146",
+    "score_delta": 8.35,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cortex_xdr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Network Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Scheduled Task Activity",
+      "Script Activity",
+      "Service Activity",
+      "User Account Activity",
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 30,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 148,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/148",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "cortex_xdr"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "Code Signing & Trust Activity",
+      "Device Activity",
+      "EDR SysOps",
+      "File Activity",
+      "File Metadata",
+      "Network Activity",
+      "Privacy & TCC Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Scheduled Task & Persistence Activity",
+      "Script Activity",
+      "Service Activity",
+      "System Extension & Driver Activity",
+      "User & Session Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 522,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 150,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/150",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "bitdefender",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "limacharlie",
+      "microsoft_defender",
+      "phorion",
+      "qualys",
+      "unnamed_10"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Network Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Scheduled Task Activity",
+      "Script Activity",
+      "Service Activity",
+      "User Account Activity",
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 30,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 151,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/151",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [
+      "Driver/Module Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 152,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/152",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Hash Algorithms"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 153,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/153",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 154,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/154",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Schedule Task Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 155,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/155",
+    "score_delta": 0.35,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "EDR SysOps"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 156,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/156",
+    "score_delta": 0.4,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "j91321",
+    "categories_affected": [
+      "Device Operations",
+      "File Manipulation"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 157,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/157",
+    "score_delta": 2.2,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "eset_inspect"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Service Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 158,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/158",
+    "score_delta": 0.7,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 159,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/159",
+    "score_delta": 2.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Driver/Module Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 160,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/160",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Script Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 161,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/161",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Driver/Module Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 162,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/162",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "BIT JOBS Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 163,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/163",
+    "score_delta": 0.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "BITS Jobs Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 22,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 164,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/164",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "bitdefender",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "cybereason",
+      "cylance",
+      "elastic",
+      "eset_inspect",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "openedr",
+      "padvish_xdr",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete",
+      "sysmon",
+      "trellix",
+      "trend_micro_trendai",
+      "uptycs",
+      "watchguard"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 165,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/165",
+    "score_delta": 2.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "DefSecSentinel",
+    "categories_affected": [
+      "Code Signing & Trust Activity",
+      "File Activity",
+      "File Metadata",
+      "Process Tampering Activity",
+      "Script Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 5,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 167,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/167",
+    "score_delta": 3.25,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "BITS Jobs Activity",
+      "Code Signing & Trust Activity",
+      "Device Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Activity",
+      "File Manipulation",
+      "File Metadata",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Privacy & TCC Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Scheduled Task & Persistence Activity",
+      "Script Activity",
+      "Service Activity",
+      "System Extension & Driver Activity",
+      "User & Session Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json",
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 115,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 180,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/180",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "EDR SysOps",
+      "File Activity",
+      "User & Session Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 7,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 195,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/195",
+    "score_delta": 4.1,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "c_prot"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Access Activity",
+      "Code Signing & Trust Activity",
+      "Device Activity",
+      "EDR SysOps",
+      "File Activity",
+      "File Metadata",
+      "Network Activity",
+      "Privacy & TCC Activity",
+      "Process Activity",
+      "Process Tampering Activity",
+      "Scheduled Task & Persistence Activity",
+      "Script Activity",
+      "Service Activity",
+      "System Extension & Driver Activity",
+      "User & Session Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 58,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 197,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/197",
+    "score_delta": 0.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Script Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 201,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/201",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "BITS Jobs Activity",
+      "Hash Algorithms",
+      "Other Relevant Events"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 3,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 202,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/202",
+    "score_delta": 1.5,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "Device Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 203,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/203",
+    "score_delta": 1.0,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "Aegrah",
+    "categories_affected": [
+      "User Account Activity",
+      "User Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 6,
+    "created_at": null,
+    "draft": null,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 204,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/204",
+    "score_delta": 2.3,
+    "state": null,
+    "title": null,
+    "vendors_affected": [
+      "elastic"
+    ]
+  }
+]

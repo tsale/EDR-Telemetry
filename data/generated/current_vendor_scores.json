@@ -1,0 +1,290 @@
+[
+  {
+    "platform": "windows",
+    "score": 38.35,
+    "vendor_canonical_id": "harfanglab",
+    "vendor_display_name": "Harfanglab"
+  },
+  {
+    "platform": "windows",
+    "score": 38.1,
+    "vendor_canonical_id": "uptycs",
+    "vendor_display_name": "Uptycs"
+  },
+  {
+    "platform": "windows",
+    "score": 37.8,
+    "vendor_canonical_id": "cortex_xdr",
+    "vendor_display_name": "Cortex XDR"
+  },
+  {
+    "platform": "windows",
+    "score": 37.6,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "windows",
+    "score": 36.95,
+    "vendor_canonical_id": "crowdstrike",
+    "vendor_display_name": "CrowdStrike"
+  },
+  {
+    "platform": "windows",
+    "score": 36.25,
+    "vendor_canonical_id": "sentinelone",
+    "vendor_display_name": "SentinelOne"
+  },
+  {
+    "platform": "windows",
+    "score": 35.8,
+    "vendor_canonical_id": "microsoft_defender",
+    "vendor_display_name": "Microsoft Defender for Endpoint"
+  },
+  {
+    "platform": "windows",
+    "score": 32.75,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
+  },
+  {
+    "platform": "windows",
+    "score": 31.8,
+    "vendor_canonical_id": "eset_inspect",
+    "vendor_display_name": "ESET Inspect"
+  },
+  {
+    "platform": "windows",
+    "score": 30.15,
+    "vendor_canonical_id": "padvish_xdr",
+    "vendor_display_name": "Padvish XDR"
+  },
+  {
+    "platform": "windows",
+    "score": 29.6,
+    "vendor_canonical_id": "trellix",
+    "vendor_display_name": "Trellix"
+  },
+  {
+    "platform": "windows",
+    "score": 29.25,
+    "vendor_canonical_id": "limacharlie",
+    "vendor_display_name": "LimaCharlie"
+  },
+  {
+    "platform": "windows",
+    "score": 28.35,
+    "vendor_canonical_id": "trend_micro_trendai",
+    "vendor_display_name": "Trend Micro / TrendAI"
+  },
+  {
+    "platform": "windows",
+    "score": 27.25,
+    "vendor_canonical_id": "cylance",
+    "vendor_display_name": "Cylance"
+  },
+  {
+    "platform": "windows",
+    "score": 26.45,
+    "vendor_canonical_id": "qualys",
+    "vendor_display_name": "Qualys"
+  },
+  {
+    "platform": "windows",
+    "score": 25.85,
+    "vendor_canonical_id": "bitdefender",
+    "vendor_display_name": "BitDefender"
+  },
+  {
+    "platform": "windows",
+    "score": 25.65,
+    "vendor_canonical_id": "cybereason",
+    "vendor_display_name": "Cybereason"
+  },
+  {
+    "platform": "windows",
+    "score": 24.7,
+    "vendor_canonical_id": "carbon_black",
+    "vendor_display_name": "Carbon Black"
+  },
+  {
+    "platform": "windows",
+    "score": 24.3,
+    "vendor_canonical_id": "symantec_ses_complete",
+    "vendor_display_name": "Symantec SES Complete"
+  },
+  {
+    "platform": "windows",
+    "score": 24.2,
+    "vendor_canonical_id": "sysmon",
+    "vendor_display_name": "Sysmon"
+  },
+  {
+    "platform": "windows",
+    "score": 23.4,
+    "vendor_canonical_id": "fortiedr",
+    "vendor_display_name": "FortiEDR"
+  },
+  {
+    "platform": "windows",
+    "score": 20.9,
+    "vendor_canonical_id": "watchguard",
+    "vendor_display_name": "WatchGuard"
+  },
+  {
+    "platform": "windows",
+    "score": 9.3,
+    "vendor_canonical_id": "openedr",
+    "vendor_display_name": "OpenEDR"
+  },
+  {
+    "platform": "linux",
+    "score": 25.6,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "linux",
+    "score": 23.8,
+    "vendor_canonical_id": "uptycs",
+    "vendor_display_name": "Uptycs"
+  },
+  {
+    "platform": "linux",
+    "score": 18.0,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
+  },
+  {
+    "platform": "linux",
+    "score": 16.95,
+    "vendor_canonical_id": "crowdstrike",
+    "vendor_display_name": "CrowdStrike"
+  },
+  {
+    "platform": "linux",
+    "score": 15.6,
+    "vendor_canonical_id": "sentinelone",
+    "vendor_display_name": "SentinelOne"
+  },
+  {
+    "platform": "linux",
+    "score": 14.6,
+    "vendor_canonical_id": "bitdefender",
+    "vendor_display_name": "BitDefender"
+  },
+  {
+    "platform": "linux",
+    "score": 13.7,
+    "vendor_canonical_id": "microsoft_defender",
+    "vendor_display_name": "Microsoft Defender for Endpoint"
+  },
+  {
+    "platform": "linux",
+    "score": 12.7,
+    "vendor_canonical_id": "limacharlie",
+    "vendor_display_name": "LimaCharlie"
+  },
+  {
+    "platform": "linux",
+    "score": 12.0,
+    "vendor_canonical_id": "auditd",
+    "vendor_display_name": "Auditd"
+  },
+  {
+    "platform": "linux",
+    "score": 11.4,
+    "vendor_canonical_id": "cortex_xdr",
+    "vendor_display_name": "Cortex XDR"
+  },
+  {
+    "platform": "linux",
+    "score": 10.9,
+    "vendor_canonical_id": "harfanglab",
+    "vendor_display_name": "Harfanglab"
+  },
+  {
+    "platform": "linux",
+    "score": 10.0,
+    "vendor_canonical_id": "qualys",
+    "vendor_display_name": "Qualys"
+  },
+  {
+    "platform": "linux",
+    "score": 9.3,
+    "vendor_canonical_id": "eset_inspect",
+    "vendor_display_name": "ESET Inspect"
+  },
+  {
+    "platform": "linux",
+    "score": 9.2,
+    "vendor_canonical_id": "sysmon",
+    "vendor_display_name": "Sysmon"
+  },
+  {
+    "platform": "linux",
+    "score": 8.0,
+    "vendor_canonical_id": "carbon_black",
+    "vendor_display_name": "Carbon Black"
+  },
+  {
+    "platform": "macos",
+    "score": 35.0,
+    "vendor_canonical_id": "phorion",
+    "vendor_display_name": "Phorion"
+  },
+  {
+    "platform": "macos",
+    "score": 34.4,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "macos",
+    "score": 19.8,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
+  },
+  {
+    "platform": "macos",
+    "score": 14.6,
+    "vendor_canonical_id": "crowdstrike",
+    "vendor_display_name": "CrowdStrike"
+  },
+  {
+    "platform": "macos",
+    "score": 13.7,
+    "vendor_canonical_id": "microsoft_defender",
+    "vendor_display_name": "Microsoft Defender for Endpoint"
+  },
+  {
+    "platform": "macos",
+    "score": 13.6,
+    "vendor_canonical_id": "limacharlie",
+    "vendor_display_name": "LimaCharlie"
+  },
+  {
+    "platform": "macos",
+    "score": 13.5,
+    "vendor_canonical_id": "eset_inspect",
+    "vendor_display_name": "ESET Inspect"
+  },
+  {
+    "platform": "macos",
+    "score": 12.9,
+    "vendor_canonical_id": "bitdefender",
+    "vendor_display_name": "BitDefender"
+  },
+  {
+    "platform": "macos",
+    "score": 12.3,
+    "vendor_canonical_id": "uptycs",
+    "vendor_display_name": "Uptycs"
+  },
+  {
+    "platform": "macos",
+    "score": 8.4,
+    "vendor_canonical_id": "qualys",
+    "vendor_display_name": "Qualys"
+  }
+]

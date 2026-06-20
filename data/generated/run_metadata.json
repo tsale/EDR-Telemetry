@@ -1,0 +1,1071 @@
+{
+  "default_branch": "main",
+  "generated_at_utc": "2026-06-20T01:21:59Z",
+  "head_commit": "9cdbe7284823dbe9f1a07abd67d0c27844ab0d59",
+  "repository": "tsale/EDR-Telemetry",
+  "schema_version": "1.0.0",
+  "script_version": "1.0.0",
+  "total_change_events": 3920,
+  "total_commits_scanned": 194,
+  "total_prs_scanned": 96,
+  "warnings": [
+    {
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "kind": "scoring_fallback_worktree",
+      "message": "Tools/compare.py missing at commit; used working tree scoring model."
+    },
+    {
+      "commit_sha": "b7766dbbe66d89d9e981d5bbd23736e7a5d1c880",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "6eae064b1bea3b2705fe2bfd617e4fffdd2bb880",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "65e0a780e440536d05234d120d334ea1d75f4eff",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "94e748659f8b3dc92b21664a6248099347bb8998",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "0bb12f53e23b287b2536c991d76b929813e5130d",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "60b0dac45a7864491936e9d0d170874935e2b9bb",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "0a9d9e0b4201f2a9ff4756cfc5b873f9f3843e82",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "ad8093fc082700494a735aa51b57394fd8e8a0ee",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "cd1ad22a1cafe83045e56591b88f794942cb0e4c",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "c001cdb41a3d9899f86dd906ddcd0c0acf1b5e3f",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "8a7cced4a4cd020c7872f573345beadeecac8997",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "9800d137d5ebd7db43b199b9a1f267a20e090baa",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "ac81c88737178f748fb53fe286e92b94f6ed0d35",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "552905bfac8a83d4553c1e11a1629606b5950747",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "9833031a68ed589a1cbaa18f52742c3b24320810",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "deaf4b0ec19d3ebd385261a73dc5077f6a86e2c9",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "82d5374c4acb8a48a8edf0edb8efa2a2e53229b3",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "b5603f51634e03b51b747a81d9a9198189a5571d",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "994932acd910691cfdcb59147aedb6c67c09c790",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "d6f9d601e931e79c9082edd053bdbd6e56213d08",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "1e8e4fd73986c15aebbe334e8c8130af08aea736",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "b154f063a8f8601bdd0c2da36433c7c5acb501cd",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "caed161c1403268b118361eee3099c82395c7069",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "a68090d11cbbb859574f2282365cfaa0227a51f4",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "a3a2bf9948c4010256a8888032a5b9a0b31394b3",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "commit_sha": "0424ad7fc25b01a159eab99a5fc6b202d88d26ea",
+      "kind": "scoring_fallback_previous",
+      "message": "Tools/compare.py missing at commit; reused previous scoring model."
+    },
+    {
+      "kind": "github_token_missing",
+      "message": "GITHUB_TOKEN is not set; PR API enrichment was skipped."
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "elastic"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "sentinelone"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "sysmon"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "BIT JOBS Activity",
+      "vendor_canonical_id": "watchguard"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "elastic"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "sentinelone"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "sysmon"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "watchguard"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "elastic"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "sentinelone"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "direct_commit_by_unknown_contributor",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "sysmon"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "elastic"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "sentinelone"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "sysmon"
+    },
+    {
+      "change_kind": "new_category_baseline",
+      "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "watchguard"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "change_kind": "new_vendor_baseline",
+      "commit_sha": "0bb12f53e23b287b2536c991d76b929813e5130d",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "trellix"
+    },
+    {
+      "file_path": "EDR_telem.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "windows",
+      "status": "",
+      "vendor": "Sysmon"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "IMPHASH",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Pipe Connection",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Pipe Creation",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Key/Value Deletion",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Key/Value Modification",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Service Deletion",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "1538a13cf3117d22744212535797523f65e08e5b",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Service Modification",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "60b0dac45a7864491936e9d0d170874935e2b9bb",
+      "file_path": "EDR_telem.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "File Opened",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "new_vendor_baseline",
+      "commit_sha": "0a9d9e0b4201f2a9ff4756cfc5b873f9f3843e82",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "eset_inspect"
+    },
+    {
+      "change_kind": "new_vendor_baseline",
+      "commit_sha": "ad8093fc082700494a735aa51b57394fd8e8a0ee",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "cybereason"
+    },
+    {
+      "change_kind": "new_vendor_baseline",
+      "commit_sha": "cd1ad22a1cafe83045e56591b88f794942cb0e4c",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Agent Tampering",
+      "vendor_canonical_id": "carbon_black"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Carbon Black"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "CrowdStrike"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cybereason"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Elastic"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "ESET Inspect"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "LimaCharlie"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "MDE"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Sentinel One"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Sysmon"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Trellix"
+    },
+    {
+      "commit_sha": "779659a40ac000e47a3f0176505107d92a103266",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "WatchGuard"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "commit_sha": "9d4b054c8088ea6b727f4959f6a199cb42469b48",
+      "file_path": "EDR_telem.json",
+      "kind": "telemetry_cell_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "vendor": "Cortex XDR"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Unmount",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Driver Loaded",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "File Opened",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "File Renaming",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Script-Block Activity",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Scheduled Task Creation",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Scheduled Task Deletion",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "clarification",
+      "commit_sha": "f1f7bbe7ee75ae358bdbe38c03c6daa1742833b6",
+      "file_path": "EDR_telem.json",
+      "kind": "scoring_weight_missing",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Scheduled Task Modification",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "commit_sha": "44b75a3c42b8a69a68ba3b497fb2f283b00ed5c9",
+      "file_path": "EDR_telem.json",
+      "kind": "score_bearing_file_deleted",
+      "message": "Manual review item generated.",
+      "platform": "windows"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "45436ce9ab42d5e611ae040a4cc12adc97bbc52a",
+      "file_path": "EDR_telem_linux.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "linux",
+      "sub_category": "Service Deletion",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "42b5c59287928bfe074d97f7adb4d1100e2549a8",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "URL",
+      "vendor_canonical_id": "crowdstrike"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "9ecb57a63784a5ec5e7ae8ca5436ff0666dd9479",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Pipe Connection",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "9ecb57a63784a5ec5e7ae8ca5436ff0666dd9479",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Pipe Creation",
+      "vendor_canonical_id": "limacharlie"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "733ec70361e8fc3f500ca6911a618973482e6a7f",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "UDP Connection",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "733ec70361e8fc3f500ca6911a618973482e6a7f",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Process Termination",
+      "vendor_canonical_id": "microsoft_defender"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "d75b3be8867f874bb097cd2d78c4fe74a53dc2cd",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "USB Device Mount",
+      "vendor_canonical_id": "harfanglab"
+    },
+    {
+      "change_kind": "coverage_downgrade",
+      "commit_sha": "4e8e9d9fcb026c77a5e9f042aaedcce975832faf",
+      "file_path": "EDR_telem_windows.json",
+      "kind": "downgrade_or_correction",
+      "message": "Manual review item generated.",
+      "platform": "windows",
+      "sub_category": "Pipe Creation",
+      "vendor_canonical_id": "cortex_xdr"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "file_path": "EDR_telem_macOS.json",
+      "kind": "unknown_status",
+      "message": "Unknown telemetry status ''; score defaults to 0.",
+      "platform": "macos",
+      "status": "",
+      "vendor": "Unnamed: 10"
+    },
+    {
+      "kind": "direct_commit_by_unknown_contributor_truncated",
+      "message": "518 additional direct_commit_by_unknown_contributor warnings omitted from run_metadata; see manual_review_items.json."
+    },
+    {
+      "kind": "scoring_weight_missing_truncated",
+      "message": "262 additional scoring_weight_missing warnings omitted from run_metadata; see manual_review_items.json."
+    },
+    {
+      "kind": "telemetry_cell_deleted_truncated",
+      "message": "1089 additional telemetry_cell_deleted warnings omitted from run_metadata; see manual_review_items.json."
+    },
+    {
+      "kind": "unknown_status_truncated",
+      "message": "106 additional unknown_status warnings omitted from run_metadata; see manual_review_items.json."
+    }
+  ],
+  "warnings_count": 2103
+}
