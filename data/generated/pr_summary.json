@@ -1,6 +1,6 @@
 [
   {
-    "author": null,
+    "author": "johnk3r",
     "categories_affected": [
       "Driver/Module Activity",
       "Network Activity"
@@ -9,24 +9,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-19T16:05:50Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-19T16:12:57Z",
     "pr_number": 2,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/2",
     "score_delta": 2.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem.json",
     "vendors_affected": [
       "crowdstrike"
     ]
   },
   {
-    "author": null,
+    "author": "mthcht",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -49,18 +49,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 55,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-19T19:14:48Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-26T20:09:02Z",
     "pr_number": 5,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/5",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "adding Trellix EDR (mcafee)",
     "vendors_affected": [
       "sysmon",
       "trellix"
@@ -75,21 +75,40 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-20T11:33:08Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-20T23:43:51Z",
     "pr_number": 9,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/9",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Elastic has OpenProcess events",
     "vendors_affected": [
       "elastic"
     ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2023-04-20T11:42:51Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 10,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/10",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Thread Creation category",
+    "vendors_affected": []
   },
   {
     "author": "jdu2600",
@@ -100,24 +119,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-20T11:55:25Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-20T20:29:24Z",
     "pr_number": 11,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/11",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Elastic has Process Tampering detections",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "thomaspatzke",
     "categories_affected": [
       "Device Operations",
       "Hash Algorithms",
@@ -130,24 +149,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 11,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-21T22:14:14Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-27T07:38:36Z",
     "pr_number": 14,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/14",
     "score_delta": -1.65,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update CrowdStrike",
     "vendors_affected": [
       "crowdstrike"
     ]
   },
   {
-    "author": null,
+    "author": "alwashali",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -170,24 +189,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 54,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-21T22:58:47Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-30T18:46:03Z",
     "pr_number": 15,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/15",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Cybereason",
     "vendors_affected": [
       "cybereason"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "File Manipulation"
     ],
@@ -195,18 +214,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-24T05:50:13Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-24T05:52:49Z",
     "pr_number": 17,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/17",
     "score_delta": 0.7,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "File Renaming correction proposed by @BeinGreen",
     "vendors_affected": [
       "microsoft_defender"
     ]
@@ -235,21 +254,38 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 54,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-25T07:07:42Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-30T05:33:29Z",
     "pr_number": 18,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/18",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "ESET Inspect",
     "vendors_affected": [
       "eset_inspect"
     ]
+  },
+  {
+    "author": "nasbench",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2023-04-25T18:01:19Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2023-04-25T20:39:31Z",
+    "pr_number": 19,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/19",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Add Telemetry Generator Script & Config",
+    "vendors_affected": []
   },
   {
     "author": "NicolasSchn",
@@ -260,24 +296,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-26T09:15:20Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-04-27T08:14:38Z",
     "pr_number": 20,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/20",
     "score_delta": -0.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Crowdstrike File Opened - Yes => Partially",
     "vendors_affected": [
       "crowdstrike"
     ]
   },
   {
-    "author": "QueenSquishy",
+    "author": "ConnectedLucy",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -300,24 +336,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 54,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-04-29T21:06:34Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-05-03T08:17:43Z",
     "pr_number": 24,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/24",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Carbon Black",
     "vendors_affected": [
       "carbon_black"
     ]
   },
   {
-    "author": null,
+    "author": "inodee",
     "categories_affected": [
       "Service Activity"
     ],
@@ -325,21 +361,40 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-05-04T08:15:11Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-05-04T08:31:13Z",
     "pr_number": 29,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/29",
     "score_delta": 0.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Service Creation to Partially for WG",
     "vendors_affected": [
       "watchguard"
     ]
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2023-05-06T23:31:20Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2023-05-06T23:31:37Z",
+    "pr_number": 30,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/30",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Removing Agent tampering sub-category",
+    "vendors_affected": []
   },
   {
     "author": "xC0uNt3r7hr34t",
@@ -350,18 +405,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-05-16T17:58:45Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-05-30T20:41:20Z",
     "pr_number": 31,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/31",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add USB Mount support for SentinelOne",
     "vendors_affected": [
       "sentinelone"
     ]
@@ -390,18 +445,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-05-18T20:52:44Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-06-15T19:21:20Z",
     "pr_number": 32,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/32",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Added Trend Micro EDR",
     "vendors_affected": [
       "trend_micro_trendai"
     ]
@@ -416,24 +471,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-06-05T20:58:32Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-06-10T18:40:56Z",
     "pr_number": 33,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/33",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "modified included telemetry requiring enablement",
     "vendors_affected": [
       "sentinelone"
     ]
   },
   {
-    "author": null,
+    "author": "Guzzy711",
     "categories_affected": [
       "Named Pipe Activity"
     ],
@@ -441,18 +496,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-06-16T05:52:02Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-06-16T19:49:22Z",
     "pr_number": 36,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/36",
     "score_delta": 1.3,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "fixes to named pipe events",
     "vendors_affected": [
       "crowdstrike"
     ]
@@ -468,18 +523,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-06-28T22:28:59Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-12-07T21:07:15Z",
     "pr_number": 37,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/37",
     "score_delta": 1.1,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Trend Micro Telemetry Updates",
     "vendors_affected": [
       "trend_micro_trendai"
     ]
@@ -493,24 +548,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-12-07T10:05:37Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-12-07T20:52:37Z",
     "pr_number": 40,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/40",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Fix ESET Inspect inaccuracies",
     "vendors_affected": [
       "eset_inspect"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "WMI Activity"
     ],
@@ -518,24 +573,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-12-10T01:02:02Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2023-12-10T01:03:05Z",
     "pr_number": 41,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/41",
     "score_delta": 2.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Fixing CrowdStrike's WMI Filter and Consumer Values",
     "vendors_affected": [
       "crowdstrike"
     ]
   },
   {
-    "author": null,
+    "author": "idev",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -558,24 +613,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-12-11T06:39:16Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-03-24T20:04:27Z",
     "pr_number": 42,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/42",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Symantec SES Complete EDR",
     "vendors_affected": [
       "symantec_ses_complete"
     ]
   },
   {
-    "author": null,
+    "author": "mthcht",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -598,24 +653,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2023-12-11T11:44:45Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-01-09T19:48:03Z",
     "pr_number": 43,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/43",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Adding HarfangLab EDR",
     "vendors_affected": [
       "harfanglab"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "EDR SysOps"
     ],
@@ -623,24 +678,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 4,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-01-09T20:02:01Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-01-09T20:02:22Z",
     "pr_number": 46,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/46",
     "score_delta": 0.7,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Updated MDE EDR SysOps values",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "pep-un",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -663,18 +718,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-01-18T07:27:20Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-03-02T22:04:58Z",
     "pr_number": 47,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/47",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add Cortex XDR based on public documentation",
     "vendors_affected": [
       "cortex_xdr"
     ]
@@ -699,21 +754,57 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 37,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-02-01T12:34:09Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-03-05T00:02:03Z",
     "pr_number": 48,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/48",
     "score_delta": 24.6,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem.json",
     "vendors_affected": [
       "harfanglab"
     ]
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-03-05T00:09:00Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 51,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/51",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem.json (#48)",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-03-05T00:36:07Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2024-03-05T00:38:44Z",
+    "pr_number": 52,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/52",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Revert branch",
+    "vendors_affected": []
   },
   {
     "author": "jdu2600",
@@ -726,24 +817,113 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 9,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-03-12T05:29:36Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-03-24T19:34:05Z",
     "pr_number": 54,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/54",
     "score_delta": 3.35,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "update Elastic telemetry based on evidence in public rules repos",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-03-24T21:11:35Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2024-03-24T21:12:11Z",
+    "pr_number": 56,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/56",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Table emoji update: Optimized for Color Blind Users",
+    "vendors_affected": []
+  },
+  {
+    "author": "SolitudePy",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-04-02T18:26:41Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 57,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/57",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "added compare.py to compare EDRS",
+    "vendors_affected": []
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-04-04T02:34:17Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 58,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/58",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "update Elastic telemetry based on evidence in public rules repos",
+    "vendors_affected": []
+  },
+  {
+    "author": "inodee",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-05-22T11:21:54Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 60,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/60",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Update EDR_telem.json: adding Sophos",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-06-01T21:56:43Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2024-06-01T22:12:48Z",
+    "pr_number": 61,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/61",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "New script that contains an algorithm to score EDRs of this project",
+    "vendors_affected": []
+  },
+  {
+    "author": "maximelb",
     "categories_affected": [
       "Device Operations",
       "Driver/Module Activity",
@@ -756,18 +936,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 13,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-06-02T15:47:08Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-06-03T19:26:10Z",
     "pr_number": 62,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/62",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Correcting telemetry for LimaCharlie.",
     "vendors_affected": [
       "limacharlie"
     ]
@@ -786,18 +966,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 12,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-06-11T18:40:31Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-07-05T16:56:09Z",
     "pr_number": 65,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/65",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Adding SentinelOne Telemetry Updates",
     "vendors_affected": [
       "sentinelone"
     ]
@@ -826,21 +1006,38 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-07-01T02:08:47Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-10-26T16:47:24Z",
     "pr_number": 66,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/66",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Addition of Uptycs EDR",
     "vendors_affected": [
       "uptycs"
     ]
+  },
+  {
+    "author": "LuKePicci",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-07-02T16:58:46Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2024-07-03T23:17:08Z",
+    "pr_number": 67,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/67",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Simple but useful action to run compare.py on each commit",
+    "vendors_affected": []
   },
   {
     "author": "j91321",
@@ -852,24 +1049,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-07-03T08:25:46Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-07-04T06:37:38Z",
     "pr_number": 68,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/68",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "ESET Inspect Scheduled Task and Service Activity",
     "vendors_affected": [
       "eset_inspect"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "BIT JOBS Activity",
       "Driver/Module Activity",
@@ -886,18 +1083,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 21,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-08-24T18:53:03Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-08-24T18:53:33Z",
     "pr_number": 71,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/71",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Updated EDR telemetry for Qualys",
     "vendors_affected": [
       "qualys"
     ]
@@ -911,18 +1108,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-09-05T13:03:36Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-09-20T05:44:37Z",
     "pr_number": 72,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/72",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Updates to SentinelOne Telemetry : Logout event",
     "vendors_affected": [
       "sentinelone"
     ]
@@ -943,21 +1140,40 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 16,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-09-17T09:34:25Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-13T19:00:08Z",
     "pr_number": 73,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/73",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Trend micro edr updates",
     "vendors_affected": [
       "trend_micro_trendai"
     ]
+  },
+  {
+    "author": "jdu2600",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-10-19T09:25:39Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 78,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/78",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Expand WMI Activity category to cover all WMI Activity",
+    "vendors_affected": []
   },
   {
     "author": "jdu2600",
@@ -968,18 +1184,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 20,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-10-21T05:34:29Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-03-10T02:22:42Z",
     "pr_number": 80,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/80",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add new sub-category Process Call Stacks",
     "vendors_affected": [
       "carbon_black",
       "cortex_xdr",
@@ -1004,7 +1220,7 @@
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Network Activity"
     ],
@@ -1012,24 +1228,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-11-07T21:59:30Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-11-07T21:59:56Z",
     "pr_number": 82,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/82",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Fixing LimaCharlie URL event - HTTP_Request is not supported for Windows",
     "vendors_affected": [
       "limacharlie"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Service Activity"
     ],
@@ -1037,18 +1253,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-11-16T20:34:10Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-11-16T20:36:14Z",
     "pr_number": 83,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/83",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Added partially_value_explanations json + 1 change for WatcGuard",
     "vendors_affected": [
       "watchguard"
     ]
@@ -1077,18 +1293,18 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 107,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-11-17T03:38:37Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-13T18:09:08Z",
     "pr_number": 84,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/84",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "EDR Addition - FortiEDR",
     "vendors_affected": [
       "fortiedr",
       "sentinelone",
@@ -1104,24 +1320,60 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-11-25T03:04:41Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-13T19:29:40Z",
     "pr_number": 87,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/87",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "update WMI for Elastic 8.16",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-12-13T00:01:21Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 95,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/95",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR telemetry scoring ViaEventLogs scoring value and refine documentation",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2024-12-13T01:08:38Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2024-12-13T01:08:57Z",
+    "pr_number": 96,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/96",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Update EDR scores and enhance telemetry descriptions in README and compare.py",
+    "vendors_affected": []
+  },
+  {
+    "author": "SecurityAura",
     "categories_affected": [
       "EDR SysOps"
     ],
@@ -1129,24 +1381,24 @@
       "EDR_telem.json"
     ],
     "changed_telemetry_cells": 6,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-14T01:17:08Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-14T19:04:53Z",
     "pr_number": 97,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/97",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Carbon Black Cloud - EDR SysOps Update",
     "vendors_affected": [
       "carbon_black"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "BIT JOBS Activity",
@@ -1175,18 +1427,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1254,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-17T05:51:41Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-17T06:17:29Z",
     "pr_number": 99,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/99",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Enhance Linux Telemetry with New Features and Improvements",
     "vendors_affected": [
       "auditd",
       "carbon_black",
@@ -1210,7 +1462,7 @@
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "User Activity"
     ],
@@ -1218,24 +1470,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-17T18:53:58Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-17T18:54:38Z",
     "pr_number": 100,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/100",
     "score_delta": 2.1,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Fix User activity status for CrowdStrike",
     "vendors_affected": [
       "crowdstrike"
     ]
   },
   {
-    "author": null,
+    "author": "maximelb",
     "categories_affected": [
       "File Manipulation",
       "Hash Algorithms",
@@ -1245,18 +1497,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 7,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-19T00:49:15Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-01-01T18:59:53Z",
     "pr_number": 103,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/103",
     "score_delta": 6.3,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Tweaking LimaCharlie Linux EDR Telemetry.",
     "vendors_affected": [
       "limacharlie"
     ]
@@ -1271,24 +1523,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-20T16:05:36Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-01-24T16:00:58Z",
     "pr_number": 105,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/105",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "SentinelOne Telemetry Update - BITS and Process Tampering Activities",
     "vendors_affected": [
       "sentinelone"
     ]
   },
   {
-    "author": null,
+    "author": "jonade",
     "categories_affected": [
       "Script Activity",
       "User Activity"
@@ -1297,24 +1549,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-23T13:34:49Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-28T20:56:22Z",
     "pr_number": 107,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/107",
     "score_delta": 2.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add missing detections for MDE on Linux",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "EDR SysOps",
       "PowerShell Activity"
@@ -1323,24 +1575,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2024-12-26T18:31:13Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2024-12-26T18:32:48Z",
     "pr_number": 108,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/108",
     "score_delta": 0.9,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json for fixes related to elastic",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "jonade",
     "categories_affected": [
       "File Manipulation"
     ],
@@ -1348,24 +1600,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-01-02T13:58:19Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-01-29T19:00:34Z",
     "pr_number": 110,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/110",
     "score_delta": 0.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update to file modification on Linux for MDE",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "jonade",
     "categories_affected": [
       "Driver/Module Activity",
       "Service Activity"
@@ -1374,18 +1626,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-01-06T10:58:08Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-01-23T17:53:34Z",
     "pr_number": 111,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/111",
     "score_delta": 2.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add MDE monitoring configured via advanced features",
     "vendors_affected": [
       "microsoft_defender"
     ]
@@ -1401,24 +1653,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 5,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-01-15T16:31:18Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-03-10T02:08:30Z",
     "pr_number": 112,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/112",
     "score_delta": 3.25,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update HarfangLab - File download, Local account and User",
     "vendors_affected": [
       "harfanglab"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -1441,24 +1693,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-02-01T22:25:33Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-02-01T22:30:22Z",
     "pr_number": 113,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/113",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add Cylance telemetry status to Windows EDR telemetry configuration",
     "vendors_affected": [
       "cylance"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -1481,24 +1733,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 53,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-02-10T03:03:49Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-02-28T22:18:37Z",
     "pr_number": 114,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/114",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add OpenEDR telemetry  to Windows EDR table",
     "vendors_affected": [
       "openedr"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Network Activity"
     ],
@@ -1506,21 +1758,38 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-02-11T18:15:21Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-02-11T18:15:30Z",
     "pr_number": 115,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/115",
     "score_delta": -1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update URL field for CrowdStrike in EDR_telem_windows.json",
     "vendors_affected": [
       "crowdstrike"
     ]
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-02-28T22:37:21Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2025-02-28T22:37:37Z",
+    "pr_number": 116,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/116",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Update pull request template for EDR Telemetry project",
+    "vendors_affected": []
   },
   {
     "author": "j91321",
@@ -1532,18 +1801,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-03-05T10:13:51Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-03-10T02:10:26Z",
     "pr_number": 117,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/117",
     "score_delta": 1.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add Virtual DIsk Mount and BITS Job for ESET Inspect",
     "vendors_affected": [
       "eset_inspect"
     ]
@@ -1557,18 +1826,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-04-02T03:07:46Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-05-03T16:29:29Z",
     "pr_number": 118,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/118",
     "score_delta": 1.8,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json - LimaChaline - Named Pipe Update",
     "vendors_affected": [
       "limacharlie"
     ]
@@ -1594,24 +1863,41 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 30,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-04-04T13:21:24Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-05-03T16:58:31Z",
     "pr_number": 119,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/119",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add HarfangLab telemetry for Linux",
     "vendors_affected": [
       "harfanglab"
     ]
   },
   {
-    "author": null,
+    "author": "mrobertsonris",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-04-10T18:27:48Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2025-04-11T17:26:26Z",
+    "pr_number": 120,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/120",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Update README.md",
+    "vendors_affected": []
+  },
+  {
+    "author": "jonade",
     "categories_affected": [
       "Device Operations",
       "Service Activity"
@@ -1620,24 +1906,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-04-17T10:27:02Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-05-03T16:40:18Z",
     "pr_number": 121,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/121",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add more telemetry coverage for MDE on Windows",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "j91321",
     "categories_affected": [
       "Other Relevant Events"
     ],
@@ -1645,18 +1931,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 20,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-07-12T09:46:19Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-09-17T05:58:11Z",
     "pr_number": 123,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/123",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Volume Shadow Copy Category",
     "vendors_affected": [
       "carbon_black",
       "cortex_xdr",
@@ -1681,7 +1967,27 @@
     ]
   },
   {
-    "author": null,
+    "author": "bizone-edr",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json",
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-07-21T15:39:51Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 124,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/124",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Added BI.ZONE EDR support",
+    "vendors_affected": []
+  },
+  {
+    "author": "Apsoft-tr",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -1704,24 +2010,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 57,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-08-17T11:44:27Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-10-14T21:10:04Z",
     "pr_number": 126,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/126",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Added Padvish XDR support",
     "vendors_affected": [
       "padvishxdr"
     ]
   },
   {
-    "author": null,
+    "author": "25004",
     "categories_affected": [
       "Network Activity",
       "Process Activity"
@@ -1730,24 +2036,41 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-08-21T15:40:50Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-08-21T16:48:23Z",
     "pr_number": 127,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/127",
     "score_delta": -1.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update MDE - No UDP or Process Termination",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-08-25T16:33:56Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2025-08-25T16:34:05Z",
+    "pr_number": 128,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/128",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "feat: New gh workflow for updating the DB",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
     "categories_affected": [
       "Hash Algorithms"
     ],
@@ -1755,18 +2078,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 20,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-09-07T17:28:52Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-09-07T17:38:19Z",
     "pr_number": 129,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/129",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add JA3/JA3s sub-category for SSL fingerprint telemetry (Windows)",
     "vendors_affected": [
       "carbon_black",
       "cortex_xdr",
@@ -1791,7 +2114,7 @@
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Process Activity"
     ],
@@ -1799,18 +2122,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 20,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-09-07T18:10:55Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-09-15T18:07:33Z",
     "pr_number": 130,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/130",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add Win32 API Telemetry sub-category to expand Windows telemetry coverage",
     "vendors_affected": [
       "carbon_black",
       "cortex_xdr",
@@ -1835,7 +2158,7 @@
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "BIT JOBS Activity",
@@ -1864,18 +2187,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 87,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-09-22T17:01:33Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-09-23T06:27:57Z",
     "pr_number": 131,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/131",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Added Bitdefender EDR (GravityZone Business Security Enterprise)",
     "vendors_affected": [
       "bitdefender"
     ]
@@ -1894,24 +2217,62 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 9,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-10-01T14:52:00Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T18:43:17Z",
     "pr_number": 132,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/132",
     "score_delta": 3.65,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update multiple telemetries for HarfangLab",
     "vendors_affected": [
       "harfanglab"
     ]
   },
   {
-    "author": null,
+    "author": "Sreesanth-S",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-10-09T08:17:35Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 133,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/133",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Added RPC Event Logging",
+    "vendors_affected": []
+  },
+  {
+    "author": "Sree-Nivetha",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-10-09T15:44:28Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 134,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/134",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Added RCP Event Logging",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
     "categories_affected": [
       "Network Activity",
       "Other Relevant Events",
@@ -1922,24 +2283,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 5,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-10-23T17:32:23Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-10-23T17:33:24Z",
     "pr_number": 135,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/135",
     "score_delta": 3.2,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update Padvish EDR with Vendor Telemetry Improvements",
     "vendors_affected": [
       "padvishxdr"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Process Activity"
     ],
@@ -1947,24 +2308,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-10-23T17:50:25Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-10-23T17:50:52Z",
     "pr_number": 137,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/137",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "fix: update Elastic Win32 API Telemetry support status to Yes",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Driver/Module Activity",
       "Service Activity",
@@ -1974,18 +2335,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 5,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-06T21:44:49Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-06T21:45:23Z",
     "pr_number": 138,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/138",
     "score_delta": 3.35,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add Linux Telemetry Coverage Explanations for CrowdStrike Service Events",
     "vendors_affected": [
       "crowdstrike"
     ]
@@ -1999,24 +2360,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-10T16:02:31Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-10T16:07:28Z",
     "pr_number": 139,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/139",
     "score_delta": 0.8,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Cortex XDR - Named Pipe Update",
     "vendors_affected": [
       "cortex_xdr"
     ]
   },
   {
-    "author": null,
+    "author": "jonade",
     "categories_affected": [
       "EDR SysOps"
     ],
@@ -2024,24 +2385,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-10T16:17:19Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T18:52:21Z",
     "pr_number": 140,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/140",
     "score_delta": 0.1,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Updates for MDE on Windows and Linux",
     "vendors_affected": [
       "microsoft_defender"
     ]
   },
   {
-    "author": null,
+    "author": "Copilot",
     "categories_affected": [
       "BIT JOBS Activity",
       "Device Operations",
@@ -2064,18 +2425,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 57,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-16T08:07:44Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-16T08:21:21Z",
     "pr_number": 141,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/141",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update vendor name formatting: \"PadvishXDR\" \u2192 \"Padvish XDR\"",
     "vendors_affected": [
       "padvish_xdr"
     ]
@@ -2089,18 +2450,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-19T23:42:34Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T18:53:50Z",
     "pr_number": 142,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/142",
     "score_delta": 0.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "IMPHASH Correction",
     "vendors_affected": [
       "elastic"
     ]
@@ -2114,18 +2475,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-27T01:02:43Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T18:55:42Z",
     "pr_number": 143,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/143",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs Listening Port Telemetry Example",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2139,18 +2500,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-27T01:42:45Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T18:58:07Z",
     "pr_number": 144,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/144",
     "score_delta": 0.7,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs Crontab Telemetry Example",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2164,24 +2525,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-27T02:19:31Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-11-29T19:00:42Z",
     "pr_number": 145,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/145",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs Driver Load Telemetry Example",
     "vendors_affected": [
       "uptycs"
     ]
   },
   {
-    "author": null,
+    "author": "blb142857",
     "categories_affected": [
       "EDR SysOps",
       "File Manipulation",
@@ -2198,24 +2559,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 17,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-11-28T18:10:42Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T00:58:45Z",
     "pr_number": 146,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/146",
     "score_delta": 8.35,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "mass updates to Cortex XDR - Windows coverage",
     "vendors_affected": [
       "cortex_xdr"
     ]
   },
   {
-    "author": null,
+    "author": "blb142857",
     "categories_affected": [
       "Access Activity",
       "Driver/Module Activity",
@@ -2235,24 +2596,43 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 30,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-12-09T15:14:59Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-05-13T23:12:25Z",
     "pr_number": 148,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/148",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Initial Coverage for Cortex XDR Agent on Linux",
     "vendors_affected": [
       "cortex_xdr"
     ]
   },
   {
-    "author": null,
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2025-12-12T03:16:14Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 149,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/149",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_linux.json - Uptycs Service Telemetry",
+    "vendors_affected": []
+  },
+  {
+    "author": "oliviagallucci",
     "categories_affected": [
       "Access Activity",
       "Code Signing & Trust Activity",
@@ -2275,18 +2655,18 @@
       "EDR_telem_macOS.json"
     ],
     "changed_telemetry_cells": 522,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-12-16T23:51:34Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-26T05:19:59Z",
     "pr_number": 150,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/150",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "macOS EDR Categories and Sub Categories ",
     "vendors_affected": [
       "bitdefender",
       "crowdstrike",
@@ -2300,7 +2680,7 @@
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "Driver/Module Activity",
@@ -2320,18 +2700,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 30,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2025-12-28T19:45:24Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2025-12-28T19:58:24Z",
     "pr_number": 151,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/151",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add C-Prot telemetry coverage to Linux EDR telemetry matrix",
     "vendors_affected": [
       "c_prot"
     ]
@@ -2345,18 +2725,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-07T18:03:11Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-01-20T00:50:14Z",
     "pr_number": 152,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/152",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update SentinelOne Linux eBPF telemetry status",
     "vendors_affected": [
       "sentinelone"
     ]
@@ -2370,18 +2750,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-12T12:45:48Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-01-20T00:52:00Z",
     "pr_number": 153,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/153",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs Fuzzy Hash Telemetry",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2395,18 +2775,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-16T03:53:47Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-01-20T00:53:09Z",
     "pr_number": 154,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/154",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json - Uptycs Win API Telemetry",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2420,18 +2800,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T05:26:46Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T00:59:48Z",
     "pr_number": 155,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/155",
     "score_delta": 0.35,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json - Uptycs Scheduled Task",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2445,18 +2825,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T05:38:06Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:00:45Z",
     "pr_number": 156,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/156",
     "score_delta": 0.4,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json - Agent Install + Keep Alive",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2471,24 +2851,24 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T09:17:51Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:07:46Z",
     "pr_number": 157,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/157",
     "score_delta": 2.2,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "ESET USB Mount/Unmount",
     "vendors_affected": [
       "eset_inspect"
     ]
   },
   {
-    "author": null,
+    "author": "husnuoner",
     "categories_affected": [
       "Service Activity"
     ],
@@ -2496,24 +2876,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T10:20:36Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:09:09Z",
     "pr_number": 158,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/158",
     "score_delta": 0.7,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "C-Prot Linux Service Modification",
     "vendors_affected": [
       "c_prot"
     ]
   },
   {
-    "author": null,
+    "author": "husnuoner",
     "categories_affected": [
       "User Account Activity"
     ],
@@ -2521,24 +2901,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T10:35:41Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:12:39Z",
     "pr_number": 159,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/159",
     "score_delta": 2.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "C-Prot Linux User Account Management",
     "vendors_affected": [
       "c_prot"
     ]
   },
   {
-    "author": null,
+    "author": "husnuoner",
     "categories_affected": [
       "Driver/Module Activity"
     ],
@@ -2546,24 +2926,24 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T10:46:31Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:14:50Z",
     "pr_number": 160,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/160",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "C-Prot Linux Driver Module Activity",
     "vendors_affected": [
       "c_prot"
     ]
   },
   {
-    "author": null,
+    "author": "husnuoner",
     "categories_affected": [
       "Script Activity"
     ],
@@ -2571,18 +2951,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-01-20T10:52:43Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:16:55Z",
     "pr_number": 161,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/161",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "C-Prot Linux Script Activity",
     "vendors_affected": [
       "c_prot"
     ]
@@ -2596,18 +2976,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-02-03T10:37:36Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:18:35Z",
     "pr_number": 162,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/162",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs - Image Load",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2621,18 +3001,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-02-03T10:50:47Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:20:31Z",
     "pr_number": 163,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/163",
     "score_delta": 0.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_windows.json - Uptycs BIT Jobs",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2646,18 +3026,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 22,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-02-03T10:57:45Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:21:11Z",
     "pr_number": 164,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/164",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Grammar Update for \"BITS Jobs\"",
     "vendors_affected": [
       "bitdefender",
       "carbon_black",
@@ -2692,21 +3072,40 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-03-14T02:46:48Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-03-24T01:22:06Z",
     "pr_number": 165,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/165",
     "score_delta": 2.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update EDR_telem_linux.json - Uptycs - User Account",
     "vendors_affected": [
       "uptycs"
     ]
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-03-14T02:56:43Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 166,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/166",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_linux.json - Uptycs Service Telemetry",
+    "vendors_affected": []
   },
   {
     "author": "DefSecSentinel",
@@ -2721,24 +3120,195 @@
       "EDR_telem_macOS.json"
     ],
     "changed_telemetry_cells": 5,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-03-30T15:55:14Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-04-28T07:43:40Z",
     "pr_number": 167,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/167",
     "score_delta": 3.25,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Update Elastic Defend macOS telemetry \u2014 6 corrections",
     "vendors_affected": [
       "elastic"
     ]
   },
   {
-    "author": null,
+    "author": "DefSecSentinel",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-03-30T17:53:20Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 171,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/171",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Library/Module Loaded subcategory to macOS telemetry",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T03:13:50Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 172,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/172",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - File Activity",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T03:45:20Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 173,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/173",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - User & Session Activity",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T05:18:17Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 174,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/174",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - Process Activity",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T05:27:45Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 175,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/175",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - Network Activity",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T05:36:14Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 176,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/176",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - System Extension & Driver",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T05:49:43Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 177,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/177",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - Code Signing & Trust",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T05:57:28Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 178,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/178",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - Remaining Categories (Placeholder)",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-02T06:34:07Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 179,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/179",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "Update EDR_telem_mac.json - Uptycs - File Metadata",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "BITS Jobs Activity",
@@ -2773,24 +3343,290 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 115,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-04-24T19:50:08Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-04-28T06:23:45Z",
     "pr_number": 180,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/180",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Add C-Prot Windows and macOS telemetry results",
     "vendors_affected": [
       "c_prot"
     ]
   },
   {
-    "author": null,
+    "author": "MyPeaches",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-04-30T12:39:43Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 181,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/181",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "TrendAI - Telemetry updates verified via XDR Search pipeline",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:23:14Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 182,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/182",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS File Open/Access",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:29:13Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 183,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/183",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Process Access",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:37:23Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 184,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/184",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Raw Device Access",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:42:32Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 185,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/185",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Process Injection Or Tampering",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:47:17Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 186,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/186",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Agent Start",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T10:50:50Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 187,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/187",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Agent Stop",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:00:24Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 188,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/188",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Screen Locked",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:05:40Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 189,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/189",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Screen Unlocked",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:13:59Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 190,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/190",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot macOS Logon Failed",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:20:43Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 191,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/191",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot Windows USB Device Mount",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:25:26Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 192,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/192",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot Windows USB Device Unmount",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:46:32Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 193,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/193",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot Windows Group Policy Modification",
+    "vendors_affected": []
+  },
+  {
+    "author": "husnuoner",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T11:52:56Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 194,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/194",
+    "score_delta": 0.0,
+    "state": "closed",
+    "title": "C-Prot Windows Volume Shadow Copy Deletion",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "EDR SysOps",
@@ -2801,24 +3637,43 @@
       "EDR_telem_macOS.json"
     ],
     "changed_telemetry_cells": 7,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-05-13T19:05:46Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-05-14T18:22:07Z",
     "pr_number": 195,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/195",
     "score_delta": 4.1,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "C-Prot macOS telemetry updates",
     "vendors_affected": [
       "c_prot"
     ]
   },
   {
-    "author": null,
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-13T19:05:48Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 196,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/196",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "C-Prot Windows telemetry updates",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
     "categories_affected": [
       "Access Activity",
       "Code Signing & Trust Activity",
@@ -2841,21 +3696,78 @@
       "EDR_telem_macOS.json"
     ],
     "changed_telemetry_cells": 58,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-05-13T19:18:56Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-05-17T20:54:37Z",
     "pr_number": 197,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/197",
     "score_delta": 0.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "Uptycs macOS telemetry updates",
     "vendors_affected": [
       "uptycs"
     ]
+  },
+  {
+    "author": "Aegrah",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-18T14:15:06Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-06-13T00:14:16Z",
+    "pr_number": 198,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/198",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "[Update] EDR Telemetry for Linux - Elastic Defend",
+    "vendors_affected": []
+  },
+  {
+    "author": "Aegrah",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-05-18T15:20:13Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-06-13T00:19:18Z",
+    "pr_number": 199,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/199",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "[Proposal] New Linux telemetry categories: Anonymous File Activity an\u2026",
+    "vendors_affected": []
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-06-02T09:41:39Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-06-13T00:41:15Z",
+    "pr_number": 200,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/200",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Update SentinelOne Windows telemetry: File Downloaded, USB Device Mount/Unmount",
+    "vendors_affected": []
   },
   {
     "author": "joshlemon",
@@ -2866,18 +3778,18 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 1,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-06-12T12:13:15Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-06-13T06:21:19Z",
     "pr_number": 201,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/201",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "[Update] Uptycs Linux telemetry: Script Content",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2893,18 +3805,18 @@
       "EDR_telem_windows.json"
     ],
     "changed_telemetry_cells": 3,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-06-12T12:50:35Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-06-13T06:23:01Z",
     "pr_number": 202,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/202",
     "score_delta": 1.5,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "[Update] Uptycs Win telemetry: IMPHASH, BITS Job Activity, VSS Deletion",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2918,18 +3830,18 @@
       "EDR_telem_macOS.json"
     ],
     "changed_telemetry_cells": 2,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-06-12T13:21:20Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-06-13T06:26:27Z",
     "pr_number": 203,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/203",
     "score_delta": 1.0,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "[Update] Uptycs macOS telemetry: Device Activity",
     "vendors_affected": [
       "uptycs"
     ]
@@ -2944,20 +3856,39 @@
       "EDR_telem_linux.json"
     ],
     "changed_telemetry_cells": 6,
-    "created_at": null,
-    "draft": null,
+    "created_at": "2026-06-15T08:15:22Z",
+    "draft": false,
     "evidence_types": [
       "unknown"
     ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-06-18T19:01:46Z",
     "pr_number": 204,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/204",
     "score_delta": 2.3,
-    "state": null,
-    "title": null,
+    "state": "merged",
+    "title": "[Update] EDR Telemetry for Linux - Elastic - User (Account) Activity via System Logs",
     "vendors_affected": [
       "elastic"
     ]
+  },
+  {
+    "author": "AsuNa-jp",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-06-19T13:28:00Z",
+    "draft": true,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 205,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/205",
+    "score_delta": 0.0,
+    "state": "draft",
+    "title": "[Update] EDR Telemetry for Windows - Elastic - Script-Block Activity, FileDownloaded and Device Operations",
+    "vendors_affected": []
   }
 ]

@@ -1,21 +1,17 @@
 {
   "default_branch": "main",
-  "generated_at_utc": "2026-06-20T04:24:02Z",
+  "generated_at_utc": "2026-06-20T04:30:05Z",
   "generation_mode": "incremental",
-  "head_commit": "a9765c0f6fd5cf0f5f0e19c7f22f2832f3fa281c",
+  "head_commit": "73584d1fafe51f34fdcb7584ad03545296964663",
   "incremental_base_commit": "a9765c0f6fd5cf0f5f0e19c7f22f2832f3fa281c",
-  "new_commits_scanned": 0,
+  "new_commits_scanned": 1,
   "repository": "tsale/EDR-Telemetry",
   "schema_version": "1.0.0",
   "script_version": "1.1.0",
   "total_change_events": 3920,
-  "total_commits_scanned": 195,
-  "total_prs_scanned": 96,
+  "total_commits_scanned": 196,
+  "total_prs_scanned": 146,
   "warnings": [
-    {
-      "kind": "github_token_missing",
-      "message": "GITHUB_TOKEN is not set; PR API enrichment was skipped."
-    },
     {
       "change_kind": "new_category_baseline",
       "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
@@ -920,5 +916,5 @@
       "message": "106 additional unknown_status warnings omitted from run_metadata; see manual_review_items.json."
     }
   ],
-  "warnings_count": 2073
+  "warnings_count": 2072
 }
