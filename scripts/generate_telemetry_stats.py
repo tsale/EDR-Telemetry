@@ -34,6 +34,7 @@ from telemetry_stats.git_history import (
     default_branch,
     extract_pr_number_from_commit_message,
     file_at_commit,
+    git_command_success,
     list_commits,
     repo_full_name,
     run_git,
@@ -55,6 +56,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--include-open-prs", action="store_true", help="Generate proposed open-PR changes when PR env data is available.")
     parser.add_argument("--github-token-env", default="GITHUB_TOKEN", help="Environment variable containing a GitHub token.")
     parser.add_argument("--refresh-github-cache", action="store_true", help="Refresh GitHub API cache files instead of reusing local raw JSONL files.")
+    parser.add_argument("--incremental", action="store_true", help="Append events for commits after the previous generated head_commit when existing outputs are available.")
+    parser.add_argument("--force-full-rebuild", action="store_true", help="Ignore existing generated outputs even when --incremental is set.")
     parser.add_argument("--strict", action="store_true", help="Fail on malformed matrices or unknown statuses.")
     parser.add_argument("--since", default=None, help="Only emit accepted events on or after this ISO date.")
     parser.add_argument("--until", default=None, help="Only emit accepted events on or before this ISO date.")
@@ -78,10 +81,17 @@ def main() -> int:
     branch = args.branch or default_branch(repo)
     full_name = repo_full_name(repo)
     github = collect_github_metadata(full_name, raw_output, args.github_token_env, refresh=args.refresh_github_cache)
+    incremental_state = _prepare_incremental_state(repo, branch, output, raw_output, args)
+    base_events = incremental_state["events"]
+    base_manual_review = incremental_state["manual_review"]
+    base_raw_commits = incremental_state["raw_commits"]
+    base_raw_commit_files = incremental_state["raw_commit_files"]
+    start_after = incremental_state["start_after"]
 
-    events, manual_review, raw_commits, raw_commit_files, warnings = scan_history(
+    new_events, new_manual_review, new_raw_commits, new_raw_commit_files, warnings = scan_history(
         repo=repo,
         branch=branch,
+        start_after=start_after,
         repo_full_name_value=full_name,
         config=config,
         github=github,
@@ -90,7 +100,12 @@ def main() -> int:
         until=args.until,
         verbose=args.verbose,
     )
+    warnings.extend(incremental_state["warnings"])
     warnings.extend(github.get("warnings") or [])
+    events = [*base_events, *new_events]
+    manual_review = [*base_manual_review, *new_manual_review]
+    raw_commits = [*base_raw_commits, *new_raw_commits]
+    raw_commit_files = [*base_raw_commit_files, *new_raw_commit_files]
 
     write_jsonl(output / "telemetry_change_events.jsonl", events)
     if "csv" in {item.strip().lower() for item in args.format.split(",")}:
@@ -119,8 +134,11 @@ def main() -> int:
         "default_branch": branch,
         "head_commit": run_git(repo, ["rev-parse", branch]).strip(),
         "total_commits_scanned": len(raw_commits),
+        "new_commits_scanned": len(new_raw_commits),
         "total_prs_scanned": len(github.get("prs") or {event.get("pr_number") for event in events if event.get("pr_number")}),
         "total_change_events": len(events),
+        "generation_mode": "incremental" if start_after else "full_rebuild",
+        "incremental_base_commit": start_after,
         "script_version": SCRIPT_VERSION,
         "schema_version": SCHEMA_VERSION,
         "warnings_count": len(warnings) + len(manual_review),
@@ -137,6 +155,7 @@ def scan_history(
     *,
     repo: Path,
     branch: str,
+    start_after: str | None = None,
     repo_full_name_value: str,
     config: StatsConfig,
     github: dict[str, Any],
@@ -145,13 +164,17 @@ def scan_history(
     until: str | None,
     verbose: bool,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    commits = list_commits(repo, branch)
+    commits = list_commits(repo, branch, start_after=start_after)
     events: list[dict[str, Any]] = []
     manual_review: list[dict[str, Any]] = []
     raw_commits: list[dict[str, Any]] = []
     raw_commit_files: list[dict[str, Any]] = []
     warnings: list[dict[str, Any]] = []
     previous_scoring: ScoringModel | None = None
+    if start_after:
+        previous_scoring, scoring_warning = load_scoring_for_commit(repo, start_after, None)
+        if scoring_warning:
+            warnings.append(scoring_warning)
     pr_by_merge_commit = {
         pr.get("merge_commit_sha"): int(pr["number"])
         for pr in github.get("prs", [])
@@ -260,6 +283,49 @@ def scan_history(
             print(f"Scanned {index + 1}/{len(commits)} commits")
 
     return events, manual_review, raw_commits, raw_commit_files, warnings
+
+
+def _prepare_incremental_state(repo: Path, branch: str, output: Path, raw_output: Path, args: argparse.Namespace) -> dict[str, Any]:
+    empty = {
+        "start_after": None,
+        "events": [],
+        "manual_review": [],
+        "raw_commits": [],
+        "raw_commit_files": [],
+        "warnings": [],
+    }
+    if not args.incremental or args.force_full_rebuild:
+        return empty
+    if args.since or args.until:
+        empty["warnings"].append({"kind": "incremental_disabled", "message": "--incremental is ignored when --since or --until is used."})
+        return empty
+
+    metadata = _read_json(output / "run_metadata.json")
+    previous_head = metadata.get("head_commit")
+    if not previous_head:
+        empty["warnings"].append({"kind": "incremental_unavailable", "message": "No previous run_metadata.head_commit found; performing a full rebuild."})
+        return empty
+    if metadata.get("schema_version") != SCHEMA_VERSION:
+        empty["warnings"].append({"kind": "incremental_schema_mismatch", "message": "Previous generated data uses a different schema version; performing a full rebuild."})
+        return empty
+    if metadata.get("script_version") != SCRIPT_VERSION:
+        empty["warnings"].append({"kind": "incremental_script_version_changed", "message": "Previous generated data was produced by a different script version; performing a full rebuild."})
+        return empty
+    if not git_command_success(repo, ["cat-file", "-e", previous_head]):
+        empty["warnings"].append({"kind": "incremental_base_missing", "message": f"Previous generated head {previous_head} is not available in this checkout; performing a full rebuild."})
+        return empty
+    if not git_command_success(repo, ["merge-base", "--is-ancestor", previous_head, branch]):
+        empty["warnings"].append({"kind": "incremental_base_not_ancestor", "message": f"Previous generated head {previous_head} is not an ancestor of {branch}; performing a full rebuild."})
+        return empty
+
+    return {
+        "start_after": previous_head,
+        "events": _read_jsonl(output / "telemetry_change_events.jsonl"),
+        "manual_review": _read_json(output / "manual_review_items.json", default=[]),
+        "raw_commits": _read_jsonl(raw_output / "commits.jsonl"),
+        "raw_commit_files": _read_jsonl(raw_output / "commit_files.jsonl"),
+        "warnings": empty["warnings"],
+    }
 
 
 def _score_platform_for_change(path: ChangedPath) -> str | None:
@@ -584,6 +650,23 @@ def _github_event_payload() -> dict[str, Any]:
         except Exception:
             return {}
     return {}
+
+
+def _read_json(path: Path, default: Any | None = None) -> Any:
+    if not path.exists():
+        return {} if default is None else default
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _read_jsonl(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    rows: list[dict[str, Any]] = []
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if line.strip():
+                rows.append(json.loads(line))
+    return rows
 
 
 def write_json(path: Path, data: Any) -> None:

@@ -137,5 +137,82 @@ vendor_aliases:
 
     metadata = json.loads((output / "run_metadata.json").read_text(encoding="utf-8"))
     assert metadata["total_commits_scanned"] == 5
+    assert metadata["new_commits_scanned"] == 5
+    assert metadata["generation_mode"] == "full_rebuild"
     assert metadata["total_change_events"] == len(events)
     assert (raw_output / "commits.jsonl").exists()
+
+    _write_matrix(
+        repo,
+        [
+            {
+                "Telemetry Feature Category": "Process Activity",
+                "Sub-Category": "Process Creation",
+                "Elastic Security": "Yes",
+            },
+            {
+                "Telemetry Feature Category": None,
+                "Sub-Category": "Process Termination",
+                "Elastic Security": "No",
+            },
+        ],
+    )
+    _commit(repo, "Correct process termination coverage")
+
+    subprocess.check_call(
+        [
+            sys.executable,
+            str(script),
+            "--repo",
+            str(repo),
+            "--branch",
+            "main",
+            "--output",
+            str(output),
+            "--raw-output",
+            str(raw_output),
+            "--config",
+            str(repo / "config" / "stats_config.yml"),
+            "--incremental",
+        ]
+    )
+
+    incremental_events = [
+        json.loads(line)
+        for line in (output / "telemetry_change_events.jsonl").read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    incremental_metadata = json.loads((output / "run_metadata.json").read_text(encoding="utf-8"))
+
+    assert len(incremental_events) == len(events) + 1
+    assert incremental_events[-1]["change_kind"] == "coverage_downgrade"
+    assert incremental_metadata["generation_mode"] == "incremental"
+    assert incremental_metadata["new_commits_scanned"] == 1
+    assert incremental_metadata["total_commits_scanned"] == 6
+
+    full_rebuild_output = tmp_path / "generated_full_rebuild"
+    full_rebuild_raw = tmp_path / "raw_full_rebuild"
+    subprocess.check_call(
+        [
+            sys.executable,
+            str(script),
+            "--repo",
+            str(repo),
+            "--branch",
+            "main",
+            "--output",
+            str(full_rebuild_output),
+            "--raw-output",
+            str(full_rebuild_raw),
+            "--config",
+            str(repo / "config" / "stats_config.yml"),
+            "--force-full-rebuild",
+        ]
+    )
+
+    assert (output / "telemetry_change_events.jsonl").read_text(encoding="utf-8") == (
+        full_rebuild_output / "telemetry_change_events.jsonl"
+    ).read_text(encoding="utf-8")
+    assert json.loads((output / "manual_review_items.json").read_text(encoding="utf-8")) == json.loads(
+        (full_rebuild_output / "manual_review_items.json").read_text(encoding="utf-8")
+    )

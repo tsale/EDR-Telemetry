@@ -12,7 +12,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   generate:
@@ -34,6 +34,15 @@ jobs:
       - name: Run tests
         run: python -m pytest tests
 
+      - name: Restore raw GitHub metadata cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw/github
+          key: telemetry-github-cache-${{ runner.os }}-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            telemetry-github-cache-${{ runner.os }}-${{ github.ref_name }}-
+            telemetry-github-cache-${{ runner.os }}-
+
       - name: Generate telemetry statistics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,7 +53,7 @@ jobs:
             --raw-output data/raw/github \
             --config config/stats_config.yml \
             --include-open-prs \
-            --refresh-github-cache
+            --incremental
 
       - name: Upload generated stats artifact
         uses: actions/upload-artifact@v4
@@ -54,13 +63,29 @@ jobs:
             data/generated/**
             data/raw/github/*.jsonl
 
-      - name: Commit generated public data
+      - name: Create generated public data pull request
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/generated
           if ! git diff --cached --quiet; then
+            branch="automation/telemetry-stats"
+            git checkout -B "$branch"
             git commit -m "Generate telemetry statistics [skip stats]"
-            git push
+            git push --force-with-lease origin "$branch"
+            existing_pr="$(gh pr list --base main --head "$branch" --state open --json number --jq '.[0].number // empty')"
+            if [ -n "$existing_pr" ]; then
+              gh pr edit "$existing_pr" \
+                --title "Generate telemetry statistics" \
+                --body "Automated update of generated telemetry statistics for ${GITHUB_SHA}."
+            else
+              gh pr create \
+                --base main \
+                --head "$branch" \
+                --title "Generate telemetry statistics" \
+                --body "Automated update of generated telemetry statistics for ${GITHUB_SHA}."
+            fi
           fi

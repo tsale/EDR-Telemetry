@@ -38,13 +38,25 @@ def run_git(repo: str | Path, args: list[str], *, check: bool = True) -> str:
     return completed.stdout
 
 
+def git_command_success(repo: str | Path, args: list[str]) -> bool:
+    completed = subprocess.run(
+        ["git", *args],
+        cwd=repo,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        check=False,
+    )
+    return completed.returncode == 0
+
+
 def default_branch(repo: str | Path) -> str:
     branch = run_git(repo, ["branch", "--show-current"], check=False).strip()
     return branch or "main"
 
 
-def list_commits(repo: str | Path, branch: str) -> list[str]:
-    output = run_git(repo, ["rev-list", "--reverse", "--first-parent", branch])
+def list_commits(repo: str | Path, branch: str, *, start_after: str | None = None) -> list[str]:
+    revision = f"{start_after}..{branch}" if start_after else branch
+    output = run_git(repo, ["rev-list", "--reverse", "--first-parent", revision])
     return [line.strip() for line in output.splitlines() if line.strip()]
 
 
