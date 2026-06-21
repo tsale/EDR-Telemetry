@@ -20,6 +20,16 @@
     "MDE": ""
   },
   {
+    "Telemetry Feature Category": null,
+    "Sub-Category": "Library/Module Loaded",
+    "LimaCharlie": "",
+    "Elastic": "",
+    "BitDefender": "",
+    "Qualys": "",
+    "CrowdStrike": "",
+    "MDE": ""
+  },
+  {
     "Telemetry Feature Category": "File Activity",
     "Sub-Category": "File Creation",
     "LimaCharlie": "",
