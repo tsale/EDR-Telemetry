@@ -207,7 +207,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -235,7 +236,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
@@ -459,7 +461,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -753,7 +756,8 @@
     "MDE": "Yes",
     "Phorion": "Partially",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
