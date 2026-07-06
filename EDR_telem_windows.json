@@ -1164,7 +1164,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "Volume Shadow Copy Deletion",
     "BitDefender": "Yes",
-    "C-Prot": "Yes",
+    "C-Prot": "No",
     "Carbon Black": "No",
     "Cortex XDR": "No",
     "CrowdStrike": "Yes",
