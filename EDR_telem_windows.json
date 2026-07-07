@@ -1090,7 +1090,7 @@
     "Cybereason": "Yes",
     "Cylance": "No",
     "ESET Inspect": "Yes",
-    "Elastic": "Yes",
+    "Elastic": "Via EnablingTelemetry",
     "FortiEDR": "No",
     "Harfanglab": "Partially",
     "LimaCharlie": "Partially",
