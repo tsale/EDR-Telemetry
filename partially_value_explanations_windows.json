@@ -581,7 +581,7 @@
     "Cybereason":{"Partially":"Only for documents and binaries."},
     "Cylance":" ",
     "ESET Inspect":{"Partially":"Only for binaries created on disk."},
-    "Elastic":"",
+    "Elastic":{"Partially":"Observed through Mark of the Web / Zone.Identifier file metadata associated with downloaded files, rather than a dedicated file download event."},
     "FortiEDR":"",
     "Harfanglab":"",
     "LimaCharlie":{"Partially":"Only if the activity is generated via Chrome browser[https://doc.limacharlie.io/docs/documentation/0b189c00533e5-reference-events#http_request]"},
