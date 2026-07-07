@@ -1522,7 +1522,7 @@
     "Cybereason": "No",
     "Cylance": "Yes",
     "ESET Inspect": "Yes",
-    "Elastic": "Yes",
+    "Elastic": "Via EnablingTelemetry",
     "FortiEDR": "Via EventLogs",
     "Harfanglab": "Yes",
     "LimaCharlie": "Via EventLogs",
