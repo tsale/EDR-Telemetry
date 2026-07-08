@@ -11,7 +11,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -25,7 +26,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "File Activity",
@@ -39,7 +41,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -53,7 +56,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -67,7 +71,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -81,7 +86,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -95,7 +101,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "User & Session Activity",
@@ -109,7 +116,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -123,7 +131,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -179,7 +188,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -193,7 +203,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Network Activity",
@@ -207,7 +218,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -221,7 +233,8 @@
     "MDE": "Yes",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "Via EnablingTelemetry"
+    "Uptycs": "Via EnablingTelemetry",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -235,7 +248,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
@@ -249,7 +263,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -263,7 +278,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -277,7 +293,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -291,7 +308,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -305,7 +323,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -319,7 +338,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "User Account Activity",
@@ -333,7 +353,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -347,7 +368,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -361,7 +383,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -389,7 +412,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -403,7 +427,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -417,7 +442,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -445,7 +471,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Code Signing & Trust Activity",
@@ -459,7 +486,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -473,7 +501,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -487,7 +516,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -501,7 +531,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -515,7 +546,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -557,7 +589,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -571,7 +604,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -585,7 +619,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -599,7 +634,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -613,7 +649,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Access Activity",
@@ -627,7 +664,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -641,7 +679,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Process Tampering Activity",
@@ -655,7 +694,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "Device Activity",
@@ -669,7 +709,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -683,7 +724,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
@@ -739,7 +781,8 @@
     "MDE": "Yes",
     "Phorion": "No",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -753,7 +796,8 @@
     "MDE": "Yes",
     "Phorion": "Partially",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -781,7 +825,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -795,7 +840,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -809,6 +855,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "Cortex XDR": "Yes"
   }
 ]
