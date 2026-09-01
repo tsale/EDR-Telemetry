@@ -521,7 +521,7 @@
     "Telemetry Feature Category": null,
     "Sub-Category": "XProtect Detection Logged",
     "BitDefender": "No",
-    "C-Prot": "Yes",
+    "C-Prot": "Partially",
     "CrowdStrike": "No",
     "ESET Inspect": "No",
     "Elastic": "No",
