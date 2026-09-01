@@ -431,6 +431,7 @@
     "LimaCharlie": "",
     "Elastic": "",
     "BitDefender": "",
+    "C-Prot": {"Partially": "C-Prot logs an event when a process accesses the XProtect metadata store, including process path and PIDs. This is indirect file-access telemetry, not a direct detection event; no signature match or verdict is exposed."},
     "Qualys": "",
     "CrowdStrike": "",
     "MDE": ""
