@@ -3138,22 +3138,36 @@
   },
   {
     "author": "DefSecSentinel",
-    "categories_affected": [],
+    "categories_affected": [
+      "Process Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_macOS.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 9,
     "created_at": "2026-03-30T17:53:20Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
-    "merged_at": null,
+    "evidence_types": [
+      "sanitized_logs"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-08-12T07:28:48Z",
     "pr_number": 171,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/171",
     "score_delta": 0.0,
-    "state": "open",
+    "state": "merged",
     "title": "Add Library/Module Loaded subcategory to macOS telemetry",
-    "vendors_affected": []
+    "vendors_affected": [
+      "bitdefender",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "limacharlie",
+      "microsoft_defender",
+      "phorion",
+      "qualys",
+      "unnamed_10"
+    ]
   },
   {
     "author": "joshlemon",
@@ -3933,22 +3947,31 @@
   },
   {
     "author": "husnuoner",
-    "categories_affected": [],
+    "categories_affected": [
+      "Code Signing & Trust Activity",
+      "System Extension & Driver Activity",
+      "User & Session Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_macOS.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 6,
     "created_at": "2026-06-22T12:36:58Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
-    "merged_at": null,
+    "evidence_types": [
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-01T22:51:25Z",
     "pr_number": 207,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/207",
-    "score_delta": 0.0,
-    "state": "open",
+    "score_delta": 4.1,
+    "state": "merged",
     "title": "C-Prot - Update EDR_telem_macOS.json",
-    "vendors_affected": []
+    "vendors_affected": [
+      "c_prot"
+    ]
   },
   {
     "author": "husnuoner",
@@ -3984,8 +4007,157 @@
     "pr_number": 209,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/209",
     "score_delta": 0.0,
-    "state": "open",
+    "state": "closed",
     "title": "Update Cortex XDR telemetry for macOS Network and Trust features",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-07T17:30:19Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-07-07T17:30:34Z",
+    "pr_number": 210,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/210",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Generate telemetry statistics",
+    "vendors_affected": []
+  },
+  {
+    "author": "malwr4n6",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-08T12:49:29Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 211,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/211",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Cortex XDR macOS telemetry mappings \u2014 47 sub-categories",
+    "vendors_affected": []
+  },
+  {
+    "author": "malwr4n6",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-09T12:49:46Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 212,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/212",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Update Cortex XDR Windows telemetry mappings \u2014 13 sub-categories upgraded",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "File Metadata"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": "2026-07-30T06:59:15Z",
+    "draft": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-02T00:34:27Z",
+    "pr_number": 213,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/213",
+    "score_delta": 0.7,
+    "state": "merged",
+    "title": "[Update] Uptycs Linux telemetry: File Metadata",
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "prakashkamalakannan1104",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-30T12:08:58Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 214,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/214",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Acronis EDR (Acronis Cyber Protect Cloud) \u2014 Windows telemetry",
+    "vendors_affected": []
+  },
+  {
+    "author": "AsuNa-jp",
+    "categories_affected": [
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 4,
+    "created_at": "2026-08-12T05:20:32Z",
+    "draft": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-02T00:33:48Z",
+    "pr_number": 216,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/216",
+    "score_delta": 1.7,
+    "state": "merged",
+    "title": "[Update] EDR Telemetry for Windows - Elastic - Account Creation, Scheduled Task Creation/Modification, Service Creation",
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": "github-actions[bot]",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-08-12T07:33:59Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 217,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/217",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Generate telemetry statistics",
     "vendors_affected": []
   }
 ]

@@ -25,6 +25,12 @@
   },
   {
     "platform": "windows",
+    "score": 37.15,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
+  },
+  {
+    "platform": "windows",
     "score": 36.95,
     "vendor_canonical_id": "crowdstrike",
     "vendor_display_name": "CrowdStrike"
@@ -40,12 +46,6 @@
     "score": 35.8,
     "vendor_canonical_id": "microsoft_defender",
     "vendor_display_name": "Microsoft Defender for Endpoint"
-  },
-  {
-    "platform": "windows",
-    "score": 35.45,
-    "vendor_canonical_id": "elastic",
-    "vendor_display_name": "Elastic"
   },
   {
     "platform": "windows",
@@ -145,7 +145,7 @@
   },
   {
     "platform": "linux",
-    "score": 23.8,
+    "score": 24.5,
     "vendor_canonical_id": "uptycs",
     "vendor_display_name": "Uptycs"
   },
@@ -229,19 +229,19 @@
   },
   {
     "platform": "macos",
+    "score": 38.5,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "macos",
     "score": 35.0,
     "vendor_canonical_id": "phorion",
     "vendor_display_name": "Phorion"
   },
   {
     "platform": "macos",
-    "score": 34.4,
-    "vendor_canonical_id": "c_prot",
-    "vendor_display_name": "C-Prot"
-  },
-  {
-    "platform": "macos",
-    "score": 19.8,
+    "score": 20.8,
     "vendor_canonical_id": "elastic",
     "vendor_display_name": "Elastic"
   },
@@ -286,5 +286,11 @@
     "score": 8.4,
     "vendor_canonical_id": "qualys",
     "vendor_display_name": "Qualys"
+  },
+  {
+    "platform": "macos",
+    "score": 0.0,
+    "vendor_canonical_id": "unnamed_10",
+    "vendor_display_name": "Unnamed: 10"
   }
 ]

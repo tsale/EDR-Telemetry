@@ -54,7 +54,7 @@
     "vendors_affected": []
   },
   {
-    "changed_telemetry_cells": 4,
+    "changed_telemetry_cells": 8,
     "contributor_class": "unknown",
     "contributor_login": "AsuNa-jp",
     "direct_commits": 0,
@@ -64,10 +64,10 @@
       "sanitized_logs",
       "screenshots"
     ],
-    "merged_prs": 1,
+    "merged_prs": 2,
     "negative_score_delta": 0.0,
-    "positive_score_delta": 2.7,
-    "prs_opened": 1,
+    "positive_score_delta": 4.4,
+    "prs_opened": 2,
     "vendors_affected": [
       "elastic"
     ]
@@ -113,19 +113,28 @@
     ]
   },
   {
-    "changed_telemetry_cells": 5,
+    "changed_telemetry_cells": 14,
     "contributor_class": "unknown",
     "contributor_login": "DefSecSentinel",
     "direct_commits": 0,
     "evidence_types_used": [
+      "sanitized_logs",
       "unknown"
     ],
-    "merged_prs": 1,
+    "merged_prs": 2,
     "negative_score_delta": 0.0,
     "positive_score_delta": 3.25,
     "prs_opened": 2,
     "vendors_affected": [
-      "elastic"
+      "bitdefender",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "limacharlie",
+      "microsoft_defender",
+      "phorion",
+      "qualys",
+      "unnamed_10"
     ]
   },
   {
@@ -341,14 +350,31 @@
   {
     "changed_telemetry_cells": 0,
     "contributor_class": "unknown",
-    "contributor_login": "husnuoner",
+    "contributor_login": "github-actions[bot]",
     "direct_commits": 0,
     "evidence_types_used": [],
-    "merged_prs": 4,
+    "merged_prs": 0,
     "negative_score_delta": 0.0,
     "positive_score_delta": 0.0,
-    "prs_opened": 19,
+    "prs_opened": 1,
     "vendors_affected": []
+  },
+  {
+    "changed_telemetry_cells": 6,
+    "contributor_class": "unknown",
+    "contributor_login": "husnuoner",
+    "direct_commits": 0,
+    "evidence_types_used": [
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "merged_prs": 5,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 4.1,
+    "prs_opened": 19,
+    "vendors_affected": [
+      "c_prot"
+    ]
   },
   {
     "changed_telemetry_cells": 0,
@@ -450,17 +476,21 @@
     "vendors_affected": []
   },
   {
-    "changed_telemetry_cells": 43,
+    "changed_telemetry_cells": 45,
     "contributor_class": "unknown",
     "contributor_login": "joshlemon",
     "direct_commits": 0,
     "evidence_types_used": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots",
       "unknown"
     ],
-    "merged_prs": 15,
+    "merged_prs": 16,
     "negative_score_delta": 0.0,
-    "positive_score_delta": 14.75,
-    "prs_opened": 25,
+    "positive_score_delta": 15.45,
+    "prs_opened": 26,
     "vendors_affected": [
       "bitdefender",
       "carbon_black",
@@ -511,7 +541,7 @@
     "merged_prs": 0,
     "negative_score_delta": 0.0,
     "positive_score_delta": 0.0,
-    "prs_opened": 1,
+    "prs_opened": 3,
     "vendors_affected": []
   },
   {
@@ -589,6 +619,18 @@
   {
     "changed_telemetry_cells": 0,
     "contributor_class": "unknown",
+    "contributor_login": "prakashkamalakannan1104",
+    "direct_commits": 0,
+    "evidence_types_used": [],
+    "merged_prs": 0,
+    "negative_score_delta": 0.0,
+    "positive_score_delta": 0.0,
+    "prs_opened": 1,
+    "vendors_affected": []
+  },
+  {
+    "changed_telemetry_cells": 0,
+    "contributor_class": "unknown",
     "contributor_login": "shine0614",
     "direct_commits": 0,
     "evidence_types_used": [],
@@ -637,10 +679,10 @@
       "sanitized_logs",
       "screenshots"
     ],
-    "merged_prs": 30,
+    "merged_prs": 31,
     "negative_score_delta": 0.0,
     "positive_score_delta": 2.0,
-    "prs_opened": 32,
+    "prs_opened": 33,
     "vendors_affected": [
       "c_prot"
     ]
