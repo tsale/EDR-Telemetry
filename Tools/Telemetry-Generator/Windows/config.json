@@ -80,7 +80,7 @@
                 "T1105": "42dc4460-9aa6-45d3-b1a6-3955d34e1fe8"
             }
         }
-    },    
+    },
     "Registry Activity": {
         "Key/Value Creation": {
             "Atomics": {
@@ -93,7 +93,7 @@
         },
         "Key/Value Modification": {
             "Atomics": {
-                "T1071.004": "8834b65a-f808-4ece-ad7e-2acdf647aafa"
+                "T1547.001": "8834b65a-f808-4ece-ad7e-2acdf647aafa"
             }
         }
     },
@@ -131,8 +131,12 @@
     },
     "Driver/Module Activity": {
         "Driver Loaded": {
-            "Atomics": {
-                "T1562.001": "24a12b91-05a7-4deb-8d7f-035fa98591bc"
+            "Custom": {
+                "Script": "DriverLoadUnload\\Invoke-DriverLoadUnload.ps1",
+                "Technique": "T1685"
+            },
+            "Comments": {
+                "1": "Includes tests for 'Driver Unloaded' and 'Driver Modification'. Replaces atomic 24a12b91 which downloads Backstab from GitHub; the toolkit script loads a stock in-box driver through the service control manager. Most in-box drivers do not support dynamic unload (err=1052), but rdpdr.sys does and is the first default candidate, so the default run produces both Driver Loaded and Driver Unloaded telemetry; -DriverPath accepts a lab-signed driver for other cases"
             }
         }
     },
@@ -152,28 +156,36 @@
     },
     "Named Pipe Activity": {
         "Pipe Creation": {
-            "Atomics": {
-                "T1559": " bd13b9fc-b758-496a-b81a-397462f82c72"
+            "Custom": {
+                "Script": "NamedPipe\\Invoke-NamedPipe.ps1",
+                "Arguments": [ "-HoldSeconds", "20" ],
+                "Technique": "T1559"
             },
             "Comments": {
-                "1": "Includes test for 'Pipe Connection'"
+                "1": "Includes test for 'Pipe Connection'. Replaces atomic bd13b9fc which needed downloaded ExternalPayloads binaries; the toolkit script is self-contained"
             }
         }
     },
     "WMI Activity": {
         "WmiEventConsumerToFilter": {
-            "Atomics": {
-                "T1546.003": "3c64f177-28e2-49eb-a799-d767b24dd1e0"
+            "Custom": {
+                "Script": "WmiPersistence\\Invoke-WmiPersistence.ps1",
+                "Arguments": [ "-HoldSeconds", "20" ],
+                "Technique": "T1546.003"
             },
             "Comments": {
-                "1": "Includes test for 'WmiEventConsumer' and 'WmiEventFilter'"
+                "1": "Includes tests for 'WmiEventConsumer' and 'WmiEventFilter'. Replaces atomic 3c64f177; the toolkit script creates and removes all three WMI event subscription objects"
             }
         }
     },
-    "BITS JOBS Activity": {
-        "BITS JOBS Activity": {
-            "Atomics": {
-                "T1197": "62a06ec5-5754-47d2-bcfc-123d8314c6ae"
+    "BITS Jobs Activity": {
+        "BITS Jobs Activity": {
+            "Custom": {
+                "Script": "BitsJobs\\Invoke-BITSJob.ps1",
+                "Technique": "T1197"
+            },
+            "Comments": {
+                "1": "Replaces atomic 62a06ec5 which used bitsadmin and an internet download; the toolkit script performs a localhost transfer"
             }
         }
     },
