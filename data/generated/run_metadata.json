@@ -1,16 +1,16 @@
 {
   "default_branch": "main",
-  "generated_at_utc": "2026-07-07T17:22:24Z",
+  "generated_at_utc": "2026-09-23T06:32:54Z",
   "generation_mode": "incremental",
-  "head_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
-  "incremental_base_commit": "a9765c0f6fd5cf0f5f0e19c7f22f2832f3fa281c",
-  "new_commits_scanned": 3,
+  "head_commit": "941c9cae1925835b12a738e54f07713ff747193f",
+  "incremental_base_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
+  "new_commits_scanned": 6,
   "repository": "tsale/EDR-Telemetry",
   "schema_version": "1.0.0",
   "script_version": "1.1.0",
-  "total_change_events": 3927,
-  "total_commits_scanned": 198,
-  "total_prs_scanned": 150,
+  "total_change_events": 3948,
+  "total_commits_scanned": 201,
+  "total_prs_scanned": 159,
   "warnings": [
     {
       "change_kind": "new_category_baseline",
@@ -913,8 +913,8 @@
     },
     {
       "kind": "unknown_status_truncated",
-      "message": "106 additional unknown_status warnings omitted from run_metadata; see manual_review_items.json."
+      "message": "109 additional unknown_status warnings omitted from run_metadata; see manual_review_items.json."
     }
   ],
-  "warnings_count": 2072
+  "warnings_count": 2075
 }
