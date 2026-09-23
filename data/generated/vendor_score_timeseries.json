@@ -1031,6 +1031,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 12.9,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "bitdefender",
@@ -2356,6 +2364,54 @@
         "score_delta": 1.0,
         "source_commit": "4e92f79c2f0c12afae4ccde3d0cc109e0f0a6dbe",
         "source_pr": 195
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 34.9,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 35.4,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.4,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.8,
+        "score_delta": 0.4,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 37.8,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 38.5,
+        "score_delta": 0.7,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -6653,6 +6709,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 14.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "crowdstrike",
@@ -9984,6 +10048,14 @@
         "score_delta": 1.0,
         "source_commit": "56de511ddca4354ee42dd78e0d2f8e71ca71d470",
         "source_pr": 167
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 20.8,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11071,6 +11143,38 @@
         "score_delta": 0.7,
         "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
         "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.15,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.5,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.0,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.5,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11829,6 +11933,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.5,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "eset_inspect",
@@ -16103,6 +16215,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "limacharlie",
@@ -17964,6 +18084,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.7,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "microsoft_defender",
@@ -20863,6 +20991,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 35.0,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "phorion",
@@ -21621,6 +21757,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 8.4,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "qualys",
@@ -29028,6 +29172,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 0.0,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "unnamed_10",
@@ -29387,6 +29539,22 @@
         "score_delta": 1.0,
         "source_commit": "f98952f8a2b75c208db43eaa8d9d9a10fe6d35a8",
         "source_pr": 201
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.3,
+        "score_delta": 0.5,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.5,
+        "score_delta": 0.2,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
       }
     ],
     "vendor_canonical_id": "uptycs",

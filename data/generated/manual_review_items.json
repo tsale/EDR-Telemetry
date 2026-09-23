@@ -53840,5 +53840,35 @@
       "weighted_score_delta": 0.0
     },
     "reason": "scoring_weight_missing"
+  },
+  {
+    "file_path": "EDR_telem_macOS.json",
+    "kind": "unknown_status",
+    "message": "Unknown telemetry status ''; score defaults to 0.",
+    "platform": "macos",
+    "reason": "unknown_status",
+    "row_index": 2,
+    "status": "",
+    "vendor": "Unnamed: 10"
+  },
+  {
+    "file_path": "EDR_telem_macOS.json",
+    "kind": "unknown_status",
+    "message": "Unknown telemetry status ''; score defaults to 0.",
+    "platform": "macos",
+    "reason": "unknown_status",
+    "row_index": 2,
+    "status": "",
+    "vendor": "Unnamed: 10"
+  },
+  {
+    "file_path": "EDR_telem_macOS.json",
+    "kind": "unknown_status",
+    "message": "Unknown telemetry status ''; score defaults to 0.",
+    "platform": "macos",
+    "reason": "unknown_status",
+    "row_index": 2,
+    "status": "",
+    "vendor": "Unnamed: 10"
   }
 ]
