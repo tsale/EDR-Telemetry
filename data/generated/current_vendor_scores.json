@@ -1,6 +1,12 @@
 [
   {
     "platform": "windows",
+    "score": 39.6,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "windows",
     "score": 38.35,
     "vendor_canonical_id": "harfanglab",
     "vendor_display_name": "Harfanglab"
@@ -16,12 +22,6 @@
     "score": 37.8,
     "vendor_canonical_id": "cortex_xdr",
     "vendor_display_name": "Cortex XDR"
-  },
-  {
-    "platform": "windows",
-    "score": 37.6,
-    "vendor_canonical_id": "c_prot",
-    "vendor_display_name": "C-Prot"
   },
   {
     "platform": "windows",
@@ -43,7 +43,7 @@
   },
   {
     "platform": "windows",
-    "score": 32.75,
+    "score": 35.45,
     "vendor_canonical_id": "elastic",
     "vendor_display_name": "Elastic"
   },

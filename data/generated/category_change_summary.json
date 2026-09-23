@@ -400,14 +400,14 @@
   },
   {
     "first_improvement_date": "2023-05-30",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 3,
+    "latest_improvement_date": "2026-07-07",
+    "number_of_improvements": 5,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "USB Device Mount",
     "telemetry_feature_category": "Device Operations",
-    "total_weighted_score_delta": 2.5,
+    "total_weighted_score_delta": 4.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -437,14 +437,14 @@
   },
   {
     "first_improvement_date": "2025-11-29",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 2,
+    "latest_improvement_date": "2026-07-07",
+    "number_of_improvements": 4,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "USB Device Unmount",
     "telemetry_feature_category": "Device Operations",
-    "total_weighted_score_delta": 1.05,
+    "total_weighted_score_delta": 2.45,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -1751,14 +1751,14 @@
   },
   {
     "first_improvement_date": "2025-03-09",
-    "latest_improvement_date": "2026-06-12",
-    "number_of_improvements": 3,
+    "latest_improvement_date": "2026-07-07",
+    "number_of_improvements": 4,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "File Downloaded",
     "telemetry_feature_category": "Network Activity",
-    "total_weighted_score_delta": 3.0,
+    "total_weighted_score_delta": 3.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -1961,14 +1961,14 @@
   },
   {
     "first_improvement_date": "2026-03-23",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 1,
+    "latest_improvement_date": "2026-07-06",
+    "number_of_improvements": 2,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Group Policy Modification",
     "telemetry_feature_category": "Other Relevant Events",
-    "total_weighted_score_delta": 0.15,
+    "total_weighted_score_delta": 0.45,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -2035,14 +2035,14 @@
   },
   {
     "first_improvement_date": "2024-03-04",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 3,
+    "latest_improvement_date": "2026-07-07",
+    "number_of_improvements": 4,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Script-Block Activity",
     "telemetry_feature_category": "PowerShell Activity",
-    "total_weighted_score_delta": 2.0,
+    "total_weighted_score_delta": 2.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",

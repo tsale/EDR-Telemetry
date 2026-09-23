@@ -2819,6 +2819,30 @@
         "score_delta": 0.0,
         "source_commit": "053bb72199762d4611af5eaaa96b3ede6ba18d44",
         "source_pr": 180
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-06",
+        "score": 37.9,
+        "score_delta": 0.3,
+        "source_commit": "77c58e176fa7855edd37e5869e090a20fb5cffe8",
+        "source_pr": 196
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-06",
+        "score": 38.6,
+        "score_delta": 0.7,
+        "source_commit": "77c58e176fa7855edd37e5869e090a20fb5cffe8",
+        "source_pr": 196
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-06",
+        "score": 39.6,
+        "score_delta": 1.0,
+        "source_commit": "77c58e176fa7855edd37e5869e090a20fb5cffe8",
+        "source_pr": 196
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -11015,6 +11039,38 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-07",
+        "score": 60.1,
+        "score_delta": 1.0,
+        "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
+        "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-07",
+        "score": 60.6,
+        "score_delta": 0.5,
+        "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
+        "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-07",
+        "score": 61.1,
+        "score_delta": 0.5,
+        "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
+        "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-07-07",
+        "score": 61.8,
+        "score_delta": 0.7,
+        "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
+        "source_pr": 205
       }
     ],
     "vendor_canonical_id": "elastic",

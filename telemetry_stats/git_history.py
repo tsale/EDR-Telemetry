@@ -51,7 +51,17 @@ def git_command_success(repo: str | Path, args: list[str]) -> bool:
 
 def default_branch(repo: str | Path) -> str:
     branch = run_git(repo, ["branch", "--show-current"], check=False).strip()
-    return branch or "main"
+    if branch:
+        return branch
+    # Detached HEAD (e.g. GitHub Actions pull_request checkouts) has no current
+    # branch, so resolve an existing ref instead of assuming "main".
+    remote_head = run_git(repo, ["symbolic-ref", "--short", "refs/remotes/origin/HEAD"], check=False).strip()
+    if remote_head.startswith("origin/"):
+        return remote_head
+    for candidate in ("origin/main", "main", "origin/master", "master"):
+        if git_command_success(repo, ["rev-parse", "--verify", "--quiet", candidate]):
+            return candidate
+    return "HEAD"
 
 
 def list_commits(repo: str | Path, branch: str, *, start_after: str | None = None) -> list[str]:

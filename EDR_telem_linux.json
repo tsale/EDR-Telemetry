@@ -624,7 +624,7 @@
     "Qualys":"Pending Response",
     "SentinelOne":"Pending Response",
     "Sysmon":"Pending Response",
-    "Uptycs":"Pending Response"
+    "Uptycs":"Yes"
   },
   {
     "Telemetry Feature Category":null,
@@ -643,6 +643,6 @@
     "Qualys":"Pending Response",
     "SentinelOne":"Pending Response",
     "Sysmon":"Pending Response",
-    "Uptycs":"Pending Response"
+    "Uptycs":"Yes"
   }
 ]
