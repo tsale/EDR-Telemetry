@@ -136,7 +136,15 @@
                 "Technique": "T1685"
             },
             "Comments": {
-                "1": "Includes tests for 'Driver Unloaded' and 'Driver Modification'. Replaces atomic 24a12b91 which downloads Backstab from GitHub; the toolkit script loads a stock in-box driver through the service control manager. Most in-box drivers do not support dynamic unload (err=1052), but rdpdr.sys does and is the first default candidate, so the default run produces both Driver Loaded and Driver Unloaded telemetry; -DriverPath accepts a lab-signed driver for other cases"
+                "1": "Includes the 'Driver Unloaded' step. Replaces atomic 24a12b91 which downloads Backstab from GitHub; the toolkit script starts a stock in-box driver through the service control manager and verifies the kernel image load and unload with an independent module snapshot. The default candidate list starts with in-box images verified to support dynamic unload (wimmount, applockerfltr, ndisuio, wcnfs); images already resident are skipped; drivers that refuse the stop (err=1052) produce exit 2 and stay resident until reboot. rdpdr.sys is not used by default (stopping it can disrupt active RDP sessions); -DriverPath accepts a specific image, and endpoint driver-load protection (for example Sophos) can block non-in-box images"
+            }
+        },
+        "Driver Modification": {
+            "Custom": {
+                "Script": "DriverModification\\Invoke-DriverModification.ps1"
+            },
+            "Comments": {
+                "1": "Self-contained toolkit script copies a stock in-box driver to a uniquely named image in the drivers directory; registers it as a stopped demand-start kernel service; appends a benign eight-byte marker to the never-loaded copy; then restores the original bytes and removes the copy and service"
             }
         }
     },
