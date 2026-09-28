@@ -11,7 +11,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -52,7 +53,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -66,7 +68,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -80,7 +83,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -122,7 +126,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -136,7 +141,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -192,7 +198,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -206,7 +213,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "Network Activity",
@@ -248,7 +256,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "Scheduled Task & Persistence Activity",
@@ -262,7 +271,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -276,7 +286,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -304,7 +315,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -318,7 +330,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -332,7 +345,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "User Account Activity",
@@ -346,7 +360,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -360,7 +375,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -374,7 +390,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -388,7 +405,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "System Extension & Driver Activity",
@@ -472,7 +490,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -528,7 +547,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "Pending Response"
+    "Uptycs": "Pending Response",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -584,7 +604,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -598,7 +619,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -612,7 +634,8 @@
     "MDE": "No",
     "Phorion": "No",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -682,7 +705,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -696,7 +720,8 @@
     "MDE": "Partially",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
@@ -738,7 +763,8 @@
     "MDE": "Yes",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "File Metadata",
@@ -752,7 +778,8 @@
     "MDE": "Yes",
     "Phorion": "No",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -766,7 +793,8 @@
     "MDE": "Yes",
     "Phorion": "Partially",
     "Qualys": "Yes",
-    "Uptycs": "Yes"
+    "Uptycs": "Yes",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -794,7 +822,8 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -822,6 +851,7 @@
     "MDE": "No",
     "Phorion": "Yes",
     "Qualys": "No",
-    "Uptycs": "No"
+    "Uptycs": "No",
+    "SentinelOne": "Yes"
   }
 ]
