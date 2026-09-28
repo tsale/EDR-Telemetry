@@ -33,8 +33,8 @@ Service Activity,Service Creation,T1543.003,4,ef0581fd-528e-4662-87bc-4c2affb869
 ,Service Modification,T1543.003,1,ed366cde-7d12-49df-a833-671904770b9f,
 ,Service Deletion,T1543.003,4,ef0581fd-528e-4662-87bc-4c2affb86940,Covered from the above using -CleanUp parameter to delete the service
 Driver/Module Activity,Driver Loaded,T1685,-,-,Self-contained toolkit script loads a stock in-box driver via the service control manager (replaces atomic 24a12b91 which downloads Backstab from GitHub)
-,Driver Modification,,,,
-,Driver Unloaded,T1685,-,-,Attempted by the Driver Loaded toolkit script run; rdpdr.sys (first default candidate) accepts dynamic unload so a default run produces real unload telemetry - other stock drivers refuse the stop (1052), and -DriverPath accepts another unload-capable driver
+,Driver Modification,-,-,-,Self-contained toolkit script copies a stock in-box driver to a uniquely named image in the drivers directory; registers it as a stopped demand-start kernel service; appends a benign eight-byte marker to the never-loaded copy; then restores the original bytes and removes the copy and service
+,Driver Unloaded,T1685,-,-,Attempted by the Driver Loaded toolkit script run; the script verifies the kernel image load/unload with an independent module snapshot and exits 2 when a stop cannot be confirmed; default candidates are in-box drivers verified to support dynamic unload (wimmount, applockerfltr, ndisuio, wcnfs) and produce a real load+unload cycle; rdpdr.sys is not used by default because stopping it can disrupt active RDP sessions
 Device Operations,Virtual Disk Mount,T1553.005,1,002cca30-4778-4891-878a-aaffcfa502fa,
 ,USB Device Unmount,-,-,-,Evaluate through Documentation
 ,USB Device Mount,-,-,-,Evaluate through Documentation
