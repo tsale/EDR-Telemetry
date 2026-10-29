@@ -199,7 +199,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "Pending Response",
-    "SentinelOne": "Pending Response"
+    "SentinelOne": "No"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -605,7 +605,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Pending Response"
+    "SentinelOne": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -620,7 +620,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Pending Response"
+    "SentinelOne": "No"
   },
   {
     "Telemetry Feature Category": null,
@@ -764,7 +764,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "No"
   },
   {
     "Telemetry Feature Category": "File Metadata",
