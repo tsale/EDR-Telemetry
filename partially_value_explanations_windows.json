@@ -2,6 +2,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -28,6 +29,9 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Termination",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcTerminate; termination-specific fields (name, hashes) were not populated in this environment."
+    },
     "BitDefender":"",
     "Carbon Black": {"Partially":"Only observed as file operations."},
     "Cortex XDR":"",
@@ -54,6 +58,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Process Access",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -80,6 +85,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Image\/Library Loaded",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -106,6 +112,7 @@
   {
     "Telemetry Feature Category":"Process Activity",
     "Sub-Category":"Remote Thread Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -132,6 +139,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Win32 API Telemetry",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -158,6 +166,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Tampering Activity",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":{"Partially":"Only via cross-process."},
     "Cortex XDR":{"Partially":"Needs the tamper protection enabled."},
@@ -183,6 +192,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category":"Process Call Stacks",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -210,6 +220,7 @@
   {
     "Telemetry Feature Category":"File Manipulation",
     "Sub-Category":"File Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -236,6 +247,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Opened",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -262,6 +274,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Deletion",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -288,6 +301,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Modification",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -314,6 +328,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category":"File Renaming",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -340,6 +355,9 @@
   {
     "Telemetry Feature Category":"User Account Activity",
     "Sub-Category":"Local Account Creation",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcCreate command-line telemetry (net.exe/net1.exe)."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -366,6 +384,9 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Modification",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcCreate script-block content (Set-LocalUser/Rename-LocalUser)."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -392,6 +413,9 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Local Account Deletion",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcCreate command-line telemetry (net.exe/net1.exe)."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -418,6 +442,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Login",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -444,6 +469,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category":"Account Logoff",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -470,6 +496,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"TCP Connection",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -496,6 +523,7 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"UDP Connection",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -522,6 +550,9 @@
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"URL",
+    "Acronis EDR": {
+      "Partially": "HTTPS hostname available through SNI; path and query were not present."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -548,6 +579,7 @@
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category":"DNS Query",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -574,6 +606,9 @@
   {
     "Telemetry Feature Category":"Network Activity",
     "Sub-Category":"File Downloaded",
+    "Acronis EDR": {
+      "Partially": "Available through Zone.Identifier (Mark-of-the-Web) file metadata."
+    },
     "BitDefender":{"Partially":"Only tracks downloads of executables."},
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -600,6 +635,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"MD5",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -626,6 +662,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"SHA",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -652,6 +689,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"IMPHASH",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -678,6 +716,7 @@
   {
     "Telemetry Feature Category":"Hash Algorithms",
     "Sub-Category":"JA3/JA3s",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -704,6 +743,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -730,6 +770,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Modification",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -756,6 +797,7 @@
   {
     "Telemetry Feature Category":"Registry Activity",
     "Sub-Category":"Key\/Value Deletion",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -782,6 +824,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -808,6 +851,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Modification",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -834,6 +878,7 @@
   {
     "Telemetry Feature Category":"Schedule Task Activity",
     "Sub-Category":"Scheduled Task Deletion",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -860,6 +905,9 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Creation",
+    "Acronis EDR": {
+      "Partially": "Available through the corresponding WinRegAccess event under the service's registry path."
+    },
     "BitDefender": {"Partially": "Service creation telemetry was not consistent across different types of testing, with some methods being captured where others were not."},
     "Carbon Black":{"Partially":"Via monitoring the registry changes."},
     "Cortex XDR":"",
@@ -886,6 +934,9 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Modification",
+    "Acronis EDR": {
+      "Partially": "Available through the corresponding WinRegAccess event under the service's registry path."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -912,6 +963,9 @@
   {
     "Telemetry Feature Category":"Service Activity",
     "Sub-Category":"Service Deletion",
+    "Acronis EDR": {
+      "Partially": "Available through the corresponding WinRegAccess event under the service's registry path."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -936,8 +990,11 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Featurere Category":"Driver\/Module Activity",
+    "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Loaded",    
+    "Acronis EDR": {
+      "Partially": "Available through the driver's WinRegAccess SCM registration entry."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -964,6 +1021,9 @@
   {
     "Telemetry Feature Category":"Driver\/Module Activity",
     "Sub-Category":"Driver Modification",
+    "Acronis EDR": {
+                       "Partially": "Available through the corresponding WinRegAccess event under the driver's registry path."
+                   },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -990,6 +1050,9 @@
   {
     "Telemetry Feature Category": "Driver\/Module Activity",
     "Sub-Category":"Driver Unloaded",
+    "Acronis EDR": {
+      "Partially": "Available indirectly through WinRegAccess telemetry for changes to the driver's SCM Start value."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1014,6 +1077,9 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"Virtual Disk Mount",
+    "Acronis EDR": {
+      "Partially": "Available through the WinProcCreate command line of the mounting command (e.g. Mount-DiskImage)."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
@@ -1040,6 +1106,7 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Unmount",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
@@ -1066,6 +1133,9 @@
   {
     "Telemetry Feature Category":"Device Operations",
     "Sub-Category":"USB Device Mount",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcCreate telemetry for DrvInst.exe, including the USB device instance in proc_args."
+    },
     "BitDefender":"",
     "Carbon Black":{"Partially":"Mounted USBs are recorded in a separate table within the platform for  administrative approval."},
     "Cortex XDR":{"Partially":"Device Control should be in block mode"},
@@ -1092,6 +1162,9 @@
   {
     "Telemetry Feature Category":"Other Relevant Events",
     "Sub-Category":"Group Policy Modification",
+    "Acronis EDR": {
+      "Partially": "Available through the corresponding WinRegAccess event under the Group Policy registry path."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1118,6 +1191,7 @@
   {
     "Telemetry Feature Category":"Other Relevant Events",
     "Sub-Category":"Volume Shadow Copy Deletion",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1144,6 +1218,7 @@
   {
     "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Creation",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":{"Partially":"Reports only named pipes for file creation events."},
     "Cortex XDR":"",
@@ -1169,6 +1244,7 @@
   {
     "Telemetry Feature Category":"Named Pipe Activity",
     "Sub-Category":"Pipe Connection",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1194,6 +1270,7 @@
   {
     "Telemetry Feature Category":"EDR SysOps",
     "Sub-Category":"Agent Start",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1219,6 +1296,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Stop",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1244,6 +1322,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Install",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1269,6 +1348,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Uninstall",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1294,6 +1374,9 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Keep-Alive",
+    "Acronis EDR": {
+      "Partially": "Live agent status available through the Devices/Agents console."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1319,6 +1402,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category":"Agent Errors",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1344,6 +1428,7 @@
   {
     "Telemetry Feature Category":"WMI Activity",
     "Sub-Category":"WmiEventConsumerToFilter",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1369,6 +1454,7 @@
   {
     "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventConsumer",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1393,6 +1479,7 @@
   {
     "Telemetry Feature Category": "WMI Activity",
     "Sub-Category":"WmiEventFilter",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1417,8 +1504,11 @@
     "WatchGuard":""
   },
   {
-    "Telemetry Feature Category":"BIT JOBS Activity",
-    "Sub-Category":"BIT JOBS Activity",
+    "Telemetry Feature Category":"BITS Jobs Activity",
+    "Sub-Category":"BITS Jobs Activity",
+    "Acronis EDR": {
+      "Partially": "Available through WinProcCreate command-line telemetry (bitsadmin.exe)."
+    },
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
@@ -1445,6 +1535,7 @@
   {
     "Telemetry Feature Category":"PowerShell Activity",
     "Sub-Category":"Script-Block Activity",
+    "Acronis EDR": "",
     "BitDefender":"",
     "Carbon Black":"",
     "Cortex XDR":"",
