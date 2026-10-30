@@ -1031,6 +1031,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 12.9,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "bitdefender",
@@ -1829,6 +1837,14 @@
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
         "source_pr": null
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-10-26",
+        "score": 25.8,
+        "score_delta": 0.2,
+        "source_commit": "d83b1c23db38486446d115c0243f079f9e4d88d7",
+        "source_pr": 208
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -2356,6 +2372,54 @@
         "score_delta": 1.0,
         "source_commit": "4e92f79c2f0c12afae4ccde3d0cc109e0f0a6dbe",
         "source_pr": 195
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 34.9,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 35.4,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.4,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.8,
+        "score_delta": 0.4,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 37.8,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 38.5,
+        "score_delta": 0.7,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -6653,6 +6717,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 14.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "crowdstrike",
@@ -9984,6 +10056,14 @@
         "score_delta": 1.0,
         "source_commit": "56de511ddca4354ee42dd78e0d2f8e71ca71d470",
         "source_pr": 167
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 20.8,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11071,6 +11151,38 @@
         "score_delta": 0.7,
         "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
         "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.15,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.5,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.0,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.5,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11829,6 +11941,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.5,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "eset_inspect",
@@ -16103,6 +16223,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "limacharlie",
@@ -17964,6 +18092,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.7,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "microsoft_defender",
@@ -20863,6 +20999,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 35.0,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "phorion",
@@ -21621,6 +21765,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 8.4,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "qualys",
@@ -22979,6 +23131,261 @@
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
         "source_pr": null
+      }
+    ],
+    "vendor_canonical_id": "sentinelone",
+    "vendor_display_name": "SentinelOne"
+  },
+  {
+    "platform": "macos",
+    "points": [
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 0.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 0.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 1.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 1.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 2.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 2.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 3.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 4.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 5.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 6.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 8.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 9.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 10.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 10.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 11.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 12.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 12.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 13.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 14.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 15.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 15.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 16.2,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 16.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 17.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 18.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 18.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 19.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-10-30",
+        "score": 20.7,
+        "score_delta": 1.0,
+        "source_commit": "75a62d9ad6cc18caa369e6a18ac577e5604b671f",
+        "source_pr": 221
       }
     ],
     "vendor_canonical_id": "sentinelone",
@@ -29028,6 +29435,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 0.0,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "unnamed_10",
@@ -29387,6 +29802,22 @@
         "score_delta": 1.0,
         "source_commit": "f98952f8a2b75c208db43eaa8d9d9a10fe6d35a8",
         "source_pr": 201
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.3,
+        "score_delta": 0.5,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.5,
+        "score_delta": 0.2,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
       }
     ],
     "vendor_canonical_id": "uptycs",
