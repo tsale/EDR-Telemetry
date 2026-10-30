@@ -764,7 +764,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "No"
+    "SentinelOne": "Yes"
   },
   {
     "Telemetry Feature Category": "File Metadata",
