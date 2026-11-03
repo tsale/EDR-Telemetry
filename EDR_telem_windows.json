@@ -86,7 +86,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Image/Library Loaded",
-    "Acronis EDR": "No",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
