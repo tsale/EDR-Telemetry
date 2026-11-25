@@ -162,7 +162,7 @@
     "Sophos": "Yes",
     "Symantec SES Complete": "Pending Response",
     "Sysmon": "No",
-    "Trellix": "Pending Response",
+    "Trellix": "Yes",
     "Trend Micro": "Pending Response",
     "Uptycs": "Via EnablingTelemetry",
     "WatchGuard": "No"
