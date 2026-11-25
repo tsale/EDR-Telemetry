@@ -12,7 +12,7 @@ import json
 import logging
 import hashlib
 import hmac
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, FrozenSet, List, Optional, Tuple
 from datetime import datetime
 from urllib.parse import quote
 
@@ -33,6 +33,8 @@ MACOS_JSON_FILE = "EDR_telem_macOS.json"
 MACOS_EXPLANATIONS_FILE = "partially_value_explanations_macOS.json"
 LINUX_EXPLANATIONS_FILE = "partially_value_explanations_linux.json"
 WINDOWS_EXPLANATIONS_FILE = "partially_value_explanations_windows.json"
+# Explicit Windows scoring exceptions owned by EDR-Telemetry, not the website.
+WINDOWS_SCORED_CATEGORY_OVERRIDES = frozenset({("Process Activity", "Win32 API Telemetry")})
 
 
 def get_supabase_client() -> Client:
@@ -110,6 +112,7 @@ def _update_platform_data(
     telemetry_table: str,
     results_table: str,
     platform_label: str,
+    scored_category_overrides: FrozenSet[Tuple[str, str]] = frozenset(),
 ) -> Dict[str, int]:
     """Generic platform data updater shared by Windows, Linux, and macOS."""
     logger.info(f"Starting {platform_label} data update")
@@ -127,9 +130,12 @@ def _update_platform_data(
 
     try:
         existing_categories = {}
-        categories_response = supabase.table(telemetry_table).select('id,category,subcategory').execute()
+        category_fields = 'id,category,subcategory'
+        if scored_category_overrides:
+            category_fields += ',optional'
+        categories_response = supabase.table(telemetry_table).select(category_fields).execute()
         for cat in categories_response.data:
-            existing_categories[f"{cat['category']}-{cat['subcategory']}"] = cat['id']
+            existing_categories[(cat['category'], cat['subcategory'])] = cat
 
         last_category = ''
 
@@ -145,17 +151,18 @@ def _update_platform_data(
                     logger.warning(f"Skipping entry with missing category/subcategory: {entry}")
                     continue
 
-                category_key = f"{category}-{subcategory}"
+                category_key = (category, subcategory)
+                force_scored = category_key in scored_category_overrides
 
                 if category_key not in existing_categories:
-                    cat_result = supabase.table(telemetry_table).insert({
-                        'category': category,
-                        'subcategory': subcategory,
-                    }).execute()
+                    category_payload = {'category': category, 'subcategory': subcategory}
+                    if force_scored:
+                        category_payload['optional'] = False
+                    cat_result = supabase.table(telemetry_table).insert(category_payload).execute()
 
                     if cat_result.data:
                         telemetry_id = cat_result.data[0]['id']
-                        existing_categories[category_key] = telemetry_id
+                        existing_categories[category_key] = cat_result.data[0]
                         stats['categories_added'] += 1
                         logger.info(f"Added new {platform_label} category: {category}/{subcategory}")
                     else:
@@ -163,7 +170,16 @@ def _update_platform_data(
                         stats['errors'] += 1
                         continue
                 else:
-                    telemetry_id = existing_categories[category_key]
+                    existing = existing_categories[category_key]
+                    telemetry_id = existing['id']
+                    if force_scored and existing.get('optional') is True:
+                        result = (supabase.table(telemetry_table)
+                                  .update({'optional': False})
+                                  .eq('id', telemetry_id)
+                                  .eq('optional', True)
+                                  .execute())
+                        if result.data:
+                            stats['categories_updated'] += 1
 
                 for edr_name, status in entry.items():
                     if edr_name in ['Telemetry Feature Category', 'Sub-Category'] or status is None:
@@ -217,6 +233,7 @@ def update_windows_data(supabase: Client, repository: str, ref: str) -> Dict[str
         telemetry_table='windows_telemetry',
         results_table='windows_table_results',
         platform_label='Windows',
+        scored_category_overrides=WINDOWS_SCORED_CATEGORY_OVERRIDES,
     )
 
 
