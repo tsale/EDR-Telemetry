@@ -199,7 +199,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "Pending Response",
-    "SentinelOne": "No"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": "Script Activity",
@@ -316,7 +316,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": null,
@@ -361,7 +361,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": null,
@@ -376,7 +376,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": null,
@@ -391,7 +391,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": null,
@@ -406,7 +406,7 @@
     "Phorion": "Yes",
     "Qualys": "No",
     "Uptycs": "No",
-    "SentinelOne": "Yes"
+    "SentinelOne": "Via EnablingTelemetry"
   },
   {
     "Telemetry Feature Category": "System Extension & Driver Activity",
