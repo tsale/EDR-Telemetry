@@ -36,6 +36,7 @@ WINDOWS_CATEGORIES_VALUED = {
     "MD5": 1,
     "SHA": 1,
     "JA3/JA3s": 1,
+    "JA4": 1,
     "IMPHASH": 1,
     "Key/Value Creation": 1,
     "Key/Value Modification": 1,
