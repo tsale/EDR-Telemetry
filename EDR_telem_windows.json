@@ -2,6 +2,7 @@
   {
     "Telemetry Feature Category": "Process Activity",
     "Sub-Category": "Process Creation",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -30,6 +31,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Termination",
+    "Acronis EDR": "Partially",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Partially",
@@ -58,6 +60,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Access",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -86,6 +89,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Image/Library Loaded",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -114,6 +118,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Remote Thread Creation",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -142,6 +147,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Win32 API Telemetry",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "No",
     "Carbon Black": "Yes",
@@ -170,6 +176,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Tampering Activity",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "No",
     "Carbon Black": "Partially",
@@ -198,6 +205,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Process Call Stacks",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "No",
     "Carbon Black": "No",
@@ -226,6 +234,7 @@
   {
     "Telemetry Feature Category": "File Manipulation",
     "Sub-Category": "File Creation",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -254,6 +263,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Opened",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -282,6 +292,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Deletion",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -310,6 +321,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Modification",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -338,6 +350,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Renaming",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -366,6 +379,7 @@
   {
     "Telemetry Feature Category": "User Account Activity",
     "Sub-Category": "Local Account Creation",
+    "Acronis EDR": "Partially",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -394,6 +408,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Local Account Modification",
+    "Acronis EDR": "Partially",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -422,6 +437,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Local Account Deletion",
+    "Acronis EDR": "Partially",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -450,6 +466,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Account Login",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Via EventLogs",
@@ -478,6 +495,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Account Logoff",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Via EventLogs",
@@ -506,6 +524,7 @@
   {
     "Telemetry Feature Category": "Network Activity",
     "Sub-Category": "TCP Connection",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -534,6 +553,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "UDP Connection",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -562,6 +582,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "URL",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "No",
     "Carbon Black": "No",
@@ -590,6 +611,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "DNS Query",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -618,6 +640,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "File Downloaded",
+    "Acronis EDR": "Partially",
     "BitDefender": "Partially",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -646,6 +669,7 @@
   {
     "Telemetry Feature Category": "Hash Algorithms",
     "Sub-Category": "MD5",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -674,6 +698,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "SHA",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -702,6 +727,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "IMPHASH",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -730,6 +756,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "JA3/JA3s",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "No",
     "Carbon Black": "Yes",
@@ -758,6 +785,7 @@
   {
     "Telemetry Feature Category": "Registry Activity",
     "Sub-Category": "Key/Value Creation",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -786,6 +814,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Key/Value Modification",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -814,6 +843,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Key/Value Deletion",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -842,6 +872,7 @@
   {
     "Telemetry Feature Category": "Schedule Task Activity",
     "Sub-Category": "Scheduled Task Creation",
+    "Acronis EDR": "Yes",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -870,6 +901,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Scheduled Task Modification",
+    "Acronis EDR": "Yes",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -898,6 +930,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Scheduled Task Deletion",
+    "Acronis EDR": "Yes",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -926,6 +959,7 @@
   {
     "Telemetry Feature Category": "Service Activity",
     "Sub-Category": "Service Creation",
+    "Acronis EDR": "Partially",
     "BitDefender": "Partially",
     "C-Prot": "Yes",
     "Carbon Black": "Partially",
@@ -954,6 +988,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Modification",
+    "Acronis EDR": "Partially",
     "BitDefender": "Via EventLogs",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -982,6 +1017,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Service Deletion",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1010,6 +1046,7 @@
   {
     "Telemetry Feature Category": "Driver/Module Activity",
     "Sub-Category": "Driver Loaded",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1038,6 +1075,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Driver Modification",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1066,6 +1104,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Driver Unloaded",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1094,6 +1133,7 @@
   {
     "Telemetry Feature Category": "Device Operations",
     "Sub-Category": "Virtual Disk Mount",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1122,6 +1162,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "USB Device Unmount",
+    "Acronis EDR": "No",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1150,6 +1191,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "USB Device Mount",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Partially",
@@ -1178,6 +1220,7 @@
   {
     "Telemetry Feature Category": "Other Relevant Events",
     "Sub-Category": "Group Policy Modification",
+    "Acronis EDR": "Partially",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1206,6 +1249,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Volume Shadow Copy Deletion",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "No",
     "Carbon Black": "No",
@@ -1234,6 +1278,7 @@
   {
     "Telemetry Feature Category": "Named Pipe Activity",
     "Sub-Category": "Pipe Creation",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Partially",
@@ -1262,6 +1307,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Pipe Connection",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "No",
     "Carbon Black": "No",
@@ -1290,6 +1336,7 @@
   {
     "Telemetry Feature Category": "EDR SysOps",
     "Sub-Category": "Agent Start",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1318,6 +1365,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Stop",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1346,6 +1394,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Install",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1374,6 +1423,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Uninstall",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1402,6 +1452,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Keep-Alive",
+    "Acronis EDR": "Partially",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1430,6 +1481,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "Agent Errors",
+    "Acronis EDR": "No",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
@@ -1458,6 +1510,7 @@
   {
     "Telemetry Feature Category": "WMI Activity",
     "Sub-Category": "WmiEventConsumerToFilter",
+    "Acronis EDR": "Yes",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1486,6 +1539,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "WmiEventConsumer",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1514,6 +1568,7 @@
   {
     "Telemetry Feature Category": null,
     "Sub-Category": "WmiEventFilter",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1542,6 +1597,7 @@
   {
     "Telemetry Feature Category": "BITS Jobs Activity",
     "Sub-Category": "BITS Jobs Activity",
+    "Acronis EDR": "Partially",
     "BitDefender": "Yes",
     "C-Prot": "Yes",
     "Carbon Black": "No",
@@ -1570,6 +1626,7 @@
   {
     "Telemetry Feature Category": "PowerShell Activity",
     "Sub-Category": "Script-Block Activity",
+    "Acronis EDR": "Yes",
     "BitDefender": "No",
     "C-Prot": "Yes",
     "Carbon Black": "Yes",
