@@ -25,7 +25,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -53,7 +54,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "No",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -81,7 +83,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "No",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -109,7 +112,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -137,7 +141,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -165,7 +170,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Pending Response",
     "Uptycs": "Via EnablingTelemetry",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -193,7 +199,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -221,7 +228,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "No",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "File Manipulation",
@@ -249,7 +257,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -277,7 +286,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -305,7 +315,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -333,7 +344,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -361,7 +373,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "User Account Activity",
@@ -389,7 +402,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -417,7 +431,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -445,7 +460,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -473,7 +489,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -501,7 +518,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Network Activity",
@@ -529,7 +547,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -557,7 +576,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -585,7 +605,8 @@
     "Trellix": "Yes",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -613,7 +634,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -641,7 +663,8 @@
     "Trellix": "No",
     "Trend Micro": "Yes",
     "Uptycs": "Partially",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Hash Algorithms",
@@ -669,7 +692,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -697,7 +721,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -725,7 +750,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -753,7 +779,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": "Registry Activity",
@@ -781,7 +808,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -809,7 +837,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -837,7 +866,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Schedule Task Activity",
@@ -865,7 +895,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -893,7 +924,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -921,7 +953,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Service Activity",
@@ -949,7 +982,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -977,7 +1011,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Partially"
+    "WatchGuard": "Partially",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1005,7 +1040,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": "Driver/Module Activity",
@@ -1033,7 +1069,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1061,7 +1098,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -1089,7 +1127,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": "Device Operations",
@@ -1117,7 +1156,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -1145,7 +1185,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -1173,7 +1214,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Other Relevant Events",
@@ -1201,7 +1243,8 @@
     "Trellix": "No",
     "Trend Micro": "No",
     "Uptycs": "Via EventLogs",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1229,7 +1272,8 @@
     "Trellix": "Pending Response",
     "Trend Micro": "Pending Response",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "Named Pipe Activity",
@@ -1257,7 +1301,8 @@
     "Trellix": "No",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1285,7 +1330,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EnablingTelemetry",
     "Uptycs": "No",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "EDR SysOps",
@@ -1313,7 +1359,8 @@
     "Trellix": "Pending Response",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1341,7 +1388,8 @@
     "Trellix": "Pending Response",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1369,7 +1417,8 @@
     "Trellix": "Yes",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -1397,7 +1446,8 @@
     "Trellix": "Yes",
     "Trend Micro": "No",
     "Uptycs": "No",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"No"
   },
   {
     "Telemetry Feature Category": null,
@@ -1425,7 +1475,8 @@
     "Trellix": "Pending Response",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1453,7 +1504,8 @@
     "Trellix": "Pending Response",
     "Trend Micro": "No",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "WMI Activity",
@@ -1481,7 +1533,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1509,7 +1562,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": null,
@@ -1537,7 +1591,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "Yes"
+    "WatchGuard": "Yes",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "BITS Jobs Activity",
@@ -1565,7 +1620,8 @@
     "Trellix": "Yes",
     "Trend Micro": "Via EventLogs",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   },
   {
     "Telemetry Feature Category": "PowerShell Activity",
@@ -1593,6 +1649,7 @@
     "Trellix": "Yes",
     "Trend Micro": "Yes",
     "Uptycs": "Yes",
-    "WatchGuard": "No"
+    "WatchGuard": "No",
+    "asus_ai_edr":"Yes"
   }
 ]
