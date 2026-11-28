@@ -821,10 +821,10 @@
       "telemetry_generator",
       "unknown"
     ],
-    "merged_prs": 36,
+    "merged_prs": 38,
     "negative_score_delta": -1.0,
     "positive_score_delta": 21.05,
-    "prs_opened": 38,
+    "prs_opened": 40,
     "vendors_affected": [
       "auditd",
       "bitdefender",

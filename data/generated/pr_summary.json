@@ -4587,5 +4587,41 @@
     "state": "open",
     "title": "Add JA4 sub-category (Hash Algorithms) and SentinelOne Windows coverage",
     "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-28T04:38:18Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-11-28T05:15:37Z",
+    "pr_number": 228,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/228",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Fix bogus macOS stray-column vendor in telemetry statistics",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-28T05:16:01Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-11-28T05:17:07Z",
+    "pr_number": 229,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/229",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Remove accidentally committed __pycache__ files",
+    "vendors_affected": []
   }
 ]

@@ -1,16 +1,16 @@
 {
-  "default_branch": "fix/macos-stray-vendor-column",
-  "generated_at_utc": "2026-11-28T04:37:46Z",
+  "default_branch": "main",
+  "generated_at_utc": "2026-11-28T05:17:32Z",
   "generation_mode": "full_rebuild",
-  "head_commit": "2b63c8654ce11b517334a75914cb58c3d7a3f29e",
+  "head_commit": "11870ac8edf7cf8a055c9cc12980fc6704816c34",
   "incremental_base_commit": null,
-  "new_commits_scanned": 213,
+  "new_commits_scanned": 214,
   "repository": "tsale/EDR-Telemetry",
   "schema_version": "1.0.0",
   "script_version": "1.1.1",
   "total_change_events": 3987,
-  "total_commits_scanned": 213,
-  "total_prs_scanned": 166,
+  "total_commits_scanned": 214,
+  "total_prs_scanned": 168,
   "warnings": [
     {
       "commit_sha": "ca3a2e679eacda11bca56997f55ec92fc46dc402",
@@ -163,8 +163,12 @@
       "message": "Tools/compare.py missing at commit; reused previous scoring model."
     },
     {
+      "kind": "incremental_base_missing",
+      "message": "Previous generated head 2b63c8654ce11b517334a75914cb58c3d7a3f29e is not available in this checkout; performing a full rebuild."
+    },
+    {
       "kind": "github_cache_incremental_refresh",
-      "message": "Refreshed GitHub API cache for 1 updated pull request(s)."
+      "message": "Refreshed GitHub API cache for 3 updated pull request(s)."
     },
     {
       "change_kind": "new_category_baseline",
@@ -986,5 +990,5 @@
       "message": "1031 additional telemetry_cell_deleted warnings omitted from run_metadata; see manual_review_items.json."
     }
   ],
-  "warnings_count": 1939
+  "warnings_count": 1940
 }
