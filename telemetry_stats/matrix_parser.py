@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -10,6 +11,17 @@ from .scoring import STATUS_SCORE
 
 METADATA_KEYS = {"Telemetry Feature Category", "Sub-Category"}
 STATUS_CANONICAL = {status.lower(): status for status in STATUS_SCORE}
+# Spreadsheet-export artifacts (e.g. pandas "Unnamed: 10" columns) and blank/null
+# keys are not vendors and must never be emitted as vendor cells.
+ARTIFACT_KEY_PATTERN = re.compile(r"^unnamed:\s*\d*$", re.IGNORECASE)
+ARTIFACT_KEY_LITERALS = {"", "null", "none", "nan"}
+
+
+def is_artifact_column(key: Any) -> bool:
+    if key is None:
+        return True
+    text = str(key).strip()
+    return text.lower() in ARTIFACT_KEY_LITERALS or bool(ARTIFACT_KEY_PATTERN.match(text))
 
 
 @dataclass
@@ -111,6 +123,19 @@ def parse_matrix_content(
 
         for key, raw_status in row.items():
             if key in METADATA_KEYS:
+                continue
+            if is_artifact_column(key):
+                if normalize_status(raw_status):
+                    snapshot.warnings.append(
+                        {
+                            "kind": "ignored_artifact_column",
+                            "platform": platform,
+                            "file_path": file_path,
+                            "row_index": row_index,
+                            "column": str(key),
+                            "message": "Ignored non-vendor artifact column that carries a value.",
+                        }
+                    )
                 continue
             vendor_name = str(key).strip()
             status = normalize_status(raw_status)

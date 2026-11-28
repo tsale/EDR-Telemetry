@@ -256,7 +256,7 @@
         "score": 12.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -264,7 +264,7 @@
         "score": 12.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -272,7 +272,7 @@
         "score": 12.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -280,7 +280,7 @@
         "score": 12.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "auditd",
@@ -535,7 +535,7 @@
         "score": 14.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -543,7 +543,7 @@
         "score": 14.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -551,7 +551,7 @@
         "score": 14.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -559,7 +559,7 @@
         "score": 14.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "bitdefender",
@@ -1031,6 +1031,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 12.9,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "bitdefender",
@@ -1804,7 +1812,7 @@
         "score": 25.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -1812,7 +1820,7 @@
         "score": 25.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -1820,7 +1828,7 @@
         "score": 25.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -1828,7 +1836,15 @@
         "score": 25.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-10-26",
+        "score": 25.8,
+        "score_delta": 0.2,
+        "source_commit": "d83b1c23db38486446d115c0243f079f9e4d88d7",
+        "source_pr": 208
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -2356,6 +2372,54 @@
         "score_delta": 1.0,
         "source_commit": "4e92f79c2f0c12afae4ccde3d0cc109e0f0a6dbe",
         "source_pr": 195
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 34.9,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 35.4,
+        "score_delta": 0.5,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.4,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 36.8,
+        "score_delta": 0.4,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 37.8,
+        "score_delta": 1.0,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 38.5,
+        "score_delta": 0.7,
+        "source_commit": "c37df3ce380dade4be7746d467bbd65a17f78d36",
+        "source_pr": 207
       }
     ],
     "vendor_canonical_id": "c_prot",
@@ -3105,7 +3169,7 @@
         "score": 9.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -3113,7 +3177,7 @@
         "score": 9.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -3121,7 +3185,7 @@
         "score": 9.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -3129,7 +3193,7 @@
         "score": 9.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "carbon_black",
@@ -4335,7 +4399,7 @@
         "score": 11.4,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -4343,7 +4407,7 @@
         "score": 11.4,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -4351,7 +4415,7 @@
         "score": 11.4,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -4359,7 +4423,7 @@
         "score": 11.4,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "cortex_xdr",
@@ -6157,7 +6221,7 @@
         "score": 16.95,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -6165,7 +6229,7 @@
         "score": 16.95,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -6173,7 +6237,7 @@
         "score": 16.95,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -6181,7 +6245,7 @@
         "score": 16.95,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "crowdstrike",
@@ -6653,6 +6717,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 14.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "crowdstrike",
@@ -7716,6 +7788,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 75.4,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "crowdstrike",
@@ -8619,6 +8699,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 51.3,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "cybereason",
@@ -9368,7 +9456,7 @@
         "score": 10.5,
         "score_delta": 1.0,
         "source_commit": "73f81a9ae3ed4717a72543ef1f6de0938462353d",
-        "source_pr": null
+        "source_pr": 198
       },
       {
         "change_kind": "coverage_upgrade",
@@ -9376,7 +9464,7 @@
         "score": 11.5,
         "score_delta": 1.0,
         "source_commit": "73f81a9ae3ed4717a72543ef1f6de0938462353d",
-        "source_pr": null
+        "source_pr": 198
       },
       {
         "change_kind": "coverage_upgrade",
@@ -9384,7 +9472,7 @@
         "score": 12.5,
         "score_delta": 1.0,
         "source_commit": "73f81a9ae3ed4717a72543ef1f6de0938462353d",
-        "source_pr": null
+        "source_pr": 198
       },
       {
         "change_kind": "coverage_upgrade",
@@ -9392,7 +9480,7 @@
         "score": 13.5,
         "score_delta": 1.0,
         "source_commit": "73f81a9ae3ed4717a72543ef1f6de0938462353d",
-        "source_pr": null
+        "source_pr": 198
       },
       {
         "change_kind": "new_category_baseline",
@@ -9400,7 +9488,7 @@
         "score": 14.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -9408,7 +9496,7 @@
         "score": 14.2,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -9416,7 +9504,7 @@
         "score": 14.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -9424,7 +9512,7 @@
         "score": 15.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "coverage_upgrade",
@@ -9984,6 +10072,14 @@
         "score_delta": 1.0,
         "source_commit": "56de511ddca4354ee42dd78e0d2f8e71ca71d470",
         "source_pr": 167
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 20.8,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11071,6 +11167,38 @@
         "score_delta": 0.7,
         "source_commit": "ba60a550c2e784899eafb3460496eee9c159fced",
         "source_pr": 205
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.15,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 62.5,
+        "score_delta": 0.35,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.0,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 63.5,
+        "score_delta": 0.5,
+        "source_commit": "16cd5f820270730630277d44a8cf1fa4824e61a5",
+        "source_pr": 216
       }
     ],
     "vendor_canonical_id": "elastic",
@@ -11333,7 +11461,7 @@
         "score": 9.3,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -11341,7 +11469,7 @@
         "score": 9.3,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -11349,7 +11477,7 @@
         "score": 9.3,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -11357,7 +11485,7 @@
         "score": 9.3,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "eset_inspect",
@@ -11829,6 +11957,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.5,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "eset_inspect",
@@ -13691,6 +13827,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 23.9,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "fortiedr",
@@ -13953,7 +14097,7 @@
         "score": 10.9,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -13961,7 +14105,7 @@
         "score": 10.9,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -13969,7 +14113,7 @@
         "score": 10.9,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -13977,7 +14121,7 @@
         "score": 10.9,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "harfanglab",
@@ -15281,6 +15425,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 68.8,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "harfanglab",
@@ -15607,7 +15759,7 @@
         "score": 12.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -15615,7 +15767,7 @@
         "score": 12.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -15623,7 +15775,7 @@
         "score": 12.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -15631,7 +15783,7 @@
         "score": 12.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "limacharlie",
@@ -16103,6 +16255,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.6,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "limacharlie",
@@ -17150,6 +17310,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 52.9,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "limacharlie",
@@ -17468,7 +17636,7 @@
         "score": 13.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -17476,7 +17644,7 @@
         "score": 13.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -17484,7 +17652,7 @@
         "score": 13.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -17492,7 +17660,7 @@
         "score": 13.7,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "microsoft_defender",
@@ -17964,6 +18132,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 13.7,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "microsoft_defender",
@@ -20863,6 +21039,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 35.0,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "phorion",
@@ -21125,7 +21309,7 @@
         "score": 10.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -21133,7 +21317,7 @@
         "score": 10.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -21141,7 +21325,7 @@
         "score": 10.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -21149,7 +21333,7 @@
         "score": 10.0,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "qualys",
@@ -21621,6 +21805,14 @@
         "score_delta": 0.0,
         "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
         "source_pr": 150
+      },
+      {
+        "change_kind": "new_category_baseline",
+        "date": "2026-08-12",
+        "score": 8.4,
+        "score_delta": 0.0,
+        "source_commit": "48936b354ddda9f9dc189cf26fbb5921a13c0a58",
+        "source_pr": 171
       }
     ],
     "vendor_canonical_id": "qualys",
@@ -22684,6 +22876,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 40.95,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "qualys",
@@ -22954,7 +23154,7 @@
         "score": 15.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -22962,7 +23162,7 @@
         "score": 15.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -22970,7 +23170,7 @@
         "score": 15.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -22978,7 +23178,262 @@
         "score": 15.6,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
+      }
+    ],
+    "vendor_canonical_id": "sentinelone",
+    "vendor_display_name": "SentinelOne"
+  },
+  {
+    "platform": "macos",
+    "points": [
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 0.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 0.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 1.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 1.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 2.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 2.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 3.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 4.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 5.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 6.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 7.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 8.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 9.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 10.1,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 10.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 11.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 12.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 12.6,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 13.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 14.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 15.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 15.4,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 16.2,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 16.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 17.9,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 18.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 18.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-10-29",
+        "score": 19.7,
+        "score_delta": 0.0,
+        "source_commit": "50ca4dce06d83d1f26c07b7b964eb60b6e98e0bb",
+        "source_pr": 218
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-10-30",
+        "score": 20.7,
+        "score_delta": 1.0,
+        "source_commit": "75a62d9ad6cc18caa369e6a18ac577e5604b671f",
+        "source_pr": 221
       }
     ],
     "vendor_canonical_id": "sentinelone",
@@ -24465,7 +24920,7 @@
         "score": 36.75,
         "score_delta": 1.0,
         "source_commit": "dd181130ca5cbd80cad07b6987229a9c50277d29",
-        "source_pr": null
+        "source_pr": 200
       },
       {
         "change_kind": "default_availability_improvement",
@@ -24473,7 +24928,7 @@
         "score": 36.75,
         "score_delta": 0.0,
         "source_commit": "dd181130ca5cbd80cad07b6987229a9c50277d29",
-        "source_pr": null
+        "source_pr": 200
       },
       {
         "change_kind": "default_availability_improvement",
@@ -24481,11 +24936,482 @@
         "score": 36.75,
         "score_delta": 0.0,
         "source_commit": "dd181130ca5cbd80cad07b6987229a9c50277d29",
+        "source_pr": 200
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 36.75,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
         "source_pr": null
       }
     ],
     "vendor_canonical_id": "sentinelone",
     "vendor_display_name": "SentinelOne"
+  },
+  {
+    "platform": "windows",
+    "points": [
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 1.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 1.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 1.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 2.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 2.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 2.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 3.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 3.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 3.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 4.2,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 4.2,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 5.2,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 5.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 6.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 7.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 8.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 9.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 10.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 11.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 11.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 12.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 12.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 12.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 13.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 14.7,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 14.9,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 15.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 16.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 16.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 17.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 17.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 18.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 18.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 19.1,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 19.1,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 19.8,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 20.8,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 21.8,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 22.8,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 23.0,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 23.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 23.6,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 24.3,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 24.3,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 24.65,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 24.95,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 25.95,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 26.95,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 27.95,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 28.15,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 29.15,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      },
+      {
+        "change_kind": "new_vendor_baseline",
+        "date": "2026-11-25",
+        "score": 29.15,
+        "score_delta": 0.0,
+        "source_commit": "40f50d900004c04675d8d90497526baca870d641",
+        "source_pr": 223
+      }
+    ],
+    "vendor_canonical_id": "sophos",
+    "vendor_display_name": "Sophos"
   },
   {
     "platform": "windows",
@@ -25377,6 +26303,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "clarification",
+        "date": "2026-11-25",
+        "score": 48.6,
+        "score_delta": 0.0,
+        "source_commit": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "symantec_ses_complete",
@@ -25639,7 +26573,7 @@
         "score": 9.2,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -25647,7 +26581,7 @@
         "score": 9.2,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -25655,7 +26589,7 @@
         "score": 9.2,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -25663,7 +26597,7 @@
         "score": 9.2,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       }
     ],
     "vendor_canonical_id": "sysmon",
@@ -27494,6 +28428,14 @@
         "score_delta": 0.0,
         "source_commit": "495ba50dd4dcfea266db7ecc6b051540aaa1080e",
         "source_pr": 164
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-11-25",
+        "score": 62.2,
+        "score_delta": 1.0,
+        "source_commit": "9482109d530f7fb44e04636882b8036de5d8d696",
+        "source_pr": null
       }
     ],
     "vendor_canonical_id": "trellix",
@@ -28563,477 +29505,6 @@
     "vendor_display_name": "Trend Micro / TrendAI"
   },
   {
-    "platform": "macos",
-    "points": [
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      },
-      {
-        "change_kind": "new_category_baseline",
-        "date": "2026-03-25",
-        "score": 0.0,
-        "score_delta": 0.0,
-        "source_commit": "63ce215c68c332c06bb5473db8d9c1884a7a49af",
-        "source_pr": 150
-      }
-    ],
-    "vendor_canonical_id": "unnamed_10",
-    "vendor_display_name": "Unnamed: 10"
-  },
-  {
     "platform": "linux",
     "points": [
       {
@@ -29354,7 +29825,7 @@
         "score": 22.8,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -29362,7 +29833,7 @@
         "score": 22.8,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -29370,7 +29841,7 @@
         "score": 22.8,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "new_category_baseline",
@@ -29378,7 +29849,7 @@
         "score": 22.8,
         "score_delta": 0.0,
         "source_commit": "4ca5792022151abea15547c3f13532cca2a5a92f",
-        "source_pr": null
+        "source_pr": 199
       },
       {
         "change_kind": "coverage_upgrade",
@@ -29387,6 +29858,22 @@
         "score_delta": 1.0,
         "source_commit": "f98952f8a2b75c208db43eaa8d9d9a10fe6d35a8",
         "source_pr": 201
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.3,
+        "score_delta": 0.5,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
+      },
+      {
+        "change_kind": "coverage_upgrade",
+        "date": "2026-09-01",
+        "score": 24.5,
+        "score_delta": 0.2,
+        "source_commit": "2eba0c3c0259fecd200152b96b15b5cb01db8aeb",
+        "source_pr": 213
       }
     ],
     "vendor_canonical_id": "uptycs",

@@ -26,7 +26,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -78,7 +77,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -174,6 +172,7 @@
       "padvish_xdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -202,7 +201,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -226,7 +225,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -250,20 +249,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
     "first_improvement_date": "2026-04-28",
-    "latest_improvement_date": "2026-04-28",
-    "number_of_improvements": 1,
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 2,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "Quarantine Flag Cleared",
     "telemetry_feature_category": "Code Signing & Trust Activity",
-    "total_weighted_score_delta": 1.0,
+    "total_weighted_score_delta": 2.0,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -274,20 +272,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "Quarantine Flag Set",
     "telemetry_feature_category": "Code Signing & Trust Activity",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -298,20 +295,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "XProtect Detection Logged",
     "telemetry_feature_category": "Code Signing & Trust Activity",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.4,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -322,7 +318,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -346,7 +341,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -370,7 +364,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -394,7 +388,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -427,6 +421,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -464,6 +459,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -501,6 +497,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -566,6 +563,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -603,6 +601,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -640,6 +639,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -733,6 +733,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -770,6 +771,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -807,6 +809,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -816,15 +819,15 @@
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-10-30",
+    "latest_improvement_date": "2026-10-30",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "Agent Protection Disabled Or Tamper Event",
     "telemetry_feature_category": "EDR SysOps",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 1.0,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -835,7 +838,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -872,11 +875,11 @@
       "phorion",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
-      "unnamed_10",
       "uptycs",
       "watchguard"
     ]
@@ -914,11 +917,11 @@
       "phorion",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
-      "unnamed_10",
       "uptycs",
       "watchguard"
     ]
@@ -976,6 +979,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1004,7 +1008,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -1028,7 +1031,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -1052,7 +1055,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -1076,7 +1079,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -1100,7 +1103,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -1135,6 +1137,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1174,6 +1177,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1213,6 +1217,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1250,6 +1255,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1287,6 +1293,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1324,15 +1331,15 @@
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "linux"
     ],
     "sub_category": "File Header Bytes",
     "telemetry_feature_category": "File Metadata",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.5,
     "vendors_affected": [
       "auditd",
       "bitdefender",
@@ -1352,15 +1359,15 @@
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-10-26",
+    "number_of_improvements": 2,
     "platforms_affected": [
       "linux"
     ],
     "sub_category": "File Size",
     "telemetry_feature_category": "File Metadata",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.4,
     "vendors_affected": [
       "auditd",
       "bitdefender",
@@ -1399,7 +1406,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -1423,7 +1429,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -1447,7 +1453,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -1510,6 +1516,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1547,6 +1554,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1586,6 +1594,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1625,6 +1634,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1662,6 +1672,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1699,6 +1710,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1740,11 +1752,11 @@
       "phorion",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
-      "unnamed_10",
       "uptycs",
       "watchguard"
     ]
@@ -1778,6 +1790,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1813,7 +1826,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -1844,7 +1856,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -1877,6 +1888,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1914,6 +1926,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1951,6 +1964,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -1988,6 +2002,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2025,6 +2040,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2062,6 +2078,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2090,7 +2107,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -2114,7 +2130,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2138,7 +2154,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2162,7 +2178,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2186,7 +2202,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -2219,12 +2234,34 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
       "uptycs",
       "watchguard"
+    ]
+  },
+  {
+    "first_improvement_date": null,
+    "latest_improvement_date": null,
+    "number_of_improvements": 0,
+    "platforms_affected": [
+      "macos"
+    ],
+    "sub_category": "Library/Module Loaded",
+    "telemetry_feature_category": "Process Activity",
+    "total_weighted_score_delta": 0.0,
+    "vendors_affected": [
+      "bitdefender",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "limacharlie",
+      "microsoft_defender",
+      "phorion",
+      "qualys"
     ]
   },
   {
@@ -2256,6 +2293,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2293,6 +2331,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2334,11 +2373,11 @@
       "phorion",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
-      "unnamed_10",
       "uptycs",
       "watchguard"
     ]
@@ -2372,6 +2411,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2413,11 +2453,11 @@
       "phorion",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
       "trend_micro_trendai",
-      "unnamed_10",
       "uptycs",
       "watchguard"
     ]
@@ -2451,6 +2491,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2461,14 +2502,14 @@
   },
   {
     "first_improvement_date": "2025-10-23",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 4,
+    "latest_improvement_date": "2026-11-25",
+    "number_of_improvements": 5,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Win32 API Telemetry",
     "telemetry_feature_category": "Process Activity",
-    "total_weighted_score_delta": 3.5,
+    "total_weighted_score_delta": 4.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -2488,6 +2529,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2516,7 +2558,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -2577,6 +2618,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2614,6 +2656,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2651,6 +2694,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2661,14 +2705,14 @@
   },
   {
     "first_improvement_date": "2023-12-07",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 6,
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 7,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Scheduled Task Creation",
     "telemetry_feature_category": "Schedule Task Activity",
-    "total_weighted_score_delta": 2.1,
+    "total_weighted_score_delta": 2.45,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -2688,6 +2732,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2725,6 +2770,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2735,14 +2781,14 @@
   },
   {
     "first_improvement_date": "2024-03-04",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 5,
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 6,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Scheduled Task Modification",
     "telemetry_feature_category": "Schedule Task Activity",
-    "total_weighted_score_delta": 1.75,
+    "total_weighted_score_delta": 2.1,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -2762,6 +2808,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -2790,7 +2837,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2814,7 +2861,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2838,7 +2885,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -2862,7 +2908,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2886,7 +2932,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2910,7 +2956,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -2969,7 +3015,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -2993,21 +3038,21 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
   {
     "first_improvement_date": "2023-05-04",
-    "latest_improvement_date": "2026-03-23",
-    "number_of_improvements": 9,
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 10,
     "platforms_affected": [
       "linux",
       "windows"
     ],
     "sub_category": "Service Creation",
     "telemetry_feature_category": "Service Activity",
-    "total_weighted_score_delta": 5.0,
+    "total_weighted_score_delta": 5.5,
     "vendors_affected": [
       "auditd",
       "bitdefender",
@@ -3028,6 +3073,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3056,7 +3102,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -3091,6 +3137,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3130,6 +3177,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3158,20 +3206,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "DriverKit Extension Loaded",
     "telemetry_feature_category": "System Extension & Driver Activity",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.7,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -3182,7 +3229,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3206,7 +3252,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3230,7 +3275,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3254,20 +3298,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "System Extension Uninstalled",
     "telemetry_feature_category": "System Extension & Driver Activity",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 0.5,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -3278,7 +3321,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3302,20 +3344,19 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
   {
-    "first_improvement_date": null,
-    "latest_improvement_date": null,
-    "number_of_improvements": 0,
+    "first_improvement_date": "2026-09-01",
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 1,
     "platforms_affected": [
       "macos"
     ],
     "sub_category": "Privilege Escalation (sudo etc.)",
     "telemetry_feature_category": "User & Session Activity",
-    "total_weighted_score_delta": 0.0,
+    "total_weighted_score_delta": 1.0,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -3326,7 +3367,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -3350,7 +3391,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3374,7 +3414,6 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3398,7 +3437,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -3422,7 +3461,7 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
@@ -3455,6 +3494,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3492,6 +3532,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3520,20 +3561,20 @@
       "microsoft_defender",
       "phorion",
       "qualys",
-      "unnamed_10",
+      "sentinelone",
       "uptycs"
     ]
   },
   {
     "first_improvement_date": "2024-03-04",
-    "latest_improvement_date": "2025-03-09",
-    "number_of_improvements": 3,
+    "latest_improvement_date": "2026-09-01",
+    "number_of_improvements": 4,
     "platforms_affected": [
       "windows"
     ],
     "sub_category": "Local Account Creation",
     "telemetry_feature_category": "User Account Activity",
-    "total_weighted_score_delta": 1.5,
+    "total_weighted_score_delta": 2.0,
     "vendors_affected": [
       "bitdefender",
       "c_prot",
@@ -3553,6 +3594,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3590,6 +3632,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3627,6 +3670,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3662,7 +3706,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3693,7 +3736,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3724,7 +3766,6 @@
       "qualys",
       "sentinelone",
       "sysmon",
-      "unnamed_10",
       "uptycs"
     ]
   },
@@ -3841,6 +3882,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3878,6 +3920,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",
@@ -3915,6 +3958,7 @@
       "padvishxdr",
       "qualys",
       "sentinelone",
+      "sophos",
       "symantec_ses_complete",
       "sysmon",
       "trellix",

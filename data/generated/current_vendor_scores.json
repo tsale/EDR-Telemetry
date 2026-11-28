@@ -25,6 +25,12 @@
   },
   {
     "platform": "windows",
+    "score": 37.15,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
+  },
+  {
+    "platform": "windows",
     "score": 36.95,
     "vendor_canonical_id": "crowdstrike",
     "vendor_display_name": "CrowdStrike"
@@ -43,15 +49,15 @@
   },
   {
     "platform": "windows",
-    "score": 35.45,
-    "vendor_canonical_id": "elastic",
-    "vendor_display_name": "Elastic"
-  },
-  {
-    "platform": "windows",
     "score": 31.8,
     "vendor_canonical_id": "eset_inspect",
     "vendor_display_name": "ESET Inspect"
+  },
+  {
+    "platform": "windows",
+    "score": 30.6,
+    "vendor_canonical_id": "trellix",
+    "vendor_display_name": "Trellix"
   },
   {
     "platform": "windows",
@@ -61,15 +67,15 @@
   },
   {
     "platform": "windows",
-    "score": 29.6,
-    "vendor_canonical_id": "trellix",
-    "vendor_display_name": "Trellix"
-  },
-  {
-    "platform": "windows",
     "score": 29.25,
     "vendor_canonical_id": "limacharlie",
     "vendor_display_name": "LimaCharlie"
+  },
+  {
+    "platform": "windows",
+    "score": 29.15,
+    "vendor_canonical_id": "sophos",
+    "vendor_display_name": "Sophos"
   },
   {
     "platform": "windows",
@@ -139,13 +145,13 @@
   },
   {
     "platform": "linux",
-    "score": 25.6,
+    "score": 25.8,
     "vendor_canonical_id": "c_prot",
     "vendor_display_name": "C-Prot"
   },
   {
     "platform": "linux",
-    "score": 23.8,
+    "score": 24.5,
     "vendor_canonical_id": "uptycs",
     "vendor_display_name": "Uptycs"
   },
@@ -229,21 +235,27 @@
   },
   {
     "platform": "macos",
+    "score": 38.5,
+    "vendor_canonical_id": "c_prot",
+    "vendor_display_name": "C-Prot"
+  },
+  {
+    "platform": "macos",
     "score": 35.0,
     "vendor_canonical_id": "phorion",
     "vendor_display_name": "Phorion"
   },
   {
     "platform": "macos",
-    "score": 34.4,
-    "vendor_canonical_id": "c_prot",
-    "vendor_display_name": "C-Prot"
+    "score": 20.8,
+    "vendor_canonical_id": "elastic",
+    "vendor_display_name": "Elastic"
   },
   {
     "platform": "macos",
-    "score": 19.8,
-    "vendor_canonical_id": "elastic",
-    "vendor_display_name": "Elastic"
+    "score": 20.7,
+    "vendor_canonical_id": "sentinelone",
+    "vendor_display_name": "SentinelOne"
   },
   {
     "platform": "macos",
