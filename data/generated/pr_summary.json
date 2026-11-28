@@ -14,7 +14,7 @@
     "evidence_types": [
       "unknown"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-19T16:12:57Z",
     "pr_number": 2,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/2",
@@ -52,9 +52,10 @@
     "created_at": "2023-04-19T19:14:48Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-26T20:09:02Z",
     "pr_number": 5,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/5",
@@ -78,9 +79,9 @@
     "created_at": "2023-04-20T11:33:08Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-20T23:43:51Z",
     "pr_number": 9,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/9",
@@ -124,7 +125,7 @@
     "evidence_types": [
       "unknown"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-20T20:29:24Z",
     "pr_number": 11,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/11",
@@ -152,9 +153,10 @@
     "created_at": "2023-04-21T22:14:14Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-27T07:38:36Z",
     "pr_number": 14,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/14",
@@ -194,7 +196,7 @@
     "evidence_types": [
       "unknown"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-30T18:46:03Z",
     "pr_number": 15,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/15",
@@ -257,9 +259,11 @@
     "created_at": "2023-04-25T07:07:42Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-30T05:33:29Z",
     "pr_number": 18,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/18",
@@ -299,9 +303,10 @@
     "created_at": "2023-04-26T09:15:20Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-04-27T08:14:38Z",
     "pr_number": 20,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/20",
@@ -339,9 +344,10 @@
     "created_at": "2023-04-29T21:06:34Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-05-03T08:17:43Z",
     "pr_number": 24,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/24",
@@ -408,9 +414,10 @@
     "created_at": "2023-05-16T17:58:45Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-05-30T20:41:20Z",
     "pr_number": 31,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/31",
@@ -448,9 +455,11 @@
     "created_at": "2023-05-18T20:52:44Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-06-15T19:21:20Z",
     "pr_number": 32,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/32",
@@ -474,9 +483,10 @@
     "created_at": "2023-06-05T20:58:32Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-06-10T18:40:56Z",
     "pr_number": 33,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/33",
@@ -499,9 +509,10 @@
     "created_at": "2023-06-16T05:52:02Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-06-16T19:49:22Z",
     "pr_number": 36,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/36",
@@ -526,9 +537,10 @@
     "created_at": "2023-06-28T22:28:59Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-12-07T21:07:15Z",
     "pr_number": 37,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/37",
@@ -551,9 +563,10 @@
     "created_at": "2023-12-07T10:05:37Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2023-12-07T20:52:37Z",
     "pr_number": 40,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/40",
@@ -576,7 +589,8 @@
     "created_at": "2023-12-10T01:02:02Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2023-12-10T01:03:05Z",
@@ -616,9 +630,10 @@
     "created_at": "2023-12-11T06:39:16Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-03-24T20:04:27Z",
     "pr_number": 42,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/42",
@@ -656,9 +671,10 @@
     "created_at": "2023-12-11T11:44:45Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-01-09T19:48:03Z",
     "pr_number": 43,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/43",
@@ -721,9 +737,10 @@
     "created_at": "2024-01-18T07:27:20Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-03-02T22:04:58Z",
     "pr_number": 47,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/47",
@@ -757,9 +774,10 @@
     "created_at": "2024-02-01T12:34:09Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-03-05T00:02:03Z",
     "pr_number": 48,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/48",
@@ -820,9 +838,9 @@
     "created_at": "2024-03-12T05:29:36Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-03-24T19:34:05Z",
     "pr_number": 54,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/54",
@@ -939,7 +957,8 @@
     "created_at": "2024-06-02T15:47:08Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-06-03T19:26:10Z",
@@ -969,9 +988,10 @@
     "created_at": "2024-06-11T18:40:31Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-07-05T16:56:09Z",
     "pr_number": 65,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/65",
@@ -1009,9 +1029,10 @@
     "created_at": "2024-07-01T02:08:47Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-10-26T16:47:24Z",
     "pr_number": 66,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/66",
@@ -1052,7 +1073,9 @@
     "created_at": "2024-07-03T08:25:46Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-07-04T06:37:38Z",
@@ -1086,7 +1109,8 @@
     "created_at": "2024-08-24T18:53:03Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-08-24T18:53:33Z",
@@ -1111,7 +1135,8 @@
     "created_at": "2024-09-05T13:03:36Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-09-20T05:44:37Z",
@@ -1143,9 +1168,11 @@
     "created_at": "2024-09-17T09:34:25Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-12-13T19:00:08Z",
     "pr_number": 73,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/73",
@@ -1187,9 +1214,10 @@
     "created_at": "2024-10-21T05:34:29Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-03-10T02:22:42Z",
     "pr_number": 80,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/80",
@@ -1231,7 +1259,8 @@
     "created_at": "2024-11-07T21:59:30Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-11-07T21:59:56Z",
@@ -1296,7 +1325,8 @@
     "created_at": "2024-11-17T03:38:37Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-12-13T18:09:08Z",
@@ -1325,7 +1355,7 @@
     "evidence_types": [
       "unknown"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-12-13T19:29:40Z",
     "pr_number": 87,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/87",
@@ -1384,9 +1414,10 @@
     "created_at": "2024-12-14T01:17:08Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-12-14T19:04:53Z",
     "pr_number": 97,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/97",
@@ -1430,7 +1461,7 @@
     "created_at": "2024-12-17T05:51:41Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "telemetry_generator"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-12-17T06:17:29Z",
@@ -1473,7 +1504,7 @@
     "created_at": "2024-12-17T18:53:58Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2024-12-17T18:54:38Z",
@@ -1500,9 +1531,11 @@
     "created_at": "2024-12-19T00:49:15Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-01-01T18:59:53Z",
     "pr_number": 103,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/103",
@@ -1526,7 +1559,8 @@
     "created_at": "2024-12-20T16:05:36Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-01-24T16:00:58Z",
@@ -1552,9 +1586,10 @@
     "created_at": "2024-12-23T13:34:49Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2024-12-28T20:56:22Z",
     "pr_number": 107,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/107",
@@ -1603,7 +1638,8 @@
     "created_at": "2025-01-02T13:58:19Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-01-29T19:00:34Z",
@@ -1629,7 +1665,9 @@
     "created_at": "2025-01-06T10:58:08Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-01-23T17:53:34Z",
@@ -1656,9 +1694,10 @@
     "created_at": "2025-01-15T16:31:18Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-03-10T02:08:30Z",
     "pr_number": 112,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/112",
@@ -1736,7 +1775,9 @@
     "created_at": "2025-02-10T03:03:49Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-02-28T22:18:37Z",
@@ -1761,7 +1802,8 @@
     "created_at": "2025-02-11T18:15:21Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-02-11T18:15:30Z",
@@ -1804,9 +1846,13 @@
     "created_at": "2025-03-05T10:13:51Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-03-10T02:10:26Z",
     "pr_number": 117,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/117",
@@ -1829,9 +1875,12 @@
     "created_at": "2025-04-02T03:07:46Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-05-03T16:29:29Z",
     "pr_number": 118,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/118",
@@ -1866,9 +1915,12 @@
     "created_at": "2025-04-04T13:21:24Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-05-03T16:58:31Z",
     "pr_number": 119,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/119",
@@ -1909,9 +1961,12 @@
     "created_at": "2025-04-17T10:27:02Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-05-03T16:40:18Z",
     "pr_number": 121,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/121",
@@ -1934,9 +1989,11 @@
     "created_at": "2025-07-12T09:46:19Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-09-17T05:58:11Z",
     "pr_number": 123,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/123",
@@ -2013,7 +2070,10 @@
     "created_at": "2025-08-17T11:44:27Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-10-14T21:10:04Z",
@@ -2039,7 +2099,10 @@
     "created_at": "2025-08-21T15:40:50Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-08-21T16:48:23Z",
@@ -2125,7 +2188,7 @@
     "created_at": "2025-09-07T18:10:55Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-09-15T18:07:33Z",
@@ -2190,7 +2253,10 @@
     "created_at": "2025-09-22T17:01:33Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-09-23T06:27:57Z",
@@ -2220,9 +2286,12 @@
     "created_at": "2025-10-01T14:52:00Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T18:43:17Z",
     "pr_number": 132,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/132",
@@ -2311,7 +2380,10 @@
     "created_at": "2025-10-23T17:50:25Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-10-23T17:50:52Z",
@@ -2338,7 +2410,10 @@
     "created_at": "2025-11-06T21:44:49Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-11-06T21:45:23Z",
@@ -2363,9 +2438,12 @@
     "created_at": "2025-11-10T16:02:31Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-10T16:07:28Z",
     "pr_number": 139,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/139",
@@ -2388,9 +2466,12 @@
     "created_at": "2025-11-10T16:17:19Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T18:52:21Z",
     "pr_number": 140,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/140",
@@ -2428,7 +2509,10 @@
     "created_at": "2025-11-16T08:07:44Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-11-16T08:21:21Z",
@@ -2453,9 +2537,11 @@
     "created_at": "2025-11-19T23:42:34Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T18:53:50Z",
     "pr_number": 142,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/142",
@@ -2478,9 +2564,12 @@
     "created_at": "2025-11-27T01:02:43Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T18:55:42Z",
     "pr_number": 143,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/143",
@@ -2503,9 +2592,12 @@
     "created_at": "2025-11-27T01:42:45Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T18:58:07Z",
     "pr_number": 144,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/144",
@@ -2528,9 +2620,12 @@
     "created_at": "2025-11-27T02:19:31Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2025-11-29T19:00:42Z",
     "pr_number": 145,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/145",
@@ -2562,9 +2657,12 @@
     "created_at": "2025-11-28T18:10:42Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T00:58:45Z",
     "pr_number": 146,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/146",
@@ -2599,9 +2697,12 @@
     "created_at": "2025-12-09T15:14:59Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-05-13T23:12:25Z",
     "pr_number": 148,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/148",
@@ -2654,13 +2755,14 @@
     "changed_score_bearing_files": [
       "EDR_telem_macOS.json"
     ],
-    "changed_telemetry_cells": 522,
+    "changed_telemetry_cells": 464,
     "created_at": "2025-12-16T23:51:34Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "sanitized_logs",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-26T05:19:59Z",
     "pr_number": 150,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/150",
@@ -2675,8 +2777,7 @@
       "limacharlie",
       "microsoft_defender",
       "phorion",
-      "qualys",
-      "unnamed_10"
+      "qualys"
     ]
   },
   {
@@ -2703,7 +2804,9 @@
     "created_at": "2025-12-28T19:45:24Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2025-12-28T19:58:24Z",
@@ -2728,9 +2831,10 @@
     "created_at": "2026-01-07T18:03:11Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "screenshots",
+      "telemetry_generator"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-01-20T00:50:14Z",
     "pr_number": 152,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/152",
@@ -2753,9 +2857,12 @@
     "created_at": "2026-01-12T12:45:48Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-01-20T00:52:00Z",
     "pr_number": 153,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/153",
@@ -2778,9 +2885,12 @@
     "created_at": "2026-01-16T03:53:47Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-01-20T00:53:09Z",
     "pr_number": 154,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/154",
@@ -2803,9 +2913,12 @@
     "created_at": "2026-01-20T05:26:46Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T00:59:48Z",
     "pr_number": 155,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/155",
@@ -2828,9 +2941,12 @@
     "created_at": "2026-01-20T05:38:06Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:00:45Z",
     "pr_number": 156,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/156",
@@ -2854,9 +2970,12 @@
     "created_at": "2026-01-20T09:17:51Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:07:46Z",
     "pr_number": 157,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/157",
@@ -2879,9 +2998,12 @@
     "created_at": "2026-01-20T10:20:36Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:09:09Z",
     "pr_number": 158,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/158",
@@ -2904,9 +3026,12 @@
     "created_at": "2026-01-20T10:35:41Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:12:39Z",
     "pr_number": 159,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/159",
@@ -2929,9 +3054,12 @@
     "created_at": "2026-01-20T10:46:31Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:14:50Z",
     "pr_number": 160,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/160",
@@ -2954,9 +3082,12 @@
     "created_at": "2026-01-20T10:52:43Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:16:55Z",
     "pr_number": 161,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/161",
@@ -2979,9 +3110,12 @@
     "created_at": "2026-02-03T10:37:36Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:18:35Z",
     "pr_number": 162,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/162",
@@ -3004,9 +3138,12 @@
     "created_at": "2026-02-03T10:50:47Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:20:31Z",
     "pr_number": 163,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/163",
@@ -3029,9 +3166,12 @@
     "created_at": "2026-02-03T10:57:45Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:21:11Z",
     "pr_number": 164,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/164",
@@ -3075,9 +3215,12 @@
     "created_at": "2026-03-14T02:46:48Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-03-24T01:22:06Z",
     "pr_number": 165,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/165",
@@ -3123,9 +3266,11 @@
     "created_at": "2026-03-30T15:55:14Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-04-28T07:43:40Z",
     "pr_number": 167,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/167",
@@ -3138,22 +3283,35 @@
   },
   {
     "author": "DefSecSentinel",
-    "categories_affected": [],
+    "categories_affected": [
+      "Process Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_macOS.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 8,
     "created_at": "2026-03-30T17:53:20Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
-    "merged_at": null,
+    "evidence_types": [
+      "sanitized_logs"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-08-12T07:28:48Z",
     "pr_number": 171,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/171",
     "score_delta": 0.0,
-    "state": "open",
+    "state": "merged",
     "title": "Add Library/Module Loaded subcategory to macOS telemetry",
-    "vendors_affected": []
+    "vendors_affected": [
+      "bitdefender",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "limacharlie",
+      "microsoft_defender",
+      "phorion",
+      "qualys"
+    ]
   },
   {
     "author": "joshlemon",
@@ -3346,7 +3504,9 @@
     "created_at": "2026-04-24T19:50:08Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2026-04-28T06:23:45Z",
@@ -3640,7 +3800,10 @@
     "created_at": "2026-05-13T19:05:46Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
     "maintainer_reviewed": false,
     "merged_at": "2026-05-14T18:22:07Z",
@@ -3709,9 +3872,12 @@
     "created_at": "2026-05-13T19:18:56Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-05-17T20:54:37Z",
     "pr_number": 197,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/197",
@@ -3724,60 +3890,104 @@
   },
   {
     "author": "Aegrah",
-    "categories_affected": [],
+    "categories_affected": [
+      "Access Activity",
+      "Driver/Module Activity",
+      "Network Activity",
+      "Process Tampering Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_linux.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 4,
     "created_at": "2026-05-18T14:15:06Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T00:14:16Z",
     "pr_number": 198,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/198",
-    "score_delta": 0.0,
+    "score_delta": 4.0,
     "state": "merged",
     "title": "[Update] EDR Telemetry for Linux - Elastic Defend",
-    "vendors_affected": []
+    "vendors_affected": [
+      "elastic"
+    ]
   },
   {
     "author": "Aegrah",
-    "categories_affected": [],
+    "categories_affected": [
+      "Anonymous File Activity",
+      "File Metadata"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_linux.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 60,
     "created_at": "2026-05-18T15:20:13Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T00:19:18Z",
     "pr_number": 199,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/199",
     "score_delta": 0.0,
     "state": "merged",
     "title": "[Proposal] New Linux telemetry categories: Anonymous File Activity an\u2026",
-    "vendors_affected": []
+    "vendors_affected": [
+      "auditd",
+      "bitdefender",
+      "c_prot",
+      "carbon_black",
+      "cortex_xdr",
+      "crowdstrike",
+      "elastic",
+      "eset_inspect",
+      "harfanglab",
+      "limacharlie",
+      "microsoft_defender",
+      "qualys",
+      "sentinelone",
+      "sysmon",
+      "uptycs"
+    ]
   },
   {
     "author": "thiboog",
-    "categories_affected": [],
+    "categories_affected": [
+      "Device Operations",
+      "Network Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_windows.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 3,
     "created_at": "2026-06-02T09:41:39Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
+    "evidence_types": [
+      "screenshots",
+      "telemetry_generator"
+    ],
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T00:41:15Z",
     "pr_number": 200,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/200",
-    "score_delta": 0.0,
+    "score_delta": 1.0,
     "state": "merged",
     "title": "Update SentinelOne Windows telemetry: File Downloaded, USB Device Mount/Unmount",
-    "vendors_affected": []
+    "vendors_affected": [
+      "sentinelone"
+    ]
   },
   {
     "author": "joshlemon",
@@ -3791,9 +4001,12 @@
     "created_at": "2026-06-12T12:13:15Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T06:21:19Z",
     "pr_number": 201,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/201",
@@ -3818,9 +4031,12 @@
     "created_at": "2026-06-12T12:50:35Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T06:23:01Z",
     "pr_number": 202,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/202",
@@ -3843,9 +4059,12 @@
     "created_at": "2026-06-12T13:21:20Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-13T06:26:27Z",
     "pr_number": 203,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/203",
@@ -3869,9 +4088,12 @@
     "created_at": "2026-06-15T08:15:22Z",
     "draft": false,
     "evidence_types": [
-      "unknown"
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
     ],
-    "maintainer_reviewed": false,
+    "maintainer_reviewed": true,
     "merged_at": "2026-06-18T19:01:46Z",
     "pr_number": 204,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/204",
@@ -3933,41 +4155,57 @@
   },
   {
     "author": "husnuoner",
-    "categories_affected": [],
+    "categories_affected": [
+      "Code Signing & Trust Activity",
+      "System Extension & Driver Activity",
+      "User & Session Activity"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_macOS.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 6,
     "created_at": "2026-06-22T12:36:58Z",
     "draft": false,
-    "evidence_types": [],
-    "maintainer_reviewed": false,
-    "merged_at": null,
+    "evidence_types": [
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-01T22:51:25Z",
     "pr_number": 207,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/207",
-    "score_delta": 0.0,
-    "state": "open",
+    "score_delta": 4.1,
+    "state": "merged",
     "title": "C-Prot - Update EDR_telem_macOS.json",
-    "vendors_affected": []
+    "vendors_affected": [
+      "c_prot"
+    ]
   },
   {
     "author": "husnuoner",
-    "categories_affected": [],
+    "categories_affected": [
+      "File Metadata"
+    ],
     "changed_score_bearing_files": [
       "EDR_telem_linux.json"
     ],
-    "changed_telemetry_cells": 0,
+    "changed_telemetry_cells": 1,
     "created_at": "2026-06-23T12:00:08Z",
     "draft": false,
-    "evidence_types": [],
+    "evidence_types": [
+      "sanitized_logs",
+      "screenshots"
+    ],
     "maintainer_reviewed": false,
-    "merged_at": null,
+    "merged_at": "2026-10-27T03:54:32Z",
     "pr_number": 208,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/208",
-    "score_delta": 0.0,
-    "state": "open",
+    "score_delta": 0.2,
+    "state": "merged",
     "title": "C-Prot - Update EDR_telem_linux.json",
-    "vendors_affected": []
+    "vendors_affected": [
+      "c_prot"
+    ]
   },
   {
     "author": "malwr4n6",
@@ -3984,8 +4222,370 @@
     "pr_number": 209,
     "public_url": "https://github.com/tsale/EDR-Telemetry/pull/209",
     "score_delta": 0.0,
-    "state": "open",
+    "state": "closed",
     "title": "Update Cortex XDR telemetry for macOS Network and Trust features",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-07T17:30:19Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-07-07T17:30:34Z",
+    "pr_number": 210,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/210",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Generate telemetry statistics",
+    "vendors_affected": []
+  },
+  {
+    "author": "malwr4n6",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-08T12:49:29Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 211,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/211",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Cortex XDR macOS telemetry mappings \u2014 47 sub-categories",
+    "vendors_affected": []
+  },
+  {
+    "author": "malwr4n6",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-09T12:49:46Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 212,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/212",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Update Cortex XDR Windows telemetry mappings \u2014 13 sub-categories upgraded",
+    "vendors_affected": []
+  },
+  {
+    "author": "joshlemon",
+    "categories_affected": [
+      "File Metadata"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 2,
+    "created_at": "2026-07-30T06:59:15Z",
+    "draft": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-02T00:34:27Z",
+    "pr_number": 213,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/213",
+    "score_delta": 0.7,
+    "state": "merged",
+    "title": "[Update] Uptycs Linux telemetry: File Metadata",
+    "vendors_affected": [
+      "uptycs"
+    ]
+  },
+  {
+    "author": "prakashkamalakannan1104",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-07-30T12:08:58Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 214,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/214",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Acronis EDR (Acronis Cyber Protect Cloud) \u2014 Windows telemetry",
+    "vendors_affected": []
+  },
+  {
+    "author": "AsuNa-jp",
+    "categories_affected": [
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 4,
+    "created_at": "2026-08-12T05:20:32Z",
+    "draft": false,
+    "evidence_types": [
+      "official_documentation",
+      "private_documentation",
+      "sanitized_logs",
+      "screenshots"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-09-02T00:33:48Z",
+    "pr_number": 216,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/216",
+    "score_delta": 1.7,
+    "state": "merged",
+    "title": "[Update] EDR Telemetry for Windows - Elastic - Account Creation, Scheduled Task Creation/Modification, Service Creation",
+    "vendors_affected": [
+      "elastic"
+    ]
+  },
+  {
+    "author": "github-actions[bot]",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-08-12T07:33:59Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 217,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/217",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Generate telemetry statistics",
+    "vendors_affected": []
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [
+      "Code Signing & Trust Activity",
+      "Device Activity",
+      "EDR SysOps",
+      "File Activity",
+      "File Metadata",
+      "Network Activity",
+      "Privacy & TCC Activity",
+      "Process Activity",
+      "Scheduled Task & Persistence Activity",
+      "Script Activity",
+      "Service Activity",
+      "User & Session Activity",
+      "User Account Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 30,
+    "created_at": "2026-09-10T14:20:55Z",
+    "draft": false,
+    "evidence_types": [
+      "screenshots",
+      "telemetry_generator"
+    ],
+    "maintainer_reviewed": true,
+    "merged_at": "2026-10-29T23:09:38Z",
+    "pr_number": 218,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/218",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "SentinelOne macOS telemetry coverage \u2014 30 categories",
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-09-23T06:28:06Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-09-23T06:28:54Z",
+    "pr_number": 219,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/219",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Refactor telemetry generation to use self-contained scripts",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-09-28T05:14:50Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-09-28T05:48:35Z",
+    "pr_number": 220,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/220",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Fix Windows driver load/unload generation and add Driver Modification coverage",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [
+      "EDR SysOps"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "created_at": "2026-10-30T23:24:13Z",
+    "draft": false,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-10-30T23:57:46Z",
+    "pr_number": 221,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/221",
+    "score_delta": 1.0,
+    "state": "merged",
+    "title": "Fix SentinelOne macOS agent protection disabled coverage",
+    "vendors_affected": [
+      "sentinelone"
+    ]
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_macOS.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-01T09:52:05Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 222,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/222",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "SentinelOne macOS: sudo underlying event, opt-in events as Via EnablingTelemetry",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [
+      "BITS Jobs Activity",
+      "Device Operations",
+      "Driver/Module Activity",
+      "EDR SysOps",
+      "File Manipulation",
+      "Hash Algorithms",
+      "Named Pipe Activity",
+      "Network Activity",
+      "Other Relevant Events",
+      "PowerShell Activity",
+      "Process Activity",
+      "Registry Activity",
+      "Schedule Task Activity",
+      "Service Activity",
+      "User Account Activity",
+      "WMI Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 57,
+    "created_at": "2026-11-12T06:19:52Z",
+    "draft": false,
+    "evidence_types": [
+      "unknown"
+    ],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-11-25T18:42:58Z",
+    "pr_number": 223,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/223",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Add Sophos Windows telemetry results",
+    "vendors_affected": [
+      "sophos"
+    ]
+  },
+  {
+    "author": "choukrad",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_linux.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-16T09:17:40Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 224,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/224",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add Oysa Linux telemetry column",
+    "vendors_affected": []
+  },
+  {
+    "author": "tsale",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-25T20:40:24Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": "2026-11-25T20:56:47Z",
+    "pr_number": 226,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/226",
+    "score_delta": 0.0,
+    "state": "merged",
+    "title": "Audit Windows Win32 API telemetry coverage",
+    "vendors_affected": []
+  },
+  {
+    "author": "thiboog",
+    "categories_affected": [],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 0,
+    "created_at": "2026-11-26T13:32:11Z",
+    "draft": false,
+    "evidence_types": [],
+    "maintainer_reviewed": false,
+    "merged_at": null,
+    "pr_number": 227,
+    "public_url": "https://github.com/tsale/EDR-Telemetry/pull/227",
+    "score_delta": 0.0,
+    "state": "open",
+    "title": "Add JA4 sub-category (Hash Algorithms) and SentinelOne Windows coverage",
     "vendors_affected": []
   }
 ]

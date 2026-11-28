@@ -49,6 +49,31 @@
   {
     "author": null,
     "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 8,
+    "commit_date_utc": "2026-11-25T13:56:46-07:00",
+    "commit_message": "Record maintainer-verified Win32 API coverage gaps",
+    "commit_sha": "3423a4b53764eef992cc8d213e9502ea221c3f84",
+    "public_url": "https://github.com/tsale/EDR-Telemetry/commit/3423a4b53764eef992cc8d213e9502ea221c3f84",
+    "score_delta": 0.0,
+    "vendors_affected": [
+      "crowdstrike",
+      "cybereason",
+      "fortiedr",
+      "harfanglab",
+      "limacharlie",
+      "qualys",
+      "sentinelone",
+      "symantec_ses_complete"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
       "Service Activity"
     ],
     "changed_score_bearing_files": [
@@ -83,60 +108,6 @@
     ]
   },
   {
-    "author": "Aegrah",
-    "categories_affected": [
-      "Anonymous File Activity",
-      "File Metadata"
-    ],
-    "changed_score_bearing_files": [
-      "EDR_telem_linux.json"
-    ],
-    "changed_telemetry_cells": 60,
-    "commit_date_utc": "2026-06-12T17:19:18-07:00",
-    "commit_message": "Add Linux anonymous file activity and file metadata telemetry\n\nAdd Linux taxonomy rows for memory-backed file creation and file metadata fields, update scoring weights, and add Linux telemetry generator coverage for memfd_create and file metadata fixtures.",
-    "commit_sha": "4ca5792022151abea15547c3f13532cca2a5a92f",
-    "public_url": "https://github.com/tsale/EDR-Telemetry/commit/4ca5792022151abea15547c3f13532cca2a5a92f",
-    "score_delta": 0.0,
-    "vendors_affected": [
-      "auditd",
-      "bitdefender",
-      "c_prot",
-      "carbon_black",
-      "cortex_xdr",
-      "crowdstrike",
-      "elastic",
-      "eset_inspect",
-      "harfanglab",
-      "limacharlie",
-      "microsoft_defender",
-      "qualys",
-      "sentinelone",
-      "sysmon",
-      "uptycs"
-    ]
-  },
-  {
-    "author": "Aegrah",
-    "categories_affected": [
-      "Access Activity",
-      "Driver/Module Activity",
-      "Network Activity",
-      "Process Tampering Activity"
-    ],
-    "changed_score_bearing_files": [
-      "EDR_telem_linux.json"
-    ],
-    "changed_telemetry_cells": 4,
-    "commit_date_utc": "2026-06-12T17:14:15-07:00",
-    "commit_message": "Elastic Defend Linux: DNS Query, Driver Load, Process Access & Tampering\n\n* [Update] EDR Telemetry for Linux - Elastic Defend\n\n* Update EDR_telem_linux.json",
-    "commit_sha": "73f81a9ae3ed4717a72543ef1f6de0938462353d",
-    "public_url": "https://github.com/tsale/EDR-Telemetry/commit/73f81a9ae3ed4717a72543ef1f6de0938462353d",
-    "score_delta": 4.0,
-    "vendors_affected": [
-      "elastic"
-    ]
-  },
-  {
     "author": null,
     "categories_affected": [
       "User Account Activity"
@@ -152,6 +123,24 @@
     "score_delta": 0.55,
     "vendors_affected": [
       "trend_micro_trendai"
+    ]
+  },
+  {
+    "author": null,
+    "categories_affected": [
+      "Process Activity"
+    ],
+    "changed_score_bearing_files": [
+      "EDR_telem_windows.json"
+    ],
+    "changed_telemetry_cells": 1,
+    "commit_date_utc": "2026-11-25T13:56:46-07:00",
+    "commit_message": "Document Windows Win32 API telemetry coverage audit",
+    "commit_sha": "9482109d530f7fb44e04636882b8036de5d8d696",
+    "public_url": "https://github.com/tsale/EDR-Telemetry/commit/9482109d530f7fb44e04636882b8036de5d8d696",
+    "score_delta": 1.0,
+    "vendors_affected": [
+      "trellix"
     ]
   },
   {
@@ -359,25 +348,6 @@
     "score_delta": 0.0,
     "vendors_affected": [
       "eset_inspect"
-    ]
-  },
-  {
-    "author": "thiboog",
-    "categories_affected": [
-      "Device Operations",
-      "Network Activity"
-    ],
-    "changed_score_bearing_files": [
-      "EDR_telem_windows.json"
-    ],
-    "changed_telemetry_cells": 3,
-    "commit_date_utc": "2026-06-12T17:41:14-07:00",
-    "commit_message": "SentinelOne Windows: File Downloaded, USB Mount & Unmount telemetry\n\n- File Downloaded: No -> Yes\n- USB Device Unmount: Via EnablingTelemetry -> Yes\n- USB Device Mount: Via EnablingTelemetry -> Yes",
-    "commit_sha": "dd181130ca5cbd80cad07b6987229a9c50277d29",
-    "public_url": "https://github.com/tsale/EDR-Telemetry/commit/dd181130ca5cbd80cad07b6987229a9c50277d29",
-    "score_delta": 1.0,
-    "vendors_affected": [
-      "sentinelone"
     ]
   },
   {
